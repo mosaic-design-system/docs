@@ -1,0 +1,18 @@
+<canvas class="mds-home-page-hero mds-home-page-hero--light"></canvas>
+<canvas class="mds-home-page-hero mds-home-page-hero--dark"></canvas>
+
+{% set css %}
+  {% include "./hero.css" %}
+{% endset %}
+
+<style>
+  {{ css | cssmin | safe }}
+</style>
+
+{% set js %}
+  {% include "./hero.js" %}
+{% endset %}
+
+<script>
+  {{ js | jsmin | safe }}
+</script>

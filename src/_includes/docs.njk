@@ -1,0 +1,25 @@
+---
+layout: default.njk
+---
+
+<article>
+
+  {% include "./partials/article-header.njk" %}
+
+  {% if tabs and tabs.length %}
+    {% include "./tab-layout/tab-layout.njk" %}
+  {% else %}
+    <section class="[ mds-container ] [ mu-p-05 mu-p-md-06 mu-p-lg-07 mu-py-xl-08 mu-px-xl-08 ]">
+      <div class="mds-content-chunk">
+        {% if toc == true %}
+          {% from "./table-of-contents/table-of-contents.njk" import generateToc %}
+          {{ generateToc(content) }}
+        {% endif %}
+        {{ content | safe }}
+      </div>
+    </section>
+  {% endif %}
+
+  {% include "./partials/article-footer.njk" %}
+
+</article>

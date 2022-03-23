@@ -1,0 +1,27 @@
+/* sticky tabs */
+
+.mcc-tabs.mds-tabs > .mcc-tabs__tabs {
+  position: sticky;
+  top: var(--navigation-header-height);
+  padding-top: 1rem;
+  background-color: var(--ui-02, #eeeef1);
+  /* z-index: 3012; */
+}
+
+.mcc-tabs.mds-tabs > .mcc-tabs__tabs::before,
+.mcc-tabs.mds-tabs > .mcc-tabs__tabs::after {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 0.5rem;
+  background-color: var(--ui-02, #eeeef1);
+  content: "";
+}
+
+.mcc-tabs.mds-tabs > .mcc-tabs__tabs::before {
+  left: -0.5rem;
+}
+
+.mcc-tabs.mds-tabs > .mcc-tabs__tabs::after {
+  right: -0.5rem;
+}

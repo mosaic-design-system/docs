@@ -1,0 +1,24 @@
+<header class="[ mcc-navigation-header ] [  mu-position-fixed mu-top-0 mu-start-0 mu-end-0 ] [ mu-w-100 ]" aria-label="Advanced Product" role="banner">
+
+  <nav class="mcc-navigation-header__nav" style="gap: 0.25rem;">
+    <button id="drawer-toggle" class="[ mcc-navigation-header__button mcc-navigation-header__button--icon-only ]">
+      <mcc-icon name="hide_sidepanel" icon-set="fluency-outline" aria-hidden="true"></mcc-icon>
+      <mcc-icon name="show_sidepanel" icon-set="fluency-outline" aria-hidden="true"></mcc-icon>
+      <span>Toggle navigation drawer</span>
+    </button>
+
+    <span class="mu-d-lg-none mu-ml-02 mu-fw-semi-bold mu-text-default">MDS</span>
+
+    <a href="/" class="[ mcc-navigation-header__button ] mu-d-none mu-d-lg-flex">
+      <span class="mds-site-name-logo mu-d-flex mu-align-items-center">{% include "./logo.njk" %}</span>
+      <span class="mu-fw-semi-bold mu-text-default">Mosaic Design System</span>
+    </a>
+  </nav>
+
+  <nav class="mcc-navigation-header__global" style="gap: 0.5rem;">
+    {% include "../search/search-button.njk" %}
+    {% include "../theme-toggle/theme-toggle.njk" %}
+    {% include "../switch-sites/switch-sites.njk" %}
+  </nav>
+
+</header>

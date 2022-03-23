@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#1078cf">
+
+    {% include "./partials/favicons.njk" %}
+  
+    {% set css %}
+      {% include "../assets/css/mosaic-global.css" %}
+      {% include "../assets/css/core.css" %}
+      {% include "../assets/css/forms.css" %}
+      {% include "../assets/css/mosaic-utilities.css" %}
+      {% include "../assets/css/prism-okaidia.css" %}
+      {% include "../assets/css/site.css" %}
+      {% include "../assets/css/fonts.css" %}
+    {% endset %}
+
+    <style>
+      {{ css | cssmin | safe }}
+    </style>
+
+    <title>{% if collection %} {{ collection }} - {% endif %} {{ title }}</title>
+
+    {% if description %}
+      <meta name="description" content="{{description}}"/>
+    {% endif %}
+  </head>
+  <body class="{{ 'is-home' if '/' === page.url }}">
+
+    
+
+    {% include "./skip-to/skip-to.njk" %}
+
+    {% include "./partials/header.njk" %}
+
+    <div class="[ mcc-drawer-frame ] [ mcc-drawer-frame--nav-header-adjust ]">
+
+      <mcc-drawer id="site-nav-drawer" class="[ mcc-drawer mcc-drawer--start {{ 'mcc-drawer--closed' if '/' === page.url else 'mcc-drawer--open' }} ] [ mds-drawer--nav-header-adjust ]" type="dismissible">
+        <div class="mu-d-flex mu-flex-column">
+          
+          <div class="[ mds-site-name ] [ mu-d-flex mu-d-lg-none mu-align-items-center mu-px-06 mu-border-bottom  ]">
+            <span class="[ mds-site-name-logo ] [ mu-d-flex mu-align-items-center mu-mr-04 ]">{% include "./partials/logo.njk" %}</span>
+            <span class="mu-fw-semi-bold mu-text-default">MDS</span>
+          </div>
+          
+          {% include "./navigation/navigation.njk" %}
+        </div>
+      </mcc-drawer>
+
+      <div id="maincontent" class="mcc-drawer-app-content mcc-drawer-app-content--nav-header-adjust" tabindex="0">
+
+        <main>
+
+          {{ content | safe }}
+
+        </main>
+
+        {% include "./partials/footer.njk" %}
+  
+      </div>
+
+    </div>
+
+    {% include "./back-to-top/back-to-top.njk" %}
+
+    {% include "./search/search-dialog.njk" %}
+
+    <script src="{% js "drawer-states.js" %}" type="module"></script>
+    <script src="{% js "theme-toggle.js" %}" type="module"></script>
+    <script src="{% js "web-components.js" %}" type="module"></script>
+
+    {% if path == "home" %}
+      <!-- Netlify Identity Widget -->
+      <!-- Needed only if you are using Netlify Identity feature -->
+      <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    {% endif %}
+
+  </body>
+</html>

@@ -1,0 +1,20 @@
+<button class="mcc-button mcc-button--icon-only mcc-button--primary mds-back-to-top">
+  <mcc-icon name="angle_up" aria-hidden="true"></mcc-icon>
+  <span class="mcc-button__label">Back to top of page</span>
+</button>
+
+{% set css %}
+  {% include "./back-to-top.css" %}
+{% endset %}
+
+<style>
+  {{ css | cssmin | safe }}
+</style>
+
+{% set js %}
+  {% include "./back-to-top.js" %}
+{% endset %}
+
+<script>
+  {{ js | jsmin | safe }}
+</script>

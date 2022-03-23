@@ -1,0 +1,24 @@
+{% set js %}
+  {% include "./search.js" %}
+{% endset %}
+
+<script>
+  {{ js | jsmin | safe }}
+</script>
+
+<div class="[ mcc-dialog__header ] [ mu-d-flex mu-align-items-center ]">
+  <h2 class="h4">Search</h2>
+  <button class="mcc-button mcc-button--icon-only" type="button" onclick="closeSearchDialog()">
+    <mcc-icon name="close" icon-set="fluency-outline" aria-hidden="true"></mcc-icon>
+    <span class="mcc-button__label">Close</span>
+  </button>
+</div>
+<div class="mcc-dialog__body">
+  <div id="search-container" class="[ mfc-input-wrapper mfc-input-wrapper--lg ] [ mu-d-flex mu-flex-column ]" style="gap: 1rem;">
+    <label class="mu-visually-hidden" for="search">Search</label>
+    <input id="search" type="text" autocomplete="off" class="mu-w-100">
+    <mcc-list-group id="search-results"></mcc-list-group>
+  </div>
+</div>
+
+<script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>

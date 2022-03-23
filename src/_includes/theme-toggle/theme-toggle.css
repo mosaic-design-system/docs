@@ -1,0 +1,9 @@
+/* theme toggle */
+
+#theme-toggle.dark-theme-set mcc-icon:nth-child(1) {
+  display: none;
+}
+
+#theme-toggle:not(.dark-theme-set) mcc-icon:nth-child(2) {
+  display: none;
+}

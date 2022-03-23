@@ -1,0 +1,42 @@
+{% set tab_layout_js %}
+  {% include "./tab-layout.js" %}
+{% endset %}
+
+<script>
+  {{ tab_layout_js | jsmin | safe }}
+</script>
+
+{% from "../table-of-contents/table-of-contents.njk" import generateToc %}
+
+<div id="main-tab-layout" class="[ mds-container mds-tabs ] [ mu-p-05 mu-p-md-06 mu-p-lg-07 mu-py-xl-07 mu-px-xl-08 ]">
+  <mcc-tabs class="[ mcc-tabs--bar ] [ mds-tabs ]" nav-classes="mu-border-bottom">
+    {% for tab in tabs %}
+      <mcc-tab-pane class="mu-mt-09" label="{{ tab.title }}">
+        <article>
+        {% if tab.hook %}
+          {% include "./" + page.url.split('/')[1] + "/" + tab.hook + ".njk" %}
+        {% elif tab.body %}
+          {% if toc == true %}
+            {{ generateToc(tab.body) }}
+          {% endif %}
+          <div class="mds-content-chunk">
+            {{ tab.body | markdownify | safe }}
+          </div>
+        {% else %}
+          <div class="mu-d-none">
+            Something has gone wrong. This page has neither content nor tabs.
+          </div>
+        {% endif %}
+        </article>
+      </mcc-tab-pane>
+    {% endfor %}
+  </mcc-tabs>
+</div>
+
+{% set css %}
+  {% include "./tab-layout.css" %}
+{% endset %}
+
+<style>
+  {{ css | cssmin | safe }}
+</style>

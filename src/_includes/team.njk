@@ -1,0 +1,25 @@
+---
+  layout: default.njk
+  collection: Mosaic
+---
+
+<article>
+
+  {% include "./partials/article-header.njk" %}
+
+  <section class="[ mds-container ] [ mu-p-05 mu-p-md-06 mu-p-lg-07 mu-py-xl-08 mu-px-xl-08 ]">
+    <div class="mds-content-chunk">
+      {% if toc == true %}
+        {% from "./table-of-contents/table-of-contents.njk" import generateToc %}
+        {{ generateToc(content) }}
+      {% endif %}
+      {{ content | safe }}
+
+      {% include "./team-member/team-member.njk" %}
+
+    </div>
+  </section> 
+
+  {% include "./partials/article-footer.njk" %}
+
+</article>

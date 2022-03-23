@@ -1,0 +1,15 @@
+<header class="mcc-page-header mu-px-00 mu-py-07 mu-mb-07">
+  <div class="[ mds-container ] [ mu-p-05 mu-p-md-06 mu-p-lg-07 mu-py-xl-07 mu-px-xl-08 ]">
+    <div class="mu-py-07">
+      {% if collection %} <div class="mu-text-uppercase mu-text-muted mu-fs-sm mu-lh-sm mu-fw-semi-bold">{{ collection }}</div> {% endif %}
+      <h1 class="mu-display-heading-1 mu-mb-00">{{ title }}</h1>
+      {% if chips %}
+        <div class="mu-d-flex mu-mt-02" style="gap: 0.5rem;">
+          {% for chip in chips %}
+            <span class="mcc-chip mcc-chip--primary mcc-chip--xs">{{ chip }}</span>
+          {% endfor %}
+        </div>
+      {% endif %}
+    </div>
+  </div>
+</header>

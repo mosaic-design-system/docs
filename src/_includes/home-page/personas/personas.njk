@@ -1,0 +1,27 @@
+<div class="mds-personas-grid">
+
+  {% for persona in home.personas %}
+
+  <div class="mu-bg-container-02 mu-radius-02 mu-border mu-p-06 mu-p-md-07 mu-p-xl-08">
+    <div class="mu-mb-auto">
+      <mcc-icon class="mu-mb-05" name="{{ persona.icon }}" icon-set="fluency-color" aria-hidden="true" width="64" height="64"></mcc-icon>
+      <div class="mu-text-uppercase mu-text-muted mu-fs-sm mu-fw-semi-bold">{{ persona.overline }}</div>
+      <h2 class="mu-mb-05">{{ persona.title }}</h2>
+      <p>{{ persona.description }}</p>
+    </div>
+    <a href="{{ persona.button.url }}" class="mcc-button mcc-button--outline mcc-button--sm">
+      <span class="mcc-button__label">{{ persona.button.label }}</span>
+    </a>
+  </div>
+
+  {% endfor %}
+
+</div>
+
+{% set css %}
+  {% include "./personas.css" %}
+{% endset %}
+
+<style>
+  {{ css | cssmin | safe }}
+</style>

@@ -1,0 +1,11 @@
+{% set js %}
+  {% include "./search-dialog.js" %}
+{% endset %}
+
+<script>
+  {{ js | jsmin | safe }}
+</script>
+
+<mcc-dialog id="search-dialog" class="mcc-dialog--primary">
+  {% include "./search.njk" %}
+</mcc-dialog>

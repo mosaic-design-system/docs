@@ -1,0 +1,30 @@
+:root {
+  --mds-home-page-hero-dark: #fff;
+  --mds-home-page-hero-light: #161616;
+}
+
+
+
+.mds-home-page-hero {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+/* .mds-hero-container {
+
+  filter: saturate(2) hue-rotate(333deg);
+  
+} */
+
+.mds-hero-container.mds-hero-container--dark .mds-home-page-hero:nth-child(1) {
+  display: none;
+}
+
+.mds-hero-container:not(.mds-hero-container--dark) .mds-home-page-hero:nth-child(2) {
+  display: none;
+}

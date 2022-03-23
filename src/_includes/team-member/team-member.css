@@ -1,0 +1,120 @@
+.mds-team-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  gap: var(--spacing-05);
+}
+
+@media (min-width: 576px) {
+  .mds-team-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.mds-team-member {
+  width: 120px;
+  height: 120px;
+}
+
+.mds-team-member > .mcc-icon svg {
+  fill: var(--white);
+}
+
+.mds-team-member-blue {
+  background:
+    conic-gradient(
+      from 180deg at 50% 50%,
+      #87bee5 -43.13deg,
+      #1078cf 45deg,
+      #87bee5 316.87deg,
+      #1078cf 405deg
+    );
+}
+
+.mds-team-member-yellow {
+  background:
+    conic-gradient(
+      from 180deg at 50% 50%,
+      #f1d9a2 -43.13deg,
+      #f2a900 45deg,
+      #f1d9a2 316.87deg,
+      #f2a900 405deg
+    );
+}
+
+.mds-team-member-red {
+  background:
+    conic-gradient(
+      from 180deg at 50% 50%,
+      #f6aab2 -43.13deg,
+      #dc3545 45deg,
+      #f6aab2 316.87deg,
+      #dc3545 405deg
+    );
+}
+
+.mds-team-member-green {
+  background:
+    conic-gradient(
+      from 180deg at 50% 50%,
+      #9ccb9c -43.13deg,
+      #458045 45deg,
+      #9ccb9c 316.87deg,
+      #458045 405deg
+    );
+}
+
+.mds-team-member-orange {
+  background:
+    conic-gradient(
+      from 180deg at 50% 50%,
+      #ebbf9e -43.13deg,
+      #dd7529 45deg,
+      #ebbf9e 316.87deg,
+      #dd7529 405deg
+    );
+}
+
+.mds-team-member-pink {
+  background:
+    conic-gradient(
+      from 180deg at 50% 50%,
+      #e2acd1 -45deg,
+      #ad2a81 46.87deg,
+      #e2acd1 315deg,
+      #ad2a81 406.88deg
+    );
+}
+
+.mds-team-member-teal {
+  background:
+    conic-gradient(
+      from 180deg at 50% 50%,
+      #92bbbd -43.13deg,
+      #157a80 45deg,
+      #92bbbd 316.87deg,
+      #157a80 405deg
+    );
+}
+
+.mds-team-member-purple {
+  background:
+    conic-gradient(
+      from 180deg at 50% 50%,
+      #b093d1 -43.13deg,
+      #4e0b9b 45deg,
+      #b093d1 316.87deg,
+      #4e0b9b 405deg
+    );
+}
+
+.mds-team-member-grey {
+  background:
+    conic-gradient(
+      from 180deg at 50% 50%,
+      #a5a5b6 -43.13deg,
+      #666679 45deg,
+      #a5a5b6 316.87deg,
+      #666679 405deg
+    );
+}

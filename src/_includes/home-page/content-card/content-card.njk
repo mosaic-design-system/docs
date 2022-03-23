@@ -1,0 +1,28 @@
+<div class="mds-content-card-grid">
+
+  {% for card in home.content_cards %}
+              
+  <div class="mu-bg-container-02 mu-radius-02 mu-border mu-p-06 mu-p-md-07 mu-p-xl-08 mu-d-flex mu-justify-content-between mu-h-100">
+    <div class="mu-d-flex mu-align-items-start mu-flex-column mu-flex-fill">
+      <h2 class="mu-mb-03">{{ card.title }}</h2>
+      <p>{{ card.description }}</p>
+      <a href="{{ card.button.url }}" class="mcc-button mcc-button--outline mcc-button--sm">
+        <span class="mcc-button__label">{{ card.button.label }}</span>
+      </a>
+    </div>
+    <div class="mu-ml-07">
+      <mcc-icon name="{{ card.icon }}" icon-set="fluency-color" aria-hidden="true" width="64" height="64"></mcc-icon>
+    </div>
+  </div>
+
+  {% endfor %}
+
+</div>
+
+{% set css %}
+  {% include "./content-card.css" %}
+{% endset %}
+
+<style>
+  {{ css | cssmin | safe }}
+</style>

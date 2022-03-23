@@ -1,0 +1,7 @@
+{% macro generateToc(md = '') %}
+  {% if md | markdownify | custom_toc %}
+    <p class="mu-mb-05">Contents</p>
+    {# {{ md | markdownify | toc | safe }} #}
+    {{ md | markdownify | custom_toc | safe }}
+  {% endif %}
+{% endmacro %}

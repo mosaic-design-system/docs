@@ -1,0 +1,35 @@
+---
+layout: default.njk
+---
+
+<section class="mu-position-relative mu-d-flex mu-border-bottom">
+
+  <div class="mds-hero-container">
+    {% include "./hero/hero.njk" %}
+  </div>
+
+  <div class="[ mds-container ] [ mu-p-05 mu-p-md-06 mu-p-lg-07 mu-py-xl-09 mu-my-xl-09 ]" style="z-index: 1">
+    <div class="mds-content-chunk mu-py-xl-09">
+      <h1 class="mu-display-heading-1 mu-mb-00">Mosaic<br>Design System</h1>
+      <p class="mu-mb-00">{{ home.strap_line }}</p>
+      <a href="https://github.com/mosaic-design" target="_blank" class="mcc-button mcc-button--lg mcc-button--outline mcc-button--icon-only mu-mt-07" type="button">
+        <mcc-icon name="github" icon-set="fluency-filled" aria-hidden="true"></mcc-icon>
+        <span class="mcc-button__label">Find us on gitHub</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="[ mcc-container ] [ mu-p-05 mu-p-md-06 mu-p-lg-07 mu-py-xl-07 mu-px-xl-08 mu-py-xl-09 mu-my-xl-09 ]">
+
+  {% include "./home-page/personas/personas.njk" %}
+
+</section>
+
+{% include "./home-page/separator/separator.njk" %}
+
+<section class="[ mcc-container ] [ mu-p-05 mu-p-md-06 mu-p-lg-07 mu-py-xl-07 mu-px-xl-08 mu-py-xl-09 mu-my-xl-09 ]">
+
+  {% include "./home-page/content-card/content-card.njk" %}
+
+</section>

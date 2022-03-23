@@ -1,0 +1,15 @@
+<div class="[ mds-separator ] [ mu-radius-03 mu-overflow-hidden ]">
+  <div class="mu-bg-primary"></div>
+  <div class="mu-bg-success"></div>
+  <div class="mu-bg-danger"></div>
+  <div class="mu-bg-warning"></div>
+  <div class="mu-bg-info"></div>
+</div>
+
+{% set css %}
+  {% include "./separator.css" %}
+{% endset %}
+
+<style>
+  {{ css | cssmin | safe }}
+</style>

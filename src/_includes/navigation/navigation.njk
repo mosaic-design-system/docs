@@ -1,0 +1,155 @@
+{% set js %}
+  {% include "./navigation.js" %}
+{% endset %}
+
+<script>
+  {{ js | jsmin | safe }}
+</script>
+
+<aside class="mu-px-xl-03 mu-py-05">
+  <nav id="navigation" class="mcc-menu" aria-hidden="false" aria-label="Site navigation">
+
+    <!-- mosaic -->
+    <details>
+      <summary class="mcc-menu__subtitle">
+        <span>Mosaic</span>
+        <mcc-icon name="angle_down" aria-hidden="true"></mcc-icon>
+      </summary>
+      <div>
+        {% for page in collections.sortedMosaic %}
+          <a class="mcc-menu__button" href={{ page.url }}>
+            <span>{{ page.data.title }}</span>
+          </a>
+        {% endfor %}
+      </div>
+    </details>
+  
+    <div class="mu-border-bottom mu-my-03 mu-mx-06"></div>
+  
+    <!-- designing -->
+    <details>
+      <summary class="mcc-menu__subtitle">
+        <span>Designing</span>
+        <mcc-icon name="angle_down" aria-hidden="true"></mcc-icon>
+      </summary>
+      <div>
+        {% for page in collections.sortedDesigning %}
+          <a class="mcc-menu__button" href={{ page.url }}>
+            <span>{{ page.data.title }}</span>
+          </a>
+        {% endfor %}
+      </div>
+    </details>
+  
+    <!-- developing -->
+    <details>
+      <summary class="mcc-menu__subtitle">
+        <span>Developing</span>
+        <mcc-icon name="angle_down" aria-hidden="true"></mcc-icon>
+      </summary>
+      <div>
+        {% for page in collections.sortedDeveloping %}
+          <a class="mcc-menu__button" href={{ page.url }}>
+            <span>{{ page.data.title }}</span>
+          </a>
+        {% endfor %}
+      </div>
+    </details>
+  
+    <div class="mu-border-bottom mu-my-03 mu-mx-06"></div>
+  
+    <!-- guidelines -->
+    <details>
+      <summary class="mcc-menu__subtitle">
+        <span>Guidelines</span>
+        <mcc-icon name="angle_down" aria-hidden="true"></mcc-icon>
+      </summary>
+      <div>
+        {% for page in collections.sortedGuidelines %}
+          <a class="mcc-menu__button" href={{ page.url }}>
+            <span>{{ page.data.title }}</span>
+          </a>
+        {% endfor %}
+      </div>
+    </details>
+  
+    <!-- components -->
+    <details>
+      <summary class="mcc-menu__subtitle">
+        <span>Components</span>
+        <mcc-icon name="angle_down" aria-hidden="true"></mcc-icon>
+      </summary>
+      <div>
+        {% for page in collections.sortedComponents %}
+          <a class="mcc-menu__button" href={{ page.url }}>
+            <span>{{ page.data.title }}</span>
+          </a>
+        {% endfor %}
+      </div>
+    </details>
+
+    <!-- forms -->
+    <details>
+      <summary class="mcc-menu__subtitle">
+        <span>Forms</span>
+        <mcc-icon name="angle_down" aria-hidden="true"></mcc-icon>
+      </summary>
+      <div>
+        {% for page in collections.sortedForms %}
+          <a class="mcc-menu__button" href={{ page.url }}>
+            <span>{{ page.data.title }}</span>
+          </a>
+        {% endfor %}
+      </div>
+    </details>
+  
+    <!-- patterns -->
+    <details>
+      <summary class="mcc-menu__subtitle">
+        <span>Patterns</span>
+        <mcc-icon name="angle_down" aria-hidden="true"></mcc-icon>
+      </summary>
+      <div>
+        {% for page in collections.sortedPatterns %}
+          <a class="mcc-menu__button" href={{ page.url }}>
+            <span>{{ page.data.title }}</span>
+          </a>
+        {% endfor %}
+      </div>
+    </details>
+  
+    <!-- In app guidance -->
+    <details>
+      <summary class="mcc-menu__subtitle">
+        <span>In app guidance</span>
+        <mcc-icon name="angle_down" aria-hidden="true"></mcc-icon>
+      </summary>
+      <div>
+        {% for page in collections.sortedinAppGuidance %}
+          <a class="mcc-menu__button" href={{ page.url }}>
+            <span>{{ page.data.title }}</span>
+          </a>
+        {% endfor %}
+      </div>
+    </details>
+  
+    <div class="mu-border-bottom mu-my-03 mu-mx-06"></div>
+  
+    <!-- help -->
+    <details>
+      <summary class="mcc-menu__subtitle">
+        <span>Help</span>
+        <mcc-icon name="angle_down" aria-hidden="true"></mcc-icon>
+      </summary>
+      <div>
+        {% for page in collections.sortedHelp %}
+          <a class="mcc-menu__button" href={{ page.url }}>
+            <span>{{ page.data.title }}</span>
+          </a>
+        {% endfor %}
+      </div>
+    </details>
+  
+  </nav>
+</aside>
+

@@ -1,0 +1,10 @@
+<a class="mds-skip-to" href="#maincontent">Skip to main content</a>
+<a class="mds-skip-to" href="#navigation">Skip to navigation</a>
+
+{% set css %}
+  {% include "./skip-to.css" %}
+{% endset %}
+
+<style>
+  {{ css | cssmin | safe }}
+</style>

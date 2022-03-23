@@ -1,0 +1,56 @@
+{
+  "title": "Mosaic Design System",
+  "strap_line": "Mosaic is Advanced's design system: a series of design philosophies, resource libraries and UX/UI guidelines that have been built for the sole purpose of supporting software from its inception, all the way to implementation. Mosaic includes a plethora of tools, guidelines, advice and documentation that can be pieced together to create digital products that your users will love.",
+  "personas": [
+    {
+      "title": "Designers",
+      "overline": "For",
+      "description": "Explore our component and pattern libraries, and begin designing sleek and intuitive experiences for your users.",
+      "icon": "paint_palette",
+      "button": {
+        "label": "Start drawing",
+        "url": "/designing/get-started"
+      }
+    },
+    {
+      "overline": "For",
+      "title": "Developers",
+      "description": "Take a look at the underlying code beneath Mosaic's component library, and learn how to apply them and their variants.",
+      "icon": "laptop_coding",
+      "button": {
+        "label": "Start coding",
+        "url": "/developing/get-started"
+      }
+    },
+    {
+      "overline": "For",
+      "title": "Writers",
+      "description": "Struggling to find a voice for your product? Learn how Mosaic uses tone and voice to stand out from the crowd.",
+      "icon": "pen",
+      "button": {
+        "label": "Start writing",
+        "url": "/"
+      }
+    }
+  ],
+  "content_cards": [
+    {
+      "title": "Components",
+      "description": "Take a look at the smaller pieces that form the Mosaic Design System. Components cover the smaller pieces of functionality that come together to bring your product to life.",
+      "icon": "unit",
+      "button": {
+        "label": "View",
+        "url": "/components/overview"
+      }
+    },
+    {
+      "title": "Patterns",
+      "icon": "form",
+      "button": {
+        "url": "/patterns/overview",
+        "label": "View"
+      },
+      "description": "Explore the library of premade elements comprised of Mosaic Components – Patterns are ready-made pieces of functionality that can be easily dropped into a digital product."
+    }
+  ]
+}

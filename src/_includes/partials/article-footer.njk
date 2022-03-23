@@ -1,0 +1,31 @@
+<footer>
+      
+  {% set previous = collections.globalCollection | getPreviousCollectionItem(page) %}
+  {% set next = collections.globalCollection | getNextCollectionItem(page) %}
+
+  <div class="[ mds-container ] [ mu-d-flex mu-mb-09 mu-p-05 mu-p-md-06 mu-p-lg-07 mu-py-xl-07 mu-px-xl-08 ]">
+    <div class="mcc-button-group mcc-button-group--lg" role="group" aria-label="Navigation buttons">
+      {% if previous %}
+        <a class="mcc-button mcc-button--outline" href="{{ previous.url }}">
+          <mcc-icon name="left_arrow" icon-set="fluency-outline" aria-hidden="true"></mcc-icon>
+          <div class="mu-ml-03">
+            <div class="mu-text-muted mu-fs-sm mu-lh-sm mu-fw-semi-bold">{{ previous.data.collection }}</div>
+            <span class="mcc-button__label">
+              {{ previous.data.title }}
+            </span>
+          </div>
+        </a>
+      {% endif %}
+      {% if next %}
+        <a class="mcc-button mcc-button--outline" href="{{ next.url }}">
+          <div class="mu-mr-05">
+            <div class="mu-text-muted mu-fs-sm mu-lh-sm mu-fw-semi-bold">{{ next.data.collection }}</div>
+            <span class="mcc-button__label">{{ next.data.title }}</span>
+          </div>
+          <mcc-icon name="right_arrow" icon-set="fluency-outline" aria-hidden="true"></mcc-icon>
+        </a>
+      {% endif %}
+    </div>
+  </div>
+
+</footer>

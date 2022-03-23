@@ -1,0 +1,26 @@
+/* back to top */
+
+.mds-back-to-top:not(.mds-back-to-top--show) {
+  display: none;
+}
+
+.mds-back-to-top {
+  position: fixed;
+  bottom: var(--spacing-05);
+  right: var(--spacing-05);
+  z-index: 100;
+}
+
+@media (min-width: 768px) {
+  .mds-back-to-top {
+    bottom: var(--spacing-06);
+    right: var(--spacing-06);
+  }
+}
+
+@media (min-width: 993px) {
+  .mds-back-to-top {
+    bottom: var(--spacing-07);
+    right: var(--spacing-07);
+  }
+}

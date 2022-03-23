@@ -1,0 +1,127 @@
+/*
+  tessera breakpoints:
+  xs: 0
+  sm: 576px
+  md: 768px
+  lg: 992px
+  xl: 1280px
+  xxl: 1440px
+  xxxl: 1920px
+*/
+
+:root {
+  --mcc-content-offset: 160px;
+}
+
+/* scroll position */
+html {
+  scroll-padding-top: calc(var(--navigation-header-height) + 2rem);
+}
+
+/* drawer offset */
+@media (min-width: 993px) {
+  .mcc-drawer.mds-drawer--nav-header-adjust {
+    top: var(--navigation-header-height);
+    min-height: calc(100vh - var(--navigation-header-height)) !important;
+    height: calc(100vh - var(--navigation-header-height)) !important;
+  }
+}
+
+/* drawer frame  */
+.mcc-drawer-frame.mcc-drawer-frame--nav-header-adjust {
+  padding-top: var(--navigation-header-height);
+}
+
+/* app content position  */
+.mcc-drawer-app-content.mcc-drawer-app-content--nav-header-adjust {
+  min-height: 100%;
+  height: calc(100vh - var(--navigation-header-height));
+  display: grid;
+  grid-template-rows: 1fr auto;
+  grid-template-columns: 100%;
+  overflow: unset;
+}
+
+/* site site and logo */
+.mds-site-name {
+  height: var(--navigation-header-height);
+}
+
+.mds-site-name-logo svg {
+  height: 24px;
+  width: auto;
+}
+
+/* container */
+.mds-container {
+  width: 100%;
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+@media (min-width: 1920px) {
+  .mds-container {
+    max-width: 1300px;
+    margin: 0 0 0 var(--mcc-content-offset);
+  }
+}
+
+/* content chunk width */
+.mds-content-chunk :is(hr, pre, table, .mcc-alert) {
+  max-width: 48rem;
+}
+
+.mds-content-chunk :is(p, ul, ol, .mcc-accordion) {
+  max-width: 42rem;
+}
+
+/* content chunk spacing */
+.mds-content-chunk > * + * {
+  margin-top: var(--content-chunk-space, 1rem);
+}
+
+.mds-content-chunk :is(h2:not(:first-of-type), h3, .mds-component-preview, pre, table, blockquote, .mds-team-grid) {
+  --content-chunk-space: var(--spacing-09);
+}
+
+.mds-content-chunk hr {
+  --content-chunk-space: var(--spacing-09);
+
+  margin: var(--content-chunk-space) 0;
+}
+
+.mds-content-chunk > .mcc-accordion {
+  --content-chunk-space: var(--spacing-08);
+
+  margin: var(--content-chunk-space) 0;
+}
+
+/* component preview */
+.mds-component-preview {
+  min-height: 560px;
+  margin-top: var(--spacing-09);
+}
+
+.mds-component-preview__container {
+  grid-template-columns: 1fr minmax(0, max-content);
+}
+
+
+#drawer-toggle.drawer-is-closed mcc-icon:nth-child(1) {
+  display: none;
+}
+
+#drawer-toggle:not(.drawer-is-closed) mcc-icon:nth-child(2) {
+  display: none;
+}
+
+.mds-separator {
+  max-width: 320px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+
+/* team bg colors */
+
