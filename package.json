@@ -1,0 +1,42 @@
+{
+  "name": "@mosaic-design/docs",
+  "version": "0.0.1",
+  "main": ".eleventy.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "start": "npm-run-all --parallel eleventy browsersync",
+    "lint": "standard \"src/**/*.js\"",
+    "eleventy": "eleventy --watch",
+    "debug": "set DEBUG=* & eleventy",
+    "prebuild": "node ./scripts/build-search-index.js",
+    "build": "rimraf _site && cross-env NODE_ENV=production eleventy",
+    "browsersync": "browser-sync start --server '_site' --files '_site' --port 8080 --no-notify --no-open",
+    "local-backend": "npx netlify-cms-proxy-server"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "^1.0.0",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.1",
+    "browser-sync": "^2.26.14",
+    "clean-css": "5.2.4",
+    "cross-env": "^7.0.2",
+    "eleventy-plugin-toc": "1.1.5",
+    "glob-all": "^3.2.1",
+    "gray-matter": "^4.0.3",
+    "html-minifier": "^4.0.0",
+    "lunr": "^2.3.9",
+    "markdown-it": "^12.2.0",
+    "markdown-it-anchor": "8.4.1",
+    "markdown-it-table-of-contents": "0.6.0",
+    "markdown-to-txt": "2.0.0",
+    "node-html-parser": "^5.2.0",
+    "npm-run-all": "^4.1.5",
+    "rimraf": "^3.0.2",
+    "slugify": "1.6.5",
+    "standard": "16.0.3",
+    "stylelint": "14.5.3",
+    "stylelint-config-standard": "25.0.0",
+    "uglify-js": "^3.15.1"
+  }
+}
