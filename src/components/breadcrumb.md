@@ -2,7 +2,7 @@
 title: Breadcrumb
 toc: true
 chips:
-  - HTML/CSS
+  - "HTML/CSS: Available"
 storybook-url: https://tessera.oneadvanced.io/dev/components-core/?path=/docs/html-button--as-default
 storybook: https://tessera.oneadvanced.io/dev/components-core/?path=/docs/html-breadcrumb--with-label
 tabs:
@@ -15,6 +15,8 @@ tabs:
   - title: Accessibility
     body: ""
     icon: web_accessibility_1
+  - title: Status
+    hook: status
 code:
   example: <button class="mcc-button">Button text</button>
   body: >-
@@ -52,4 +54,9 @@ code:
               </ol>
             </nav>
         name: With label
+status:
+  design: Yes
+  documentation: No
+  html_css: Available
+  web_component: Available
 ---

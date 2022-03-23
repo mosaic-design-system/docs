@@ -1,22 +1,9 @@
 ---
-title: Drawer
-toc: true
-navigation: button
-chips:
-  - HTML/CSS
-  - Web Component
 storybook-url: https://tessera.oneadvanced.io/dev/components-core/?path=/docs/html-button--as-default
-storybook: https://tessera.oneadvanced.io/dev/components-core/?path=/docs/custom-elements-drawer--as-dismissible-start
-tabs:
-  - title: Usage
-    body: ""
-    icon: file_invoice
-  - title: Code
-    hook: code
-    icon: source_code
-  - title: Accessibility
-    body: ""
-    icon: web_accessibility_1
+toc: true
+chips:
+  - "HTML/CSS: Available"
+  - "Web Component: Available"
 code:
   example: <button class="mcc-button">Button text</button>
   body: >-
@@ -28,7 +15,8 @@ code:
       - template:
           lang: html
           code: >-
-            <mcc-drawer id="modal-drawer" class="mcc-drawer mcc-drawer--start" type="modal"></mcc-drawer>
+            <mcc-drawer id="modal-drawer" class="mcc-drawer mcc-drawer--start"
+            type="modal"></mcc-drawer>
 
             <button class="mcc-button mcc-button--primary" onclick="showDrawer()">Show drawer</button>
 
@@ -54,4 +42,24 @@ code:
                 value: mcc-drawer--end
             type: class
             select_multiple: false
+status:
+  design: Yes
+  documentation: No
+  html_css: Available
+  web_component: Available
+navigation: button
+title: Drawer
+storybook: https://tessera.oneadvanced.io/dev/components-core/?path=/docs/custom-elements-drawer--as-dismissible-start
+tabs:
+  - title: Usage
+    body: ""
+    icon: file_invoice
+  - title: Code
+    hook: code
+    icon: source_code
+  - title: Accessibility
+    body: ""
+    icon: web_accessibility_1
+  - title: Status
+    hook: status
 ---

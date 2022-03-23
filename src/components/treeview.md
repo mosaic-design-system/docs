@@ -1,22 +1,9 @@
 ---
-title: Treeview
-toc: true
-navigation: button
-chips:
-  - HTML/CSS
-  - Web Component
 storybook-url: https://tessera.oneadvanced.io/dev/components-core/?path=/docs/html-button--as-default
-storybook: https://tessera.oneadvanced.io/dev/components-core/?path=/docs/html-treeview--as-default
-tabs:
-  - title: Usage
-    body: ""
-    icon: file_invoice
-  - title: Code
-    hook: code
-    icon: source_code
-  - title: Accessibility
-    body: ""
-    icon: web_accessibility_1
+toc: true
+chips:
+  - "HTML/CSS: Available"
+  - "Web Component: Available"
 code:
   example: <button class="mcc-button">Button text</button>
   body: >-
@@ -189,4 +176,24 @@ code:
             </ul>
         name: As default
         modifiers: []
+status:
+  design: Yes
+  documentation: No
+  html_css: Available
+  web_component: Available
+navigation: button
+title: Treeview
+storybook: https://tessera.oneadvanced.io/dev/components-core/?path=/docs/html-treeview--as-default
+tabs:
+  - title: Usage
+    body: ""
+    icon: file_invoice
+  - title: Code
+    hook: code
+    icon: source_code
+  - title: Accessibility
+    body: ""
+    icon: web_accessibility_1
+  - title: Status
+    hook: status
 ---

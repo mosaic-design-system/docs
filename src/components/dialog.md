@@ -1,22 +1,9 @@
 ---
-title: Dialog
-toc: true
-navigation: button
-chips:
-  - HTML/CSS
-  - Web Component
 storybook-url: https://tessera.oneadvanced.io/dev/components-core/?path=/docs/html-button--as-default
-storybook: https://tessera.oneadvanced.io/dev/components-core/?path=/docs/custom-elements-dialog--as-default
-tabs:
-  - title: Usage
-    body: ""
-    icon: file_invoice
-  - title: Code
-    hook: code
-    icon: source_code
-  - title: Accessibility
-    body: ""
-    icon: web_accessibility_1
+toc: true
+chips:
+  - "Web Component: In development"
+  - "Web Component: Available"
 code:
   example: <button class="mcc-button">Button text</button>
   body: >-
@@ -63,8 +50,7 @@ code:
                 dialog.parentElement.classList.remove('mu-visible')
                 dialog.close()
               }
-            </script>
-            <script>
+            </script> <script>
               
             </script>
         name: As default
@@ -72,7 +58,7 @@ code:
           - name: Size
             selector: .mcc-dialog
             classes:
-              - name: Extra small 
+              - name: Extra small
                 value: mcc-dialog--xs
               - name: Small
                 value: mcc-dialog--sm
@@ -88,10 +74,10 @@ code:
           - name: Type
             selector: .mcc-dialog
             classes:
-              - name: Default 
+              - name: Default
                 value: mcc-dialog
                 default: true
-              - name: Primary 
+              - name: Primary
                 value: mcc-dialog--primary
               - name: Secondary
                 value: mcc-dialog--secondary
@@ -104,5 +90,25 @@ code:
               - name: Info
                 value: mcc-dialog--info
             type: class
-            select_multiple: false 
+            select_multiple: false
+status:
+  design: Yes
+  documentation: No
+  html_css: Available
+  web_component: Available
+navigation: button
+title: Dialog
+storybook: https://tessera.oneadvanced.io/dev/components-core/?path=/docs/custom-elements-dialog--as-default
+tabs:
+  - title: Usage
+    body: ""
+    icon: file_invoice
+  - title: Code
+    hook: code
+    icon: source_code
+  - title: Accessibility
+    body: ""
+    icon: web_accessibility_1
+  - title: Status
+    hook: status
 ---

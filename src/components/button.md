@@ -2,7 +2,7 @@
 title: Button
 toc: true
 chips:
-  - HTML/CSS
+  - "HTML/CSS: Available"
 storybook-url: https://tessera.oneadvanced.io/dev/components-core/?path=/docs/html-button--as-default
 storybook: https://tessera.oneadvanced.io/dev/components-core/?path=/docs/html-button--as-default
 tabs:
@@ -194,6 +194,8 @@ tabs:
 
       Buttons without text should only be used as a last resort to save space on a table etc. 
     icon: web_accessibility_1
+  - title: Status
+    hook: status
 code:
   example: <button class="mcc-button">Button text</button>
   body: >-
@@ -426,4 +428,9 @@ code:
             type: attribute
             attribute:
               name: disabled
+status:
+  design: Yes
+  documentation: No
+  html_css: Available
+  web_component: N/A
 ---

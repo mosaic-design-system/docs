@@ -1,22 +1,8 @@
 ---
-title: Collapse
-toc: true
-navigation: button
-chips:
-  - HTML/CSS
-  - Web Component
 storybook-url: https://tessera.oneadvanced.io/dev/components-core/?path=/docs/html-button--as-default
-storybook: https://tessera.oneadvanced.io/dev/components-core/?path=/story/html-collapse--as-opened
-tabs:
-  - title: Usage
-    body: ""
-    icon: file_invoice
-  - title: Code
-    hook: code
-    icon: source_code
-  - title: Accessibility
-    body: ""
-    icon: web_accessibility_1
+toc: true
+chips:
+  - "HTML/CSS: Available"
 code:
   example: <button class="mcc-button">Button text</button>
   body: >-
@@ -51,4 +37,24 @@ code:
           - name: Open
             selector: .mcc-collapse
             attribute: open
+status:
+  design: Yes
+  documentation: No
+  html_css: Available
+  web_component: N/A
+navigation: button
+title: Collapse
+storybook: https://tessera.oneadvanced.io/dev/components-core/?path=/story/html-collapse--as-opened
+tabs:
+  - title: Usage
+    body: ""
+    icon: file_invoice
+  - title: Code
+    hook: code
+    icon: source_code
+  - title: Accessibility
+    body: ""
+    icon: web_accessibility_1
+  - title: Status
+    hook: status
 ---

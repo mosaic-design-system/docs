@@ -1,21 +1,8 @@
 ---
-title: Tooltip
-toc: true
-navigation: button
-chips:
-  - HTML/CSS
 storybook-url: https://tessera.oneadvanced.io/dev/components-core/?path=/docs/html-button--as-default
-storybook: https://tessera.oneadvanced.io/dev/components-core/?path=/docs/html-tooltip--with-direction
-tabs:
-  - title: Usage
-    body: ""
-    icon: file_invoice
-  - title: Code
-    hook: code
-    icon: source_code
-  - title: Accessibility
-    body: ""
-    icon: web_accessibility_1
+toc: true
+chips:
+  - "HTML/CSS: Available"
 code:
   example: <button class="mcc-button">Button text</button>
   body: >-
@@ -27,7 +14,8 @@ code:
       - template:
           lang: html
           code: >-
-            <span class="mcc-tooltip mcc-tooltip" aria-label="Lorem ipsum dolor sit amet, consectetur adipiscing elit.">
+            <span class="mcc-tooltip mcc-tooltip" aria-label="Lorem ipsum dolor
+            sit amet, consectetur adipiscing elit.">
               .mcc-tooltip
             </span>
         name: As default
@@ -67,5 +55,25 @@ code:
               - name: Delay
                 value: mcc-tooltip
             type: class
-            select_multiple: false    
+            select_multiple: false
+status:
+  design: Yes
+  documentation: No
+  html_css: Available
+  web_component: N/A
+navigation: button
+title: Tooltip
+storybook: https://tessera.oneadvanced.io/dev/components-core/?path=/docs/html-tooltip--with-direction
+tabs:
+  - title: Usage
+    body: ""
+    icon: file_invoice
+  - title: Code
+    hook: code
+    icon: source_code
+  - title: Accessibility
+    body: ""
+    icon: web_accessibility_1
+  - title: Status
+    hook: status
 ---

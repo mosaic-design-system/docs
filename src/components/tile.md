@@ -1,21 +1,8 @@
 ---
-title: Tile
-toc: true
-navigation: button
-chips:
-  - HTML/CSS
 storybook-url: https://tessera.oneadvanced.io/dev/components-core/?path=/docs/html-button--as-default
-storybook: https://tessera.oneadvanced.io/dev/components-core/?path=/story/html-tile--as-default
-tabs:
-  - title: Usage
-    body: ""
-    icon: file_invoice
-  - title: Code
-    hook: code
-    icon: source_code
-  - title: Accessibility
-    body: ""
-    icon: web_accessibility_1
+toc: true
+chips:
+  - "HTML/CSS: Available"
 code:
   example: <button class="mcc-button">Button text</button>
   body: >-
@@ -42,4 +29,24 @@ code:
             </button>
         name: With icon
         modifiers: []
+status:
+  design: Yes
+  documentation: No
+  html_css: Available
+  web_component: N/A
+navigation: button
+title: Tile
+storybook: https://tessera.oneadvanced.io/dev/components-core/?path=/story/html-tile--as-default
+tabs:
+  - title: Usage
+    body: ""
+    icon: file_invoice
+  - title: Code
+    hook: code
+    icon: source_code
+  - title: Accessibility
+    body: ""
+    icon: web_accessibility_1
+  - title: Status
+    hook: status
 ---

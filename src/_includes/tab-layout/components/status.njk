@@ -1,0 +1,30 @@
+<!-- code content -->
+
+<div class="mds-content-chunk">
+
+  {% if status.body %}
+    {{ status.body | markdownify | safe }}
+  {% endif %}
+
+  <div class="mcc-table--responsive">
+    <table>
+      <thead>
+        <tr>
+          <th>Design</th>
+          <th>Documentation</th>
+          <th>HTML/CSS</th>
+          <th>Web Component</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td data-title="Design">{{ status.design }}</td>
+          <td data-title="Documentation">{{ status.documentation }}</td>
+          <td data-title="HTML/CSS">{{ status.html_css }}</td>
+          <td data-title="Web Component">{{ status.web_component }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+</div>

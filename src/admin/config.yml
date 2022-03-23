@@ -192,7 +192,15 @@ collections:
         name: "chips"
         widget: "select"
         multiple: true
-        options: ["HTML/CSS", "Web Component"]
+        options: [
+          "Proposed",
+          "Approved",
+          "In design",
+          "HTML/CSS: In development",
+          "Web Component: In development",
+          "HTML/CSS: Available",
+          "Web Component: Available"
+        ]
       - label: "Storybook"
         name: "storybook"
         widget: "string"
@@ -225,10 +233,6 @@ collections:
           - label: "Body"
             name: "body"
             widget: "markdown"
-            required: false
-          - label: "Status"
-            name: "status"
-            widget: "string"
             required: false
           - label: "Preview"
             name: "preview"
@@ -279,6 +283,31 @@ collections:
                           - { label: "Name", name: "name", widget: "string", required: false }
                           - { label: "Value", name: "value", widget: "string", required: false }
                           - { label: "Default", name: "default", widget: "boolean", required: false }
+      - label: "Status"
+        name: "status"
+        widget: object
+        required: false
+        fields:
+          - label: "Body"
+            name: "body"
+            widget: "markdown"
+            required: false
+          - label: "Design"
+            name: "design"
+            widget: "select"
+            options: ["Yes", "No"]
+          - label: "Documentation"
+            name: "documentation"
+            widget: "select"
+            options: ["Yes", "No"]
+          - label: "HTML/CSS"
+            name: "html_css"
+            widget: "select"
+            options: ["In queue", "In development", "Available", "N/A"]
+          - label: "Web Component"
+            name: "web_component"
+            widget: "select"
+            options: ["In queue", "In development", "Available", "N/A"]
   - label: "Forms"
     name: "Forms"
     folder: "src/forms"
@@ -303,7 +332,15 @@ collections:
         name: "chips"
         widget: "select"
         multiple: true
-        options: ["HTML/CSS", "Web Component"]
+        options: [
+          "Proposed",
+          "Approved",
+          "In design",
+          "HTML/CSS: In development",
+          "Web Component: In development",
+          "HTML/CSS: Available",
+          "Web Component: Available"
+        ]
       - label: "Tabs"
         name: "tabs"
         widget: "list"

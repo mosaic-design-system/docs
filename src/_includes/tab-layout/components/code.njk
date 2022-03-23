@@ -14,14 +14,6 @@
   {% endif %}
 </div>
 
-<div class="mds-content-chunk">
-  {% if code.status %}
-    <div class="[ mcc-alert mcc-alert--primary ] [ mu-mb-09 ]" role="alert">
-      <p class="mu-mb-00">{{ code.status }}</p>
-    </div>
-  {% endif %}
-</div>
-
 <!-- code content -->
 {% if code.body %}
   <div class="mds-content-chunk">{{ code.body | markdownify | safe }}</div>
