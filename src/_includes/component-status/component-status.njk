@@ -1,0 +1,27 @@
+
+{% if 'overview' in statusType %}
+  {% for item in collections[collection] %}
+    <tr>
+      <td date-title="Name"><a href="{{ item.data.page.url }}">{{ item.data.title }}</a></td>
+      <td id="status-design" data-title="Design" data-value="{{ item.data.status.design }}"></td>
+      <td id="status-docs" data-title="Documentation" data-value="{{ item.data.status.documentation }}"></td>
+      <td id="status-html-css" data-title="HTML/CSS" data-value="{{ item.data.status.html_css }}"></td>
+      <td id="status-web-component" data-title="Web Component" data-value="{{ item.data.status.web_component }}"></td>
+    </tr>
+  {% endfor %}
+{% elif 'component' in statusType %}
+    <tr>
+      <td id="status-design" data-title="Design" data-value="{{ status.design }}"></td>
+      <td id="status-docs" data-title="Documentation" data-value="{{ status.documentation }}"></td>
+      <td id="status-html-css" data-title="HTML/CSS" data-value="{{ status.html_css }}"></td>
+      <td id="status-web-component" data-title="Web Component" data-value="{{ status.web_component }}"></td>
+    </tr>
+{% endif %}
+
+{% set js %}
+  {% include "./component-status.js" %}
+{% endset %}
+
+<script>
+  {{ js | safe }}
+</script>

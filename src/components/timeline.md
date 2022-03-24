@@ -176,7 +176,7 @@ status:
   design: Yes
   documentation: No
   html_css: Available
-  web_component: N/A
+  web_component: Not applicable
 navigation: button
 title: Timeline
 storybook: https://tessera.oneadvanced.io/dev/components-core/?path=/docs/html-timeline--as-default

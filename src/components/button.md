@@ -432,5 +432,5 @@ status:
   design: Yes
   documentation: No
   html_css: Available
-  web_component: N/A
+  web_component: Not applicable
 ---

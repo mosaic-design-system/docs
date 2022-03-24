@@ -1,5 +1,3 @@
-<!-- code content -->
-
 <div class="mds-content-chunk">
 
   {% if status.body %}
@@ -18,10 +16,8 @@
       </thead>
       <tbody>
         <tr>
-          <td data-title="Design">{{ status.design }}</td>
-          <td data-title="Documentation">{{ status.documentation }}</td>
-          <td data-title="HTML/CSS">{{ status.html_css }}</td>
-          <td data-title="Web Component">{{ status.web_component }}</td>
+          {% set statusType = 'component' %}
+          {% include "../../component-status/component-status.njk" %}
         </tr>
       </tbody>
     </table>
