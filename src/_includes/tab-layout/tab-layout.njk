@@ -14,7 +14,7 @@
       <mcc-tab-pane class="mu-mt-09" label="{{ tab.title }}">
         <article>
         {% if tab.hook %}
-          {% include "./" + page.url.split('/')[1] + "/" + tab.hook + ".njk" %}
+          {% include "../hooks" + "/" + tab.hook + ".njk" %}
         {% elif tab.body %}
           {% if toc == true %}
             {{ generateToc(tab.body) }}

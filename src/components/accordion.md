@@ -8,7 +8,7 @@ storybook-url: https://tessera.oneadvanced.io/dev/components-core/?path=/docs/ht
 storybook: https://tessera.oneadvanced.io/dev/components-core/?path=/docs/html-accordion--as-default
 tabs:
   - title: Usage
-    body: ""
+    body: This is some content.
     icon: file_invoice
   - title: Code
     hook: code
