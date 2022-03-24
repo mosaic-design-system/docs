@@ -29,7 +29,7 @@
           <tbody>
             {% for item in collections.components %}
               <tr>
-                <td date-title="Name">{{ item.data.title }}</td>
+                <td date-title="Name"><a href="{{ item.data.page.url }}">{{ item.data.title }}</a></td>
                 <td data-title="Design">{{ item.data.status.design }}</td>
                 <td data-title="Documentation">{{ item.data.status.documentation }}</td>
                 <td data-title="HTML/CSS">{{ item.data.status.html_css }}</td>
