@@ -303,11 +303,11 @@ collections:
           - label: "HTML/CSS"
             name: "html_css"
             widget: "select"
-            options: ["In queue", "In development", "Available", "N/A"]
+            options: ["In queue", "In development", "Available", "Not applicable"]
           - label: "Web Component"
             name: "web_component"
             widget: "select"
-            options: ["In queue", "In development", "Available", "N/A"]
+            options: ["In queue", "In development", "Available", "Not applicable"]
   - label: "Forms"
     name: "Forms"
     folder: "src/forms"
