@@ -2,8 +2,8 @@
 title: Select
 toc: true
 chips:
-  - HTML/CSS
-  - Web Component
+  - "HTML/CSS: Available"
+  - "Web Component: Available"
 storybook: https://tessera.oneadvanced.io/dev/components-forms/?path=/docs/html-select-examples--default-story
 tabs:
   - title: Usage
@@ -15,6 +15,8 @@ tabs:
   - title: Accessibility
     body: ""
     icon: web_accessibility_1
+  - title: Status
+    hook: status
 code:
   example: null
   body: >-
@@ -66,4 +68,9 @@ code:
                 value: ms-is-invalid
             type: class
             select_multiple: false
+status:
+  design: Yes
+  documentation: No
+  html_css: Available
+  web_component: Available
 ---
