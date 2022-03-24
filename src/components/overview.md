@@ -2,6 +2,7 @@
 title: Overview
 layout: overview.njk
 toc: true
+collection: components
 ---
 
 ## Subheading

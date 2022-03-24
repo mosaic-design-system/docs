@@ -2,7 +2,8 @@
 title: Input groups
 toc: true
 chips:
-  - HTML/CSS
+  - "HTML/CSS: Available"
+  - "Web Component: Available"
 storybook: https://tessera.oneadvanced.io/dev/components-forms/?path=/docs/html-input-group--as-default
 tabs:
   - title: Usage
@@ -14,8 +15,10 @@ tabs:
   - title: Accessibility
     body: ""
     icon: web_accessibility_1
+  - title: Status
+    hook: status
 code:
-  example:
+  example: null
   body: >-
     ## Live demo
 
@@ -25,7 +28,8 @@ code:
       - template:
           lang: html
           code: >-
-            <div class="mds-input-group-demo" style="max-width: 400px; width: 100%">
+            <div class="mds-input-group-demo" style="max-width: 400px; width:
+            100%">
               <div class="mfc-input-wrapper">
                 <label for="inputGroupDefault1">Text input</label>
                 <div class="mfc-input-group">
@@ -51,8 +55,7 @@ code:
                   <div class="mfc-help-text">Text input help text</div>
                 </div>
               </div>
-            </div>
-            <style>
+            </div> <style>
               .mds-input-group-demo .mfc-input-wrapper {
                 display: none;
               }
@@ -83,7 +86,8 @@ code:
       - template:
           lang: html
           code: >-
-            <div class="mds-input-group-demo" style="max-width: 400px; width: 100%">
+            <div class="mds-input-group-demo" style="max-width: 400px; width:
+            100%">
               <div class="mfc-input-wrapper">
                 <label for="inputGroupIcon1">Text input</label>
                 <div class="mfc-input-group">
@@ -117,8 +121,7 @@ code:
                   <div class="mfc-help-text">Text input help text</div>
                 </div>
               </div>
-            </div>
-            <style>
+            </div> <style>
               .mds-input-group-demo .mfc-input-wrapper {
                 display: none;
               }
@@ -149,7 +152,8 @@ code:
       - template:
           lang: html
           code: >-
-            <div class="mds-input-group-demo" style="max-width: 400px; width: 100%">
+            <div class="mds-input-group-demo" style="max-width: 400px; width:
+            100%">
               <div class="mfc-select-wrapper">
                 <label for="inputGroupSelect1">Select input</label>
                 <div class="mfc-input-group">
@@ -196,8 +200,7 @@ code:
                   <div class="mfc-help-text">Select help text</div>
                 </div>
               </div>
-            </div>
-            <style>
+            </div> <style>
               .mds-input-group-demo .mfc-select-wrapper {
                 display: none;
               }
@@ -228,7 +231,8 @@ code:
       - template:
           lang: html
           code: >-
-            <div class="mds-input-group-demo" style="max-width: 400px; width: 100%">
+            <div class="mds-input-group-demo" style="max-width: 400px; width:
+            100%">
               <div class="mfc-textarea-wrapper">
                 <label for="inputGroupTextarea1">Text input</label>
                 <div class="mfc-input-group">
@@ -254,8 +258,7 @@ code:
                   <div class="mfc-help-text">Textarea help text</div>
                 </div>
               </div>
-            </div>
-            <style>
+            </div> <style>
               .mds-input-group-demo .mfc-textarea-wrapper {
                 display: none;
               }
@@ -286,7 +289,8 @@ code:
       - template:
           lang: html
           code: >-
-            <div class="mds-input-group-demo" style="max-width: 400px; width: 100%">
+            <div class="mds-input-group-demo" style="max-width: 400px; width:
+            100%">
               <div class="mfc-input-wrapper">
                 <label for="inputGroupButtons1">Text input</label>
                 <div class="mfc-input-group">
@@ -307,8 +311,7 @@ code:
                   <div class="mfc-help-text">Text input help text</div>
                 </div>
               </div>
-            </div>
-            <style>
+            </div> <style>
               .mds-input-group-demo .mfc-input-wrapper {
                 display: none;
               }
@@ -331,4 +334,9 @@ code:
                 value: end
             type: class
             select_multiple: false
+status:
+  design: Yes
+  documentation: No
+  html_css: Available
+  web_component: In queue
 ---

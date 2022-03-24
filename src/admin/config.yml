@@ -357,6 +357,89 @@ collections:
             name: "body"
             widget: "markdown"
             required: false
+      - label: "Code"
+        name: "code"
+        widget: object
+        required: false
+        fields:
+          - label: "Body"
+            name: "body"
+            widget: "markdown"
+            required: false
+          - label: "Preview"
+            name: "preview"
+            widget: "object"
+            fields:
+              - label: "Variants"
+                name: "variants"
+                widget: "list"
+                fields:
+                  - label: "Name"
+                    name: "name"
+                    widget: "string"
+                  - label: "Template"
+                    name: "template"
+                    widget: "code"
+                    default_language: "html"
+                    allow_language_selection: false
+                  - label: "Modifiers"
+                    name: "modifiers"
+                    widget: "list"
+                    fields:
+                      - label: "Name"
+                        name: "name"
+                        widget: "string"
+                      - label: "Selector"
+                        name: "selector"
+                        widget: "string"
+                      - label: "Select multiple?"
+                        name: "select_multiple"
+                        widget: "boolean"
+                        required: false
+                      - label: "Type"
+                        name: "type"
+                        widget: "select"
+                        options: ["class", "attribute"]
+                      - label: "Attribute"
+                        name: "attribute"
+                        widget: "object"
+                        required: false
+                        fields:
+                          - { label: "Name", name: "name", widget: "string", required: false }
+                          - { label: "Value", name: "value", widget: "string", required: false }
+                      - label: "Classes"
+                        name: "classes"
+                        widget: "list"
+                        required: false
+                        fields:
+                          - { label: "Name", name: "name", widget: "string", required: false }
+                          - { label: "Value", name: "value", widget: "string", required: false }
+                          - { label: "Default", name: "default", widget: "boolean", required: false }
+      - label: "Status"
+        name: "status"
+        widget: object
+        required: false
+        fields:
+          - label: "Body"
+            name: "body"
+            widget: "markdown"
+            required: false
+          - label: "Design"
+            name: "design"
+            widget: "select"
+            options: ["Yes", "No"]
+          - label: "Documentation"
+            name: "documentation"
+            widget: "select"
+            options: ["Yes", "No"]
+          - label: "HTML/CSS"
+            name: "html_css"
+            widget: "select"
+            options: ["In queue", "In development", "Available", "Not applicable"]
+          - label: "Web Component"
+            name: "web_component"
+            widget: "select"
+            options: ["In queue", "In development", "Available", "Not applicable"]
   - label: "Pattern"
     name: "patterns"
     folder: "src/patterns"
