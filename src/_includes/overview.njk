@@ -15,10 +15,30 @@
       {% endif %}
       {{ content | safe }}
 
-      {% for item in collections.components %}
-        <p>{{ item.data.title }}</p>
-        <p>{{ item.data.code.status }}</p>
-      {% endfor %}
+      <div class="mcc-table--responsive">
+        <table>
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Design</th>
+              <th>Documentation</th>
+              <th>HTML/CSS</th>
+              <th>Web Component</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for item in collections.components %}
+              <tr>
+                <td date-title="Name">{{ item.data.title }}</td>
+                <td data-title="Design">{{ item.data.status.design }}</td>
+                <td data-title="Documentation">{{ item.data.status.documentation }}</td>
+                <td data-title="HTML/CSS">{{ item.data.status.html_css }}</td>
+                <td data-title="Web Component">{{ item.data.status.web_component }}</td>
+              </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
 
     </div>
   </section> 

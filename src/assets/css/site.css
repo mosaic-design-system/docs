@@ -80,7 +80,7 @@ html {
   margin-top: var(--content-chunk-space, 1rem);
 }
 
-.mds-content-chunk :is(h2:not(:first-of-type), h3, .mds-component-preview, pre, table, blockquote, .mds-team-grid) {
+.mds-content-chunk :is(h2:not(:first-of-type), h3, .mds-component-preview, pre, table, blockquote, .mds-team-grid, .mcc-table--responsive) {
   --content-chunk-space: var(--spacing-09);
 }
 

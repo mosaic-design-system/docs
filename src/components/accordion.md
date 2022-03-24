@@ -2,8 +2,8 @@
 title: Accordion
 toc: true
 chips:
-  - HTML/CSS
-  - Web Component
+  - "HTML/CSS: Available"
+  - "Web Component: Available"
 storybook-url: https://tessera.oneadvanced.io/dev/components-core/?path=/docs/html-button--as-default
 storybook: https://tessera.oneadvanced.io/dev/components-core/?path=/docs/html-accordion--as-default
 tabs:
@@ -16,6 +16,9 @@ tabs:
   - title: Accessibility
     body: ""
     icon: web_accessibility_1
+  - title: Status
+    hook: status
+    icon: source_code
 code:
   example: <button class="mcc-button">Button text</button>
   body: >-
@@ -71,5 +74,10 @@ code:
             </details>
         name: With icon
         modifiers: []
-  status: status-test-accordion
+status:
+  body: This is some content in relation to the status of this component.
+  design: Yes
+  documentation: No
+  html_css: Available
+  web_component: Available
 ---

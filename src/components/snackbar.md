@@ -1,21 +1,8 @@
 ---
-title: Snackbar
-toc: true
-navigation: button
-chips:
-  - HTML/CSS
 storybook-url: https://tessera.oneadvanced.io/dev/components-core/?path=/docs/html-button--as-default
-storybook: https://tessera.oneadvanced.io/dev/components-core/?path=/docs/html-snackbar--as-default
-tabs:
-  - title: Usage
-    body: ""
-    icon: file_invoice
-  - title: Code
-    hook: code
-    icon: source_code
-  - title: Accessibility
-    body: ""
-    icon: web_accessibility_1
+toc: true
+chips:
+  - "HTML/CSS: Available"
 code:
   example: <button class="mcc-button">Button text</button>
   body: >-
@@ -75,4 +62,24 @@ code:
                 value: mcc-snackbar--right
             type: class
             select_multiple: false
+status:
+  design: Yes
+  documentation: No
+  html_css: Available
+  web_component: N/A
+navigation: button
+title: Snackbar
+storybook: https://tessera.oneadvanced.io/dev/components-core/?path=/docs/html-snackbar--as-default
+tabs:
+  - title: Usage
+    body: ""
+    icon: file_invoice
+  - title: Code
+    hook: code
+    icon: source_code
+  - title: Accessibility
+    body: ""
+    icon: web_accessibility_1
+  - title: Status
+    hook: status
 ---

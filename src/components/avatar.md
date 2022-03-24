@@ -2,7 +2,7 @@
 title: Avatar
 toc: true
 chips:
-  - HTML/CSS
+  - "HTML/CSS: Available"
 storybook-url: https://tessera.oneadvanced.io/dev/components-core/?path=/docs/html-button--as-default
 storybook: https://tessera.oneadvanced.io/dev/components-core/?path=/docs/html-avatar--as-default
 tabs:
@@ -15,6 +15,8 @@ tabs:
   - title: Accessibility
     body: ""
     icon: web_accessibility_1
+  - title: Status
+    hook: status
 code:
   example: <button class="mcc-button">Button text</button>
   body: >-
@@ -93,4 +95,9 @@ code:
                 value: mcc-avatar--xxl
             type: class
             select_multiple: false
+status:
+  design: Yes
+  documentation: No
+  html_css: Available
+  web_component: N/A
 ---
