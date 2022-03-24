@@ -2,7 +2,7 @@
 title: Picklist
 toc: true
 chips:
-  - "Web Component: In development"
+  - Approved
 tabs:
   - title: Usage
   - title: Accessibility
