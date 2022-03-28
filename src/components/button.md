@@ -101,13 +101,13 @@ tabs:
       We have a set order for groups of **Buttons** in our products, to encourage user familiarity and build a familiarity around what a user can expect, and where. The ordering is simple: the least positive **Button** is the one furthest to the left, and the most positive **Button** is the one to the right. As an example, a form with 'Delete', 'Cancel' and 'Save' would be ordered as such – 'Delete' is the most negative, 'Save' is the most positive, and 'Cancel' is relatively neutral. 
 
 
-      This ordering of the **Buttons** provides a sense of 'moving forward' to the used when they see a **Button** on the right-hand side, whereas a **Button** on the left-hand side feels like 'moving backward'. 
+      This ordering of the **Buttons** provides a sense of 'moving forward' to the user when they see a **Button** on the right-hand side, whereas a **Button** on the left-hand side feels like 'moving backward'. 
 
 
       ### Button Labels
 
 
-      A B**utton's Label** is as important as the **Button** itself. A set of **Buttons** that are simply a green and a red **Button** might imply 'good' and 'bad' actions, but there is no context for the user. As such, there are a couple of things to keep in mind when labelling a **Button**:
+      A **Button's Label** is as important as the **Button** itself. A set of **Buttons** that are simply a green and a red **Button** might imply 'good' and 'bad' actions, but there is no context for the user. As such, there are a couple of things to keep in mind when labelling a **Button**:
 
 
       •	**Buttons** require a **Label** in the vast majority of cases. We cannot assume that a user will instinctively know what an icon means on a **Button**. An infamous example of this is the classic floppy disk icon for saving – think about how soon it will be until virtually all of our users will have never seen a floppy disk? 
