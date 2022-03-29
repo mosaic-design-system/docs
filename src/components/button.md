@@ -109,15 +109,11 @@ tabs:
 
       A **Button's Label** is as important as the **Button** itself. A set of **Buttons** that are simply a green and a red **Button** might imply 'good' and 'bad' actions, but there is no context for the user. As such, there are a couple of things to keep in mind when labelling a **Button**:
 
+       - **Buttons** require a **Label** in the vast majority of cases. We cannot assume that a user will instinctively know what an icon means on a **Button**. An infamous example of this is the classic floppy disk icon for saving – think about how soon it will be until virtually all of our users will have never seen a floppy disk? 
 
-      •	**Buttons** require a **Label** in the vast majority of cases. We cannot assume that a user will instinctively know what an icon means on a **Button**. An infamous example of this is the classic floppy disk icon for saving – think about how soon it will be until virtually all of our users will have never seen a floppy disk? 
+      >**Note**: there are some very specific use cases for Icon-only Buttons, but these are few and far between. We have [guidance](link) on where a **Button** can forgo a label, but the UX Team should be contacted in advance of using an **Icon Only Button** to ensure that it is appropriate. 
 
-
-      \>**Note**: there are some very specific use cases for Icon-only Buttons, but these are few and far between. We have [guidance](link) on where a **Button** can forgo a label, but the UX Team should be contacted in advance of using an **Icon Only Button** to ensure that it is appropriate. 
-
-
-      •	**Button Labels** should be specific, rather than general. A user should feel confident that they know what a **Button** does. Generic **Buttons** like 'OK' when a user is actually changing something are not informative enough – the user needs to know that the **Button** will 'Confirm changes', which is a much better **Label**.
-
+       - **Button Labels** should be specific, rather than general. A user should feel confident that they know what a **Button** does. Generic **Buttons** like 'OK' when a user is actually changing something are not informative enough – the user needs to know that the **Button** will 'Confirm changes', which is a much better **Label**.
 
       If you are unsure about **Labels**, please review the [product tone-of-voice document](link) or contact the UX Copywriter.
 
@@ -137,7 +133,7 @@ tabs:
       The colour of your **Button** will be dictated by the **Button Type**. For example, a **Primary Button** is green, whereas a **Danger Button** is red. The rationale is simple: green is associated with positive actions (green for go), while red is associated with negative actions (red for stop). However, it should be noted that colour only gives a visual clue if that visual cue is perceptible to the user – screen readers and colour-blind users will get no benefit from **Button Colours**. This is why it is important to use a combination of **Button Labels** and **Icons** to properly delineate the usage of a **Button**.
 
 
-      Refer to the **[Button Types section]**(https://mosaic-design-system.herokuapp.com/components/button/#types-of-buttons) to read about the different colours for **Button Types**.
+      Refer to the **\[Button Types section]**(https://mosaic-design-system.herokuapp.com/components/button/#types-of-buttons) to read about the different colours for **Button Types**.
 
 
       ### Consistency
