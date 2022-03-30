@@ -11,7 +11,7 @@ Mosaic is Advanced's design system: a series of design philosophies, resource li
 
 Anyone designing and developing a web application! However, primarily for Advanced products. 
 
-## What versions exist?
+## What versions of Mosaic exist?
 
 There are two main "versions" of Mosaic in existence, the Design System (this site) and its UI Components, and the previous incarnation known as "Mosaic UI".
 
