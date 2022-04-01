@@ -67,7 +67,11 @@ html {
 }
 
 /* content chunk width */
-.mds-content-chunk :is(hr, pre, table, .mcc-alert) {
+.mds-content-chunk :is(table) {
+  max-width: 52rem;
+}
+
+.mds-content-chunk :is(hr, pre, .mcc-alert) {
   max-width: 48rem;
 }
 
