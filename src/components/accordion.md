@@ -30,23 +30,32 @@ tabs:
       ## Accordion variations
 
 
-      1. Default
-         The default accordion has no actions
-      2. With chip
-         Chips in the header can be used to signify things like status, content type, dates etc. 
-      3. With edit
-         This option allows the user to enter an edit state for each accordion
-      4. With overflow
-         Used when there a specific actions linked to each accordion
-      5. With icon
-         Icons can be applied to support the content of the heading but should not be used in conjunction with buttons or chips on the right as will add to cognitive load
+      All variations include an option with and without a subheading
+
+
+      | Variant           | Description                                                                                                                                                        | Example                                                                                                                                                                                                                                                                                                        |
+
+      | ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+
+      | **Default**       | The default accordion has no actions                                                                                                                               | <button class="mcc-button mcc-button--primary" disabled> <span class="mcc-button__label">Disabled</span> </button>                                                                                                                                                                                             |
+
+      | **With chip**     | Chips in the header can be used to signify status, content type, dates etc.                                                                                        | <button class="mcc-button mcc-button--primary"><mcc-icon name="does-not-exist" aria-hidden="true"></mcc-icon><span class="mcc-button__label">Icon</span></button>                                                                                                                                              |
+
+      | **With edit**     | This option allows the user to enter an edit state for each accordion.                                                                                             | <button class="mcc-button mcc-button--primary"><mcc-icon name="does-not-exist" aria-hidden="true"></mcc-icon><span class="mcc-button__label">Icon</span><mcc-icon name="arrows_long_right" aria-hidden="true"></mcc-icon></button>                                                                             |
+
+      | **With overflow** | Used when there a specific actions linked to each accordion                                                                                                        | <button class="mcc-button mcc-button--primary"><svg class="mcc-spinner" viewBox="0 0 50 50"><circle class="mcc-spinner__track" cx="25" cy="25" r="20" fill="none" stroke-width="5"></circle><circle cx="25" cy="25" r="20" fill="none" stroke-width="5"></circle></svg><span class="mcc-button__label"></span> |
+
+      | **With icon**     | Icons can be applied to support the content of the heading but should not be used in conjunction with buttons or chips on the right as will add to cognitive load. | <button class="mcc-button mcc-button--outline"><mcc-icon name="does-not-exist" aria-hidden="true"></mcc-icon><span class="mcc-button__label">Outline</span> </button>                                                                                                                                          |
+
 
       - - -
 
 
       ## Using an accordion
 
-       Accordions are more suitable when the context of the page only requires a few key pieces of information but you want to give the option of learning more. Accordions should be avoided when your audience needs most or all of the content on the page to complete their task
+       Accordions are more suitable when the context of the page only requires a few key pieces of information but you want to give the option of learning more. Accordions should be avoided when your audience needs most or all of the content on the page to complete their task.
+
+
       Make sure the section headings are clear and concise, but still give the user enough information about what each one contains. All headings should be sentence case and not have the first letter of every word capitalised.
     icon: file_invoice
   - title: Code
