@@ -7,7 +7,57 @@ storybook-url: https://tessera.oneadvanced.io/dev/components-core/?path=/docs/ht
 storybook: https://tessera.oneadvanced.io/dev/components-core/?path=/docs/html-avatar--as-default
 tabs:
   - title: Usage
-    body: ""
+    body: |-
+      ## What is X?
+
+      Lorem ipsum
+
+      - - -
+
+      ### When and why?
+
+      Lorem ipsum
+
+      - - -
+
+      ## Types of X
+
+      Lorem impsum
+
+      | \*\*table 1\*\* | \*\*table 1\*\* | \*\*table 1\*\* |
+      | -------- | -------- | -------- |
+      | | | | |
+      | | | | |
+      | | | | |
+      - - -
+
+      ## X variants
+
+      Lorem ipsum
+
+      | \*\*table 2\*\* | \*\*table 2\*\* | \*\*table 2\*\* |
+      | -------- | -------- | -------- |
+      | | | | |
+      | | | | |
+      | | | | |
+
+      - - -
+
+      ## Using a X
+
+      Lorem ipsum
+
+      ### Guideline 1
+
+      Lorem ipsum
+
+      ### Guideline 2
+
+      Lorem ipsum
+
+      ### Guideline 3
+
+      Lorem ipsum
     icon: file_invoice
   - title: Code
     hook: code
