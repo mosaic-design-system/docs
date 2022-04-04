@@ -1,8 +1,73 @@
 ---
 storybook-url: https://tessera.oneadvanced.io/dev/components-core/?path=/docs/html-button--as-default
+title: Menu
 toc: true
 chips:
   - "HTML/CSS: Available"
+storybook: https://tessera.oneadvanced.io/dev/components-core/?path=/docs/html-page-header--as-default
+tabs:
+  - title: Usage
+    body: |-
+      ## What is X?
+
+      Lorem ipsum
+
+      - - -
+
+      ### When and why?
+
+      Lorem ipsum
+
+      - - -
+
+      ## Types of X
+
+      Lorem impsum
+
+      | **table 1** | **table 1** | **table 1** |
+      | -------- | -------- | -------- |
+      | X | X | X | X |
+      | X | X | X | X |
+      | X | X | X | X |
+
+      - - -
+
+      ## X variants
+
+      Lorem ipsum
+
+      | **table 2** | **table 2** | **table 2** |
+      | -------- | -------- | -------- |
+      | X | X | X | X |
+      | X | X | X | X |
+      | X | X | X | X |
+
+      - - -
+
+      ## Using a X
+
+      Lorem ipsum
+
+      ### Guideline 1
+
+      Lorem ipsum
+
+      ### Guideline 2
+
+      Lorem ipsum
+
+      ### Guideline 3
+
+      Lorem ipsum
+    icon: file_invoice
+  - title: Code
+    hook: code
+    icon: source_code
+  - title: Accessibility
+    body: ""
+    icon: web_accessibility_1
+  - title: Status
+    hook: status
 code:
   example: <button class="mcc-button">Button text</button>
   body: >-
@@ -145,18 +210,4 @@ status:
   html_css: Available
   web_component: Not applicable
 navigation: button
-title: Menu
-storybook: https://tessera.oneadvanced.io/dev/components-core/?path=/docs/html-page-header--as-default
-tabs:
-  - title: Usage
-    body: ""
-    icon: file_invoice
-  - title: Code
-    hook: code
-    icon: source_code
-  - title: Accessibility
-    body: ""
-    icon: web_accessibility_1
-  - title: Status
-    hook: status
 ---
