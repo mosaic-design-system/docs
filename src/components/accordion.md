@@ -15,10 +15,16 @@ tabs:
       An accordion toggles between a collapsed and expanded state to expose hidden information. The expanded state pushes the page content down rather than being over laid.
 
 
+      - - -
+
+
       ### When, and why?
 
 
       An accordion is useful when your users need to consume multiple items with specific content in a single page. Allowing people to have control over the content by expanding it or leaving it collapsed lets them decide what is relevant to them at that time. 
+
+
+      - - -
 
 
       ## Accordion variations
@@ -34,6 +40,9 @@ tabs:
          Used when there a specific actions linked to each accordion
       5. With icon
          Icons can be applied to support the content of the heading but should not be used in conjunction with buttons or chips on the right as will add to cognitive load
+
+      - - -
+
 
       ## Using an accordion
 
