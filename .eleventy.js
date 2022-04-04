@@ -38,10 +38,10 @@ module.exports = (eleventyConfig) => {
   eleventyConfig.addFilter("snake_case_filter", (name) => name.toLowerCase().replace(/\s+/g, '_'))
   eleventyConfig.addFilter("null_filter", (value) => value ? value : "")
   eleventyConfig.addFilter('markdownify', (markdownString) => markdownIt.render(markdownString))
-  
+
   eleventyConfig.addFilter('jsmin', (js) => {
     const result = minify(js)
-  
+
     if (result.error) {
       console.log('UglifyJS Error: ', result.error)
       return js
@@ -77,6 +77,7 @@ module.exports = (eleventyConfig) => {
   const sortCollection = ({ name, collection, sortFunc }) => {
     eleventyConfig.addCollection(name, collectionApi => {
       const sortedCollection = collectionApi.getFilteredByTag(collection)
+        .filter(item => item.data.title.toLowerCase() !== 'headings and layout')
         .sort((a, b) => sortFunc(a, b))
 
       globalCollection.push(sortedCollection)
