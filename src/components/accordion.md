@@ -15,7 +15,7 @@ tabs:
       An accordion toggles between a collapsed and expanded state to expose hidden information. The expanded state pushes the page content down rather than being over laid.
 
 
-      ## When, and why?
+      ### When, and why?
 
 
       An accordion is useful when your users need to consume multiple items with specific content in a single page. Allowing people to have control over the content by expanding it or leaving it collapsed lets them decide what is relevant to them at that time. 
@@ -25,7 +25,7 @@ tabs:
 
 
       1. Default
-         The default has no actions 
+         The default accordion has no actions
       2. With chip
          Chips in the header can be used to signify things like status, content type, dates etc. 
       3. With edit
