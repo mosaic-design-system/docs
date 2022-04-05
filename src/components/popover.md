@@ -7,7 +7,26 @@ chips:
 storybook: https://tessera.oneadvanced.io/dev/components-core/?path=/docs/html-tooltip--with-direction
 tabs:
   - title: Usage
-    body: ""
+    body: >-
+      ## What is a popover?
+
+
+      An overlay to show additional information that exceeded what would typically be displayed in a Tooltip.
+
+
+      - - -
+
+
+      ### When, and why?
+
+
+      Use popovers sparingly when you have non-critical information to aid the user’s decision making.
+
+
+      - - -
+
+
+      ## Popover variants
     icon: file_invoice
   - title: Code
     hook: code
