@@ -13,16 +13,16 @@ Anyone designing and developing a web application! However, primarily for Advanc
 
 ## What versions of Mosaic exist?
 
-There are two main "versions" of Mosaic in existence, the Design System (this site) and its UI Components, and the previous incarnation known as "Mosaic UI".
+There are two main "versions" of Mosaic in existence: the Design System (this site) and its UI Components, and the previous incarnation known as "Mosaic UI".
 
-All products using Mosaic for the first time should look to use this site and the components and patterns created with the latest styling, highest accessibility rating and greater flexibility with JS frameworks. 
+All products using Mosaic for the first time should look to use this site along with the components and patterns created with the latest styling, highest accessibility rating and greater flexibility with JS frameworks. 
 
 Products using "Mosaic UI" should look to upgrade over time, but a version of those components with the latest styling has been made available for use when this is not a pragmatic strategy. Please email mosaic@oneadvanced.com to learn more. 
 
 ## Where can I ask questions?
 
-You can find us either by reaching out to [any of the team](/mosaic/the-mosaic-design-team/) or by the [Contact page](/contact/). 
+You can find us either by reaching out to [any of the team](/mosaic/the-mosaic-design-team/) or via the [Contact page](/contact/). 
 
 ## Can I contribute?
 
-Absolutely! Contributing guidelines can be found in the Developing section of the site.
+Absolutely! Contributing guidelines can be found in the [Developing section](/developing/Contributing) of the site.
