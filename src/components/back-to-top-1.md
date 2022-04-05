@@ -27,7 +27,7 @@ tabs:
       - - -
 
 
-      ### Golden rules
+      ### Rules
 
 
       Only suitable for pages with lots of content, i.e., do not use on
