@@ -20,7 +20,7 @@ tabs:
       ### When, and why?
 
 
-      Use popovers sparingly when you have non-critical information to aid the user’s decision making.
+      Use popovers sparingly when you have non-critical information to aid the user’s decision making. For example, when hovering over an avatar you could show a user's full name and job title in a popover.
 
 
       - - -
@@ -29,7 +29,27 @@ tabs:
       ## Popover variants
 
 
-      f,g.
+      | Variant        | Description                                                                       | Example                                                                                                     |
+
+      | -------------- | --------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
+
+      | **Default**    | Used when you have additional information that exceeds that of a tooltip          | <button class="mcc-button mcc-button--primary"> <span class="mcc-button__label">Primary</span> </button>    |
+
+      | **With title** | Additional information that would be supported further with an over arching title | <button class="mcc-button mcc-button--secondary"> <span class="mcc-button__label">Secondary</span></button> |
+
+
+      - - -
+
+
+      ## Usage
+
+
+      Although similar to a tool tooltip, the major difference is that a popover must be triggered and dismissed by a click. This could be a button, a link, or an image, etc. 
+
+      Secondly a popover can hold more content than a tooltip, although it should never be over populated or over used. The content in a pop over should be seen as ‘additional information’ and not crucial to the users decision making.
+
+
+      There are many uses of a popover ranging from a larger Tooltip to a popover that contains additional HTML content. It is also possible to trigger a popover on the client of an element and to position a popover to appear either top, bottom, left or right using the `placement` attribute.
     icon: file_invoice
   - title: Code
     hook: code
