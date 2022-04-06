@@ -8,7 +8,7 @@ storybook: https://tessera.oneadvanced.io/dev/components-core/?path=/docs/html-t
 tabs:
   - title: Usage
     body: >-
-      ## What is a popover?
+      ## What is a Popover?
 
 
       A **Popover** is an overlay that can show additional information to the user - however, it does differ from a **[Tooltip](/components/Tooltip)**. A **Popover** will typically be reserved for information that goes above-and-beyond what would normally be shown in a **Tooltip**. Unlike **Tooltips**, they are dismissed by selecting an icon within the **Popover**, not just when the user moves away from the **Popover**.
