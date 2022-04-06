@@ -20,16 +20,13 @@ tabs:
       ### When, and why?
 
 
-      When you need users to engage with your system whether that be to express their emotion towards a particular item or make more complex decisions.
+      You need users to engage with your system to express their emotion towards a particular item or make more complex decisions. Ratings are an invaluable source of feedback that can help surface issues with products and inform innovation.
 
 
       - - -
 
 
       ## Rating Variants
-
-
-      In addition to the **Button Type**, each **Button** can also have a **Button Variant**. A **Variant** can be applied to a **Button** to give it some more context, or add some additional functionality to the **Button**.
 
 
       | **Variant** | **Description**                                                                   | **Example**                                                                                                                                                                                                                                                                                                   |
