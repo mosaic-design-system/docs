@@ -8,11 +8,12 @@ storybook-url: https://tessera.oneadvanced.io/dev/components-core/?path=/docs/ht
 storybook: https://tessera.oneadvanced.io/dev/components-core/?path=/docs/html-accordion--as-default
 tabs:
   - title: Usage
-    body: >-
-      ## What is an accordion?
+    body: "## What is an accordion?
 
 
-      An accordion toggles between a collapsed and expanded state to expose hidden information. The expanded state pushes the page content down rather than being over laid.
+      An accordion toggles between a collapsed and expanded state to
+      expose hidden information. The expanded state pushes the page content down
+      rather than being over laid.
 
 
       - - -
@@ -21,7 +22,10 @@ tabs:
       ### When, and why?
 
 
-      An accordion is useful when your users need to consume multiple items with specific content in a single page. Allowing people to have control over the content by expanding it or leaving it collapsed lets them decide what is relevant to them at that time. 
+      An accordion is useful when your users need to consume multiple
+      items with specific content in a single page. Allowing people to have
+      control over the content by expanding it or leaving it collapsed lets them
+      decide what is relevant to them at that time.\ 
 
 
       - - -
@@ -33,19 +37,64 @@ tabs:
       All variations include an option with and without a subheading
 
 
-      | Variant           | Description                                                                                                                                                        | Example                                                                                                                                                                                                                                                                                                        |
+      | Variant           |
+      Description                                                                                                                                                        \
+      | Example                                                                                                                                                                                                                                                                                                        \
+      |
 
-      | ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+      | ----------------- |
+      -------------------------------------------------------------------------\
+      -------------------------------------------------------------------------\
+      ---------------- |
+      -------------------------------------------------------------------------\
+      -------------------------------------------------------------------------\
+      -------------------------------------------------------------------------\
+      -------------------------------------------------------------------------\
+      ---------- |
 
-      | **Default**       | The default accordion has no actions                                                                                                                               | <button class="mcc-button mcc-button--primary" disabled> <span class="mcc-button__label">Disabled</span> </button>                                                                                                                                                                                             |
+      | **Default**       | The default accordion has no
+      actions                                                                                                                               \
+      | <button class=\"mcc-button mcc-button--primary\" disabled> <span
+      class=\"mcc-button__label\">Disabled</span>
+      </button>                                                                                                                                                                                             \
+      |
 
-      | **With chip**     | Chips in the header can be used to signify status, content type, dates etc.                                                                                        | <button class="mcc-button mcc-button--primary"><mcc-icon name="does-not-exist" aria-hidden="true"></mcc-icon><span class="mcc-button__label">Icon</span></button>                                                                                                                                              |
+      | **With chip**     | Chips in the header can be used to signify
+      status, content type, dates
+      etc.                                                                                        \
+      | <button class=\"mcc-button mcc-button--primary\"><mcc-icon
+      name=\"does-not-exist\" aria-hidden=\"true\"></mcc-icon><span
+      class=\"mcc-button__label\">Icon</span></button>                                                                                                                                              \
+      |
 
-      | **With edit**     | This option allows the user to enter an edit state for each accordion.                                                                                             | <button class="mcc-button mcc-button--primary"><mcc-icon name="does-not-exist" aria-hidden="true"></mcc-icon><span class="mcc-button__label">Icon</span><mcc-icon name="arrows_long_right" aria-hidden="true"></mcc-icon></button>                                                                             |
+      | **With edit**     | This option allows the user to enter an edit
+      state for each
+      accordion.                                                                                             \
+      | <button class=\"mcc-button mcc-button--primary\"><mcc-icon
+      name=\"does-not-exist\" aria-hidden=\"true\"></mcc-icon><span
+      class=\"mcc-button__label\">Icon</span><mcc-icon
+      name=\"arrows_long_right\"
+      aria-hidden=\"true\"></mcc-icon></button>                                                                             \
+      |
 
-      | **With overflow** | Used when there a specific actions linked to each accordion                                                                                                        | <button class="mcc-button mcc-button--primary"><svg class="mcc-spinner" viewBox="0 0 50 50"><circle class="mcc-spinner__track" cx="25" cy="25" r="20" fill="none" stroke-width="5"></circle><circle cx="25" cy="25" r="20" fill="none" stroke-width="5"></circle></svg><span class="mcc-button__label"></span> |
+      | **With overflow** | Used when there a specific actions linked to
+      each
+      accordion                                                                                                        \
+      | <button class=\"mcc-button mcc-button--primary\"><svg
+      class=\"mcc-spinner\" viewBox=\"0 0 50 50\"><circle
+      class=\"mcc-spinner__track\" cx=\"25\" cy=\"25\" r=\"20\" fill=\"none\"
+      stroke-width=\"5\"></circle><circle cx=\"25\" cy=\"25\" r=\"20\"
+      fill=\"none\" stroke-width=\"5\"></circle></svg><span
+      class=\"mcc-button__label\"></span> |
 
-      | **With icon**     | Icons can be applied to support the content of the heading but should not be used in conjunction with buttons or chips on the right as will add to cognitive load. | <button class="mcc-button mcc-button--outline"><mcc-icon name="does-not-exist" aria-hidden="true"></mcc-icon><span class="mcc-button__label">Outline</span> </button>                                                                                                                                          |
+      | **With icon**     | Icons can be applied to support the content of
+      the heading but should not be used in conjunction with buttons or chips on
+      the right as will add to cognitive load. | <button class=\"mcc-button
+      mcc-button--outline\"><mcc-icon name=\"does-not-exist\"
+      aria-hidden=\"true\"></mcc-icon><span
+      class=\"mcc-button__label\">Outline</span>
+      </button>                                                                                                                                          \
+      |
 
 
       - - -
@@ -53,10 +102,21 @@ tabs:
 
       ## Using an accordion
 
-       Accordions are more suitable when the context of the page only requires a few key pieces of information but you want to give the option of learning more. Accordions should be avoided when your audience needs most or all of the content on the page to complete their task.
+
+      Accordions are a great way to section off content-rich pages,
+      collapsing the sections will also give users an overview of the content
+      available whilst minimizing scrolling and make the page appear less
+      daunting.\r
 
 
-      Make sure the section headings are clear and concise, but still give the user enough information about what each one contains. All headings should be sentence case and not have the first letter of every word capitalised.
+      Make sure the section headings are clear and concise, but still give
+      the user enough information about what each one contains. All headings
+      should be sentence case and not have the first letter of every word
+      capitalised.\r
+
+
+      Always allow the user to expand multiple accordions at a time and
+      avoid hiding task critical content."
     icon: file_invoice
   - title: Code
     hook: code
