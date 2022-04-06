@@ -61,7 +61,10 @@ tabs:
       Secondly, a **Popover** can hold more content than a **Tooltip**, although it should never be over-populated or over-used. The content in a **Popover** should be seen as ‘additional information’ and not crucial to the user's decision-making. A **Popover** should only ever *add* to the user's experience, and never be a requirement. They are the cherry that you add on top of the cake, not the batter.
 
 
-      There are many uses of a **Popover**, ranging from a larger **Tooltip**, to a **Popover** that contains additional HTML content. It is also possible to trigger a **Popover** on the client of an element.
+      A **Popover** should always be triggered when an element is selected (such as when it is tapped on mobile or clicked with a mouse).
+
+
+      There are many uses of a **Popover**, ranging from a larger **Tooltip**, to a **Popover** that contains additional HTML content. 
 
 
       [[would be great to include an example of this!]]
@@ -133,8 +136,8 @@ code:
             select_multiple: false
 status:
   design: Yes
-  documentation: No
-  html_css: Available
-  web_component: Not applicable
+  documentation: Yes
+  html_css: In queue
+  web_component: In queue
 navigation: button
 ---
