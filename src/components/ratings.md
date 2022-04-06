@@ -48,7 +48,7 @@ tabs:
       ## Using Ratings
 
 
-      Rating can be used multiple ways to either collect or present data, there are no hard set rules on using the ratings components however, keep it consistent throughout your product and do not bombard the user with too many on the screen at one given time. in comparison to others in the system when making them.
+      Rating can be used multiple ways to either collect or present data, there are no hard set rules on using the ratings components however, keep it consistent throughout your product and do not bombard the user with too many on the screen at one given time.
     icon: file_invoice
   - title: Code
     hook: code
