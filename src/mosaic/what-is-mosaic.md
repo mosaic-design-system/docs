@@ -1,5 +1,5 @@
 ---
-title: What is Mosaic
+title: What is Mosaic?
 order: 1
 toc: true
 ---
