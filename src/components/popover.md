@@ -11,7 +11,7 @@ tabs:
       ## What is a popover?
 
 
-      A **Popover** is an overlay that can show additional information to the user - however, it does differ from a [**Tooltip**](/components/Tooltip). A **Popover** will typically be reserved for information that goes above-and-beyond what would normally be shown in a **Tooltip**.
+      A **Popover** is an overlay that can show additional information to the user - however, it does differ from a **[Tooltip](/components/Tooltip)**. A **Popover** will typically be reserved for information that goes above-and-beyond what would normally be shown in a **Tooltip**. Unlike **Tooltips**, they are dismissed by selecting an icon within the **Popover**, not just when the user moves away from the **Popover**.
 
 
       - - -
@@ -20,10 +20,16 @@ tabs:
       ### When, and why?
 
 
-      **Popovers** should be used sparingly - they should only be used when you need to display non-critical information that will aid the user's decision making. For example, you could add a **Popover** to an [**Avatar**](/components/avatar) to show a user's full name and job title:
+      **Popovers** should be used sparingly - they should only be used when you need to display non-critical information that will aid the user's decision making. For example, you could add a **Popover** to an **[Avatar](/components/avatar)** to show a user's full name and job title:
 
 
-      [[example image]]
+      ![An avatar with a Popover displaying some example text](/assets/img/popover_example_1.png)
+
+
+      Or maybe to show how much stock they have left of a particular item?
+
+
+      [[don't need to go with above example, but a second example would be nice]]
 
 
       - - -
@@ -32,15 +38,15 @@ tabs:
       ## Popover variants
 
 
-      | Variant        | Description                                                                       | Example                                                                                                     |
+      | Variant         | Description                                                                                                                                                                     | Example                             |
 
-      | -------------- | --------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
+      | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------- |
 
-      | **Default** | A typical **Popover** that includes only text. Select the button to make the **Popover** appear. | [[awaiting dev]] |
+      | **Default**     | A typical **Popover** that includes only text. Select the button to make the **Popover** appear.                                                                                | \[[awaiting dev]]                   |
 
-      | **With title** | A **Popover** can include a title to provide further supporting information to the main body content of the **Popover** - note that a **Popover** can only have a single title. | [[awaiting dev]] |
+      | **With title**  | A **Popover** can include a title to provide further supporting information to the main body content of the **Popover** - note that a **Popover** can only have a single title. | \[[awaiting dev]]                   |
 
-      | **Directional** | A **Popover** can be configured to anchor to different parts of the trigger - for example, you could make it appear in the top-left or bottom-right of a button. | [[awaiting dev]] [[awaiting dev]] |
+      | **Directional** | A **Popover** can be configured to anchor to different parts of the trigger - for example, you could make it appear in the top-left or bottom-right of a button.                | \[[awaiting dev]] \[[awaiting dev]] |
 
 
       - - -
@@ -55,7 +61,14 @@ tabs:
       Secondly, a **Popover** can hold more content than a **Tooltip**, although it should never be over-populated or over-used. The content in a **Popover** should be seen as ‘additional information’ and not crucial to the user's decision-making. A **Popover** should only ever *add* to the user's experience, and never be a requirement. They are the cherry that you add on top of the cake, not the batter.
 
 
-      There are many uses of a **Popover**, ranging from a larger **Tooltip** to a **Popover** that contains additional HTML content. It is also possible to trigger a **Popover** on the client of an element and to position a **Popover** to appear either at the top or bottom and left or right of the trigger using the `placement` attribute.
+      There are many uses of a **Popover**, ranging from a larger **Tooltip** to a **Popover** that contains additional HTML content. It is also possible to trigger a **Popover** on the client of an element.
+
+
+      [[would be great to include an example of this!]]
+
+
+
+      **Popovers** can be configured to appear either at the top or bottom and left or right of the trigger using the `placement` attribute. Consider the layout of the page and what content (if any) would be hidden by the **Popover** when designing with one.
     icon: file_invoice
   - title: Code
     hook: code
@@ -70,7 +83,7 @@ code:
   body: >-
     ## Live demo
 
-    Below, you can find a live demo for a Tooltip component. Use the drop-down menus and radio buttons to view the different Tooltip Types and Variants.
+    Below, you can find a live demo for a Popover component. Use the drop-down menus and radio buttons to view the different Popover Types and Variants.
   preview:
     variants:
       - template:
