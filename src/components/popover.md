@@ -50,10 +50,11 @@ tabs:
       ---------------------------------- |
 
       | **Default** | A typical **Popover** that includes only text.
-      Select the button to make the **Popover** appear. | <button
-      class=\"mcc-button mcc-button--primary\"><span class=\"mcc-tooltip
-      mcc-tooltip--nw\" aria-label=\"This is the tooltip on the North West
-      side.\">\r.mcc-tooltip--nw\r</span></button> |
+      Select the button to make the **Popover** appear. | <span
+      class=\"mcc-tooltip mcc-tooltip--nw\" aria-label=\"This is the tooltip on
+      the North West side.\"><button class=\"mcc-button
+      mcc-button--primary\">\r.mcc-tooltip--nw</button>\r</span> |
+
 
       | **With title** | A **Popover** can include a title to provide
       further supporting information to the main body content of the **Popover**
@@ -68,8 +69,9 @@ tabs:
 
 
       Although similar to a **Tooltip**, the major difference is that a
-      **Popover** must be triggered and dismissed by a click. This could be a
-      button, a link, an image, etc.\ 
+      **Popover** must be triggered and dismissed by a click. The trigger could
+      be a something like a button or an image, but the **Popover** would never
+      appear by simply hovering over the item.
 
 
       Secondly, a **Popover** can hold more content than a **Tooltip**,
