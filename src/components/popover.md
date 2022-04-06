@@ -61,7 +61,7 @@ tabs:
       Secondly, a **Popover** can hold more content than a **Tooltip**, although it should never be over-populated or over-used. The content in a **Popover** should be seen as ‘additional information’ and not crucial to the user's decision-making. A **Popover** should only ever *add* to the user's experience, and never be a requirement. They are the cherry that you add on top of the cake, not the batter.
 
 
-      There are many uses of a **Popover**, ranging from a larger **Tooltip** to a **Popover** that contains additional HTML content. It is also possible to trigger a **Popover** on the client of an element.
+      There are many uses of a **Popover**, ranging from a larger **Tooltip**, to a **Popover** that contains additional HTML content. It is also possible to trigger a **Popover** on the client of an element.
 
 
       [[would be great to include an example of this!]]
