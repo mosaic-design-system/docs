@@ -9,7 +9,7 @@ Mosaic is Advanced's design system: a series of design philosophies, resource li
 
 ## Who is Mosaic for?
 
-Anyone designing and developing a web application! However, primarily for Advanced products. 
+Anyone designing and developing a web application! However, primarily for Advanced products. The guidelines laid out are for use by any web based Advanced web application, regardless of whether they specifically utilise the UI components on the Design System or not. The same theories and research apply, and can be utilised in product design decisions universally. The guidance around accessibility should especially be observed and you can reach out to the UX team for more support if needed on this front.
 
 ## What versions of Mosaic exist?
 
