@@ -46,6 +46,17 @@ tabs:
       [Include an example with screenshots]
 
 
+      **Accordions** should only be used when there is enough content to
+      condense - they shouldn't be used as an organisational tool. They are a
+      tool to help reduce visual clutter for a user and should only be used when
+      necessary, not by default.
+
+
+      Similarly, **critical** information shouldn't be hidden from users.
+      If the content is critical for the page's function, it should always be
+      visible and shouldn't be hidden by an **Accordion**.
+
+
       - - -
 
 
@@ -108,13 +119,15 @@ tabs:
 
 
       Make sure the section headings are clear and concise, but still give
-      the user enough information about what each one contains. All headings
-      should be sentence case and not have the first letter of every word
-      capitalised.\r
+      the user enough information about what each one contains. Headings should
+      be sentence case and not have the first letter of every word capitalised -
+      you can read more about this in the [style
+      guide](/guidelines/Style-Guide).\r
 
 
-      Always allow the user to expand multiple accordions at a time and
-      avoid hiding task critical content."
+      Always allow the user to expand multiple **Accordions** at a time,
+      and avoid hiding task critical content. If a user can only open one
+      **Accordion** at a time, then it is better off to forgo their use."
     icon: file_invoice
   - title: Code
     hook: code
@@ -183,7 +196,7 @@ code:
 status:
   body: This is some content in relation to the status of this component.
   design: Yes
-  documentation: No
+  documentation: Yes
   html_css: Available
   web_component: Available
 ---
