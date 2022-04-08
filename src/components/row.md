@@ -7,11 +7,10 @@ storybook-url: https://tessera.oneadvanced.io/dev/components-core/?path=/docs/ht
 storybook: https://tessera.oneadvanced.io/dev/components-core/?path=/docs/html-button--as-default
 tabs:
   - title: Usage
-    body: >-
-      ## What is a Row?
+    body: "## What is a Row?
 
 
-      A **Button** should be used when a user is given a possible action – these are usually things like submissions, confirmations, cancellations, et cetera. They can serve many purposes, and are mostly used to initialise a certain process within the system.
+      A horizontal group of elements.\ 
 
 
       - - -
@@ -20,7 +19,8 @@ tabs:
       ### When, and why?
 
 
-      **Buttons** should be used when a **Call to Action (CTA)** is needed on a page, **Form** or **Card**. Users will recognise that a **Button** must be pressed in order to carry out a specific task. 	
+      When you want columns displayed within your page, rows to create
+      horizontal groups of columns.\t
 
 
       - - -
@@ -29,7 +29,21 @@ tabs:
       ## Using a Button
 
 
-      There are many ways to implement **Buttons** in a product, and there are many views to support each of those solutions. After carrying out extensive research, the UX Team have agreed on what we believe to be the best rules governing the usage of **Buttons** across Advanced products. Use these following guidelines when implementing a **Button** into your product.ystem when making them.
+      Content should be placed within columns, and only columns may be
+      immediate children of rows. Columns create gutters (gaps between column
+      content) via padding. That padding is offset in rows for the first and
+      last column via negative margin on <mosaic-rows>.\r
+
+      Rows must be placed within a
+      <mosaic-main-container></mosaic-main-container> tag (fixed-width) or
+      <mosaic-main-container fluid></mosaic-main-container> (full-width) for
+      proper alignment and padding. Predefined classes like <mosaic-row>and
+      <mosaic-col> are available for quickly making grid layouts.\r
+
+      Grid columns are created by specifying the number of 12 available
+      columns you wish to span. For example, three equal columns of equal size
+      would use three <mosaic-col>. Column widths are in percentage, so they are
+      always fluid and sized relative to their parent element.\r\n"
     icon: file_invoice
   - title: Code
     hook: code
