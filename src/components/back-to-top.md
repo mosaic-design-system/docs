@@ -2,7 +2,7 @@
 title: Back to top
 toc: true
 chips:
-  - Proposed
+  - "HTML/CSS: Available"
 storybook: https://mosaic-components-storybook.oneadvanced.io/mosaic-components-core/?path=/story/components-back-to-top--default
 tabs:
   - title: Usage
