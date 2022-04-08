@@ -7,11 +7,10 @@ chips:
 storybook: https://tessera.oneadvanced.io/dev/components-core/?path=/docs/html-tooltip--with-direction
 tabs:
   - title: Usage
-    body: >
-      ## What is a Button?
+    body: "## What is a Tooltip?
 
 
-      A **Button** should be used when a user is given a possible action – these are usually things like submissions, confirmations, cancellations, et cetera. They can serve many purposes, and are mostly used to initialise a certain process within the system.
+      User-triggered popups that display informative text
 
 
       - - -
@@ -20,32 +19,67 @@ tabs:
       ### When, and why?
 
 
-      **Buttons** should be used when a **Call to Action (CTA)** is needed on a page, **Form** or **Card**. Users will recognise that a **Button** must be pressed in order to carry out a specific task. 
+      When you need to provide brief and helpful content to an element
+      that isn’t 100% clear how to use.
 
 
 
       - - -
 
 
-      ## Button Variants
+      ## Tooltip Variants
 
 
-      In addition to the **Button Type**, each **Button** can also have a **Button Variant**. A **Variant** can be applied to a **Button** to give it some more context, or add some additional functionality to the **Button**.
+      | Variant           |
+      Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 \
+      | Example                                                                                                                                                                                                                                                                                                        \
+      |
 
+      | ----------------- |
+      -------------------------------------------------------------------------\
+      -------------------------------------------------------------------------\
+      -------------------------------------------------------------------------\
+      -------------------------------------------------------------------------\
+      -------------------------------------------------------------------------\
+      -------------------------------------------------------------------------\
+      -------------------------------------------------------------------------\
+      -------------------------------------------- |
+      -------------------------------------------------------------------------\
+      -------------------------------------------------------------------------\
+      -------------------------------------------------------------------------\
+      -------------------------------------------------------------------------\
+      ---------- |
 
-      | Variant           | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 | Example                                                                                                                                                                                                                                                                                                        |
-
-      | ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-
-      | **Disabled**      | This can be added to limit when a **Button** can be used. A **Disabled Button** is always visible to the user, but it will not be interactable until the user has completed a specific task. Once the task in question has been performed, the **Disabled Button** will be set to active.*                                                                                                                                                                                                                                                                                  | <button class="mcc-button mcc-button--primary" disabled> <span class="mcc-button__label">Disabled</span> </button>                                                                                                                                                                                             |
+      | **Default**      | Our tooltip has 8 different beak directions to
+      make sure the content is always clearly connected to its trigger and the
+      content fully
+      visible.                                                                                                                                                                                                                                                                                 \
+      | <button class=\"mcc-button mcc-button--primary\" disabled> <span
+      class=\"mcc-button__label\">Disabled</span>
+      </button>                                                                                                                                                                                             \
+      |
 
       - - -
 
 
-      ## Using a Button
+      ## Using a Tooltip
 
 
-      There are many ways to implement **Buttons** in a product, and there are many views to support each of those solutions. After carrying out extensive research, the UX Team have agreed on what we believe to be the best rules governing the usage of **Buttons** across Advanced products. Use these following guidelines when implementing a **Button** into your product.
+      TUsers shouldn’t need tooltips to use your product, they are
+      supplementary messages that are triggered by the user hovering over
+      elements such as images, icons, buttons or hyperlinks. \r
+
+      Don’t use tooltips to repeat text that is already visible, or for
+      critical information the user needs to complete a task. For example
+      requirements on a password field is critical information we wouldn’t put
+      in a tooltip, it will only be available when the user is interacting with
+      the trigger element, this will result in the user trying to remember the
+      information whilst completing the task. \r
+
+      We advise all icon buttons include a label but if this isn’t
+      possible tooltips can help distinguish actions between unlabelled icons.\r
+
+      \n"
     icon: file_invoice
   - title: Code
     hook: code
