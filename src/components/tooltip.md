@@ -7,7 +7,8 @@ chips:
 storybook: https://tessera.oneadvanced.io/dev/components-core/?path=/docs/html-tooltip--with-direction
 tabs:
   - title: Usage
-    body: "## What is a Tooltip?
+    body: >-
+      ## What is a Tooltip?
 
 
       User-triggered popups that display informative text
@@ -19,9 +20,7 @@ tabs:
       ### When, and why?
 
 
-      When you need to provide brief and helpful content to an element
-      that isn’t 100% clear how to use.
-
+      When you need to provide brief and helpful content to an element that isn’t 100% clear how to use
 
 
       - - -
@@ -30,34 +29,12 @@ tabs:
       ## Tooltip Variants
 
 
-      | Variant           |
-      Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 \
-      | Example                                                                                                                                                                                                                                                                                                        \
-      |
+      | Variant     | Description                                                                                                                                    | Example                                                                                                            |
 
-      | ----------------- |
-      -------------------------------------------------------------------------\
-      -------------------------------------------------------------------------\
-      -------------------------------------------------------------------------\
-      -------------------------------------------------------------------------\
-      -------------------------------------------------------------------------\
-      -------------------------------------------------------------------------\
-      -------------------------------------------------------------------------\
-      -------------------------------------------- |
-      -------------------------------------------------------------------------\
-      -------------------------------------------------------------------------\
-      -------------------------------------------------------------------------\
-      -------------------------------------------------------------------------\
-      ---------- |
+      | ----------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
 
-      | **Default**      | Our tooltip has 8 different beak directions to
-      make sure the content is always clearly connected to its trigger and the
-      content fully
-      visible.                                                                                                                                                                                                                                                                                 \
-      | <button class=\"mcc-button mcc-button--primary\" disabled> <span
-      class=\"mcc-button__label\">Disabled</span>
-      </button>                                                                                                                                                                                             \
-      |
+      | **Default** | Our tooltip has 8 different beak directions to make sure the content is always clearly connected to its trigger and the content fully visible. | <button class="mcc-button mcc-button--primary" disabled> <span class="mcc-button__label">Disabled</span> </button> |
+
 
       - - -
 
@@ -65,21 +42,11 @@ tabs:
       ## Using a Tooltip
 
 
-      TUsers shouldn’t need tooltips to use your product, they are
-      supplementary messages that are triggered by the user hovering over
-      elements such as images, icons, buttons or hyperlinks. \r
+      TUsers shouldn’t need tooltips to use your product, they are supplementary messages that are triggered by the user hovering over elements such as images, icons, buttons or hyperlinks. 
 
-      Don’t use tooltips to repeat text that is already visible, or for
-      critical information the user needs to complete a task. For example
-      requirements on a password field is critical information we wouldn’t put
-      in a tooltip, it will only be available when the user is interacting with
-      the trigger element, this will result in the user trying to remember the
-      information whilst completing the task. \r
+      Don’t use tooltips to repeat text that is already visible, or for critical information the user needs to complete a task. For example requirements on a password field is critical information we wouldn’t put in a tooltip, it will only be available when the user is interacting with the trigger element, this will result in the user trying to remember the information whilst completing the task. 
 
-      We advise all icon buttons include a label but if this isn’t
-      possible tooltips can help distinguish actions between unlabelled icons.\r
-
-      \n"
+      We advise all icon buttons include a label but if this isn’t possible tooltips can help distinguish actions between unlabelled icons.
     icon: file_invoice
   - title: Code
     hook: code
