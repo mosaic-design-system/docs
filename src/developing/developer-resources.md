@@ -7,17 +7,17 @@ Here you can find our GitHub repos and Storybooks for developing with or contrib
 
 Cant find what you need? Reach out to the team at mosaic@oneadvanced.com.
 
-### Github
+## Github
 
 Mosaic Design System repo: <https://github.com/mosaic-design>
 
-### Storybooks
+## Storybooks
 
 Main Storybook site: <https://mds-components.oneadvanced.io>
 
 CSS Utilities: <https://mds-css-utilities.oneadvanced.io>
 
-### Tools
+## Tools
 
 Icon search: <https://mosaic-icon-search.oneadvanced.io/>.
 
