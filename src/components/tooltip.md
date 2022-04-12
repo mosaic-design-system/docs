@@ -42,7 +42,7 @@ tabs:
       ## Using a Tooltip
 
 
-      TUsers shouldn’t need tooltips to use your product, they are supplementary messages that are triggered by the user hovering over elements such as images, icons, buttons or hyperlinks. 
+      Users shouldn’t need tooltips to use your product, they are supplementary messages that are triggered by the user hovering over elements such as images, icons, buttons or hyperlinks. 
 
       Don’t use tooltips to repeat text that is already visible, or for critical information the user needs to complete a task. For example requirements on a password field is critical information we wouldn’t put in a tooltip, it will only be available when the user is interacting with the trigger element, this will result in the user trying to remember the information whilst completing the task. 
 
