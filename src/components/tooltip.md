@@ -11,7 +11,7 @@ tabs:
       ## What is a Tooltip?
 
 
-      User-triggered popups that display informative text
+      User-triggered popups that display informative text via a hover
 
 
       - - -
@@ -20,7 +20,7 @@ tabs:
       ### When, and why?
 
 
-      When you need to provide brief and helpful content to an element that isn’t 100% clear how to use
+      When a singular element needs more explanation than the UI is able to provide, tooltips supplement the UI and ensure the element usage is clear
 
 
       - - -
@@ -29,11 +29,28 @@ tabs:
       ## Tooltip Variants
 
 
-      | Variant     | Description                                                                                                                                    | Example                                                                                                            |
+      Our tooltip has 8 different beak directions to make sure the content is always clearly connected to its trigger and the content fully visible.
 
-      | ----------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
 
-      | **Default** | Our tooltip has 8 different beak directions to make sure the content is always clearly connected to its trigger and the content fully visible. | <button class="mcc-button mcc-button--primary" disabled> <span class="mcc-button__label">Disabled</span> </button> |
+      | Variant           | Description                                                                               | Example                                                                                                            |
+
+      | ----------------- | ----------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
+
+      | **Left**          | Use when there enough space right of trigger for the content is fully visible on the page | <button class="mcc-button mcc-button--primary" disabled> <span class="mcc-button__label">Disabled</span> </button> |
+
+      | **Top left**      | Use when there enough space below of trigger for the content is fully visible on the page | <button class="mcc-button mcc-button--primary" disabled> <span class="mcc-button__label">Disabled</span> </button> |
+
+      | **Top middle**    | Use when there enough space below of trigger for the content is fully visible on the page | <button class="mcc-button mcc-button--primary" disabled> <span class="mcc-button__label">Disabled</span> </button> |
+
+      | **Top right**     | Use when there enough space below of trigger for the content is fully visible on the page | <button class="mcc-button mcc-button--primary" disabled> <span class="mcc-button__label">Disabled</span> </button> |
+
+      | **Right**         | Use when there enough space left of trigger for the content is fully visible on the page  | <button class="mcc-button mcc-button--primary" disabled> <span class="mcc-button__label">Disabled</span> </button> |
+
+      | **Bottom right**  | Use when there enough space above of trigger for the content is fully visible on the page | <button class="mcc-button mcc-button--primary" disabled> <span class="mcc-button__label">Disabled</span> </button> |
+
+      | **Bottom Middle** | Use when there enough space above of trigger for the content is fully visible on the page | <button class="mcc-button mcc-button--primary" disabled> <span class="mcc-button__label">Disabled</span> </button> |
+
+      | **Bottom left**   | Use when there enough space above of trigger for the content is fully visible on the page | <button class="mcc-button mcc-button--primary" disabled> <span class="mcc-button__label">Disabled</span> </button> |
 
 
       - - -
@@ -43,6 +60,10 @@ tabs:
 
 
       Users shouldn’t need tooltips to use your product, they are supplementary messages that are triggered by the user hovering over elements such as images, icons, buttons or hyperlinks. 
+
+
+      Although similar to the Popover, the tooltip is triggered by the user hovering over an element not clicking. Also, a popover can hold more contextual information than a tooltip. See Popover for more information.
+
 
       Don’t use tooltips to repeat text that is already visible, or for critical information the user needs to complete a task. For example requirements on a password field is critical information we wouldn’t put in a tooltip, it will only be available when the user is interacting with the trigger element, this will result in the user trying to remember the information whilst completing the task. 
 
