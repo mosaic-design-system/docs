@@ -21,6 +21,6 @@ CSS Utilities: <https://mds-css-utilities.oneadvanced.io>
 
 Icon search: <https://mosaic-icon-search.oneadvanced.io/>.
 
-* Note: Icons8 licensing outside of Advanced products requires [separate licensing](https://icons8.com/license) with Icons8. 
+* Note: Icons8 licensing outside of Advanced products requires [separate licensing](https://icons8.com/license) with Icons8. Mosaic is not responsible for you having the correct licensing for your product.
 
 WebAIM Colour Contrast Checker: <https://webaim.org/resources/contrastchecker/>
