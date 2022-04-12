@@ -36,7 +36,7 @@ tabs:
       \[Include an example with screenshots]
 
 
-      ![Example of 4 stacked accordions each with a contextual icon for the relating feedback shown in the expanded accordion](/assets/img/mds-example-2.png)
+      ![Example of 4 stacked accordions each with a contextual icon for the relating feedback shown in the expanded accordion](/assets/img/accordion-feedback-example.png)
 
 
       **Accordions** should only be used when there is enough content to condense - they shouldn't be used as an organisational tool. They are a tool to help reduce visual clutter for a user and should only be used when necessary, not by default.
