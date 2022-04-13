@@ -130,7 +130,7 @@ tabs:
       ### Button Colours
 
 
-      The colour of your **Button** will be dictated by the **Button Type**. For example, a **Primary Button** is green, whereas a **Danger Button** is red. The rationale is simple: green is associated with positive actions (green for go), while red is associated with negative actions (red for stop). However, it should be noted that colour only gives a visual clue if that visual cue is perceptible to the user – screen readers and colour-blind users will get no benefit from **Button Colours**. This is why it is important to use a combination of **Button Labels** and **Icons** to properly delineate the usage of a **Button**.
+      The colour of your **Button** will be dictated by the **Button Type**. For example, a **Success Button** is green, whereas a **Danger Button** is red. The rationale is simple: green is associated with positive actions (green for go), while red is associated with negative actions (red for stop). However, it should be noted that colour only gives a visual clue if that visual cue is perceptible to the user – screen readers and colour-blind users will get no benefit from **Button Colours**. This is why it is important to use a combination of **Button Labels** and **Icons** to properly delineate the usage of a **Button**.
 
 
       Refer to the **\[Button Types section]**(https://mosaic-design-system.herokuapp.com/components/button/#types-of-buttons) to read about the different colours for **Button Types**.
