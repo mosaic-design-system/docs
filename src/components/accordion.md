@@ -30,6 +30,59 @@ tabs:
 
       - - -
 
+
+      ### When, and why?
+
+
+      An **Accordion** is useful when your users need to consume multiple
+      items with specific content in a single page. Allowing users to have
+      control over the content by expanding it, or leaving it collapsed, lets
+      them decide what is relevant to them at that time.\ 
+
+
+      For example,
+
+
+      \\[Include an example with screenshots]
+
+
+      ![Example of 4 stacked accordions each with a contextual icon for
+      the relating feedback shown in the expanded
+      accordion](/assets/img/accordion-feedback-example.png)
+
+
+      **Accordions** should only be used when there is enough content to
+      condense - they shouldn't be used as an organisational tool. They are a
+      tool to help reduce visual clutter for a user and should only be used when
+      necessary, not by default.
+
+
+      Similarly, **critical** information shouldn't be hidden from users.
+      If the content is critical for the page's function, it should always be
+      visible and shouldn't be hidden by an **Accordion**.
+
+
+      - - -
+
+
+      ## Accordion Variants
+
+
+      All variations allow you to include a subheading
+
+
+      | Variant           |
+      Description                                                                                                                                                                              \
+      |
+
+      | ----------------- |
+      -------------------------------------------------------------------------\
+      -------------------------------------------------------------------------\
+      -------------------------------------- |
+
+      | **Default**       | The default **Accordion** has no actions on
+      it, and simply expands and collapses content.\ 
+
       <mcc-accordion>\r
 
       \  <details class=\"mcc-accordion\">\r
@@ -137,60 +190,7 @@ tabs:
 
       \  </details>\r
 
-      </mcc-accordion>
-
-      ### When, and why?
-
-
-      An **Accordion** is useful when your users need to consume multiple
-      items with specific content in a single page. Allowing users to have
-      control over the content by expanding it, or leaving it collapsed, lets
-      them decide what is relevant to them at that time.\ 
-
-
-      For example,
-
-
-      \\[Include an example with screenshots]
-
-
-      ![Example of 4 stacked accordions each with a contextual icon for
-      the relating feedback shown in the expanded
-      accordion](/assets/img/accordion-feedback-example.png)
-
-
-      **Accordions** should only be used when there is enough content to
-      condense - they shouldn't be used as an organisational tool. They are a
-      tool to help reduce visual clutter for a user and should only be used when
-      necessary, not by default.
-
-
-      Similarly, **critical** information shouldn't be hidden from users.
-      If the content is critical for the page's function, it should always be
-      visible and shouldn't be hidden by an **Accordion**.
-
-
-      - - -
-
-
-      ## Accordion Variants
-
-
-      All variations allow you to include a subheading
-
-
-      | Variant           |
-      Description                                                                                                                                                                              \
-      |
-
-      | ----------------- |
-      -------------------------------------------------------------------------\
-      -------------------------------------------------------------------------\
-      -------------------------------------- |
-
-      | **Default**       | The default **Accordion** has no actions on
-      it, and simply expands and collapses
-      content.                                                                                                \
+      </mcc-accordion>                                                                                               \
       |
 
       | **With chip**     | Chips in the header of an **Accordion** can be
