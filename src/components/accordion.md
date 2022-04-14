@@ -8,24 +8,17 @@ storybook-url: https://tessera.oneadvanced.io/dev/components-core/?path=/docs/ht
 storybook: https://tessera.oneadvanced.io/dev/components-core/?path=/docs/html-accordion--as-default
 tabs:
   - title: Usage
-    body: "## What is an Accordion?
+    body: >-
+      ## What is an Accordion?
 
 
-      An **Accordion** is a useful tool for splitting out information on a
-      page - if you have a page that contains multiple different pieces of
-      information, an **Accordion** can help reduce the amount of vertical space
-      a page uses.
+      An **Accordion** is a useful tool for splitting out information on a page - if you have a page that contains multiple different pieces of information, an **Accordion** can help reduce the amount of vertical space a page uses.
 
 
-      **Accordions** can be toggled between a collapsed and expanded state
-      to expose hidden information, which can help the user locate the specific
-      information they need without presenting all of the information to them at
-      once.\ 
+      **Accordions** can be toggled between a collapsed and expanded state to expose hidden information, which can help the user locate the specific information they need without presenting all of the information to them at once. 
 
 
-      The expanded state pushes the other page content down rather than
-      being overlaying it on top of other content, which helps to maintain the
-      vertical hierarchy of the page.
+      The expanded state pushes the other page content down rather than being overlaying it on top of other content, which helps to maintain the vertical hierarchy of the page.
 
 
       - - -
@@ -34,32 +27,22 @@ tabs:
       ### When, and why?
 
 
-      An **Accordion** is useful when your users need to consume multiple
-      items with specific content in a single page. Allowing users to have
-      control over the content by expanding it, or leaving it collapsed, lets
-      them decide what is relevant to them at that time.\ 
+      An **Accordion** is useful when your users need to consume multiple items with specific content in a single page. Allowing users to have control over the content by expanding it, or leaving it collapsed, lets them decide what is relevant to them at that time. 
 
 
       For example,
 
 
-      \\[Include an example with screenshots]
+      \[Include an example with screenshots]
 
 
-      ![Example of 4 stacked accordions each with a contextual icon for
-      the relating feedback shown in the expanded
-      accordion](/assets/img/accordion-feedback-example.png)
+      ![Example of 4 stacked accordions each with a contextual icon for the relating feedback shown in the expanded accordion](/assets/img/accordion-feedback-example.png)
 
 
-      **Accordions** should only be used when there is enough content to
-      condense - they shouldn't be used as an organisational tool. They are a
-      tool to help reduce visual clutter for a user and should only be used when
-      necessary, not by default.
+      **Accordions** should only be used when there is enough content to condense - they shouldn't be used as an organisational tool. They are a tool to help reduce visual clutter for a user and should only be used when necessary, not by default.
 
 
-      Similarly, **critical** information shouldn't be hidden from users.
-      If the content is critical for the page's function, it should always be
-      visible and shouldn't be hidden by an **Accordion**.
+      Similarly, **critical** information shouldn't be hidden from users. If the content is critical for the page's function, it should always be visible and shouldn't be hidden by an **Accordion**.
 
 
       - - -
@@ -71,149 +54,22 @@ tabs:
       All variations allow you to include a subheading
 
 
-      | Variant           |
-      Description                                                                                                                                                                              \
-      |
+      | Variant           | Description                                                                                                                                                                              |
 
-      | ----------------- |
-      -------------------------------------------------------------------------\
-      -------------------------------------------------------------------------\
-      -------------------------------------- |
+      | ----------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
-      | **Default**       | The default **Accordion** has no actions on
-      it, and simply expands and collapses content.\ 
+      | **Default**       | The default **Accordion** has no actions on it, and simply expands and collapses content.<mcc-accordion><details class="mcc-accordion"><summary><span class="mcc-accordion__label">Accordion item 1</span><mcc-icon class="mcc-accordion__caret mu-ml-auto" name="angle_down" aria-hidden="true"></mcc-icon></summary><div class="mcc-accordion__body"><p>Something small enough to escape casual notice.</p><div class="mcc-button-group mcc-button-group--spaced"><button class="mcc-button mcc-button--primary"><span class="mcc-button__label">Button</span></button><button class="mcc-button mcc-button--secondary"><span class="mcc-button__label">Button</span></button><button class="mcc-button mcc-button--success"><span class="mcc-button__label">Button</span></button></div></div></details></mcc-accordion>|
 
-      <mcc-accordion>\r
+      | **With chip**     | Chips in the header of an **Accordion** can be used to signify status, content type, dates, etc.                                                                                         |
 
-      \  <details class=\"mcc-accordion\">\r
+      | **With edit**     | An edit button on an **Accordion** allows the user to enter an edit state.                                                                                                               |
 
-      \    <summary>\r
+      | **With overflow** | Used when there a specific actions linked to each accordion                                                                                                                              |
 
-      \      <span class=\"mcc-accordion__label\">Accordion item
-      1</span>\r
-
-      \      <mcc-icon class=\"mcc-accordion__caret mu-ml-auto\"
-      name=\"angle_down\" aria-hidden=\"true\"></mcc-icon>\r
-
-      \    </summary>\r
-
-      \    <div class=\"mcc-accordion__body\">\r
-
-      \      <p>Something small enough to escape casual notice.</p>\r
-
-      \      <div class=\"mcc-button-group
-      mcc-button-group--spaced\">   \r
-
-      \        <button class=\"mcc-button mcc-button--primary\">\r
-
-      \          <span class=\"mcc-button__label\">Button</span>\r
-
-      \        </button>\r
-
-      \        <button class=\"mcc-button mcc-button--secondary\">\r
-
-      \          <span class=\"mcc-button__label\">Button</span>\r
-
-      \        </button>\r
-
-      \        <button class=\"mcc-button mcc-button--success\">\r
-
-      \          <span class=\"mcc-button__label\">Button</span>\r
-
-      \        </button>\r
-
-      \      </div>\r
-
-      \    </div>\r
-
-      \  </details>\r
-
-      \  <details class=\"mcc-accordion\">\r
-
-      \    <summary>\r
-
-      \      <span class=\"mcc-accordion__label\">Accordion item
-      2</span>\r
-
-      \      <mcc-icon class=\"mcc-accordion__caret mu-ml-auto\"
-      name=\"angle_down\" aria-hidden=\"true\"></mcc-icon>\r
-
-      \    </summary>\r
-
-      \    <div class=\"mcc-accordion__body\">\r
-
-      \      <p>Something small enough to escape casual notice.</p>\r
-
-      \      <div class=\"mcc-button-group mcc-button-group--spaced\">  \r
-
-      \        <button class=\"mcc-button mcc-button--danger\">\r
-
-      \          <span class=\"mcc-button__label\">Button</span>\r
-
-      \        </button>\r
-
-      \        <button class=\"mcc-button mcc-button--warning\">\r
-
-      \          <span class=\"mcc-button__label\">Button</span>\r
-
-      \        </button>\r
-
-      \        <button class=\"mcc-button mcc-button--info\">\r
-
-      \          <span class=\"mcc-button__label\">Button</span>\r
-
-      \        </button>\r
-
-      \      </div>\r
-
-      \    </div>\r
-
-      \  </details>\r
-
-      \  <details class=\"mcc-accordion\">\r
-
-      \    <summary>\r
-
-      \      <span class=\"mcc-accordion__label\">Accordion item
-      3</span>\r
-
-      \      <mcc-icon class=\"mcc-accordion__caret mu-ml-auto\"
-      name=\"angle_down\" aria-hidden=\"true\"></mcc-icon>\r
-
-      \    </summary>\r
-
-      \    <div class=\"mcc-accordion__body\">\r
-
-      \      Something small enough to escape casual notice.\r
-
-      \    </div>\r
-
-      \  </details>\r
-
-      </mcc-accordion>                                                                                               \
-      |
-
-      | **With chip**     | Chips in the header of an **Accordion** can be
-      used to signify status, content type, dates,
-      etc.                                                                                         \
-      |
-
-      | **With edit**     | An edit button on an **Accordion** allows the
-      user to enter an edit
-      state.                                                                                                               \
-      |
-
-      | **With overflow** | Used when there a specific actions linked to
-      each
-      accordion                                                                                                                              \
-      |
-
-      | **With icon**     | Icons can be applied to support the content of
-      the heading but should not be used in conjunction with buttons or chips on
-      the right - this will add too much cognitive load to the page. |
+      | **With icon**     | Icons can be applied to support the content of the heading but should not be used in conjunction with buttons or chips on the right - this will add too much cognitive load to the page. |
 
 
-      \\[[Code up some examples here]]
+      \[[Code up some examples here]]
 
 
       - - -
@@ -222,24 +78,13 @@ tabs:
       ## Using an accordion
 
 
-      **Accordions** are a great way to section off content-rich pages,
-      collapsing the sections will also give users an overview of the content
-      available whilst minimizing scrolling and make the page appear less
-      daunting. If your page contains multiple different content types, an
-      **Accordion** should be used to separate them out into easy-to-digest
-      sections.
+      **Accordions** are a great way to section off content-rich pages, collapsing the sections will also give users an overview of the content available whilst minimizing scrolling and make the page appear less daunting. If your page contains multiple different content types, an **Accordion** should be used to separate them out into easy-to-digest sections.
 
 
-      Make sure the section headings are clear and concise, but still give
-      the user enough information about what each one contains. Headings should
-      be sentence case and not have the first letter of every word capitalised -
-      you can read more about this in the [style
-      guide](/guidelines/Style-Guide).
+      Make sure the section headings are clear and concise, but still give the user enough information about what each one contains. Headings should be sentence case and not have the first letter of every word capitalised - you can read more about this in the [style guide](/guidelines/Style-Guide).
 
 
-      Always allow the user to expand multiple **Accordions** at a time,
-      and avoid hiding task critical content. If a user can only open one
-      **Accordion** at a time, then it is better off to forgo their use."
+      Always allow the user to expand multiple **Accordions** at a time, and avoid hiding task critical content. If a user can only open one **Accordion** at a time, then it is better off to forgo their use.
     icon: file_invoice
   - title: Code
     hook: code
