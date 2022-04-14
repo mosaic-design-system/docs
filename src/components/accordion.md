@@ -81,13 +81,12 @@ tabs:
       -------------------------------------- |
 
       | **Default**       | The default **Accordion** has no actions on
-      it, and simply expands and collapses content.<mcc-accordion><details
+      it, and simply expands and collapses content. <mcc-accordion><details
       class=\"mcc-accordion mcc-card mcc-card--high-emphasis\"><summary><span
       class=\"mcc-accordion__label\">Accordion item</span><mcc-icon
       class=\"mcc-accordion__caret mu-ml-auto\" name=\"angle_down\"
       aria-hidden=\"true\"></mcc-icon></summary>\r<div
-      class=\"mcc-accordion__body\">Something small enough to escape casual
-      notice.</div></details></mcc-accordion>|
+      class=\"mcc-accordion__body\">test</div></details></mcc-accordion>|
 
       | **With chip**     | Chips in the header of an **Accordion** can be
       used to signify status, content type, dates,
