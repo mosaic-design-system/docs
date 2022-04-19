@@ -22,6 +22,18 @@ tabs:
 
       ## Select variants
 
+      ### Sizes
+
+      Small
+
+      Default
+
+      Large
+
+
+      ### Variations 
+
+
       | **Variant** | **description** | **Example** |
 
       | -------- | -------- | -------- |
