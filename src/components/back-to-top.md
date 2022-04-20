@@ -10,7 +10,10 @@ tabs:
       ## What is a Back to Top?
 
 
-      The **Back to Top** component is a button positioned in the bottom right-hand corner of a page. It fades in when the user has scrolled beyond a specific point on the page and allows the user to easily navigate back to the top of the page.
+      The **Back to Top** component is a button that fades in when the user has scrolled beyond a specific point on the page, and allows the user to easily navigate back to the top of the page when interacted with. When interacted with, the **Back to Top** button will scroll the user back to the top of the page, which is especially useful for pages with lots of content.
+
+
+      You can find a **Back to Top** component on this page - scroll further down and then you'll see it pop up in the corner
 
 
       - - -
@@ -19,25 +22,22 @@ tabs:
       ### When, and why?
 
 
-      The Back to Top component allows users to scroll smoothly back to the top of the page. It enhances the navigation of the user on pages with lots of content and easily need to get back to the top.
+      The **Back to Top** component allows users to scroll smoothly back to the top of the page with a single interaction. It enhances the navigation experience for users on pages with lots of content, and lets them get back to the top of the page. It is especially useful when a page has lots of content and reduces the amount of scrolling a user needs to do.
 
 
       - - -
 
 
-      ### Using a back to top
+      ### Using a Back to Top
 
 
-      The back to top should only be used for pages with lots of content and lots of content, i.e., do not use on short pages. 
+      A **Back to Top** should only be used for pages with lots of content - they shouldn't be used on pages with a small amount content that doesn't need much scrolling, as this will add too much visual clutter to the page with minimal return on usability.
 
 
       It can be placed anywhere in the body of your page and allows you to have a convenient button fade in the bottom right-hand corner of the screen, that quickly scrolls the user back to the top of the page.
 
 
-      The number of pixels the user scrolls before the button appears can be specified using the scroll-y attribute.
-
-
-      - - -
+      You should consider how quickly you want the **Back to Top** button to appear when the user scrolls. The number of pixels the user has to scroll before the button appears can be specified using the "scroll-y" attribute.
     hook: ""
   - title: Code
     hook: Code
