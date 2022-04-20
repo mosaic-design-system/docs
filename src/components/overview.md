@@ -3,19 +3,39 @@ title: Overview
 layout: overview.njk
 toc: true
 collection: components
+chips:
+  - "HTML/CSS: Available"
+status:
+  design: No
+  documentation: No
+  html_css: Not applicable
+  web_component: Not applicable
 ---
+## What are components?
 
-## Subheading
+Components are the backbone of the Mosaic design system and will be used in your application's UI to create a consistent look and feel across different areas of functionality. In this section of the **Mosaic Design System**, you will find a page for each of the components that has four separate tabs that will guide you through using them.
 
-This is the component overview section.
-The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs. Waltz, bad nymph, for quick jigs vex! Fox nymphs grab quick-jived waltz. Brick quiz whangs jumpy veldt fox. Bright vixens jump; dozy fowl quack. Quick wafting zephyrs vex bold Jim. Quick zephyrs blow, vexing daft Jim. Sex-charged fop blew my junk TV quiz. How quickly daft jumping zebras vex. Two driven jocks help fax my big quiz. Quick, Baz, get my woven flax jodhpurs! "Now fax quiz Jack! " my brave ghost pled.
+## Usage
 
-Five quacking zephyrs jolt my wax bed. Flummoxed by job, kvetching W. zaps Iraq. Cozy sphinx waves quart jug of bad milk. A very bad quack might jinx zippy fowls. Few quips galvanized the mock jury box. Quick brown dogs jump over the lazy fox. The jay, pig, fox, zebra, and my wolves quack! Blowzy red vixens fight for a quick jump. Joaquin Phoenix was gazed by MTV for luck. A wizard’s job is to vex chumps quickly in fog. Watch "Jeopardy! ", Alex Trebek's fun TV quiz game. Woven silk pyjamas exchanged for blue quartz. Brawny gods just flocked up to quiz and vex him.
+The **Usage** tab of each component will spell out the golden rules for each component. On this tab you'll be able to find out:
 
-Adjusting quiver and bow, Zompyc[1] killed the fox. My faxed joke won a pager in the cable TV quiz show. Amazingly few discotheques provide jukeboxes. My girl wove six dozen plaid jackets before she quit. Six big devils from Japan quickly forgot how to waltz. Big July earthquakes confound zany experimental vow. Foxy parsons quiz and cajole the lovably dim wiki-girl. Have a pick: twenty six letters - no forcing a jumbled quiz! Crazy Fredericka bought many very exquisite opal jewels. Sixty zippers were quickly picked from the woven jute bag. A quick movement of the enemy will jeopardize six gunboats.
+- what exactly the component *is*, and where it should be used
+- the different types of that component (types are variations or modifiers that can be put onto a component to customise it to your needs)
+- guidance on *how* to use the component, with clear instructions around special considerations that need to be made when including it in your software
 
-All questions asked by five watch experts amazed the judge. Jack quietly moved up front and seized the big ball of wax. The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs. Waltz, bad nymph, for quick jigs vex! Fox nymphs grab quick-jived waltz. Brick quiz whangs jumpy veldt fox. Bright vixens jump; dozy fowl quack. Quick wafting zephyrs vex bold Jim. Quick zephyrs blow, vexing daft Jim. Sex-charged fop blew my junk TV quiz. How quickly daft jumping zebras vex.
 
-Two driven jocks help fax my big quiz. Quick, Baz, get my woven flax jodhpurs! "Now fax quiz Jack! " my brave ghost pled. Five quacking zephyrs jolt my wax bed. Flummoxed by job, kvetching W. zaps Iraq. Cozy sphinx waves quart jug of bad milk. A very bad quack might jinx zippy fowls. Few quips galvanized the mock jury box. Quick brown dogs jump over the lazy fox. The jay, pig, fox, zebra, and my wolves quack! Blowzy red vixens fight for a quick jump. Joaquin Phoenix was gazed by MTV for luck. A wizard’s job is to vex chumps quickly in fog. Watch "Jeopardy! ", Alex Trebek's fun TV quiz game. Woven silk pyjamas exchanged for blue quartz. Brawny gods just flocked up to quiz and vex him. Adjusting quiver and bow, Zompyc[1] killed the fox. My faxed joke won a pager in the cable TV quiz show. Amazingly few discotheques provide jukeboxes. My girl wove six dozen plaid jackets before she quit. Six big devils from Japan quickly forgot how to waltz. Big July earthquakes confound zany experimental vow. Foxy parsons quiz and cajole the lovably dim wiki-girl. Have a.
+## Code
+
+The **Code** tab contains a link to the Storybook page for that component. On Storybook, you'll be able to read the documentation for the actual code of each component, and get a comprehensive list of things you can do to that component to alter it to suit your needs.
+
+You will also be able to find a working demo of the component so you can see it in action. 
+
+## Accessibility
+
+Each component also has a tab that covers the specific accessibility considerations you need to make when using it. This covers things like colour combinations for colour blind users, keyboard shortcuts, and the usage of icons. Make sure to read this tab to make your software as accessible as possible for all of your users.
 
 ## Component status
+
+The **Status** tab will show you the current status of the component - you will be able to see a breakdown of whether the component has been designed, documented, has available HTML/CSS documentation and whether it has a web component (a web component will include additional JavaScript for expanded functionality). 
+
+Below you can find a list of each component and its current status.
