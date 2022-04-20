@@ -13,7 +13,7 @@ status:
 ---
 ## What are components?
 
-Components are the backbone of the design system and used in your applications UI to create a consistent look and feel across your different areas of functionality. They often have extensions and variations to achieve specific meaning, so make sure to check out the API of each component to see what is available.  
+Components are the backbone of the Mosaic design system and will be used in your application's UI to create a consistent look and feel across different areas of functionality. They often have extensions and variations to achieve specific meaning, so make sure to check out the API of each component to see what is available.  
 
 ## Component status
 
