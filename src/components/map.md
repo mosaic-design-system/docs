@@ -7,10 +7,10 @@ storybook: https://dev-svc.storybook.mosaic.oneadvanced.io/?path=/story/3-data-c
 tabs:
   - title: Usage
     body: >-
-      ## What is a map?
+      ## What is a Map?
 
 
-      A map is a diagrammatic representation of an area of land or sea showing physical features, cities and roads with controls for search and zoom.
+      A **Map** is a interactable digital representation of a physical map, i.e. a diagram of an area of land or sea showing physical features, cities and roads with controls for search and zoom.
 
 
       - - -
@@ -19,10 +19,10 @@ tabs:
       ### When, and why?
 
 
-      A map can be used in contact pages or about sections of your application to increase awareness of the location and display key points.
+      A **Map** can be used in places like contact pages or about sections of your application to increase awareness of a location and display key points.
 
 
-      The map can provide regional information that will help the user locate a particular service and calculate the distance between two markers.
+      The **Map** can provide regional information that will help the user locate a particular service and calculate the distance between two markers.
 
 
       - - -
@@ -31,19 +31,13 @@ tabs:
       ### Using a map
 
 
-      Should display the marker on the location.
+      Whenever a **Map** is used to show a location, a marker should be displayed on the location to illustrate effectively where the user's attention should be focused.
 
 
-      Should have zoom in and out controls on the map.
+      A **Map** should have functionality that allows the user to zoom in and out to get a wider context of the location. There should also be a zoom level included to show how zoomed in the user is.
 
 
-      The cursor should display as a hand.
-
-
-      A map provides an easy to understand visual represent of where a location is within a larger region such as a city or town and show the distance between two points.
-
-
-      - - -
+      While the user's cursor is over the map, it should change to a 'hand' symbol rather than a pointer to demonstrate that the map is interactable.
   - title: Code
     body: >
       ## Live demo
