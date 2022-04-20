@@ -30,10 +30,8 @@ tabs:
       An **Accordion** is useful when your users need to consume multiple items with specific content in a single page. Allowing users to have control over the content by expanding it, or leaving it collapsed, lets them decide what is relevant to them at that time. 
 
 
-      For example,
+      For example, in Clear Review **Accordions** are used to section off specific sections of feedback, as you can see below. The user can expand each piece of feedback and interact with the "Reply/Thank" button within. Without the **Accordion**, this page would be quite cluttered and the user wouldn't be able to focus one one specific piece of feedback.
 
-
-      \[Include an example with screenshots]
 
 
       ![Example of 4 stacked accordions each with a contextual icon for the relating feedback shown in the expanded accordion](/assets/img/accordion-feedback-example.png)
