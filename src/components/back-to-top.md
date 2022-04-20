@@ -7,10 +7,10 @@ storybook: https://mosaic-components-storybook.oneadvanced.io/mosaic-components-
 tabs:
   - title: Usage
     body: >-
-      ## What is a back to top?
+      ## What is a Back to Top?
 
 
-      The Back to Top component is a button positioned in the bottom right-hand corner of the page. It fades in when the user has scrolled beyond a specific point on the website and needs to easily navigate back to the top of the page.
+      The **Back to Top** component is a button positioned in the bottom right-hand corner of a page. It fades in when the user has scrolled beyond a specific point on the page and allows the user to easily navigate back to the top of the page.
 
 
       - - -
