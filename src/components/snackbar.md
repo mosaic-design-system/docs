@@ -11,7 +11,7 @@ tabs:
       ## What is a Snackbar?
 
 
-      Short messages about operation progress that appear bottom of the screen 
+      Unintrusive short messages about operation progress that appear bottom centre of the screen 
 
 
       - - -
@@ -20,7 +20,7 @@ tabs:
       ### When, and why?
 
 
-      When a user has triggered an operation that you need to commutate a message about  
+      Snackbars inform users of something that has or will be performed  
 
 
       - - -
@@ -51,18 +51,16 @@ tabs:
       ## Snackbar Variants
 
 
-      In addition to the contextal **Type**, each snackbar also has an option between 2  **Variants**. 
+      In addition to the contextal **Type**, each snackbar also has an option between 2 **Variants**. 
 
 
-      | Variant      | Description                                                                                                                                                                                         | Example                                                                                                                                                          |
+      | Variant      | Description                                                                                                                           | Example                                                                                                                                                          |
 
-      | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+      | ------------ | ------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
-      | **Default**  | This will cover use cases where the a simple message covers the update and no further action is required.                                                                                                                                                                 | <button class="mcc-button mcc-button--primary" disabled> <span class="mcc-button__label">Disabled</span> </button>                                               |
+      | **Default**  | This will cover use cases where the a simple message covers the update and no further action is required.                             | <button class="mcc-button mcc-button--primary" disabled> <span class="mcc-button__label">Disabled</span> </button>                                               |
 
       | **With CTA** | Cases where you may want to give the user an opinunity  to take another single action you would use the snackbar with a CTA attached. | <button class="mcc-button mcc-button--primary"><mcc-icon name="does-not-exist" aria-hidden="true"></mcc-icon><span class="mcc-button__label">Icon</span></button |
-
-
 
 
       - - -
@@ -71,9 +69,16 @@ tabs:
       ## Using a Snackbar
 
 
-      Snackbars appear automatically when the system has a contextual message for the user. They disappear after maximum of ten seconds. They shouldn’t interrupt the user experience, as they don’t require user interaction to disappear. A snackbar can contain an optional single action such as "Dismiss", "Cancel" or "Reload" the interaction isn't required from the user and the snackbar will disapper regardless.
+      Snackbars appear when the system has a contextual message for the user.  They don’t interrupt the user experience as disappear automatically after maximum of ten seconds without user interaction. 
 
-      Snackbars should be placed at the bottom of a screen, in front of page content but avoiding any navigation components.
+      \
+
+      A snackbar can contain an optional single action such as "Undo", "Retry" or "Reload" clicking or tapping the action performs the action and closes the Snackbar.
+
+      Snackbars must be displayed one at a time and be placed at the bottom centre of a screen, in front of page content but avoiding any navigation components. They are never stacked and only contain a single or town-mine messages. 
+
+
+      Never used as a loading or progress indicator.
     icon: file_invoice
   - title: Code
     hook: code
