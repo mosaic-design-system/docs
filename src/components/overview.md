@@ -19,4 +19,4 @@ Components are the back bone of the design system and used in your applications 
 
 Underneath the title of each component page you will see its current status (an example "HTML/CSS: Available" can be seen underneath this page title). This denotes whether the component is available in product, under review or proposed. A full list of components can be found below.
 
-Component status list will be shown here.
+**`Component status list will be shown here.`**
