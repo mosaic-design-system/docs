@@ -46,7 +46,7 @@ tabs:
       - - -
 
 
-      ## Accordion Variants
+      ## Accordion Types
 
 
       All variations allow you to include a subheading
