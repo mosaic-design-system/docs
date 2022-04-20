@@ -10,7 +10,7 @@ tabs:
       ## What is a Back to Top?
 
 
-      The **Back to Top** component is a button that fades in when the user has scrolled beyond a specific point on the page, and allows the user to easily navigate back to the top of the page when interacted with. When interacted with, the **Back to Top** button will scroll the user back to the top of the page, which is especially useful for pages with lots of content.
+      The **Back to Top** component is a button that fades in when the user has scrolled beyond a specific point on the page, and allows the user to easily navigate back to the top of the page when interacted with. 
 
 
       You can find a **Back to Top** component on this page - scroll further down and then you'll see it pop up in the corner
