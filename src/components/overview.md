@@ -38,4 +38,4 @@ Each component also has a tab that covers the specific accessibility considerati
 
 The **Status** tab will show you the current status of the component - you will be able to see a breakdown of whether the component has been designed, documented, has available HTML/CSS documentation and whether it has a web component (a web component will include additional JavaScript for expanded functionality). 
 
-**`Below you can find a list of each component and their current status.`**
+Below you can find a list of each component and its current status.
