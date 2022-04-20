@@ -34,7 +34,7 @@ tabs:
       A **Back to Top** should only be used for pages with lots of content - they shouldn't be used on pages with a small amount content that doesn't need much scrolling, as this will add too much visual clutter to the page with minimal return on usability.
 
 
-      It can be placed anywhere in the body of your page and allows you to have a convenient button fade in the bottom right-hand corner of the screen, that quickly scrolls the user back to the top of the page.
+      The **Back to Top** component should always appear in the bottom right-hand corner of the page in order to prevent it covering the page's information. 
 
 
       You should consider how quickly you want the **Back to Top** button to appear when the user scrolls. The number of pixels the user has to scroll before the button appears can be specified using the "scroll-y" attribute.
@@ -50,7 +50,7 @@ code:
     ## Live demo
 
 
-    Below, you can find a live demo for an Accordion component. Use the drop-down menus and radio buttons to view the different Button Types and Variants.
+    Below, you can find a live demo for an Back to Top component. Use the drop-down menus and radio buttons to view the different Button Types and Variants.
 status:
   design: Yes
   documentation: No
