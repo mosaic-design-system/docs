@@ -50,7 +50,7 @@ code:
     ## Live demo
 
 
-    Below, you can find a live demo for an Back to Top component. Use the drop-down menus and radio buttons to view the different Button Types and Variants.
+    Below, you can find a live demo for an Accordion component. Use the drop-down menus and radio buttons to view the different Button Types and Variants.
 status:
   design: Yes
   documentation: No
