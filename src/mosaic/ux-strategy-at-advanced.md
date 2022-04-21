@@ -3,9 +3,11 @@ title: UX Strategy at Advanced
 order: 4
 toc: true
 ---
+The following information is of particular relevance to Advanced products and employees, but under full transparency is outlined below for external consumption. 
+
 ## The "Pyramid"
 
-The approach to UX strategy at Advanced roughly follows the below diagram of sure but steady transition to unification, starting with **visual consistency**. Without a base layer of familiarity between products as a starting point, we will find it difficult to provide genuine *behavioural* consistency of patterns and functionality.
+The approach to UX strategy at Advanced roughly follows the below diagram of sure but steady transition to unification, starting with **visual consistency**. Without a base layer of familiarity between products as a starting point, we will find it difficult to provide genuine *behavioural* consistency of patterns and functionality. As Advanced is a company that focuses on acquisition and integration to provide fully functional suites of products, a core strategy is align those products look and feel and behaviour is paramount. 
 
 ![UX strategy pyramid](/assets/img/pyramid.png "Pyramid of UX Culture")
 
@@ -31,3 +33,5 @@ Products are first and foremost assessed by their visual elements i.e. colour pa
 * **Level 6 - Full Mosaic Design System**
 
   * The highest level of visual consistency. A product that fully utilises the components and patterns from the Mosaic Design System and can take advantage of themes.
+
+Once the visual consistency level of an application has been obtained, a plan can be made alongside product management to target a higher version and an initiative added to the roadmap. The work can then be undertaken with help from the UI Development team.
