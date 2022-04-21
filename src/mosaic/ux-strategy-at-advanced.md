@@ -51,4 +51,8 @@ The UX benchmark is a score combining a number of factors:
 3. The Product Engagement Score (adoption, stickiness, retention)
 4. The number of support calls of type "user assistance" whereby a user has contacted support purely when at a loss for how to complete a particular function (indicating a complex user journey or lack of training)
 
-These scores are assessed and combined into a single metric (when all sub scores are present). These metrics are then passed to Product Management as another key indicator of where work may need to be undertaken to improve an applications holistic user experience.
+These scores are assessed and combined into a single metric (when all sub scores are present). These metrics are then passed to Product Management as another key indicator of where work may need to be undertaken to improve an applications holistic user experience. 
+
+Naturally with any strategy, the march towards continuous improvement is heavily reliant on the product in question, its technology stack, ease of redevelopment and ability to innovate or PoC new concepts to its user base. Overall, any such work undertaken by the product team should be done in conjunction with the UXUI team and its representatives for that products business unit. 
+
+If you have any questions, please feel free to reach out to ux@oneadvanced.com
