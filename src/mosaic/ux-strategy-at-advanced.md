@@ -44,6 +44,8 @@ Alongside work being undertaken to assess and resolve visual consistency, the UX
 
 Simply stated, a benchmark study is a deep assessment of an application, with the goal of measuring key performance indicators as a basis for future improvement. Benchmark studies typically have larger sample sizes as compared to basic qualitative or formative usability studies.
 
+in this sense, We refer to benchmarking as a practice because, ideally, **once you begin benchmarking, you can track your progress over time**, again and again, redesign through redesign — they key is that it’s an ongoing process. 
+
 The UX benchmark is a score combining a number of factors:
 
 1. The in-product CSAT score from end users
