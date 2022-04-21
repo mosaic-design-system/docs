@@ -7,7 +7,7 @@ toc: true
 
 Our colour palette is an important part of how we present ourselves. Our pages are kept clean and free from unnecessary colour to ensure focus is always on the content and its associated actions. Too much on a page can lead to confusion and overlooking important information. We have therefore intentionally aimed to reduce the amount of "visual noise" by using our carefully considered palette, while adding splashes of colour to help with signposting and engagement.
 
-We have also aligned our palette with the WCAG 2.1 accessibility requirements for colour contrast so that users with visual impairments are able to perceive content on our pages. For more information, please refer to Accessibility.
+We have also aligned our palette with the WCAG 2.1 accessibility requirements for colour contrast so that users with visual impairments are able to perceive content on our pages. For more information, please refer to Accessibility \[link to Accessibility page].
 
 The sections below explain the colours we have chosen to use in Mosaic. 
 
@@ -41,7 +41,7 @@ The secondary colour is used for CTAs with less priority in the overall hierarch
 
 ## Contextual colours
 
-The contextual colours are used to support specific actions, statuses, or outcomes. They provide an additional layer of visual information to help users understand how your product has or will interpret their decisions. However, contextual colours must always be accompanied by text labels, icons, or both, as colour alone will not be conveyed to all users. For more information, please refer to Accessibility.
+The contextual colours are used to support specific actions, statuses, or outcomes. They provide an additional layer of visual information to help users understand how your product has or will interpret their decisions. However, contextual colours must always be accompanied by text labels, icons, or both, as colour alone will not be conveyed to all users. For more information, please refer to Accessibility \[link to Accessibility page].
 
 Our contextual colours are named:
 
