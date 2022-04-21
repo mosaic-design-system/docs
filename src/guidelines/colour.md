@@ -13,7 +13,7 @@ The sections below explain the colours we have chosen to use in Mosaic.
 
 ## Greyscale colours
 
-The greyscale palette is the base palette and used for the default font colours and most UI elements such as, borders, dividers, surface backgrounds, etc. It comprises 14 colours including black and white.
+The greyscale palette is our base palette and used for the default font colours and most UI elements such as, borders, dividers, surface backgrounds, etc. It comprises 14 colours including black and white.
 
 \[swatches]
 
