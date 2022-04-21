@@ -19,7 +19,11 @@ The greyscale palette is the base palette and used for the default font colours 
 
 ## Font colours
 
-tbc
+The colours chosen for fonts have been selected for their readability and accessibility. The primary font colour used for headings and body text is almost black, which is easy to read against any of our surface backgrounds. Similarly, our secondary font colour, which is used for subtitles, is also highly legible.
+
+\[swatches]
+
+In addition to the main font colours described above, we have colours for links which are also aligned with colour use in web applications and support for accessibility. The active link colour is blue and the visited link colour is purple.
 
 \[swatches]
 
