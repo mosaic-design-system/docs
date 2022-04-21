@@ -1,5 +1,6 @@
 ---
 title: Tone of Voice
+order: 30
 toc: true
 tabs:
   - title: Product Voice
