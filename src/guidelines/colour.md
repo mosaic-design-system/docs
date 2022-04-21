@@ -33,9 +33,9 @@ The primary colour is used for the main call-to-actions (CTAs) on a page, like a
 
 \[swatches]
 
-## Secondary colour
+## Outline colour
 
-The secondary colour is used for CTAs with less priority in the overall hierarchy of the page, like closing a dialog or cancelling a form. These may sit alongside a primary action or placed inline, next to the content to which it relates.
+The outline colour is used for CTAs with less priority in the overall hierarchy of the page, like closing a dialog or cancelling a form. These may sit alongside a primary action or placed inline, next to the content to which it relates.
 
 \[swatches]
 
