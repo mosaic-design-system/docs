@@ -19,21 +19,26 @@ Products are initially assessed by their visual elements, i.e. their colour pale
 
   * Essentially, this would be a product new to Advanced, or one that will not easily integrate with other Advanced products. The UI is "its own" and needs to eventually become a part of the wider Advanced product suite. A typical example of a product at this level would be a recent acquisition that has yet to be brought under the remit of the Advanced UX/UI team.
 
+
 * **Level 2 - A branded application**
 
   * Products that clearly denote that they are owned by Advanced and carry the expectation of being an Advanced product, but are otherwise inconsistent with other Advanced products. For instance, a product at this level may include the Advanced logo and Advanced product branding, but otherwise the application shares no visual consistency with other products throughout the look and design of its user experience.
+
 
 * **Level 3 - Part Mosaic**
 
   * An application that shares *some* of the styles or characteristics of the Mosaic Design System (or the previous component set "Mosaic UI"). General colours and fonts may be adhered to, but component usage is piecemeal and not consistent throughout the application. In addition, the product's icons may match that of the current or previous icon set.
 
+
 * **Level 4 - Full "Mosaic UI"**
 
   * A product where 80% or more of its UI elements are sourced from "Mosaic UI". Internally, this is often referred to as a "v3" product at Advanced, or one that uses the "tri pane" layout. However, it would currently use an earlier version of "Mosaic UI", which does not stylistically align with the Mosaic Design System.
 
+
 * **Level 5 - Full "Mosaic UI" Latest Styles**
 
   * A product whereby 80% or more of its UI elements are sourced from "Mosaic UI", the previous incarnation of Mosaic, but it is on the **latest** version which matches the style of the Mosaic Design System. 
+
 
 * **Level 6 - Full Mosaic Design System**
 
