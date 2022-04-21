@@ -5,15 +5,15 @@ toc: true
 ---
 ## Introduction
 
-Our colour palette is an important part of how we present ourselves. Our pages are kept clean and free from unnecessary colour to ensure focus is always on the content and its associated actions. Too much on a page can lead to confusion and overlooking important information. We have therefore intentionally aimed to reduce the amount of "visual noise" by using our carefully considered palette, while adding splashes of colour to help with signposting and engagement.
+Our colour palette is an important part of how we present ourselves. Our pages are kept clean and free from unnecessary colour to ensure focus is always on the content and its associated actions. Too much on a page can lead to confusion and cause users to overlook important information. Therefore, we have intentionally aimed to reduce the amount of "visual noise" by using our carefully considered palette, while adding splashes of colour to help with signposting and engagement.
 
-We have also aligned our palette with the WCAG 2.1 accessibility requirements for colour contrast so that users with visual impairments are able to perceive content on our pages. For more information, please refer to Accessibility \[link to Accessibility page].
+Our palette is also aligned with the WCAG 2.1 accessibility requirements for colour contrast, so that users with visual impairments are able to perceive content on our pages. For more information, please refer to [Accessibility](/guidelines/accessibility).
 
-The sections below explain the colours we have chosen to use in Mosaic. 
+Below you will find examples and explanations of the colours we have chosen to use in the Mosaic Design System. 
 
 ## Greyscale colours
 
-The greyscale palette is our base palette and used for the default font colours and most UI elements such as, borders, dividers, surface backgrounds, etc. It comprises 14 colours including black and white. This provides an extremely flexible palette to work with.
+The greyscale palette is our base palette and used for the default font colours and most UI elements, such as borders, dividers, surface backgrounds, etc. It comprises of 14 colours, including black and white. This provides an extremely flexible palette to work with:
 
 \[swatches]
 
@@ -35,21 +35,23 @@ The primary colour is used for the main call-to-actions (CTAs) on a page, like a
 
 ## Outline colour
 
-The outline colour is used for CTAs with less priority in the overall hierarchy of the page, like closing a dialog or cancelling a form. These may sit alongside a primary action or placed inline, next to the content to which it relates.
+The outline colour is used for CTAs with less priority in the overall hierarchy of the page, like closing a dialog or cancelling a form. These may sit alongside a primary action, or placed inline next to the content to which it relates.
 
 \[swatches]
 
 ## Contextual colours
 
-The contextual colours are used to support specific actions, statuses, or outcomes. They provide an additional layer of visual information to help users understand how your product has or will interpret their decisions. However, contextual colours must always be accompanied by text labels, icons, or both, as colour alone will not be conveyed to all users. For more information, please refer to Accessibility \[link to Accessibility page].
+The contextual colours are used to support specific actions, statuses, or outcomes. They provide an additional layer of visual information to help users understand how a product has interpreted a decision, or to indicate how something will be interpreted. For example, an invalid input on a form would use the 'danger' contextual colour to indicate an error. However, contextual colours must always be accompanied by text labels or icons (or both!), as colour alone will not be conveyed to all users. For more information, please refer to [Accessibility](/guidelines/accessibility).
 
 Our contextual colours are named:
 
-* Primary
-* Success
-* Danger
-* Warning
-* Info
+* **Primary**
+* **Success**
+* **Danger**
+* **Warning**
+* **Info**
+
+\[swatches]
 
 ### Primary
 
@@ -59,7 +61,7 @@ As mentioned above, this colour is reserved for the main CTA on a page, like add
 
 ### Success
 
-This colour is used to indicate positive items, like Save or Accept buttons or Completed indicators. It reinforces that the action or status is of a positive nature. For example, a message confirming that an import was performed successfully.
+This colour is used to indicate positive items, like Save or Accept buttons or Completed indicators. It reinforces that the action or status is of a positive nature. For example, a message confirming that an import was performed successfully would use the Success colour.
 
 \[swatches]
 
