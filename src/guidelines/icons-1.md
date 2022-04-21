@@ -26,3 +26,9 @@ The coloured icons should only be used in the body or content of applications. T
 ## Sizes
 
 Mosaic uses icons at 16px, 24px, 32px, 48px, and 64px.
+
+\[examples]
+
+![]()
+
+![]()
