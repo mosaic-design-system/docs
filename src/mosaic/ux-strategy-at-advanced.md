@@ -3,7 +3,7 @@ title: UX Strategy at Advanced
 order: 4
 toc: true
 ---
-The following information is of particular relevance to Advanced products and employees, but under full transparency is outlined below for external consumption. 
+The following information is of particular relevance to Advanced products and employees, but under full transparency is outlined below for external consumption. Whilst it is not indicative off the full product-by-product strategy for the UXUI space, it hopes to shed some light on the general strategy towards adoption of the Mosaic Design System and other areas of product improvement. 
 
 ## The "Pyramid"
 
