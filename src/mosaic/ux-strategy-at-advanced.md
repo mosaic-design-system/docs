@@ -13,7 +13,7 @@ The approach to UX strategy at Advanced roughly follows the below diagram of sur
 
 Products are first and foremost assessed by their visual elements i.e. colour palette, brand, font and general layouts of their menu structure and content. Each product is then given a visual consistency "level" that can easily be reported on and understood by all stakeholders.
 
-### Visual Consistency Levels
+## Visual Consistency Levels
 
 * **Level 1 - An unbranded application**
 
@@ -37,3 +37,18 @@ Products are first and foremost assessed by their visual elements i.e. colour pa
 Once the visual consistency level of an application has been obtained, a plan can be made alongside product management to target a higher version and an initiative added to the roadmap. The work can then be undertaken with help from the UI Development team. 
 
 Once visual consistency of level 3 or higher has been obtained (ideally 6 wherever possible, but 3 also pertains to applications where latest styling is implemented but perhaps not using Mosaic components for pragmatic reasons) then further work should be undertaken in conjunction with the UX Design team to build pattern re-use into the application. The major functions of the product can be assessed and common functionality and user behaviour streamlined by using repeatable design patterns (for example, file upload, table/grid manipulation, viewing a persons/profile or record,  updating contact and user information etc.)
+
+## UX Benchmarking
+
+Alongside work being undertaken to assess and resolve visual consistency, the UX team is assessing a collective UX benchmark for the products they are mainly responsible for. 
+
+Simply stated, a benchmark study is a deep assessment of an application, with the goal of measuring key performance indicators as a basis for future improvement. Benchmark studies typically have larger sample sizes as compared to basic qualitative or formative usability studies.
+
+The UX benchmark is a score combining a number of factors:
+
+1. The in-product CSAT score from end users
+2. The Accessibility score 
+3. The Product Engagement Score (adoption, stickiness, retention)
+4. The number of support calls of type "user assistance" whereby a user has contacted support purely when at a loss for how to complete a particular function (indicating a complex user journey or lack of training)
+
+These scores are assessed and combined into a single metric (when all sub scores are present). These metrics are then passed to Product Management as another key indicator of where work may need to be undertaken to improve an applications holistic user experience.
