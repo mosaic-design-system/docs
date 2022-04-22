@@ -15,20 +15,44 @@ We use outlined and coloured versions of the Fluency set.
 
 The outlined icons are used as the main style in Mosaic. These are typically found in the navigation, sidebar, and action buttons. Filled icons are secondary and are occasionally used to show the toggled state of an icon.
 
-\[examples]
+![](/assets/img/home32.svg)
+
+![](/assets/img/star32.svg)
+
+![](/assets/img/home-office32.svg)
+
+![](/assets/img/thumbnails32.svg)
+
+![](/assets/img/inspection32.svg)
+
+![](/assets/img/online-store32.svg)
 
 ### Coloured
 
 The coloured icons should only be used in the body or content of applications. These provide a splash of colour and also inject a dash of personality.
 
-\[examples]
+![](/assets/img/home-colour32.svg)
+
+![](/assets/img/star-colour32.svg)
+
+![](/assets/img/home-office-colour32.svg)
+
+![](/assets/img/thumbnails-colour32.svg)
+
+![](/assets/img/inspection-colour32.svg)
+
+![](/assets/img/online-store-colour32.svg)
 
 ## Sizes
 
 Mosaic uses icons at 16px, 24px, 32px, 48px, and 64px.
 
-\[examples]
+![](/assets/img/home16.svg)
 
-![]()
+![](/assets/img/home24.svg)
 
-![]()
+![](/assets/img/home32.svg)
+
+![](/assets/img/home48.svg)
+
+![](/assets/img/home64.svg)
