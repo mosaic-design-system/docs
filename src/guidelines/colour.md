@@ -73,7 +73,7 @@ This colour is used to indicate information about destructive activities or to v
 
 ### Warning
 
-This colour is used to indicate information recommended for the completion of a task, which may require confirmation or a particular course of action. Users should be allowed to ignore warnings and still complete a task, but it should be made clear that doing so may have a negative impact. For example, a message warning that a file is bigger than the recommended size and may affect performance.
+This colour is used to indicate information recommended for the completion of a task, which may require confirmation or a particular course of action. Users should be allowed to ignore warnings and still complete a task, but it must be made clear that doing so may have a negative impact. For example, a message warning that a file is bigger than the recommended size and may affect performance.
 
 \[swatches]
 
