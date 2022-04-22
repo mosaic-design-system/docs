@@ -26,31 +26,17 @@ tabs:
       - - -
 
 
-      ## Accordion Types
+      ## Types of Breadcrumbs
 
 
       All variations allow you to include a subheading
 
 
-      | Variant     | Description                                                                               |
+      | Variant     | Description                                                                                          | Example                                                                                                           |
 
-      | ----------- | ----------------------------------------------------------------------------------------- |
+      | ----------- | ---------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
 
-      | **Default** | The default **Accordion** has no actions on it, and simply expands and collapses content. |
-
-
-      \|
-
-      | **With chip**     | Chips in the header of an **Accordion** can be used to signify status, content type, dates, etc.                                                                                         |
-
-      | **With edit**     | An edit button on an **Accordion** allows the user to enter an edit state.                                                                                                               |
-
-      | **With overflow** | Used when there a specific actions linked to each accordion                                                                                                                              |
-
-      | **With icon**     | Icons can be applied to support the content of the heading but should not be used in conjunction with buttons or chips on the right - this will add too much cognitive load to the page. |
-
-
-      \[[Code up some examples here]]
+      | **Default** | This uses the underlined link text to show the difference between the active page and higher pages.  | <button class="mcc-button mcc-button--primary" disabled> <span class="mcc-button__label">Disabled</span> </button |
 
 
       - - -
