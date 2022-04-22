@@ -15,19 +15,6 @@ We use outlined and coloured versions of the Fluency set.
 
 The outlined icons are used as the main style in Mosaic. These are typically found in the navigation, sidebar, and action buttons. Filled icons are secondary and are occasionally used to show the toggled state of an icon.
 
-<p float="left">
-  <img src="/assets/img/home32.svg" />
-  <img src="/assets/img/star32.svg" /> 
-  <img src="assets/img/home-office32.svg" />
-  <img src="/assets/img/thumbnails32.svg" />
-  <img src="/assets/img/inspection32.svg" /> 
-  <img src="/assets/img/online-store32.svg" />
-</p>
-
-
-
-
-
 | Home                        | Favourite                   | Desktop | Tile                              | Complete                          | Shop                                |
 | --------------------------- | --------------------------- | ------- | --------------------------------- | --------------------------------- | ----------------------------------- |
 | ![](/assets/img/home32.svg) | ![](/assets/img/star32.svg) | ![](/assets/img/home-office32.svg) | ![](/assets/img/thumbnails32.svg) | ![](/assets/img/inspection32.svg) | ![](/assets/img/online-store32.svg) |
