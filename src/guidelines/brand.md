@@ -11,7 +11,7 @@ This is simplified by our mission statement – “Making a Difference” – an
 
 You can view the extended brand guidelines on the Advanced Hub ![](/assets/img/external-link16.svg) \[link to the Hub]. However, not all of these apply to Mosaic and our product interfaces, so the following sections explain the key points.
 
-NB. You may need to log in to access Advanced Hub.
+Note: You may need to log in to access the Advanced Hub.
 
 ## Product logo
 
