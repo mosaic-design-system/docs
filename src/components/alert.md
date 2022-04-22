@@ -8,7 +8,10 @@ storybook-url: https://tessera.oneadvanced.io/dev/components-core/?path=/docs/ht
 storybook: https://tessera.oneadvanced.io/dev/components-core/?path=/docs/html-alert--as-default
 tabs:
   - title: Usage
-    body: ""
+    body: |-
+      ## What is an Alert?
+
+      An **Alert** is...
     icon: file_invoice
   - title: Code
     hook: code
