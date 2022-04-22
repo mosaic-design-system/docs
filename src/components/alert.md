@@ -12,6 +12,30 @@ tabs:
       ## What is an Alert?
 
       An **Alert** is...
+
+      - - -
+
+      ### When, and why?
+
+      Text
+
+      - - -
+
+      ## Alerts types
+
+      Text
+
+      - - -
+
+      ## Alert contexts
+
+      Text
+
+      - - -
+
+      ## Using an Alert
+
+      Text
     icon: file_invoice
   - title: Code
     hook: code
