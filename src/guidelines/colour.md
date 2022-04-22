@@ -67,13 +67,13 @@ This colour is used to indicate positive items, like Save or Accept buttons or C
 
 ### Danger
 
-This colour is used to indicate information about dangerous or destructive activities, where failure to take or avoid a specific action could result in the loss of data. It should be clear to users that disregarding such a message may not be reversible. For example, a message stating that a file already exists with the same name and overwriting cannot be undone.
+This colour is used to indicate information about destructive activities or to validate form completion, where failure to take or avoid a specific action could result in the loss of data or the inability to submit a form. It should be clear to users that disregarding such a message may not be reversible or with of form validation, that users must make the necessary changes. For example, a message stating that deleting a file cannot be undone.
 
 \[swatches]
 
 ### Warning
 
-This colour is used to indicate information essential to the completion of a task, which may require confirmation or a recommended course of action. Users should not be allowed to ignore warnings and still complete a task. For example, a message warning that a file is too big to be imported and should be compressed.
+This colour is used to indicate information recommended for the completion of a task, which may require confirmation or a particular course of action. Users should be allowed to ignore warnings and still complete a task, but it should be made clear that doing so may have a negative impact. For example, a message warning that a file is bigger than the recommended size and may affect performance.
 
 \[swatches]
 
