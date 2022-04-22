@@ -25,7 +25,7 @@ The outlined icons are used as the main style in Mosaic. These are typically fou
 </p>
 
 | Home | Favourite | Desktop | Tile | Complete | Shop |
-| --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- |
 | ![](/assets/img/home32.svg) | ![](/assets/img/star32.svg) | ![](assets/img/home-office32.svg) | ![](/assets/img/thumbnails32.svg) | ![](/assets/img/inspection32.svg) | ![](/assets/img/online-store32.svg) |
 
 ### Coloured
