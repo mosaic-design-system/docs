@@ -26,3 +26,13 @@ The Mosaic colour palette has been specifically chosen to compliment the Advance
 Unfortunately, colours that look great in marketing material do not always work when used in the context of a software application, especially with regards to colour contrast. As such, the Mosaic colours are intentionally different and must not be changed. For more information, please refer to Colours \[link to Colours page].
 
 ## Images
+
+With the exception of icons, any images or graphics used in our applications must be handled and approved by the Branding team, in conjunction with the UX team. This applies to login screen backgrounds, splash screens, product imagery, etc. There are specific images for use with each distinct market, so it is essential that both teams are consulted before placing any images in your applications.
+
+It is also worth noting that hi-resolution images tend to have large file sizes, so careful consideration must be given to performance, particularly in mobile applications where users may be using mobile data.
+
+## Login screens
+
+For many users, the login screen is the first touch point of our brand. This is why we have specific login screen designs, which combine UX best practice, visual design, and Advanced branding. These designs must always be used and must not be changed in any way, unless there is a specific circumstance, such as white labelling for partners. Where this is the case, the UX team must be consulted. If you have any questions about this, please email [ux@oneadvanced.com](mailto:ux@oneadvanced.com).
+
+\[example]
