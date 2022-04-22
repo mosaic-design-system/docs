@@ -67,7 +67,7 @@ This colour is used to indicate positive items, like Save or Accept buttons or C
 
 ### Danger
 
-This colour is used to indicate information about destructive activities or to validate form completion, where failure to take or avoid a specific action could result in the loss of data or the inability to submit a form. It should be clear to users that disregarding such a message may not be reversible or with of form validation, that users must make the necessary changes. For example, a message stating that deleting a file cannot be undone.
+This colour is used to indicate information about destructive activities or to validate form completion, where failure to take or avoid a specific action could result in the loss of data or the inability to submit a form. It should be clear to users that disregarding such a message may not be reversible, or that without correct form validation users must make the necessary changes to continue.
 
 \[swatches]
 
