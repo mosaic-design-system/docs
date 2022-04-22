@@ -36,7 +36,7 @@ tabs:
 
       | ----------- | ---------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
 
-      | **Default** | This uses the underlined link text to show the difference between the active page and higher pages.  | <button class="mcc-button mcc-button--primary" disabled> <span class="mcc-button__label">Disabled</span> </button |
+      | **Default** | Boldfacing the last item (current page) gives it prominence and tells the user ‘this is where you are currently’. All other items are hyperlinks.  | <button class="mcc-button mcc-button--primary" disabled> <span class="mcc-button__label">Disabled</span> </button |
 
 
       - - -
@@ -47,7 +47,7 @@ tabs:
 
       If you have one or two levels in your navigation a breadcrumb will not be necessary. If you have three or more levels, then a breadcrumb is useful. Giving users multiple ways to navigate through the application allows them to easily jump back to a specific page in their current workflow without having to use large or complex menus.
 
-      Place the breadcrumbs at the top of the page, above the main content. Use ">" arrows or "/" forward slashes to separate the links, use shorter heading for the breadcrumbs instead of long original link name.
+      Place the breadcrumbs at the top of the page, above the main content. Use ">" arrows or "/" forward slashes to separate the links, use shorter heading for the breadcrumbs instead of long original link name. Do not use Breadcrumbs on the homepage, the homepage is where the user journey starts, it doesn’t make sense to have breadcrumbs displayed on your homepage
     icon: file_invoice
   - title: Code
     hook: code
