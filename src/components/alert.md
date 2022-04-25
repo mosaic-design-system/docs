@@ -51,6 +51,11 @@ tabs:
       | Actionable |                                                                     |                                                            |                                                                                                                                                                  |
 
 
+      \
+
+      * Snackbars always fade in and out automatically
+
+
       - - -
 
 
