@@ -86,7 +86,7 @@ tabs:
     hook: status
 status:
   design: Yes
-  documentation: No
+  documentation: Yes
   html_css: Not applicable
   web_component: In queue
 ---
