@@ -51,9 +51,7 @@ tabs:
       | Actionable*       | An Alert that contains an action                                                        | Persists until the user has performed the action                                                                                                                                                        | Positioned as per the appropriate Alert                                                                                                                                |
 
 
-      ### \
-
-      *Alerts with actions
+      ### \*Alerts with actions
 
 
       Any of the Alert types above can also be made actionable. This means that a call to action can be included in the Alert to inform the user of a related action. Where this is the case, the Alert should always persist until the action has been performed.
