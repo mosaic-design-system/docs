@@ -11,7 +11,7 @@ tabs:
       ## What is a Snackbar?
 
 
-      A **Snackbar** is a short message that appear at the bottom centre of the screen. They are a great way of showing updates about the progress of an operation without being intrusive.
+      A **Snackbar** is a short message that appears at the bottom centre of the user's screen. They are a great way of showing updates about the progress of an operation without being intrusive.
 
 
       - - -
@@ -20,7 +20,10 @@ tabs:
       ### When, and why?
 
 
-      Snackbars inform users of something that has or will be performed  
+      **Snackbars** inform users of something that has been, or will be, performed by the system. They are a small message that appears at the bottom of the page that lets the user know that something has or hasn't been completed, or provides further context to an action.
+
+
+      For example, if a user has requested a report that takes some time to generate, and then moves to another area of the product, a **Snackbar** would appear at the bottom of the screen to notify them when the report has finished generating.   
 
 
       - - -
@@ -29,14 +32,14 @@ tabs:
       ## Types of Snackbars
 
 
-      In Mosaic, there are 4 types of Snackbars, each represents a different contextual message
+      In Mosaic, there are 4 types of **Snackbars**, and each represents a different contextual message.
 
 
       | Button Type       | Description                                                                                                 | Example                                                                                                  |
 
       | ----------------- | ----------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
 
-      | **Informational** | This can be used for things that are largely inconsequential but necessary |   |
+      | **Informational** | This can be used for things that are largely inconsequential, but necessary. |   |
 
       | **Success** | Used for confirmation messages, such as complete, saved or sent. | |
 
@@ -51,16 +54,16 @@ tabs:
       ## Snackbar Variants
 
 
-      In addition to the contextal **Type**, each snackbar also has an option between 2 **Variants**. 
+      In addition to the contextual type, each **Snackbar** also has an option between 2 variants: 
 
 
       | Variant      | Description                                                                                                                           | Example                                                                                                                                                          |
 
       | ------------ | ------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
-      | **Default**  | This will cover use cases where the a simple message covers the update and no further action is required.                             | <button class="mcc-button mcc-button--primary" disabled> <span class="mcc-button__label">Disabled</span> </button>                                               |
+      | **Default**  | This will cover use cases where the a simple message covers the update and no further action is required. | |
 
-      | **With CTA** | Cases where you may want to give the user an opinunity  to take another single action you would use the snackbar with a CTA attached. | <button class="mcc-button mcc-button--primary"><mcc-icon name="does-not-exist" aria-hidden="true"></mcc-icon><span class="mcc-button__label">Icon</span></button |
+      | **With CTA** | Cases where you may want to give the user an opportunity to take another single action, you would use the **Snackbar with a CTA**. | |
 
 
       - - -
@@ -69,16 +72,35 @@ tabs:
       ## Using a Snackbar
 
 
-      Snackbars appear when the system has a contextual message for the user.  They don’t interrupt the user experience as disappear automatically after maximum of ten seconds without user interaction. 
+      ### Auto-dismiss
 
-      \
-
-      A snackbar can contain an optional single action such as "Undo", "Retry" or "Reload" clicking or tapping the action performs the action and closes the Snackbar.
-
-      Snackbars must be displayed one at a time and be placed at the bottom centre of a screen, in front of page content but avoiding any navigation components. They are never stacked and only contain a single or town-mine messages. 
+      **Snackbars** don’t interrupt the user experience, and should disappear automatically after maximum of ten seconds without user interaction. Interrupting the user's workflow by forcing them to interact with a **Snackbar** will add unnecessary complications - a **Snackbar** should be a quick "we thought you should know this!" message, and do not need to be acknowledged by the user.
 
 
-      Never used as a loading or progress indicator.
+      ### Snackbars with CTA's
+
+      A **Snackbar** can contain an optional single action, such as "Undo", "Retry" or "Reload". Selecting the action performs the action and closes the **Snackbar**. 
+
+
+      If your **Snackbar** contains multiple CTA's, then you may be providing too much for the user to read in the ten second timeframe - you could instead use the **Snackbar** to notify the user that something requires their attention, and the CTA takes them to a different page with more options.
+
+
+      ### Snackbar placement
+
+      **Snackbars** must be displayed one at a time. Multiple **Snackbars** at once will overwhelm a user. They must be placed at the bottom centre of a screen, in front of any page content, but they should avoid covering up any navigational components. Similarly, **Snackbars** shouldn't stack on top of one another. 
+
+
+      ### Snackbar length
+
+      **Snackbars** should only contain one or two lines of text. We must consider the amount of attention and time it takes for a user to absorb the message.
+
+
+      Instead of using text to convey meaning, you can make use of the different colours and icons available on a **Snackbar** - an ideal scenario would involve the user not even *needing* to read the message. They should be able to tell at a glance if something was a failure or a success. 
+
+
+      ### Snackbars are not progress indicators
+
+      A **Snackbar** is never used as a loading or progress indicator. They are messages about finite results (i.e. completion or incompletion), and shouldn't be used as reminders that something is ongoing.
     icon: file_invoice
   - title: Code
     hook: code
