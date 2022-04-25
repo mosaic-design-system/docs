@@ -30,22 +30,22 @@ tabs:
       ## Alerts types
 
 
-      Text
+      Depending on the nature of an Alert there are different implementations or types available.
 
 
-      | **Name**   | **Description**                                                     | **Behaviour**                                              | **Placement** |
+      | **Name**   | **Description**                                                     | **Behaviour**                                              | **Placement**                                                                                                                                                    |
 
-      | ---------- | ------------------------------------------------------------------- | ---------------------------------------------------------- | ------------- |
+      | ---------- | ------------------------------------------------------------------- | ---------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
-      | Banner     | A system or product-level message that is not specific to an action | Persists until dismissed by the user and may be actionable |               |
+      | Banner     | A system or product-level message that is not specific to an action | Persists until dismissed by the user and may be actionable | Sits across the top of the content area to which it relates, or for system-level messages, full width across the top of the screen above the main navigation bar |
 
-      | Inline     |                                                                     |                                                            |               |
+      | Inline     |                                                                     |                                                            |                                                                                                                                                                  |
 
-      | Toast      |                                                                     |                                                            |               |
+      | Toast      |                                                                     |                                                            |                                                                                                                                                                  |
 
-      | Snackbar   |                                                                     |                                                            |               |
+      | Snackbar   |                                                                     |                                                            |                                                                                                                                                                  |
 
-      | Actionable |                                                                     |                                                            |               |
+      | Actionable |                                                                     |                                                            |                                                                                                                                                                  |
 
 
       - - -
