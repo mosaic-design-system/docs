@@ -8,40 +8,60 @@ storybook-url: https://tessera.oneadvanced.io/dev/components-core/?path=/docs/ht
 storybook: https://tessera.oneadvanced.io/dev/components-core/?path=/docs/html-alert--as-default
 tabs:
   - title: Usage
-    body: |-
+    body: >-
       ## What is an Alert?
+
 
       An **Alert** is...
 
+
       - - -
+
 
       ### When, and why?
 
+
       Text
 
+
       - - -
+
 
       ## Alerts types
 
+
       Text
 
-      | **Name**    | **Description** | **Behaviour** |**Placement** |
-      | ----------- | --------------- | ----------- |----------- |
-      | Banner      |                 |             |            |
-      | Inline      |                 |             |            |
-      | Toast       |                 |             |            |
-      | Snackbar    |                 |             |            |
-      | Actionable  |                 |             |            |
+
+      | **Name**   | **Description**                                                     | **Behaviour**                                              | **Placement** |
+
+      | ---------- | ------------------------------------------------------------------- | ---------------------------------------------------------- | ------------- |
+
+      | Banner     | A system or product-level message that is not specific to an action | Persists until dismissed by the user and may be actionable |               |
+
+      | Inline     |                                                                     |                                                            |               |
+
+      | Toast      |                                                                     |                                                            |               |
+
+      | Snackbar   |                                                                     |                                                            |               |
+
+      | Actionable |                                                                     |                                                            |               |
+
 
       - - -
+
 
       ## Alert contexts
 
+
       Text
+
 
       - - -
 
+
       ## Using an Alert
+
 
       Text
     icon: file_invoice
