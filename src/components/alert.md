@@ -25,6 +25,14 @@ tabs:
 
       Text
 
+      | **Name**    | **Description** | **Behaviour** |**Placement** |
+      | ----------- | --------------- | ----------- |----------- |
+      | Banner      |                 |             |            |
+      | Inline      |                 |             |            |
+      | Toast       |                 |             |            |
+      | Snackbar    |                 |             |            |
+      | Actionable  |                 |             |            |
+
       - - -
 
       ## Alert contexts
