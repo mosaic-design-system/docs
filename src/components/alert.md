@@ -36,24 +36,19 @@ tabs:
       Depending on the nature of an Alert there are different implementations or types available.
 
 
-      | **Name**   | **Description**                                                     | **Behaviour**                                              | **Placement**                                                                                                                                                    |
+      | **Name**   | **Description**                                                                           | **Behaviour**                                                                                                                                                                                           | **Placement**                                                                                                                                                          |
 
-      | ---------- | ------------------------------------------------------------------- | ---------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+      | ---------- | ----------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
-      | Banner     | A system or product-level message that is not specific to an action | Persists until dismissed by the user and may be actionable | Sits across the top of the content area to which it relates, or for system-level messages, full width across the top of the screen above the main navigation bar |
+      | Banner     | A system or product-level message that is not specific to an action                       | Persists until dismissed by the user and may be actionable                                                                                                                                              | Positioned across the top of the content area to which it relates, or for system-level messages, full width across the top of the screen above the main navigation bar |
 
-      | Inline     |                                                                     |                                                            |                                                                                                                                                                  |
+      | Inline     | An input-level message that is specific to an action                                      | Persists until the message is resolved or dismissed by the user. Can also be actionable                                                                                                                 | Positioned near the related input                                                                                                                                      |
 
-      | Toast      |                                                                     |                                                            |                                                                                                                                                                  |
+      | Toast      |                                                                                           |                                                                                                                                                                                                         |                                                                                                                                                                        |
 
-      | Snackbar*  |                                                                     |                                                            |                                                                                                                                                                  |
+      | Snackbar   | A short, time-based message that provides the status of an action that has been performed | Fades in and out automatically, but may be actionable. Where this is the case, they persist until the user has interacted with them. For more information, refer to Snackbars \[link to Snackbars page] | Positioned centred, at the bottom of the page                                                                                                                          |
 
-      | Actionable |                                                                     |                                                            |                                                                                                                                                                  |
-
-
-      \
-
-      * Snackbars always fade in and out automatically
+      | Actionable |                                                                                           |                                                                                                                                                                                                         |                                                                                                                                                                        |
 
 
       - - -
