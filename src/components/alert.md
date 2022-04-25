@@ -60,17 +60,17 @@ tabs:
       Context helps convey the information being communicated. Alert contexts correspond to a colour and an icon to provide a consistent experience for users.
 
 
-      | **Name** | **Description**                               | **Behaviour**                                                                      | **Examples**                                         |
+      | **Name** | **Description**                                                                                    | **Behaviour**                                                                     | **Examples**                                          |
 
-      | -------- | --------------------------------------------- | ---------------------------------------------------------------------------------- | ---------------------------------------------------- |
+      | -------- | -------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- | ----------------------------------------------------- |
 
-      | Success  | Indicates actions were completed successfully | Does not require user interaction, as disappears automatically after a short time  | A new record saved, or preferences have been updated |
+      | Success  | Indicates actions were completed successfully                                                      | Does not require user interaction, as disappears automatically after a short time | A new record saved or preferences have been updated   |
 
-      | Danger   |                                               |                                                                                    |                                                      |
+      | Danger   | Indicates errors and, optionally, prevents users from proceeding until the issue has been resolved | Always persists until the user dismisses or resolves the issue                    | Credentials cannot be found or access is denied       |
 
-      | Warning  |                                               |                                                                                    |                                                      |
+      | Warning  | Indicates that actions are not desirable or might have unexpected results                          | Persists until the user dismisses or continues regardless                         | A file is too big or a file already exists            |
 
-      | Info     |                                               |                                                                                    |                                                      |
+      | Info     | Indicates neutral or advisory information that may not be related to the current action            | Does not require user interaction, but persists until user dismisses              | Scheduled system maintenance or a new report is ready |
 
 
       - - -
