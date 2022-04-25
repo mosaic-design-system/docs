@@ -46,7 +46,7 @@ tabs:
 
       | Toast      |                                                                     |                                                            |                                                                                                                                                                  |
 
-      | Snackbar   |                                                                     |                                                            |                                                                                                                                                                  |
+      | Snackbar*  |                                                                     |                                                            |                                                                                                                                                                  |
 
       | Actionable |                                                                     |                                                            |                                                                                                                                                                  |
 
