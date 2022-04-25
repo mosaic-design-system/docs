@@ -33,28 +33,18 @@ tabs:
       ## Alerts types
 
 
-      Depending on the nature of an Alert there are different implementations or types available.
+      The following types of Alerts are available:
 
 
-      | **Name**          | **Description**                                                                         | **Behaviour**                                                                                                                                                                                           | **Placement**                                                                                                                                                          |
+      | **Name**    | **Description**                                   | **Behaviour**                                      | **Example** |
 
-      | ----------------- | --------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+      | ----------- | ------------------------------------------------- | -------------------------------------------------- | ----------- |
 
-      | Banner            | A system or product-level Alert that is not specific to an action                       | Persists until dismissed by the user and may be actionable                                                                                                                                              | Positioned across the top of the content area to which it relates, or for system-level messages, full width across the top of the screen above the main navigation bar |
+      | Default     | An Alert that contains an icon and a line of text | Persists. Cannot be dismissed or actioned          |             |
 
-      | Inline            | An input-level Alert that is specific to an action                                      | Persists until the message is resolved or dismissed by the user. Can also be actionable                                                                                                                 | Positioned near the related input                                                                                                                                      |
+      | Dismissible | An Alert that can be dismissed                    | Persists, but can be dismissed. Cannot be actioned |             |
 
-      | Toast (to remove) | A short, time-based Alert that provides the status of an action that has been performed | Fades in and out automatically, but may be actionable. Where this is the case, they persist until the user has interacted with them.                                                                    | Positioned in the top right of the page                                                                                                                                |
-
-      | Snackbar          | A short, time-based Alert that provides the status of an action that has been performed | Fades in and out automatically, but may be actionable. Where this is the case, they persist until the user has interacted with them. For more information, refer to Snackbars \[link to Snackbars page] | Positioned centred, at the bottom of the page                                                                                                                          |
-
-      | Actionable*       | An Alert that contains an action                                                        | Persists until the user has performed the action                                                                                                                                                        | Positioned as per the appropriate Alert                                                                                                                                |
-
-
-      ### \*Alerts with actions
-
-
-      Any of the Alert types above can also be made actionable. This means that a call to action can be included in the Alert to inform the user of a related action. Where this is the case, the Alert should always persist until the action has been performed.
+      | Actionable  | An Alert that contains an action                  | Persists, but can be actioned. Cannot be dismissed |             |
 
 
       - - -
@@ -88,7 +78,7 @@ tabs:
       Although Alerts are great for communicating, we recommend that they are used sparingly. If users are continually being interrupted, then this can become frustrating and impact their productivity. Also, overuse may quickly see their importance fade and users may decide to ignore them.
 
 
-      Alerts should always communicate a single, succinct message, which provide clear instructions and optionally offer actions a user can take. With the exception of the Toasts implementation, Alerts should not stack vertically. Only one Alert should be shown at a time.
+      Alerts should always communicate a single, succinct message, which provide clear instructions and optionally offer actions a user can take. Alerts should not stack vertically. Only one Alert should be shown at a time.
 
 
       In terms of placement, each Alert type has its own distinct region in which it should be displayed. For consistency, these locations should not be ignored.
@@ -107,33 +97,9 @@ tabs:
 
       * Only show one action per Alert
 
-      * Only show one Alert at a time (except Toasts)
+      * Only show one Alert at a time
 
       * Do not use automatically dismiss Alerts for critical or emergency messages. Some users with disabilities need more time to read or interact with messages
-
-
-      ### Banner Alerts
-
-
-      tbc
-
-
-      ### Inline Alerts
-
-
-      tbc
-
-
-      ### Toast Alerts (to remove)
-
-
-      tbc
-
-
-      ### Snackbar Alerts
-
-
-      tbc
     icon: file_invoice
   - title: Code
     hook: code
