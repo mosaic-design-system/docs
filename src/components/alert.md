@@ -57,7 +57,20 @@ tabs:
       ## Alert contexts
 
 
-      Text
+      Context helps convey the information being communicated. Alert contexts correspond to a colour and an icon to provide a consistent experience for users.
+
+
+      | **Name** | **Description**                               | **Behaviour**                                                                      | **Examples**                                         |
+
+      | -------- | --------------------------------------------- | ---------------------------------------------------------------------------------- | ---------------------------------------------------- |
+
+      | Success  | Indicates actions were completed successfully | Does not require user interaction, as disappears automatically after a short time  | A new record saved, or preferences have been updated |
+
+      | Danger   |                                               |                                                                                    |                                                      |
+
+      | Warning  |                                               |                                                                                    |                                                      |
+
+      | Info     |                                               |                                                                                    |                                                      |
 
 
       - - -
