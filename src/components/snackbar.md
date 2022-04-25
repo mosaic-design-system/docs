@@ -11,7 +11,7 @@ tabs:
       ## What is a Snackbar?
 
 
-      Unintrusive short messages about operation progress that appear bottom centre of the screen 
+      A **Snackbar** is a short message that appear at the bottom centre of the screen. They are a great way of showing updates about the progress of an operation without being intrusive.
 
 
       - - -
@@ -29,20 +29,20 @@ tabs:
       ## Types of Snackbars
 
 
-      In Mosaic, there are 4 types of Snackbars, each represents a different contextal message
+      In Mosaic, there are 4 types of Snackbars, each represents a different contextual message
 
 
       | Button Type       | Description                                                                                                 | Example                                                                                                  |
 
       | ----------------- | ----------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
 
-      | **Informational** | This can be used for things that are largely inconsequential but necessary                                  | <button class="mcc-button mcc-button--primary"> <span class="mcc-button__label">Primary</span> </button  |
+      | **Informational** | This can be used for things that are largely inconsequential but necessary |   |
 
-      | **Success**       | Used for confirmation messages, such as complete, saved or sent.                                            | <button class="mcc-button mcc-button--success"> <span class="mcc-button__label">Success</span> </button> |
+      | **Success** | Used for confirmation messages, such as complete, saved or sent. | |
 
-      | **Warning**       | Not used very often, but can be useful when you want to show caution with a particular action.              | <button class="mcc-button mcc-button--warning"> <span class="mcc-button__label">Warning</span> </button> |
+      | **Warning** | Not used very often, but can be useful when you want to show caution with a particular action. | |
 
-      | **Danger**        | Should be used for dangerous or irreversible activity, like deleting or removing something from the system. | <button class="mcc-button mcc-button--danger"> <span class="mcc-button__label">Danger</span> </button>   |
+      | **Danger** | Should be used for dangerous or irreversible activity, like deleting or removing something from the system. |  |
 
 
       - - -
