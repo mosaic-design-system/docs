@@ -11,7 +11,7 @@ tabs:
       ## What is an Breadcrumb?
 
 
-      Secondary navigation aid that help users understand the relationship between their location and higher level pages.
+      A Breadcrumb is a secondary navigation aid that help users understand the relationship between their location and higher level pages.
 
 
       - - -
@@ -32,11 +32,11 @@ tabs:
       All variations allow you to include a subheading
 
 
-      | Variant     | Description                                                                                          | Example                                                                                                           |
+      | Variant     | Description                                                                                                                                       | Example                                                                                                           |
 
-      | ----------- | ---------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
+      | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
 
-      | **Default** | Boldfacing the last item (current page) gives it prominence and tells the user ‘this is where you are currently’. All other items are hyperlinks.  | <button class="mcc-button mcc-button--primary" disabled> <span class="mcc-button__label">Disabled</span> </button |
+      | **Default** | Boldfacing the last item (current page) gives it prominence and tells the user ‘this is where you are currently’. All other items are hyperlinks. | <button class="mcc-button mcc-button--primary" disabled> <span class="mcc-button__label">Disabled</span> </button |
 
 
       - - -
