@@ -33,7 +33,7 @@ tabs:
       - - -
 
 
-      ## Alerts types
+      ## Alert types
 
 
       The following types of Alerts are available:
