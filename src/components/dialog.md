@@ -1,9 +1,103 @@
 ---
 storybook-url: https://tessera.oneadvanced.io/dev/components-core/?path=/docs/html-button--as-default
+title: Dialog
 toc: true
 chips:
   - "Web Component: In development"
   - "Web Component: Available"
+storybook: https://tessera.oneadvanced.io/dev/components-core/?path=/docs/custom-elements-dialog--as-default
+tabs:
+  - title: Usage
+    body: >-
+      ## What is a Dialog?
+
+
+      A **Dialog** is a container or box used to display content in a layer that sits above the main application. They are an interaction between the application and the user.
+
+
+      - - -
+
+
+      ### When, and why?
+
+
+      Displayed when the application needs input or decision about the current workflow.
+
+
+      This paradigm is used in cases such as the creation or editing of a record, as well as various types of messaging and wizards.
+
+
+      Dialogs inform users about a task and can contain critical information, require decisions, or involve multiple tasks.
+
+
+      - - -
+
+
+      ## Dialog types
+
+
+      The following types of Dialog are available:
+
+
+      | **Name**   | **Description** | **Behaviour** | **Example** |
+
+      | ---------- | --------------- | ------------- | ----------- |
+
+      | Default    |                 |               |             |
+
+      | As modal   |                 |               |             |
+
+      | As form    |                 |               |             |
+
+      | As success |                 |               |             |
+
+      | As danger  |                 |               |             |
+
+      | As warning |                 |               |             |
+
+      | As info    |                 |               |             |
+
+      | As sized   |                 |               |             |
+
+
+      - - -
+
+
+      ## Dialog contexts
+
+
+      Context helps convey the information being communicated. Dialog contexts correspond to a colour to provide a consistent experience for users. For more information, refer to Colours \[link to Colours page].
+
+
+      | **Name** | **Description** | **Behaviour** | **Examples** |
+
+      | -------- | --------------- | ------------- | ------------ |
+
+      | Success  |                 |               |              |
+
+      | Danger   |                 |               |              |
+
+      | Warning  |                 |               |              |
+
+      | Info     |                 |               |              |
+
+
+      - - -
+
+
+      ## Using a Dialog
+
+
+      Text
+    icon: file_invoice
+  - title: Code
+    hook: code
+    icon: source_code
+  - title: Accessibility
+    body: ""
+    icon: web_accessibility_1
+  - title: Status
+    hook: status
 code:
   example: <button class="mcc-button">Button text</button>
   body: >-
@@ -97,18 +191,4 @@ status:
   html_css: Available
   web_component: Available
 navigation: button
-title: Dialog
-storybook: https://tessera.oneadvanced.io/dev/components-core/?path=/docs/custom-elements-dialog--as-default
-tabs:
-  - title: Usage
-    body: ""
-    icon: file_invoice
-  - title: Code
-    hook: code
-    icon: source_code
-  - title: Accessibility
-    body: ""
-    icon: web_accessibility_1
-  - title: Status
-    hook: status
 ---
