@@ -8,42 +8,34 @@ storybook: https://tessera.oneadvanced.io/dev/components-core/?path=/docs/html-a
 tabs:
   - title: Usage
     body: |-
-      ## What is X?
+      ## What is an Avatar?
 
       Lorem ipsum
 
       - - -
 
-      ### When and why?
+      ### When, and why?
 
       Lorem ipsum
 
       - - -
 
-      ## Types of X
+      ## Avatar types
 
-      Lorem impsum
+      The following types of Avatars are available:
 
-      | \*\*table 1\*\* | \*\*table 1\*\* | \*\*table 1\*\* |
-      | -------- | -------- | -------- |
-      | | | | |
-      | | | | |
-      | | | | |
-      - - -
-
-      ## X variants
-
-      Lorem ipsum
-
-      | \*\*table 2\*\* | \*\*table 2\*\* | \*\*table 2\*\* |
-      | -------- | -------- | -------- |
-      | | | | |
-      | | | | |
-      | | | | |
+      | **Name** | **Description** | **Behaviour** | **Example** |
+      | -------- | --------------- | ------------- | ----------- |
+      | Default  |                 |               |             |
+      |          |                 |               |             |
+      |          |                 |               |             |
+      |          |                 |               |             |
+      |          |                 |               |             |
+      |          |                 |               |             |
 
       - - -
 
-      ## Using a X
+      ## Using an Avatar
 
       Lorem ipsum
 
