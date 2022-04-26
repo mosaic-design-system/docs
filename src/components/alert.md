@@ -36,21 +36,21 @@ tabs:
       The following types of Alerts are available:
 
 
-      | **Name**    | **Description**                                                                            | **Behaviour**                                      | **Example** |
+      | **Name**    | **Description**                                                                            | **Behaviour**                             | **Example** |
 
-      | ----------- | ------------------------------------------------------------------------------------------ | -------------------------------------------------- | ----------- |
+      | ----------- | ------------------------------------------------------------------------------------------ | ----------------------------------------- | ----------- |
 
-      | Default     | An Alert that contains an icon, a title, and a line of text                                | Persists. Cannot be dismissed or actioned          |             |
+      | Default     | An Alert that contains an icon, a title, and a line of text                                | Persists. Cannot be dismissed or actioned |             |
 
-      | Compact     | An Alert that contains an icon and a title                                                 | Persists. Cannot be dismissed or actioned          |             |
+      | Compact     | An Alert that contains an icon and a title                                                 | Persists. Cannot be dismissed or actioned |             |
 
-      | Coloured    | An Alert that contains an icon, a title, and a line of text, with a coloured background    | Persists. Cannot be dismissed or actioned          |             |
+      | Coloured    | An Alert that contains an icon, a title, and a line of text, with a coloured background    | Persists. Cannot be dismissed or actioned |             |
 
-      | Solid       | An Alert that contains an icon, a title, and a line of text, with a solid white background | Persists. Cannot be dismissed or actioned          |             |
+      | Solid       | An Alert that contains an icon, a title, and a line of text, with a solid white background | Persists. Cannot be dismissed or actioned |             |
 
-      | Dismissible | An Alert that can be dismissed                                                             | Persists, but can be dismissed. Cannot be actioned |             |
+      | Dismissible | An Alert that can be dismissed                                                             | Persists, but can be dismissed            |             |
 
-      | Actionable  | An Alert that contains an action                                                           | Persists, but can be actioned. Cannot be dismissed |             |
+      | Actionable  | An Alert that contains an action                                                           | Persists, but can be actioned             |             |
 
 
       - - -
