@@ -12,7 +12,7 @@ tabs:
       ## What is an Alert?
 
 
-      An Alert is a method of communicating a contextual message. They provide users with important feedback, which allows them to understand a state that affects the entire system, the page, feature, or input.
+      An Alert is a method of communicating a contextual message. They provide users with important feedback, which allows them to understand a state that affects the entire system, the page, or the form.
 
 
       - - -
@@ -21,10 +21,13 @@ tabs:
       ### When, and why?
 
 
-      Use Alerts to draw a user's attention to information of special importance, such as status changes and updates. They should announce an event that has significance to the user and should always be relevant. Alerts can be generated in response to user actions (e.g. while performing a task) or automatically by your application. This depends on whether you want to give immediate feedback or messaging that provides updates on system activities.
+      Use Alerts to draw a user's attention to information of special importance, such as status changes or updates. They should announce an event that has significance to the user and should always be relevant. Alerts can be generated in response to user actions (e.g. while performing a task) or automatically by your application. This depends on whether you want to give immediate feedback or messaging that provides updates on system activities.
 
 
       Alerts can require an action or can simple be informational. When an action is required, Alerts should interrupt the user’s flow, but if not, then they should be less intrusive.
+
+
+      **Note:** Alerts must not be confused with or used instead of form validation. Form validation is tied to individual form fields and use an input’s help text.
 
 
       - - -
