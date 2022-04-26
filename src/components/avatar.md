@@ -20,7 +20,10 @@ tabs:
       ### When, and why?
 
 
-      Avatars can be used to show a thumbnail representation of a logged in user in your applications or, for example, a photo of a user in a Profile page.
+      Avatars can be used to show a thumbnail representation of a logged in user in your applications or, for example, a photo of a user in a Profile page. Avatars are an important part in helping other users form an impression of you and also provide a human presence within an interface.
+
+
+      Avatars should be used in the top right of a navigation bar to show the logged in user and should provide access to their Profile page. They can also be used in contact cards, chat UIs, and community forums, etc.
 
 
       - - -
