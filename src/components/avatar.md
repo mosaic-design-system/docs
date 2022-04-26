@@ -7,11 +7,11 @@ storybook-url: https://tessera.oneadvanced.io/dev/components-core/?path=/docs/ht
 storybook: https://tessera.oneadvanced.io/dev/components-core/?path=/docs/html-avatar--as-default
 tabs:
   - title: Usage
-    body: >-
+    body: >+
       ## What is an Avatar?
 
 
-      An Avatar is a graphical representation of a user or a user's character. They typically use a photo, but can also use an icon or initials to visually indicate a person.
+      An **Avatar** is a graphical representation of a user or a user's character. They typically use a photo, but can also use an icon or initials to visually indicate a person.
 
 
       - - -
@@ -20,10 +20,10 @@ tabs:
       ### When, and why?
 
 
-      Avatars can be used to show a thumbnail representation of a logged in user in your applications or, for example, a photo of a user in a Profile page. Avatars are an important part in helping other users form an impression of you and also provide a human presence within an interface.
+      Avatars can be used to show a thumbnail representation of a logged in user in your applications or, for example, a photo of a user in a Profile page. **Avatars** are an important part in helping users identify themselves and other users, and also provides a human presence within an interface.
 
 
-      Avatars should be used in the top right of a navigation bar to show the logged in user and should provide access to their Profile page. They can also be used in contact cards, chat UIs, and community forums, etc.
+      **Avatars** should be used in the top right of a navigation bar to show the logged in user, and should provide access to their Profile page. They can also be used in contact cards, chat UIs, community forums, etc.
 
 
       - - -
@@ -32,20 +32,20 @@ tabs:
       ## Avatar types
 
 
-      The following types of Avatars are available:
+      The following types of **Avatars** are available:
 
 
       | **Name**      | **Description**                                                                                     | **Example** |
 
       | ------------- | --------------------------------------------------------------------------------------------------- | ----------- |
 
-      | Default       | An Avatar that contains a photo                                                                     |             |
+      | **Default**       | An Avatar that contains a photo                                                                     |             |
 
-      | With initials | An Avatar that contains the user's initials                                                         |             |
+      | **With initials** | An Avatar that contains the user's initials                                                         |             |
 
-      | With icon     | An Avatar that contains an icon                                                                     |             |
+      | **With icon**     | An Avatar that contains an icon                                                                     |             |
 
-      | As sized      | Allows an Avatar to use one of the following sizes; 32px, 40px (default size), 48px, 64px, and 96px |             |
+      | **As sized**      | Allows an Avatar to use one of the following sizes; 32px, 40px (default size), 48px, 64px, and 96px |             |
 
 
       - - -
@@ -54,23 +54,24 @@ tabs:
       ## Using an Avatar
 
 
-      Avatars can be displayed individually or adjacent to each other on a single row. Although avatars are typically used with photos, they can be used with icons or, where a photo and icon is not available, they can also be used to display a user's initials.
+      ### Displaying an Avatar
+
+      **Avatars** can be displayed individually or adjacent to each other on a single row. 
 
 
-      Avatars are available in different sizes. However, it is important not to mix sizes. It is also important to remember that small images used in large Avatars will be upscaled, which could lead to distorted images. Always use compressed images and resize images near to the appropriate size. This will help maintain the best results.
+      Additionally, **Avatars** are available in different sizes, however it is important not to mix sizes. **Avatars** should only use one picture size across your entire product.
+
+
+      ### Avatar pictures
+
+      Although **Avatars** are typically used with photos, they can be used with icons. Choose one style to use across your entire product. In both cases, where a photo or icon is not available, they can also be used to display a user's initials.
 
 
       When a photo or icon is not available or hasn't been supplied, a fall-back icon is automatically used. This is the generic User icon.
 
 
-      The following rules apply to using Avatars:
+      It is also important to remember that small images used in large **Avatars** will be upscaled, which could lead to distorted images. Always use compressed images and resize images near to the appropriate size. This will help maintain the best results, and reduce the impact on performance by stopping the application from needing to render large image files.
 
-
-      * Do not to mix icon and photo Avatar styles
-
-      * Do not mix Avatar sizes
-
-      * Do not use high resolution photos, as this may impact performance
     icon: file_invoice
   - title: Code
     hook: code
