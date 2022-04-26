@@ -54,22 +54,13 @@ tabs:
       ## Using an Avatar
 
 
-      Avatars can be displayed individually or adjacent to each other on a single row. Although avatars are typically used with photos, they can be used with icons or, where a photo and icon is not available, they can also be used to display a user's initials. When none of these are supplied, a fall-back icon is automatically used. It is also possible to set a limit on the number of avatars that are visible and have any others displayed via a dropdown menu.
-
-
-      ### Sizes
+      Avatars can be displayed individually or adjacent to each other on a single row. Although avatars are typically used with photos, they can be used with icons or, where a photo and icon is not available, they can also be used to display a user's initials.
 
 
       Avatars are available in different sizes. However, it is important not to mix sizes. It is also important to remember that small images used in large Avatars will be upscaled, which could lead to distorted images. Always use compressed images and resize images near to the appropriate size. This will help maintain the best results.
 
 
-
-
-      ### Fall-back
-
-
-
-
+      When a photo or icon is not available or hasn't been supplied, a fall-back icon is automatically used. This is the generic User icon.
 
 
       The following rules apply to using Avatars:
