@@ -20,7 +20,7 @@ tabs:
       ### When, and why?
 
 
-      Avatars can be used to show a thumbnail representation of a logged in user in your applications or a photo of a user in a Profile page. 
+      Avatars can be used to show a thumbnail representation of a logged in user in your applications or, for example, a photo of a user in a Profile page.
 
 
       - - -
@@ -32,17 +32,17 @@ tabs:
       The following types of Avatars are available:
 
 
-      | **Name**      | **Description**                                                                                    | **Behaviour** | **Example** |
+      | **Name**      | **Description**                                                                                     | **Example** |
 
-      | ------------- | -------------------------------------------------------------------------------------------------- | ------------- | ----------- |
+      | ------------- | --------------------------------------------------------------------------------------------------- | ----------- |
 
-      | Default       | An Avatar that contains a photo                                                                    |               |             |
+      | Default       | An Avatar that contains a photo                                                                     |             |
 
-      | With initials | An Avatar that contains the user's initials                                                        |               |             |
+      | With initials | An Avatar that contains the user's initials                                                         |             |
 
-      | With icon     | An Avatar that contains an icon                                                                    |               |             |
+      | With icon     | An Avatar that contains an icon                                                                     |             |
 
-      | As sized      | Allows an Avatar to be one of the following sizes; 32px, 40px (default size), 48px, 64px, and 96px |               |             |
+      | As sized      | Allows an Avatar to use one of the following sizes; 32px, 40px (default size), 48px, 64px, and 96px |             |
 
 
       - - -
@@ -51,7 +51,27 @@ tabs:
       ## Using an Avatar
 
 
-      Lorem ipsum
+      Avatars can be displayed individually or adjacent to each other on a single row. Although avatars are typically used with photos, they can be used with icons or, where a photo and icon is not available, they can also be used to display a user's initials. When none of these are supplied, a fall-back icon is automatically used. It is also possible to set a limit on the number of avatars that are visible and have any others displayed via a dropdown menu.
+
+
+      ### Sizes
+
+
+      Avatars are available in different sizes. However, it is important not to mix sizes. 
+
+
+
+
+      The following rules apply to using Avatars:
+
+
+      * Do not to mix icon and photo Avatar styles
+
+      * Do not mix Avatar sizes
+
+      * Do not use high resolution photos, as this may impact performance
+
+      *
     icon: file_invoice
   - title: Code
     hook: code
