@@ -7,47 +7,49 @@ storybook-url: https://tessera.oneadvanced.io/dev/components-core/?path=/docs/ht
 storybook: https://tessera.oneadvanced.io/dev/components-core/?path=/docs/html-avatar--as-default
 tabs:
   - title: Usage
-    body: |-
+    body: >-
       ## What is an Avatar?
 
-      Lorem ipsum
+
+      An Avatar is a graphical representation of a user or a user's character. They typically use a photo, but can also use an icon or initials to visually indicate a person.
+
 
       - - -
+
 
       ### When, and why?
 
-      Lorem ipsum
+
+      Avatars can be used to show a thumbnail representation of a logged in user in your applications or a photo of a user in a Profile page. 
+
 
       - - -
+
 
       ## Avatar types
 
+
       The following types of Avatars are available:
 
-      | **Name** | **Description** | **Behaviour** | **Example** |
-      | -------- | --------------- | ------------- | ----------- |
-      | Default  |                 |               |             |
-      |          |                 |               |             |
-      |          |                 |               |             |
-      |          |                 |               |             |
-      |          |                 |               |             |
-      |          |                 |               |             |
+
+      | **Name**      | **Description**                                                                                    | **Behaviour** | **Example** |
+
+      | ------------- | -------------------------------------------------------------------------------------------------- | ------------- | ----------- |
+
+      | Default       | An Avatar that contains a photo                                                                    |               |             |
+
+      | With initials | An Avatar that contains the user's initials                                                        |               |             |
+
+      | With icon     | An Avatar that contains an icon                                                                    |               |             |
+
+      | As sized      | Allows an Avatar to be one of the following sizes; 32px, 40px (default size), 48px, 64px, and 96px |               |             |
+
 
       - - -
 
+
       ## Using an Avatar
 
-      Lorem ipsum
-
-      ### Guideline 1
-
-      Lorem ipsum
-
-      ### Guideline 2
-
-      Lorem ipsum
-
-      ### Guideline 3
 
       Lorem ipsum
     icon: file_invoice
