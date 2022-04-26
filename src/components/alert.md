@@ -12,7 +12,7 @@ tabs:
       ## What is an Alert?
 
 
-      An Alert is a method of communicating a contextual message. They provide users with important feedback, which allows them to understand a state that affects the entire system, the page, or the form.
+      An Alert is a method of communicating a contextual message. They provide users with important feedback, which allows them to understand a state that affects the entire system, a page, or a form.
 
 
       - - -
