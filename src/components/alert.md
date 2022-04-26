@@ -107,19 +107,19 @@ tabs:
       The following rules apply to all types of **Alerts**:
 
 
-      * Do not place Alerts outside their intended region
+      * Do not place **Alerts** outside their intended region
 
-      * Do not cover other content with an Alert 
+      * Do not cover other content with an **Alert** 
 
       * Keep messages to no more than two lines
 
       * Keep messages descriptive, but concise
 
-      * Only show one action per Alert
+      * Only show one action per **Alert**
 
-      * Only show one Alert at a time
+      * Only show one **Alert** at a time
 
-      * Do not automatically dismiss Alerts for critical or emergency messages. Some users with disabilities need more time to read or interact with messages
+      * Do not automatically dismiss **Alerts** for critical or emergency messages. Some users with disabilities need more time to read or interact with messages
     icon: file_invoice
   - title: Code
     hook: code
