@@ -24,7 +24,7 @@ tabs:
       Use Dialogs to prompt users for information relating to the current task or to display messaging which helps them to make decisions about the current workflow. A Dialog is typically used when a particular action has to be performed and interrupts the user's workflow until its content has been reviewed, interacted with or dismissed.
 
 
-      tbc
+      There are two types of Dialogs; the first is used for messages and the second is used for forms. Use a messaging Dialog when you want to present the user with advisory, warnings, or system critical information and use a form Dialog when you want to capture additional data using a collection of form inputs.
 
 
       - - -
@@ -36,15 +36,15 @@ tabs:
       The following types of Dialog are available:
 
 
-      | **Name** | **Description**                                                                                       | **Behaviour** | **Example** |
+      | **Name** | **Description**                                                                                       | **Behaviour**                          | **Example** |
 
-      | -------- | ----------------------------------------------------------------------------------------------------- | ------------- | ----------- |
+      | -------- | ----------------------------------------------------------------------------------------------------- | -------------------------------------- | ----------- |
 
-      | Default  | A Dialog used for presenting users with messages                                                      |               |             |
+      | Default  | A Dialog used for presenting users with messages                                                      | Persists. Can be dismissed or actioned |             |
 
-      | As form  | A Dialog used when user input is required                                                             |               |             |
+      | As form  | A Dialog used when user input is required                                                             | Persists. Can be dismissed or actioned |             |
 
-      | As sized | Allows a Dialog to use one of the following sizes; Extra small, Small, Medium, Large, and Full-screen |               |             |
+      | As sized | Allows a Dialog to use one of the following sizes; Extra small, Small, Medium, Large, and Full-screen |                                        |             |
 
 
       - - -
