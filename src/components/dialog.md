@@ -12,7 +12,7 @@ tabs:
       ## What is a Dialog?
 
 
-      A **Dialog** is a container or box used to display content in a layer that sits above the main application. They are an interaction between the application and the user.
+      A Dialog is a container or box used to display content in a layer that sits above the main application. They are an interaction between the application and the user.
 
 
       - - -
@@ -21,13 +21,10 @@ tabs:
       ### When, and why?
 
 
-      Displayed when the application needs input or decision about the current workflow.
+      Use Dialogs to prompt users for information relating to the current task or to display messaging which helps them to make decisions about the current workflow. A Dialog is typically used when a particular action has to be performed and interrupts the user's workflow until its content has been reviewed, interacted with or dismissed.
 
 
-      This paradigm is used in cases such as the creation or editing of a record, as well as various types of messaging and wizards.
-
-
-      Dialogs inform users about a task and can contain critical information, require decisions, or involve multiple tasks.
+      tbc
 
 
       - - -
@@ -39,25 +36,15 @@ tabs:
       The following types of Dialog are available:
 
 
-      | **Name**   | **Description** | **Behaviour** | **Example** |
+      | **Name** | **Description**                                  | **Behaviour** | **Example** |
 
-      | ---------- | --------------- | ------------- | ----------- |
+      | -------- | ------------------------------------------------ | ------------- | ----------- |
 
-      | Default    |                 |               |             |
+      | Default  | A Dialog used for presenting users with messages |               |             |
 
-      | As modal   |                 |               |             |
+      | As form  | A Dialog used when user input is required        |               |             |
 
-      | As form    |                 |               |             |
-
-      | As success |                 |               |             |
-
-      | As danger  |                 |               |             |
-
-      | As warning |                 |               |             |
-
-      | As info    |                 |               |             |
-
-      | As sized   |                 |               |             |
+      | As sized |                                                  |               |             |
 
 
       - - -
