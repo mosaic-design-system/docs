@@ -76,6 +76,24 @@ tabs:
 
 
       Text
+
+
+      The following rules apply to all types of Dialogs:
+
+
+      * Always use a descriptive title
+
+      * Always provide the following methods for users to close a Dialog; Cancel, Close icon, Escape key. The Escape key is important for keyboard users
+
+      * Always make button labels short and concise, ideally one or two words
+
+      * Avoid using "OK" as a button label. Always be specific about a button's action, e.g. "Save changes" or "Delete user"
+
+      * Avoid using a scroll bar in Dialogs
+
+      * Avoid making Dialogs take up a whole screen. Consider creating a new page instead
+
+      * Dialogs must only be used for short forms
     icon: file_invoice
   - title: Code
     hook: code
