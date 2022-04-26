@@ -75,7 +75,7 @@ tabs:
       ## Using a Dialog
 
 
-      Text
+      tbc
 
 
       The following rules apply to all types of Dialogs:
