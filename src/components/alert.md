@@ -108,7 +108,7 @@ tabs:
 
       * Only show one Alert at a time
 
-      * Do not use automatically dismiss Alerts for critical or emergency messages. Some users with disabilities need more time to read or interact with messages
+      * Do not automatically dismiss Alerts for critical or emergency messages. Some users with disabilities need more time to read or interact with messages
     icon: file_invoice
   - title: Code
     hook: code
