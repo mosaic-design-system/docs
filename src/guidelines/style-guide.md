@@ -467,6 +467,99 @@ tabs:
       - Percentages always use digits, and are followed immediately by the
       percentage symbol with no space (i.e. 3%).\r\n"
   - title: Formatting
+    body: "## Bold text\r
+
+      \r
+
+      **Bolded text** is allowed within products as long as you are
+      emphasising a small amount of the text. Bolding should be reserved for
+      small pieces of **key information**. This can include things like dates or
+      names. \r
+
+      \r
+
+
+      Ensure you do not overuse bolded text, as it can be jarring for the
+      user if there are multiple bolded words across a single paragraph. \r
+
+      \r
+
+
+      Outside of a product, such as in supporting documentation and
+      customer communications, bolding should be used for the names of products
+      and their features. This is to indicate to the reader that you are
+      referring to something **specific** within the product, and not something
+      generic. For example, in **Cloud HR**, an **Absence** (as in a booked
+      period of time off work within the **Cloud HR** system) should be bolded
+      to differentiate it from an absence in general. \r
+
+      \r
+
+      Headings and subheadings should always be bolded, and bolding can be
+      used in bullet points to promote a visual hierarchy in your copy.\r
+
+      \r
+
+
+      ## Italics\r
+
+      \r
+
+
+      *Italicised text* should be used sparingly. Research suggests that
+      large blocks of italics are very difficult to read for dyslexic users. In
+      addition, italicising large blocks of text defeats the point of italics,
+      which is to draw attention to something that is different from its
+      surrounding parts.\r
+
+      \r
+
+
+      Small pieces of copy (10 words or less) can be italicised to
+      differentiate them from other blocks of text on the page. This might be
+      appropriate for small notes highlighting something on a page, like a note
+      matched with some text by an asterisk (*) that is qualified further down
+      the page.\r
+
+      \r
+
+
+      Italics should also be used to refer to entities not related to
+      Advanced, such as government bodies (*HMRC*) or the name of a book or
+      journal (*The Sunday Times*). Quotes should also be written in italics.\r
+
+      \r
+
+
+      ## Underline\r
+
+      \r
+
+
+      Do not _underline_ text for emphasis. It may confuse users who are
+      expecting a hyperlink. Headers shouldn’t be underlined either, they should
+      use a larger font and be bolded.\r
+
+      \r
+
+
+      ## Colour\r
+
+      \r
+
+
+      [The original style guide ok’d colouring text, but I don’t think
+      this is accessible? Have included the text here just in case it is, but
+      I’m not sure.]\r
+
+      \r
+
+
+      Colour is a good way to emphasise things. However, don't use too
+      much colour, as a proportion of your readers may be colour blind and may
+      not see the highlighted bits. Also, if a user changes their Windows colour
+      scheme, the colours used may not be displayed as intended. Colours should
+      be taken from the Mosaic colour palette.\r\n"
   - title: Punctuation
   - title: Quality
   - title: Structure
