@@ -36,15 +36,15 @@ tabs:
       The following types of Dialog are available:
 
 
-      | **Name** | **Description**                                  | **Behaviour** | **Example** |
+      | **Name** | **Description**                                                                                       | **Behaviour** | **Example** |
 
-      | -------- | ------------------------------------------------ | ------------- | ----------- |
+      | -------- | ----------------------------------------------------------------------------------------------------- | ------------- | ----------- |
 
-      | Default  | A Dialog used for presenting users with messages |               |             |
+      | Default  | A Dialog used for presenting users with messages                                                      |               |             |
 
-      | As form  | A Dialog used when user input is required        |               |             |
+      | As form  | A Dialog used when user input is required                                                             |               |             |
 
-      | As sized |                                                  |               |             |
+      | As sized | Allows a Dialog to use one of the following sizes; Extra small, Small, Medium, Large, and Full-screen |               |             |
 
 
       - - -
@@ -56,17 +56,17 @@ tabs:
       Context helps convey the information being communicated. Dialog contexts correspond to a colour to provide a consistent experience for users. For more information, refer to Colours \[link to Colours page].
 
 
-      | **Name** | **Description** | **Behaviour** | **Examples** |
+      | **Name** | **Description**                                                                                                              | **Behaviour**                                                            | **Examples** |
 
-      | -------- | --------------- | ------------- | ------------ |
+      | -------- | ---------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------ | ------------ |
 
-      | Success  |                 |               |              |
+      | Success  | Indicates actions were completed successfully. The Success colour is green                                                   | Does not require user interaction, but persists until the user dismisses |              |
 
-      | Danger   |                 |               |              |
+      | Danger   | Indicates errors and, optionally, prevents users from proceeding until the issue has been resolved. The Danger colour is red | Always persists until the user dismisses or resolves the issue           |              |
 
-      | Warning  |                 |               |              |
+      | Warning  | Indicates that actions are not desirable or might have unexpected results. The Warning colour is yellow                      | Persists until the user dismisses or continues regardless                |              |
 
-      | Info     |                 |               |              |
+      | Info     | Indicates neutral or advisory information that may not be related to the current action. The info colour is teal             | Does not require user interaction, but persists until user dismisses     |              |
 
 
       - - -
