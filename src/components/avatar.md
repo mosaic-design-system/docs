@@ -60,7 +60,14 @@ tabs:
       ### Sizes
 
 
-      Avatars are available in different sizes. However, it is important not to mix sizes. 
+      Avatars are available in different sizes. However, it is important not to mix sizes. It is also important to remember that small images used in large Avatars will be upscaled, which could lead to distorted images. Always use compressed images and resize images near to the appropriate size. This will help maintain the best results.
+
+
+
+
+      ### Fall-back
+
+
 
 
 
@@ -73,8 +80,6 @@ tabs:
       * Do not mix Avatar sizes
 
       * Do not use high resolution photos, as this may impact performance
-
-      *
     icon: file_invoice
   - title: Code
     hook: code
