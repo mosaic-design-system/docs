@@ -36,17 +36,17 @@ tabs:
       The following types of Dialog are available:
 
 
-      | **Name**   | **Description**                                                                                       | **Behaviour**                          | **Example** |
+      | **Name**   | **Description**                                                                                          | **Behaviour**                          | **Example**              |
 
-      | ---------- | ----------------------------------------------------------------------------------------------------- | -------------------------------------- | ----------- |
+      | ---------- | -------------------------------------------------------------------------------------------------------- | -------------------------------------- | ------------------------ |
 
-      | Default    | A neutral Dialog with no styling or context, used as a simple container for content, e.g. images      | Persists. Can be dismissed or actioned |             |
+      | Default    | A neutral Dialog with no styling or context, used as a simple container for content, e.g. images, videos | Persists. Can be dismissed or actioned | Showing a video tutorial |
 
-      | As message | A Dialog used for presenting users with messages                                                      | Persists. Can be dismissed or actioned |             |
+      | As message | A Dialog used for presenting users with messages                                                         | Persists. Can be dismissed or actioned | Warning about an action  |
 
-      | As form    | A Dialog used when user input is required                                                             | Persists. Can be dismissed or actioned |             |
+      | As form    | A Dialog used when user input is required                                                                | Persists. Can be dismissed or actioned | Creating a new record    |
 
-      | As sized   | Allows a Dialog to use one of the following sizes; Extra small, Small, Medium, Large, and Full-screen |                                        |             |
+      | As sized   | Allows a Dialog to use one of the following sizes; Extra small, Small, Medium, Large, and Full-screen    |                                        |                          |
 
 
       - - -
@@ -80,7 +80,10 @@ tabs:
       ## Using a Dialog
 
 
-      The key to usage is to ensure that the correct type of Dialog is used. 
+      Dialogs are triggered by user actions. They should interrupt a user’s current task to grab their attention. The key to usage is to ensure that the correct type and context (if a message) of Dialog is used. For example, if you want to show an informational message use an Info Dialog, but if you want to present the user with a short form then use a Form Dialog. This will help users become familiar with the nature of the Dialog and understand what is being asked of them.
+
+
+      The size of a Dialog should be appropriate to its content and where possible should be consistent wherever they are used. If the height or width means that the Dialog looks out of proportion or the amount of inputs force a scroll bar, then consider a different approach. 
 
 
       The following rules apply to all types of Dialogs:
@@ -99,6 +102,8 @@ tabs:
       * Avoid making Dialogs take up a whole screen. Consider creating a new page instead
 
       * Dialogs must only be used for short forms
+
+      * Inputs in form Dialogs must stack vertically. Avoid multiple columns
     icon: file_invoice
   - title: Code
     hook: code
