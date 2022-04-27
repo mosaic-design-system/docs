@@ -41,9 +41,9 @@ tabs:
 
       | Default       | A Page Header that contains a title and up to 4 call to action buttons | Fixed to the top of the page     |             |
 
-      | With subtitle | A Page Header that adds a subtitle                                     | As above, but adds a subtitle    |             |
+      | With subtitle | A Page Header that includes a subtitle                                 | As above, but adds a subtitle    |             |
 
-      | With back     | A Page Header that adds a Back button                                  | As above, but adds a Back button |             |
+      | With back     | A Page Header that includes a Back button                              | As above, but adds a Back button |             |
 
 
       - - -
