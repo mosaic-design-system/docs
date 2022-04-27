@@ -38,15 +38,10 @@ tabs:
       The Navigation Header is a fundamental part of the the application shell or layout. 
 
 
-      There are three navigation components; Navigation Header, Navigation Rail, Navigation Drawer, and Navigation Bar. The Navigation Header is the primary navigation that appears across the top of the page and the 
+      There are three navigation components; Navigation Header, Navigation Rail, Navigation Drawer, and Navigation Bar. The Navigation Header is the primary navigation that appears across the top of the page and the rail and drawer are combined to create a Sidebar for the secondary navigation, which appears in a left-hand pane. Using a Navigation Header with a Sidebar is a common pattern for multiple levels of navigation. The Navigation Bar is used to display links across the bottom on small devices.
 
 
-      sidebar is the secondary navigation that appears in a left-hand pane. Using a navbar with a sidebar is a common pattern for two levels of navigation. The bottom navigation is used to display links across the bottom on small screens.
-
-
-      There are a number of different navbar behaviours, such as collapse, bottom navigation, sidebar, etc. In addition, there are range of navbar variations/attributes including, multi-line navbar links, navbar with search toggle, etc.
-
-
+      tbc
 
 
       The following rules apply to the Navigation Header:
