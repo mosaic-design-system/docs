@@ -36,15 +36,17 @@ tabs:
       The following types of Dialog are available:
 
 
-      | **Name** | **Description**                                                                                       | **Behaviour**                          | **Example** |
+      | **Name**   | **Description**                                                                                       | **Behaviour**                          | **Example** |
 
-      | -------- | ----------------------------------------------------------------------------------------------------- | -------------------------------------- | ----------- |
+      | ---------- | ----------------------------------------------------------------------------------------------------- | -------------------------------------- | ----------- |
 
-      | Default  | A Dialog used for presenting users with messages                                                      | Persists. Can be dismissed or actioned |             |
+      | Default    | A neutral Dialog with no styling or context, used as a simple container for content, e.g. images      | Persists. Can be dismissed or actioned |             |
 
-      | As form  | A Dialog used when user input is required                                                             | Persists. Can be dismissed or actioned |             |
+      | As message | A Dialog used for presenting users with messages                                                      | Persists. Can be dismissed or actioned |             |
 
-      | As sized | Allows a Dialog to use one of the following sizes; Extra small, Small, Medium, Large, and Full-screen |                                        |             |
+      | As form    | A Dialog used when user input is required                                                             | Persists. Can be dismissed or actioned |             |
+
+      | As sized   | Allows a Dialog to use one of the following sizes; Extra small, Small, Medium, Large, and Full-screen |                                        |             |
 
 
       - - -
@@ -54,6 +56,9 @@ tabs:
 
 
       Context helps convey the information being communicated. Dialog contexts correspond to a colour to provide a consistent experience for users. For more information, refer to Colours \[link to Colours page].
+
+
+      **Note**: Contexts only apply to message Dialogs. Form Dialogs do not have a context and are styled differently.
 
 
       | **Name** | **Description**                                                                                                              | **Behaviour**                                                            | **Examples** |
@@ -75,7 +80,7 @@ tabs:
       ## Using a Dialog
 
 
-      tbc
+      The key to usage is to ensure that the correct type of Dialog is used. 
 
 
       The following rules apply to all types of Dialogs:
