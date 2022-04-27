@@ -8,7 +8,7 @@ storybook: https://tessera.oneadvanced.io/dev/components-core/?path=/docs/html-n
 tabs:
   - title: Usage
     body: >-
-      ## What is a \[Component?]
+      ## What is a Navigation Header?
 
 
       A Navigation Header is a list of global navigation links to guide users around your application.
@@ -32,58 +32,36 @@ tabs:
       - - -
 
 
-      ## \[Component] types
+      ## Using a Navigation Header
 
 
-      The following types of \[Component] are available:
+      The Navigation Header is a fundamental part of the the application shell or layout. 
 
 
-      | **Name** | **Description** | **Behaviour** | **Example** |
-
-      | -------- | --------------- | ------------- | ----------- |
-
-      | Default  |                 |               |             |
-
-      |          |                 |               |             |
-
-      |          |                 |               |             |
-
-      |          |                 |               |             |
-
-      |          |                 |               |             |
-
-      |          |                 |               |             |
 
 
-      - - -
+      The following rules apply to the Navigation Header:
 
 
-      ## \[Component] contexts
+      * It must be present on every page
 
+      * It must only be present once per page
 
-      Context helps convey the information being communicated. Dialog contexts correspond to a colour to provide a consistent experience for users. For more information, refer to Colours \[link to Colours page].
+      * Keep link text short and concise
 
+      * Users should be able to scan links and learn something about their destination without much reference to the surrounding content
 
-      | **Name** | **Description** | **Behaviour** | **Examples** |
+      * Do not overcrowd the navigation. It must only be used for global links. As a rule of thumb, the recommended number is 2 to 6
 
-      | -------- | --------------- | ------------- | ------------ |
+      * Consider the navigation hierarchy. What belongs in the navigation versus what goes in the secondary navigation
 
-      | Success  |                 |               |              |
+      * Use a sidebar for secondary navigation
 
-      | Danger   |                 |               |              |
+      * (?) A navbar must include the Advanced logo and product name
 
-      | Warning  |                 |               |              |
+      * (?) The Advanced logo and product name must be linked to the product's home page
 
-      | Info     |                 |               |              |
-
-
-      - - -
-
-
-      ## Using a \[Component]
-
-
-      Text
+      * (?) The navbar can optionally be used with a sidebar, but a sidebar cannot be used without a navbar
     icon: file_invoice
   - title: Code
     hook: code
