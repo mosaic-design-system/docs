@@ -976,5 +976,262 @@ tabs:
       to use one to save space, ensure that there is a space either side of the
       slash.\r\n"
   - title: Quality
+    body: "## Consistency\r
+
+      \r
+
+      Consistency is really important across your product, and the wider
+      suite of products. It really helps to build a consistent identity and
+      won't surprise your users with sudden shifts in tone and word choice.\r
+
+      \r
+
+      Ensure that anybody writing copy in your products adheres to the
+      (Tone of Voice)[/guidelines/tone-of-voice] guidance, and this style guide.
+      \r
+
+      \r
+
+      You should also decide on terms you use for 'common' interactions.
+      For example, consistently use either \"Cancel\" or \"Close\" on modals,
+      etc. If you're writing something, see if you can find another example of
+      something similar elsewhere in the product, or even elsewhere in the
+      product suite.\r
+
+      \r
+
+      ## Spelling\r
+
+      \r
+
+      Hopefully this one is quite obvious, but you should never spell a
+      word incorrectly in your product. An easy way to avoid this is writing out
+      your copy in a word processor beforehand and use the built-in
+      spellchecker. Always make sure you check any copy with someone else before
+      publishing it – the more eyes see it, the better!\r
+
+      \r
+
+      If you ever use industry-specific jargon, ensure you fully
+      understand the context and spelling of it. It will be super embarrassing
+      if a user comes back and complains that you don't know what you're
+      doing.\r
+
+      \r
+
+      ## Building product familiarity\r
+
+      \r
+
+      A really effective way of clearing out confusion in your copy is
+      being clear when something you're referring to is a concept unique to the
+      product. When referring to something like this, ensure that you use a
+      capital letter to indicate that This Is Something You Will Find In The
+      Product. Examples of this includes things like Desks and Applets in
+      MyWorkplace. \r
+
+      \r
+
+      This serves another purpose: when words like this stick out of a
+      sentence, it really helps the user with on-boarding! If someone sees a
+      capitalised word and have 'learned' that this means it's something
+      specific to the product, it will encourage them to find out what that is.
+      \r\n"
   - title: Structure
+    body: "## Consistency\r
+
+      \r
+
+      Consistency is really important across your product, and the wider
+      suite of products. It really helps to build a consistent identity and
+      won't surprise your users with sudden shifts in tone and word choice.\r
+
+      \r
+
+      Ensure that anybody writing copy in your products adheres to the
+      (Tone of Voice)[/guidelines/tone-of-voice] guidance, and this style guide.
+      \r
+
+      \r
+
+      You should also decide on terms you use for 'common' interactions.
+      For example, consistently use either \"Cancel\" or \"Close\" on modals,
+      etc. If you're writing something, see if you can find another example of
+      something similar elsewhere in the product, or even elsewhere in the
+      product suite.\r
+
+      \r
+
+      ## Spelling\r
+
+      \r
+
+      Hopefully this one is quite obvious, but you should never spell a
+      word incorrectly in your product. An easy way to avoid this is writing out
+      your copy in a word processor beforehand and use the built-in
+      spellchecker. Always make sure you check any copy with someone else before
+      publishing it – the more eyes see it, the better!\r
+
+      \r
+
+      If you ever use industry-specific jargon, ensure you fully
+      understand the context and spelling of it. It will be super embarrassing
+      if a user comes back and complains that you don't know what you're
+      doing.\r
+
+      \r
+
+      ## Building product familiarity\r
+
+      \r
+
+      A really effective way of clearing out confusion in your copy is
+      being clear when something you're referring to is a concept unique to the
+      product. When referring to something like this, ensure that you use a
+      capital letter to indicate that This Is Something You Will Find In The
+      Product. Examples of this includes things like Desks and Applets in
+      MyWorkplace. \r
+
+      \r
+
+      This serves another purpose: when words like this stick out of a
+      sentence, it really helps the user with on-boarding! If someone sees a
+      capitalised word and have 'learned' that this means it's something
+      specific to the product, it will encourage them to find out what that is.
+      \r
+
+      \r
+
+       \r
+
+      TAB 6: Structure\r
+
+      \r
+
+      ## Headings\r
+
+      \r
+
+      Headings are big, bold pieces of text that draw the eye of the user.
+      They need to be meaningful and appropriate — if a heading isn't indicative
+      of what's underneath it, then it's a pointless heading.\r
+
+      \r
+
+      Headings should only ever be a few words long, anything more than
+      three will be pushing it. \r
+
+      \r
+
+      They also go a long way to breaking up the page into logical parts,
+      helping the user locate exactly what it is on the page that they're
+      looking for. If there are distinct areas of a page, make good use of
+      headings to clearly signpost these different areas of functionality.\r
+
+      \r
+
+      ### Subheadings\r
+
+      \r
+
+      Don't forget subheadings! They can even further break up areas of
+      functionality into logical pieces.\r
+
+      \r
+
+      They also make the page easier to read for a user. Effective uses of
+      subheadings will make parsing the different areas of the page.\r
+
+      \r
+
+      Subheadings should always be at least somewhat related to the
+      heading they fall under. If something is entirely unrelated to the heading
+      above it, it should be a new heading.\r
+
+      \r
+
+      ## Paragraphs\r
+
+      \r
+
+      Avoid super long paragraphs in your product. Nobody wants to read
+      massive walls of text. You will also find that a properly paragraphed
+      piece of copy will aid in the user absorbing the information. \r
+
+      \r
+
+      A new paragraph should be used when you move onto a similar but
+      related topic or idea.\r
+
+      \r
+
+      ## Readability\r
+
+      \r
+
+      Break up content or pages into logical chunks. Ensure you use
+      headings, subheadings and paragraphs to leave plenty of white space to
+      give the user's eyes a break. A clustered and cluttered page will make
+      absorbing the information really difficult, and users will often find it
+      difficult to find what they are looking for.\r
+
+      \r
+
+      White space is really important when reading large chunks of text.
+      Imagine reading a book without page borders, and white space in the
+      headers and footers. Really hard.\r
+
+      \r
+
+      Similarly, your copy should be easy to understand and unambiguous.
+      Refer to the [Tone of Voice](/guidelines/tone-of-voice) guidance for more
+      information on this.\r
+
+      \r
+
+      ## Cases\r
+
+      \r
+
+      Cases are super weird! What's title case? What the hell is camel
+      case? When should I capitalise a title? When shouldn't I? \r
+
+      \r
+
+      Easy! Use sentence case everywhere in your product! Sentence case is
+      like writing a sentence in a book: the first word is capitalised, then the
+      only other capitals are proper nouns and the names of your features. \r
+
+      \r
+
+      Sentence case is much easier to read. The advantage of sentence case
+      is that pretty much every letter is the same height, and the odd height of
+      Capitalised Words separates them from the pack. It makes reading really
+      easy for all our users. Sentence case is also just the right level of
+      formality that we want to achieve in our software. Our software wants to
+      appear conversational, and sentence case achieves exactly that.\r
+
+      \r
+
+      ## White Space\r
+
+      \r
+
+      The term \"white space\" refers to the portions of a page that are
+      left blank. This includes things between the breaks between lines in a
+      paragraph, paragraphs, headings, graphics, margins, columns, tables, and a
+      whole host of other things. \r
+
+      \r
+
+      White space is **not** blank space. It isn't wasted. It is a key
+      part of the design of Mosaic. Products that use mosaic are sleek, easy to
+      parse, and approachable. Without white space, the page would appear
+      cramped, busy and cluttered. \r
+
+      \r
+
+      Conversely, too much white space makes pages feel empty and
+      incomplete. Use the space available to you, but ensure you tread a fine
+      line between efficiency and visual attractiveness.\r\n"
 ---
