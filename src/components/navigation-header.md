@@ -4,7 +4,7 @@ title: Navigation header
 toc: true
 chips:
   - "HTML/CSS: Available"
-storybook: https://tessera.oneadvanced.io/dev/components-core/?path=/docs/html-nav--as-default
+storybook: https://tessera.oneadvanced.io/dev/components-core/?path=/docs/html-navigation-header--as-default
 tabs:
   - title: Usage
     body: ""
