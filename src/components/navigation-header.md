@@ -38,6 +38,15 @@ tabs:
       The Navigation Header is a fundamental part of the the application shell or layout. 
 
 
+      There are three navigation components; Navigation Header, Navigation Rail, Navigation Drawer, and Navigation Bar. The Navigation Header is the primary navigation that appears across the top of the page and the 
+
+
+      sidebar is the secondary navigation that appears in a left-hand pane. Using a navbar with a sidebar is a common pattern for two levels of navigation. The bottom navigation is used to display links across the bottom on small screens.
+
+
+      There are a number of different navbar behaviours, such as collapse, bottom navigation, sidebar, etc. In addition, there are range of navbar variations/attributes including, multi-line navbar links, navbar with search toggle, etc.
+
+
 
 
       The following rules apply to the Navigation Header:
@@ -56,12 +65,6 @@ tabs:
       * Consider the navigation hierarchy. What belongs in the navigation versus what goes in the secondary navigation
 
       * Use a sidebar for secondary navigation
-
-      * (?) A navbar must include the Advanced logo and product name
-
-      * (?) The Advanced logo and product name must be linked to the product's home page
-
-      * (?) The navbar can optionally be used with a sidebar, but a sidebar cannot be used without a navbar
     icon: file_invoice
   - title: Code
     hook: code
