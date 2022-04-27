@@ -464,12 +464,11 @@ tabs:
       \r
 
 
-      - When you get to numbers with four or more digits, every 4th digit
-      from the right should be separated from the previous three by a comma
-      (i.e. 1,532,301). This promotes readability and helps users who struggle
-      to read large numbers separate the separate parts of the number out. In
-      the previous example, they can see the *millions*, *thousands* and
-      *hundreds* of the number.\r
+      - When you get to numbers with four or more digits, every 3rd digit
+      from the right should be preceded by a comma (i.e. 1,532,301). This
+      promotes readability and helps users who struggle to read large numbers
+      separate the separate parts of the number out. In the previous example,
+      they can see the *millions*, *thousands* and *hundreds* of the number.\r
 
       \r
 
