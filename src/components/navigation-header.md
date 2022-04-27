@@ -11,7 +11,7 @@ tabs:
       ## What is a \[Component?]
 
 
-      A **\[Component]** is...
+      A Navigation Header is a list of global navigation links to guide users around your application.
 
 
       - - -
@@ -20,7 +20,13 @@ tabs:
       ### When, and why?
 
 
-      Text
+      A sound navigation offers a high degree of discoverability and feedback, letting your users know where they are at all times and ensuring they can easily get to where they want to go.
+
+
+      The Navigation Header is the primary navigation for your application. It is fully responsive and begins collapsed in mobile views and becomes horizontal as the available screen width increases. It provides access to top level functions such as Search, Notifications, Profile, etc.
+
+
+      On mobile devices, it serves to show and hide the essential sidebar navigation that allows the user to navigate around the application.
 
 
       - - -
