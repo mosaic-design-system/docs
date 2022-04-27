@@ -1,1 +1,44 @@
-@import 'https://dev-cdn.svc.oneadvanced.io/tessera/components-core/v2/css/core.css';
+/* HTML Components */
+@import 'https://dev-cdn.svc.oneadvanced.io/mosaic-design/accordion/v0/accordion.min.css';
+@import 'https://dev-cdn.svc.oneadvanced.io/mosaic-design/alert/v0/alert.min.css';
+@import 'https://dev-cdn.svc.oneadvanced.io/mosaic-design/avatar/v0/avatar.min.css';
+@import 'https://dev-cdn.svc.oneadvanced.io/mosaic-design/breadcrumb/v0/breadcrumb.min.css';
+@import 'https://dev-cdn.svc.oneadvanced.io/mosaic-design/button/v0/button.min.css';
+@import 'https://dev-cdn.svc.oneadvanced.io/mosaic-design/button-group/v0/button-group.min.css';
+@import 'https://dev-cdn.svc.oneadvanced.io/mosaic-design/card/v0/card.min.css';
+@import 'https://dev-cdn.svc.oneadvanced.io/mosaic-design/chip/v0/chip.min.css';
+@import 'https://dev-cdn.svc.oneadvanced.io/mosaic-design/collapse/v0/collapse.min.css';
+@import 'https://dev-cdn.svc.oneadvanced.io/mosaic-design/container/v0/container.min.css';
+/* @import 'https://dev-cdn.svc.oneadvanced.io/mosaic-design/dialog/v0/dialog.min.css'; */
+@import 'https://dev-cdn.svc.oneadvanced.io/mosaic-design/drawer/v0/drawer.min.css';
+@import 'https://dev-cdn.svc.oneadvanced.io/mosaic-design/dropdown/v0/dropdown.min.css';
+@import 'https://dev-cdn.svc.oneadvanced.io/mosaic-design/grid/v0/grid.min.css';
+@import 'https://dev-cdn.svc.oneadvanced.io/mosaic-design/list-group/v0/list-group.min.css';
+@import 'https://dev-cdn.svc.oneadvanced.io/mosaic-design/menu/v0/menu.min.css';
+@import 'https://dev-cdn.svc.oneadvanced.io/mosaic-design/nav/v0/nav.min.css';
+@import 'https://dev-cdn.svc.oneadvanced.io/mosaic-design/navigation-bar/v0/navigation-bar.min.css';
+@import 'https://dev-cdn.svc.oneadvanced.io/mosaic-design/navigation-header/v0/navigation-header.min.css';
+@import 'https://dev-cdn.svc.oneadvanced.io/mosaic-design/navigation-rail/v0/navigation-rail.min.css';
+@import 'https://dev-cdn.svc.oneadvanced.io/mosaic-design/page-header/v0/page-header.min.css';
+@import 'https://dev-cdn.svc.oneadvanced.io/mosaic-design/pagination/v0/pagination.min.css';
+@import 'https://dev-cdn.svc.oneadvanced.io/mosaic-design/placeholder/v0/placeholder.min.css';
+@import 'https://dev-cdn.svc.oneadvanced.io/mosaic-design/progress-bar/v0/progress-bar.min.css';
+@import 'https://dev-cdn.svc.oneadvanced.io/mosaic-design/snackbar/v0/snackbar.min.css';
+@import 'https://dev-cdn.svc.oneadvanced.io/mosaic-design/spinner/v0/spinner.min.css';
+@import 'https://dev-cdn.svc.oneadvanced.io/mosaic-design/table/v0/table.min.css';
+@import 'https://dev-cdn.svc.oneadvanced.io/mosaic-design/tabs/v0/tabs.min.css';
+@import 'https://dev-cdn.svc.oneadvanced.io/mosaic-design/tile/v0/tile.min.css';
+@import 'https://dev-cdn.svc.oneadvanced.io/mosaic-design/timeline/v0/timeline.min.css';
+@import 'https://dev-cdn.svc.oneadvanced.io/mosaic-design/tooltip/v0/tooltip.min.css';
+@import 'https://dev-cdn.svc.oneadvanced.io/mosaic-design/treeview/v0/treeview.min.css';
+
+/* Web Components - import only what web components are used */
+/* @import 'https://dev-cdn.svc.oneadvanced.io/mosaic-design/dialog/v0/dialog.js.min.css'; */
+@import 'https://dev-cdn.svc.oneadvanced.io/mosaic-design/drawer/v0/drawer.js.min.css';
+@import 'https://dev-cdn.svc.oneadvanced.io/mosaic-design/icon/v0/icon.js.min.css';
+@import 'https://dev-cdn.svc.oneadvanced.io/mosaic-design/list-group/v0/list-group.js.min.css';
+@import 'https://dev-cdn.svc.oneadvanced.io/mosaic-design/tabs/v0/tabs.js.min.css';
+
+/* Old components - remove when added to the new repo */
+@import 'https://dev-cdn.svc.oneadvanced.io/tessera/components-core/v2/components/custom-elements/dialog/css/dialog.css';
+@import 'https://dev-cdn.svc.oneadvanced.io/tessera/components-core/v2/components/html/footer/css/footer.css';
