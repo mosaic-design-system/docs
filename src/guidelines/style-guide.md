@@ -93,6 +93,20 @@ tabs:
       as best as possible, however.\ 
 
 
+      ### Ampersands
+
+
+      Ampersands (&) should only ever be used when referring to an entity
+      with an ampersand in the name (e.g. Jonathan Strange & Mr Norrell).\ 
+
+
+      In rare cases, they may be used in places like tables where space is
+      limited. If you do choose to use ampersands in this way, make sure it is
+      consistent on the same page - it's very confusing to have a table that
+      uses both 'and' & an ampersand and seems to use it interchangeably and
+      without warning & logic. That sentence read really weirdly, didn't it?
+
+
       ## Initialisms and Acronyms
 
 
@@ -109,6 +123,8 @@ tabs:
       word in a name or phrase and forms a shortened version of the word, but it
       is spoken as a new word (**S**elf-**c**ontained **u**nderwater
       **b**reathing **a**pparatus becomes ‘SCUBA’).
+
+
 
 
       ### Initialisms
@@ -536,9 +552,9 @@ tabs:
       \r
 
 
-      Do not _underline_ text for emphasis. It may confuse users who are
-      expecting a hyperlink. Headers shouldn’t be underlined either, they should
-      use a larger font and be bolded.\r
+      Do not <u>underline</u> text for emphasis. It may confuse users who
+      are expecting a hyperlink. Headers shouldn’t be underlined either, they
+      should use a larger font and be bolded.\r
 
       \r
 
@@ -559,7 +575,59 @@ tabs:
       much colour, as a proportion of your readers may be colour blind and may
       not see the highlighted bits. Also, if a user changes their Windows colour
       scheme, the colours used may not be displayed as intended. Colours should
-      be taken from the Mosaic colour palette.\r\n"
+      be taken from the Mosaic colour palette.
+
+
+      ## Bullet points\r
+
+      \r
+
+      Bullet points can be used within your products to create lists of
+      information or options. However, you must ensure the underlying code meets
+      [accessibility guidelines for screen readers](
+      https://www.w3.org/WAI/tutorials/page-structure/content/).\r
+
+      \r
+
+      Whenever you use bullet points, ensure they are introduced with a
+      colon (:) that immediately follows the last letter of the last word in the
+      preceding copy:\r
+
+      \r
+
+      -\tThis list is introduced with a colon\r
+
+      \r
+
+      Seriously, don’t forget the colon!\r
+
+      \r
+
+      -\tThis list was not introduced with a colon, whoops\r
+
+      \r
+
+      Each list item in a bullet point list should also begin with a
+      capital letter, and should not end in a full stop:\r
+
+      \r
+
+      -\tList item 1 is correct\r
+
+      -\tlist item 2 is incorrect.\r
+
+      \r
+
+      However, longer list items that require intermediary punctuation
+      should be finished with a full stop:\r
+
+      \r
+
+      -\tLonger list items break the rules. If it contains a full stop,
+      then it should end with one as well so you don’t have a trailing sentence
+      that don’t seem to end.\r
+
+      \r\n"
   - title: Punctuation
   - title: Quality
   - title: Structure
