@@ -52,22 +52,33 @@ tabs:
       ## Using a Page Header
 
 
-      Page Headers can optionally include a subtitle.
-
-
-      When scrolling, the Page Header should be fixed, i.e. it remains visible at the top of the page.
-
-
-      There must only ever be one Page Header per page.
+      Page Headers must always include a page title, which should be short, concise, and kept to one line. Optionally, they can also include a page subtitle. This is useful for adding extra context to the current page. For example, a subtitle could be used for a date, reference number, customer name, etc.
 
 
       Page Headers can include up to a maximum of 4 buttons. If more actions are required, then the fourth can be a More button, with a dropdown menu to display the additional items.
 
 
-      Page titles must be short and concise.
+      When scrolling, the Page Header should be fixed, i.e. it remains visible at the top of the page. This reminds users of the page they are viewing and also allows them to perform any of the actions without having to scroll back the page.
+
+
+      If a user navigates to a lower level page, then you should provide a Back button so that they can quickly and easily return to the previous page.
 
 
       On mobile, the Page Header will collapse the buttons down into an overflow menu, i.e. a single button with a dropdown menu attached. The page title itself will be truncated if it is too long to display in full and an ellipsis is present to indicate this. For more information, refer to the Mobile guidelines \[link to Mobile guidelines].
+
+
+      The following rules apply to all types of Page Headers:
+
+
+      * Page Headers must contain a page title
+
+      * Page titles must be short and concise
+
+      * Page titles and subtitle must be written in sentence case
+
+      * There must only ever be one Page Header per page
+
+      * Never exceed more than 4 buttons
     icon: file_invoice
   - title: Code
     hook: code
