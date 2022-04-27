@@ -41,7 +41,7 @@ tabs:
       There are 4 navigation components; Navigation Header, Navigation Rail, Navigation Drawer, and Navigation Bar. The Navigation Header is the primary navigation that appears across the top of the page and the rail and drawer are combined to create a Sidebar for the secondary navigation, which appears in a left-hand pane. Using a Navigation Header with a Sidebar is a common pattern for multiple levels of navigation. The Navigation Bar is used to display links across the bottom on small devices.
 
 
-      tbc
+      The Navigation Header responds to the size of the screen. This means it collapses gracefully as the size reduces, while maintaining access to the navigation links. 
 
 
       The following rules apply to the Navigation Header:
