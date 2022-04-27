@@ -35,21 +35,15 @@ tabs:
       The following types of Page Header are available:
 
 
-      | **Name** | **Description** | **Behaviour** | **Example** |
+      | **Name**      | **Description**                                                        | **Behaviour** | **Example** |
 
-      | -------- | --------------- | ------------- | ----------- |
+      | ------------- | ---------------------------------------------------------------------- | ------------- | ----------- |
 
-      | Default  |                 |               |             |
+      | Default       | A Page Header that contains a title and up to 4 call to action buttons |               |             |
 
-      |          |                 |               |             |
+      | With subtitle | A Page Header that adds a subtitle                                     |               |             |
 
-      |          |                 |               |             |
-
-      |          |                 |               |             |
-
-      |          |                 |               |             |
-
-      |          |                 |               |             |
+      | With back     | A Page Header that adds a Back button                                  |               |             |
 
 
       - - -
@@ -59,6 +53,21 @@ tabs:
 
 
       Page Headers can optionally include a subtitle.
+
+
+      When scrolling, the Page Header should be fixed, i.e. it remains visible at the top of the page.
+
+
+      There must only ever be one Page Header per page.
+
+
+      Page Headers can include up to a maximum of 4 buttons. If more actions are required, then the fourth can be a More button, with a dropdown menu to display the additional items.
+
+
+      Page titles must be short and concise.
+
+
+      On mobile, the Page Header will collapse the buttons down into an overflow menu, i.e. a single button with a dropdown menu attached. The page title itself must be truncated if it is too long to display in full and an ellipsis should be present to indicate this.
     icon: file_invoice
   - title: Code
     hook: code
