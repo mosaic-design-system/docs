@@ -7,7 +7,77 @@ chips:
 storybook: https://tessera.oneadvanced.io/dev/components-core/?path=/docs/html-navigation-rail--as-default
 tabs:
   - title: Usage
-    body: ""
+    body: >-
+      ## What is a \[Component?]
+
+
+      A **\[Component]** is...
+
+
+      - - -
+
+
+      ### When, and why?
+
+
+      Text
+
+
+      - - -
+
+
+      ## \[Component] types
+
+
+      The following types of \[Component] are available:
+
+
+      | **Name** | **Description** | **Behaviour** | **Example** |
+
+      | -------- | --------------- | ------------- | ----------- |
+
+      | Default  |                 |               |             |
+
+      |          |                 |               |             |
+
+      |          |                 |               |             |
+
+      |          |                 |               |             |
+
+      |          |                 |               |             |
+
+      |          |                 |               |             |
+
+
+      - - -
+
+
+      ## \[Component] contexts
+
+
+      Context helps convey the information being communicated. Dialog contexts correspond to a colour to provide a consistent experience for users. For more information, refer to Colours \[link to Colours page].
+
+
+      | **Name** | **Description** | **Behaviour** | **Examples** |
+
+      | -------- | --------------- | ------------- | ------------ |
+
+      | Success  |                 |               |              |
+
+      | Danger   |                 |               |              |
+
+      | Warning  |                 |               |              |
+
+      | Info     |                 |               |              |
+
+
+      - - -
+
+
+      ## Using a \[Component]
+
+
+      Text
     icon: file_invoice
   - title: Code
     hook: code
