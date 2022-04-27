@@ -629,6 +629,352 @@ tabs:
 
       \r\n"
   - title: Punctuation
+    body: "## Apostrophes\r
+
+      \r
+
+
+      Apostrophes are used to denote several things:\r
+
+      \r
+
+      - ownership, i.e. the cat's pyjamas\r
+
+      \    - remember that ownership with plurals comes after the s, i.e.
+      the Johnsons' house\r
+
+      - contractions, i.e. I can't be bothered to write the full word\r
+
+      - time, i.e. four o' clock (although remember to read the guidance
+      for time in the [conventions](guidelines/style-guide/#conventions
+      section)\r
+
+      - apostrophes can also be used to delineate something a bit 'weird'
+      in a sentence, where you're alluding to something that is unclear, rather
+      than quotation marks (which should only be used for direct quotes). These
+      are normally referred to as \"single quotes\".\r
+
+      \r
+
+      ## Brackets\r
+
+      \r
+
+      Brackets should be used when you want to give information that may
+      be useful but isn't important to a sentence. However, brackets should be
+      brief and should not be a sentence in and of themselves.\r
+
+      \r
+
+      When using brackets, ensure that the full stop is outside of the
+      bracket (this is really important).\r
+
+      \r
+
+      Similarly, ensure that there is a space before the bracket(starting
+      a bracketed phrase right next to the sentence is very incorrect). If
+      you're putting a bracket in the middle of the sentence (like this) ensure
+      that there is also a space after the closing bracket.\r
+
+      \r
+
+      Please do not go down the rabbit hole of brackets-within-brackets
+      (it looks really unprofessional (promise)).\r
+
+      \r
+
+      Square brackets shouldn't be used in copy, unless you are directly
+      quoting from something, or are clarifying a pronoun, i.e. they [the
+      client] didn't understand why we used a square bracket.\r
+
+      \r
+
+      ## Colons\r
+
+      \r
+
+      A colon (:) is a really useful tool to introduce something that
+      follows it. In fact, it's a requirement! You can use a colon to introduce
+      a list, or to mark out something you have introduced. For example, visit
+      the Advanced website: www.oneadvanced.com.\r
+
+      \r
+
+      \r
+
+      Here's a few ways to use colons effectively:\r
+
+      \r
+
+      - Only use a single space after a colon, i.e. UX Copywriting: a
+      useful tool to making consistent and beautiful copy!\r
+
+      - Words following a colon that introduces something should not be
+      capitalised unless they are proper nouns (unless it's the first entry in a
+      bulleted list!)\r
+
+      - Sentences should only use one colon: this is because of a few
+      reasons: it looks really weird, and you get caught in an endless colon
+      spiral: I now have no effective way of getting back to my original
+      statement and continue listing the reasons. \r
+
+      - Field labels on screens and forms should always use a colon (i.e.
+      \"Name:\" not \"name\")\r
+
+      \r
+
+      ## Commas\r
+
+      \r
+
+      Generally, commas are used to separate sub-clauses in a sentence to
+      'construct' a good-looking sentence that is easy to read. A sub-clause is
+      a part of a sentence which is slightly separate to the rest, but not
+      worthy of an entirely new sentence as it does not make sense on its own.
+      See what I did there? An easy way to gauge if something is a new clause is
+      to say the sentence out loud. Quite often commas match up almost exactly
+      to the natural pause you put in a sentence while speaking, but this is not
+      always the case. You will need to use your best judgement for putting a
+      stylistic comma in a sentence. Double check with somebody else if you
+      aren't sure.\r
+
+      \r
+
+      However, there are a few places where commas are absolutely
+      required:\r
+
+      \r
+
+      - List items must be separated in a sentence, i.e. one apple, two
+      pears, three oranges and a dog\r
+
+      - After an introductory phrase like \"for example\" or \"however\"\r
+
+      - Separating adjectives that could be switched around or have
+      \"and\" put between them, i.e. the beautiful and easy-to-read copy becomes
+      the easy-to-read, beautiful copy\r
+
+      \r
+
+      ### Comma splices\r
+
+      \r
+
+      In addition, you should avoid the dreaded \"comma splice\"! A comma
+      splice is used is when you use a comma to separate to independent clauses
+      from each other. An independent clause differs from a sub-clause –
+      independent clauses are related but expand upon the previous clause.
+      Independent clauses can form complete sentences on their own. Normally,
+      you should use a connecting word like \"and\" or \"but, or use some
+      introductory punctuation like a colon (:), an em dash (—) or a semi-colon
+      (;). For example:\r
+
+      \r
+
+      The UX Copywriter loves talking about words, it's his favourite
+      thing to do. – this has a comma splice.\r
+
+      \r
+
+      The UX Copywriter loves talking about words — it's his favourite
+      thing to do. – this uses an em dash instead of a comma.\r
+
+      \r
+
+      ## Dashes\r
+
+      \r
+
+      Dashes are really similar to hyphens but vary in their appearance
+      and use. You will largely either use an en dash (¬¬¬¬–) or an em dash (—).
+      To write an en dash on a QWERTY keyboard, hold ctrl and press the hyphen
+      on your number pad (ensure you have numlock turned on). For an em dash,
+      hold ctrl and alt and press the hyphen on your number pad (again, ensure
+      numlock is turned on).\r
+
+      \r
+
+      ### En dash\r
+
+      En dashes are used to indicate a range between to values, i.e.
+      50-100 words to explain a complicated concept is super unrealistic.
+      Typically, this will be used for values, dates and times in your
+      product.\r
+
+      \r
+
+      Generally an en dash should not have a space either side of it, but
+      please refer to the relevant sections in the date, time and number range
+      sections of the [conventions tab](guidelines/tone-of-voice/#conventions)
+      for information around spacing with an en dash.\r
+
+      \r
+
+      An em dash is much more stylistic, and is used within copy to
+      separate clauses for emphasis — like this! \r
+
+      \r
+
+      Usage of en dashes and em dashes are falling out of fashion, though.
+      They're normally considered 'professional' and used very often in official
+      publications like newspapers and journals. Grammar is constantly evolving,
+      however, and we may see their usage fall away entirely — using a hyphen is
+      way easier and barely anyone knows the difference between the three
+      anymore. For now, we follow the conventions, but watch this space!\r
+
+      \r
+
+      ## Exclamation marks\r
+
+      \r
+
+      Exclamation marks (!) are used to express excitement, emphatic
+      statements or indicate importance. They fit into our tone of voice and
+      aren't banned, but use them sparingly. When a paragraph contains loads of
+      sentences with exclamation marks, it can get really annoying! Seriously,
+      I'm not joking! I'm coming across way too overexcited right now!\r
+
+      \r
+
+      Exclamation marks can be used (again, sparingly!) to emphasise
+      phrases in the more informal parts of your software. For example, a
+      \"Congratulations! You have new feedback.\" would not go amiss, but \"You
+      successfully entered the employee's details!\" would come across as a
+      little sarcastic.\r
+
+      \r
+
+      They shouldn't be used when you need to be forceful, such as in an
+      error message. Instead, contextual colours and symbols should be used
+      instead.\r
+
+      \r
+
+      If you do use an exclamation mark, only ever use a single one. They
+      should also always finish a sentence, replacing a full stop.\r
+
+      \r
+
+      ## Full Stops\r
+
+      \r
+
+      Full stops (.) mark the end of a sentence. Use them when you finish
+      a sentence, please (unless you are writing something into a table or a
+      list).\r
+
+      \r
+
+      Some abbreviations use full stops, but you should double check
+      beforehand. For example, \"Mr\" and \"Dr\" do not have full stops, even
+      though many people use this incorrectly. If an abbreviation with a full
+      stop ends a sentence, you do not need to add a second full stop.\r
+
+      \r
+
+      Initialisms should never have a full stop in them, for example it is
+      the \"EU\" not the \"E.U.\". \r
+
+      \r
+
+      ## Hyphens\r
+
+      \r
+
+      Hyphens (-) are often confused with dashes. They are used to join
+      certain words together to make a compound word. Some examples of this are
+      up-to-date. Correct application of using a hyphen often comes with simply
+      knowing whether-or-not a phrase uses them, much like spelling something
+      correctly.  If in doubt, you should double check or err on the side of
+      caution – you will often find it is a stylistic choice. Feel free to
+      hyphenate in your products, but don't fret about missing out hyphens in
+      phrases that require them. However, do be careful of using them
+      incorrectly to avoid confusion.\r
+
+      \r
+
+      ## Question marks\r
+
+      \r
+
+      Question marks (?) mark the end of a question. Only a single
+      question mark should ever be used – similarly, remember that they finish a
+      sentence and don't require a full stop.\r
+
+      \r
+
+      ## Quotation marks\r
+
+      \r
+
+      Quotation marks (\") are used when you are directly quoting speech
+      or written words. They are also used to delimitate the name of something
+      in a sentence when you want to draw attention to it.\r
+
+      \r
+
+      They differ to single quotes, which you can read about under
+      apostrophes. Ensure you learn the difference between the two. Single
+      quotes are used for emphasis, quotation marks are used for direct
+      quotations.\r
+
+      \r
+
+      When quoting something, ensure that the closing punctuation (i.e.
+      full stops, exclamation marks and question marks) comes after the final
+      quotation mark. If a quotation includes multiple sentences, it is okay to
+      include the punctuation within the quotation marks.\r
+
+      \r
+
+      \r
+
+      ## Semicolons\r
+
+      \r
+
+      Semicolons (;) are the most confusing piece of grammar, but
+      sometimes the most powerful. They can be used to connect independent
+      clauses to add a natural break in the reader's mind, e.g. \"The UX
+      Copywriter really likes to use semi-colons; other people are really
+      hesitant\".\r
+
+      \r
+
+      You can also use a semi-colon to create really nice looking lists.
+      If you want to qualify each item in a list with an explanation, you can
+      use a semi-colon instead of a comma. For example: \"He needs some oranges,
+      for the fruit salad; a packet of ham, for the sandwiches; a few beers; and
+      some crisps.\" \r
+
+      \r
+
+      They are also useful in lists that contain multiple items that are
+      paired together, for example: \"Mystery Inc. often splits up into three
+      groups, listed in order of efficiency: Shaggy and Scooby; Fred and Daphne;
+      and Velma\".\r
+
+      \r
+
+      You do not need to capitalise words after a semi-colon, and you can
+      use multiple semi-colons in a single sentence. \r
+
+      \r
+
+      ## Slashes\r
+
+      \r
+
+      Slashes (/) are rarely used, and are mostly just used when there is
+      a choice between two things or listing just two related items. Some
+      phrases use them, like \"and / or\".\r
+
+      \r
+
+      Normally, we encourage avoiding the use of slashes. They can be
+      ambiguous, and often can be worded more clearly. However, if you do need
+      to use one to save space, ensure that there is a space either side of the
+      slash.\r\n"
   - title: Quality
   - title: Structure
 ---
