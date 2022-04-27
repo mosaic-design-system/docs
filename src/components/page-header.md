@@ -1,8 +1,52 @@
 ---
 storybook-url: https://tessera.oneadvanced.io/dev/components-core/?path=/docs/html-button--as-default
+title: Page header
 toc: true
 chips:
   - "HTML/CSS: Available"
+storybook: https://tessera.oneadvanced.io/dev/components-core/?path=/story/html-page-header--as-default
+tabs:
+  - title: Usage
+    body: |-
+      ## What is a Page Header?
+
+      A **Page Header** is...
+
+      - - -
+
+      ### When, and why?
+
+      Text
+
+      - - -
+
+      ## Page Header types
+
+      The following types of Page Header are available:
+
+      | **Name** | **Description** | **Behaviour** | **Example** |
+      | -------- | --------------- | ------------- | ----------- |
+      | Default  |                 |               |             |
+      |          |                 |               |             |
+      |          |                 |               |             |
+      |          |                 |               |             |
+      |          |                 |               |             |
+      |          |                 |               |             |
+
+      - - -
+
+      ## Using a Page Header
+
+      Text
+    icon: file_invoice
+  - title: Code
+    hook: code
+    icon: source_code
+  - title: Accessibility
+    body: ""
+    icon: web_accessibility_1
+  - title: Status
+    hook: status
 code:
   example: <button class="mcc-button">Button text</button>
   body: >-
@@ -42,18 +86,4 @@ status:
   html_css: Available
   web_component: Not applicable
 navigation: button
-title: Page header
-storybook: https://tessera.oneadvanced.io/dev/components-core/?path=/story/html-page-header--as-default
-tabs:
-  - title: Usage
-    body: ""
-    icon: file_invoice
-  - title: Code
-    hook: code
-    icon: source_code
-  - title: Accessibility
-    body: ""
-    icon: web_accessibility_1
-  - title: Status
-    hook: status
 ---
