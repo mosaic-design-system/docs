@@ -22,7 +22,8 @@ code:
   body: >-
     ## Live demo
 
-    Below, you can find a live demo for a Nav component. Use the drop-down menus and radio buttons to view the different Nav Types and Variants.
+
+    Below, you can find a live demo for a Navigation Bar component. Use the drop-down menus and radio buttons to view the different Navigation Bar Types and Variants.
   preview:
     variants:
       - template:
