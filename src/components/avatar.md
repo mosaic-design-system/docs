@@ -35,19 +35,17 @@ tabs:
       The following types of **Avatars** are available:
 
 
-      | **Name**          | **Description**                                                                                     | **Example**                                                                                                 |
+      | **Name**          | **Description**                                                                                     | **Example** |
 
-      | ----------------- | --------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
+      | ----------------- | --------------------------------------------------------------------------------------------------- | ----------- |
 
-      | **Default**       | An Avatar that contains a photo                                                                     | <div class="mcc-avatar">
-        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="John Doe">
-      </div> |
+      | **Default**       | An Avatar that contains a photo                                                                     | <div class="mcc-avatar"><img src="https://randomuser.me/api/portraits/men/32.jpg" alt="John Doe"></div>          |
 
-      | **With initials** | An Avatar that contains the user's initials                                                         |                                                                                                             |
+      | **With initials** | An Avatar that contains the user's initials                                                         |             |
 
-      | **With icon**     | An Avatar that contains an icon                                                                     |                                                                                                             |
+      | **With icon**     | An Avatar that contains an icon                                                                     |             |
 
-      | **As sized**      | Allows an Avatar to use one of the following sizes; 32px, 40px (default size), 48px, 64px, and 96px |                                                                                                             |
+      | **As sized**      | Allows an Avatar to use one of the following sizes; 32px, 40px (default size), 48px, 64px, and 96px |             |
 
 
       - - -
