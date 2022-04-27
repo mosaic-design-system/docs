@@ -67,7 +67,7 @@ tabs:
       Page titles must be short and concise.
 
 
-      On mobile, the Page Header will collapse the buttons down into an overflow menu, i.e. a single button with a dropdown menu attached. The page title itself must be truncated if it is too long to display in full and an ellipsis should be present to indicate this. For more information, refer to the Mobile guidelines \[link to Mobile guidelines].
+      On mobile, the Page Header will collapse the buttons down into an overflow menu, i.e. a single button with a dropdown menu attached. The page title itself will be truncated if it is too long to display in full and an ellipsis is present to indicate this. For more information, refer to the Mobile guidelines \[link to Mobile guidelines].
     icon: file_invoice
   - title: Code
     hook: code
