@@ -11,7 +11,7 @@ tabs:
       ## What is a Page Header?
 
 
-      A **Page Header** is the bar that sits underneath the navigation header to indicate the name of the currently viewed page. As well as being a signpost, it also provides access to the primary and secondary actions for the page.
+      A **Page Header** is the bar that sits underneath the main navigation header to indicate the name of the currently viewed page. It defines the top of the page.
 
 
       - - -
@@ -20,7 +20,10 @@ tabs:
       ### When, and why?
 
 
-      Every page in your application must have a Page Header. It is a vital part of the overall layout. 
+      Every page in your application must have a Page Header, as it is a vital part of the overall layout. As well as being a signpost, it also provides access to the primary and secondary actions for the page. It can also be used for inter-page navigation, where navigating back to the previous page is required.
+
+
+      Page Headers contain a page title, which is styled as the main heading (H1). This assists with the visual representation of the aria-level and helps to define the hierarchy of the page. It is also used by screen readers, which is important from an accessibility perspective.
 
 
       - - -
@@ -55,7 +58,7 @@ tabs:
       ## Using a Page Header
 
 
-      Text
+      Page Headers can optionally include a subtitle.
     icon: file_invoice
   - title: Code
     hook: code
