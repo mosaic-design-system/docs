@@ -7,35 +7,53 @@ chips:
 storybook: https://tessera.oneadvanced.io/dev/components-core/?path=/story/html-page-header--as-default
 tabs:
   - title: Usage
-    body: |-
+    body: >-
       ## What is a Page Header?
 
-      A **Page Header** is...
+
+      A **Page Header** is the bar that sits underneath the navigation header to indicate the name of the currently viewed page. As well as being a signpost, it also provides access to the primary and secondary actions for the page.
+
 
       - - -
+
 
       ### When, and why?
 
-      Text
+
+      Every page in your application must have a Page Header. It is a vital part of the overall layout. 
+
 
       - - -
+
 
       ## Page Header types
 
+
       The following types of Page Header are available:
 
+
       | **Name** | **Description** | **Behaviour** | **Example** |
+
       | -------- | --------------- | ------------- | ----------- |
+
       | Default  |                 |               |             |
+
       |          |                 |               |             |
+
       |          |                 |               |             |
+
       |          |                 |               |             |
+
       |          |                 |               |             |
+
       |          |                 |               |             |
+
 
       - - -
 
+
       ## Using a Page Header
+
 
       Text
     icon: file_invoice
