@@ -7,7 +7,7 @@ storybook-url: https://tessera.oneadvanced.io/dev/components-core/?path=/docs/ht
 storybook: https://tessera.oneadvanced.io/dev/components-core/?path=/docs/html-avatar--as-default
 tabs:
   - title: Usage
-    body: >+
+    body: >-
       ## What is an Avatar?
 
 
@@ -35,9 +35,9 @@ tabs:
       The following types of **Avatars** are available:
 
 
-      | **Name**      | **Description**                                                                                     | **Example** |
+      | **Name**          | **Description**                                                                                     | **Example** |
 
-      | ------------- | --------------------------------------------------------------------------------------------------- | ----------- |
+      | ----------------- | --------------------------------------------------------------------------------------------------- | ----------- |
 
       | **Default**       | An Avatar that contains a photo                                                                     |             |
 
@@ -56,6 +56,7 @@ tabs:
 
       ### Displaying an Avatar
 
+
       **Avatars** can be displayed individually or adjacent to each other on a single row. 
 
 
@@ -64,6 +65,7 @@ tabs:
 
       ### Avatar pictures
 
+
       Although **Avatars** are typically used with photos, they can be used with icons. Choose one style to use across your entire product. In both cases, where a photo or icon is not available, they can also be used to display a user's initials.
 
 
@@ -71,7 +73,6 @@ tabs:
 
 
       It is also important to remember that small images used in large **Avatars** will be upscaled, which could lead to distorted images. Always use compressed images and resize images near to the appropriate size. This will help maintain the best results, and reduce the impact on performance by stopping the application from needing to render large image files.
-
     icon: file_invoice
   - title: Code
     hook: code
