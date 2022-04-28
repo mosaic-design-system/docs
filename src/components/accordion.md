@@ -33,10 +33,6 @@ tabs:
       For example, in Clear Review **Accordions** are used to section off specific sections of feedback, as you can see below. The user can expand each piece of feedback and interact with the "Reply/Thank" button within. Without the **Accordion**, this page would be quite cluttered and the user wouldn't be able to focus one one specific piece of feedback.
 
 
-
-      ![Example of 4 stacked accordions each with a contextual icon for the relating feedback shown in the expanded accordion](/assets/img/accordion-feedback-example.png)
-
-
       **Accordions** should only be used when there is enough content to condense - they shouldn't be used as an organisational tool, or for navigation purposes. They are a tool to help reduce visual clutter for a user and should only be used when necessary, not by default.
 
 
@@ -56,9 +52,7 @@ tabs:
 
       | ----------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
-      | **Default**       | The default **Accordion** has no actions on it, and simply expands and collapses content.
-
-      |
+      | **Default**       | The default **Accordion** has no actions on it, and simply expands and collapses content.|
 
       | **With chip**     | Chips in the header of an **Accordion** can be used to signify status, content type, dates, etc.                                                                                         |
 
@@ -75,7 +69,7 @@ tabs:
       - - -
 
 
-      ## Using an accordion
+      ## Using an Accordion
 
 
       **Accordions** are a great way to section off content-rich pages, collapsing the sections will also give users an overview of the content available whilst minimising scrolling and make the page appear less daunting. If your page contains multiple different content types, an **Accordion** should be used to separate them out into easy-to-digest sections.
