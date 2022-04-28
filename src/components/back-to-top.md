@@ -45,7 +45,7 @@ tabs:
   - title: "Accessibility "
     hook: ""
   - title: Status
-    hook: Status
+    hook: status
 code:
   body: >
     ## Live demo
