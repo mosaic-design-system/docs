@@ -11,6 +11,7 @@
 @import 'https://dev-cdn.svc.oneadvanced.io/mosaic-design/container/v0/container.min.css';
 @import 'https://dev-cdn.svc.oneadvanced.io/mosaic-design/drawer/v0/drawer.min.css';
 @import 'https://dev-cdn.svc.oneadvanced.io/mosaic-design/dropdown/v0/dropdown.min.css';
+@import 'https://dev-cdn.svc.oneadvanced.io/mosaic-design/footer/v0/footer.min.css';
 @import 'https://dev-cdn.svc.oneadvanced.io/mosaic-design/grid/v0/grid.min.css';
 @import 'https://dev-cdn.svc.oneadvanced.io/mosaic-design/list-group/v0/list-group.min.css';
 @import 'https://dev-cdn.svc.oneadvanced.io/mosaic-design/menu/v0/menu.min.css';
@@ -37,6 +38,3 @@
 @import 'https://dev-cdn.svc.oneadvanced.io/mosaic-design/icon/v0/icon.js.min.css';
 @import 'https://dev-cdn.svc.oneadvanced.io/mosaic-design/list-group/v0/list-group.js.min.css';
 @import 'https://dev-cdn.svc.oneadvanced.io/mosaic-design/tabs/v0/tabs.js.min.css';
-
-/* Old components - remove when added to the new repo */
-@import 'https://dev-cdn.svc.oneadvanced.io/tessera/components-core/v2/components/html/footer/css/footer.css';
