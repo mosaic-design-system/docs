@@ -29,7 +29,25 @@ tabs:
       - - -
 
 
-      ## Types of Snackbars
+      ## Snackbar types
+
+
+      In addition to the contextual type, each **Snackbar** also has an option between 2 variants: 
+
+
+      | Variant      | Description                                                                                                                           | Example                                                                                                                                                          |
+
+      | ------------ | ------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+
+      | **Default**  | This will cover use cases where the a simple message covers the update and no further action is required. | |
+
+      | **With CTA** | Cases where you may want to give the user an opportunity to take another single action, you would use the **Snackbar with a CTA**. | |
+
+
+      - - -
+
+
+      ## Snackbar contexts
 
 
       In Mosaic, there are 4 types of **Snackbars**, and each represents a different contextual message.
@@ -46,24 +64,6 @@ tabs:
       | **Warning** | Not used very often, but can be useful when you want to show caution with a particular action. | |
 
       | **Danger** | Should be used for dangerous or irreversible activity, like deleting or removing something from the system. |  |
-
-
-      - - -
-
-
-      ## Snackbar Variants
-
-
-      In addition to the contextual type, each **Snackbar** also has an option between 2 variants: 
-
-
-      | Variant      | Description                                                                                                                           | Example                                                                                                                                                          |
-
-      | ------------ | ------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-
-      | **Default**  | This will cover use cases where the a simple message covers the update and no further action is required. | |
-
-      | **With CTA** | Cases where you may want to give the user an opportunity to take another single action, you would use the **Snackbar with a CTA**. | |
 
 
       - - -
@@ -95,7 +95,7 @@ tabs:
       **Snackbars** should only contain one or two lines of text. We must consider the amount of attention and time it takes for a user to absorb the message.
 
 
-      Instead of using text to convey meaning, you can make use of the different colours and icons available on a **Snackbar** - an ideal scenario would involve the user not even *needing* to read the message. They should be able to tell at a glance if something was a failure or a success. 
+      In addition to using text to convey meaning, you can make use of the different colours and icons available on a **Snackbar** - an ideal scenario would have a user being able to tell at a glance if something was a failure or a success. 
 
 
       ### Snackbars are not progress indicators
