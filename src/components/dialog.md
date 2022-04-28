@@ -91,11 +91,6 @@ tabs:
       **Dialogs** are triggered by user actions. They should interrupt a user’s current task to grab their attention. The key to usage is to ensure that the correct type and context (if a message) of **Dialog** is used. For example, if you want to show an informational message use an **Info Dialog**, but if you want to present the user with a short form then use a **Form Dialog**. This will help users become familiar with the nature of the **Dialog** and understand what is being asked of them.
 
 
-      ## Dialog sizes
-
-      The size of a **Dialog** should be appropriate to its content and, where possible, they should be consistent wherever they are used. If the height or width means that the **Dialog** looks out of proportion, or the amount of inputs force a scroll bar, then consider a different approach. The form may be more suited to its own separate page.
-
-
       ## Dialog messaging
 
 
@@ -109,6 +104,19 @@ tabs:
 
 
       Similarly, the labels for [Buttons](/guidelines/buttons) in your **Dialog** should be short and concise, ideally one or two words. Their function should be obvious and clear, and follow similar conventions to other **Buttons** in your product. **Buttons** should be clear in their use - for example, a **Button** should say "Save" instead of "OK" in a form **Dialog** that is creating a new record.
+
+
+      ## Dialog sizes
+
+      The size of a **Dialog** should be appropriate to its content and, where possible, they should be consistent wherever they are used. If the height or width means that the **Dialog** looks out of proportion, or the amount of inputs force a scroll bar, then consider a different approach. 
+
+
+      ## Dialog forms
+
+      If you are using a **Form Dialog**, then the fields must stack vertically to avoid making the **Dialog** too wide. You should avoid the use of columns entirely, as space will begin to feel cramped within the **Dialog**.
+
+
+      Be mindful of the length of a **Form Dialog**. With too many fields, the user's flow may be completely interrupted and the user will completely lose their focus on the task they actually wanted to originally complete. If there are more than three or four fields in a **Form Dialog**, the form may be more suited to its own separate page.
 
 
       ### Closing a Dialog
@@ -126,14 +134,6 @@ tabs:
 
       The following rules apply to all types of Dialogs:
 
-
-      * Avoid using "OK" as a button label. Always be specific about a button's action, e.g. "Save changes" or "Delete user"
-
-      * Avoid using a scroll bar in Dialogs
-
-      * Avoid making Dialogs take up a whole screen. Consider creating a new page instead
-
-      * Dialogs must only be used for short forms
 
       * Inputs in form Dialogs must stack vertically. Avoid multiple columns
     icon: file_invoice
