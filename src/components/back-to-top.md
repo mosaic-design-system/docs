@@ -40,7 +40,7 @@ tabs:
       You should consider how quickly you want the **Back to Top** button to appear when the user scrolls. The number of pixels the user has to scroll before the button appears can be specified using the "scroll-y" attribute.
     hook: ""
   - title: Code
-    hook: Code
+    hook: ""
   - title: "Accessibility "
     hook: ""
   - title: Status
