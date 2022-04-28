@@ -1,1 +1,9 @@
-@import 'https://dev-cdn.svc.oneadvanced.io/tessera/components-forms/v2/css/forms.css';
+/* HTML Components */
+@import 'https://dev-cdn.svc.oneadvanced.io/mosaic-design/input/v0/input.min.css';
+@import 'https://dev-cdn.svc.oneadvanced.io/mosaic-design/select/v0/select.min.css';
+@import 'https://dev-cdn.svc.oneadvanced.io/mosaic-design/textarea/v0/textarea.min.css';
+@import 'https://dev-cdn.svc.oneadvanced.io/mosaic-design/input-group/v0/input-group.min.css';
+@import 'https://dev-cdn.svc.oneadvanced.io/mosaic-design/validation/v0/validation.min.css';
+@import 'https://dev-cdn.svc.oneadvanced.io/mosaic-design/help-text/v0/help-text.min.css';
+@import 'https://dev-cdn.svc.oneadvanced.io/mosaic-design/label/v0/label.min.css';
+@import 'https://dev-cdn.svc.oneadvanced.io/mosaic-design/fieldset/v0/fieldset.min.css';
