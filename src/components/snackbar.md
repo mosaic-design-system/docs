@@ -50,20 +50,23 @@ tabs:
       ## Snackbar contexts
 
 
-      In Mosaic, there are 4 types of **Snackbars**, and each represents a different contextual message.
+      ## Alert contexts
 
 
-      | Button Type       | Description                                                                                                 | Example                                                                                                  |
+      Context helps convey the information being communicated. **Snackbar** contexts correspond to a colour and an icon to provide a consistent experience for users. For more information, please refer to [Colours](guidelines/colour/).
 
-      | ----------------- | ----------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
 
-      | **Informational** | This can be used for things that are largely inconsequential, but necessary. |   |
+      | **Name** | **Description**                                                                                                              | **Behaviour**                                                                     | **Examples**                                          |
 
-      | **Success** | Used for confirmation messages, such as complete, saved or sent. | |
+      | -------- | ---------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- | ----------------------------------------------------- |
 
-      | **Warning** | Not used very often, but can be useful when you want to show caution with a particular action. | |
+      | **Success**  | Indicates actions were completed successfully. The Success colour is green.                                                   | Does not require user interaction, as disappears automatically after a short time | A new record saved or preferences have been updated   |
 
-      | **Danger** | Should be used for dangerous or irreversible activity, like deleting or removing something from the system. |  |
+      | **Danger**   | Indicates errors and, optionally, prevents users from proceeding until the issue has been resolved. The Danger colour is red. | Always persists until the user dismisses or resolves the issue                    | Credentials cannot be found or access is denied       |
+
+      | **Warning**  | Indicates that actions are not desirable or might have unexpected results. The Warning colour is yellow.                      | Persists until the user dismisses or continues regardless                         | A file is too big or a file already exists            |
+
+      | **Info**     | Indicates neutral or advisory information that may not be related to the current action. The info colour is teal.             | Does not require user interaction, but persists until user dismisses              | Scheduled system maintenance or a new report is ready |
 
 
       - - -
