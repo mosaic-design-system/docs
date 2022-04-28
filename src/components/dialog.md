@@ -8,7 +8,7 @@ chips:
 storybook: https://tessera.oneadvanced.io/dev/components-core/?path=/docs/custom-elements-dialog--as-default
 tabs:
   - title: Usage
-    body: >-
+    body: >
       ## What is a Dialog?
 
 
