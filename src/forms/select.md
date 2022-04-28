@@ -36,20 +36,7 @@ tabs:
 
       | ------------- | ---------------------------------------------------------------- | ----------- |
 
-      | **Default**       | A dropdown selection allowing the user to select a single option
-
-      <div class="mfc-select-wrapper">
-        <label for="selectInput1">Select input</label>
-        <select id="selectInput1" name="selectInput1">
-          <option value=""></option>
-          <option value="option1">Option 1</option>
-          <option value="option2">Option 2</option>
-          <option value="option3">Option 3</option>
-          <option value="option4">Option 4</option>
-          <option value="option5">Option 5</option>
-        </select>
-        <div class="mfc-help-text">Select input help text</div>
-      </div> |             |
+      | **Default**       | A dropdown selection allowing the user to select a single option |             |
 
       | **Required**      | The user is required to select at least one option               |             |
 
