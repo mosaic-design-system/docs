@@ -60,23 +60,23 @@ tabs:
       ## Dialog contexts
 
 
-      Context helps convey the information being communicated. Dialog contexts correspond to a colour to provide a consistent experience for users. For more information, refer to Colours \[link to Colours page].
+      Context helps convey the information being communicated. **Dialog** contexts correspond to a colour to provide a consistent experience for users. For more information, refer to the [Colours](/guidelines/colours) guidelines.
 
 
-      **Note**: Contexts only apply to message Dialogs. Form Dialogs do not have a context and are styled differently.
+      **Note**: Contexts only apply to message **Dialogs**. Form **Dialogs** do not have a context and are styled differently.
 
 
       | **Name** | **Description**                                                                                                              | **Behaviour**                                                            | **Examples** |
 
       | -------- | ---------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------ | ------------ |
 
-      | Success  | Indicates actions were completed successfully. The Success colour is green                                                   | Does not require user interaction, but persists until the user dismisses |              |
+      | Success  | Indicates actions were completed successfully. The Success colour is green.                                                   | Does not require user interaction, but persists until the user dismisses |  The user finishes a work flow successfully            |
 
-      | Danger   | Indicates errors and, optionally, prevents users from proceeding until the issue has been resolved. The Danger colour is red | Always persists until the user dismisses or resolves the issue           |              |
+      | Danger   | Indicates errors and, optionally, prevents users from proceeding until the issue has been resolved. The Danger colour is red. | Always persists until the user dismisses or resolves the issue           |  The user inputs an invalid configuration for a record             |
 
-      | Warning  | Indicates that actions are not desirable or might have unexpected results. The Warning colour is yellow                      | Persists until the user dismisses or continues regardless                |              |
+      | Warning  | Indicates that actions are not desirable or might have unexpected results. The Warning colour is yellow.                      | Persists until the user dismisses or continues regardless                |  The user enters a record that will overwrite another non-critical record             |
 
-      | Info     | Indicates neutral or advisory information that may not be related to the current action. The info colour is teal             | Does not require user interaction, but persists until user dismisses     |              |
+      | Info     | Indicates neutral or advisory information that may not be related to the current action. The info colour is teal.             | Does not require user interaction, but persists until user dismisses     |  A dialog that gives a tip to the user about another related feature         |
 
 
       - - -
@@ -85,20 +85,47 @@ tabs:
       ## Using a Dialog
 
 
-      Dialogs are triggered by user actions. They should interrupt a user’s current task to grab their attention. The key to usage is to ensure that the correct type and context (if a message) of Dialog is used. For example, if you want to show an informational message use an Info Dialog, but if you want to present the user with a short form then use a Form Dialog. This will help users become familiar with the nature of the Dialog and understand what is being asked of them.
+
+      ## Using the right Dialog
+
+      **Dialogs** are triggered by user actions. They should interrupt a user’s current task to grab their attention. The key to usage is to ensure that the correct type and context (if a message) of **Dialog** is used. For example, if you want to show an informational message use an **Info Dialog**, but if you want to present the user with a short form then use a **Form Dialog**. This will help users become familiar with the nature of the **Dialog** and understand what is being asked of them.
 
 
-      The size of a Dialog should be appropriate to its content and where possible should be consistent wherever they are used. If the height or width means that the Dialog looks out of proportion or the amount of inputs force a scroll bar, then consider a different approach. 
+      ## Dialog sizes
+
+      The size of a **Dialog** should be appropriate to its content and, where possible, they should be consistent wherever they are used. If the height or width means that the **Dialog** looks out of proportion, or the amount of inputs force a scroll bar, then consider a different approach. The form may be more suited to its own separate page.
+
+
+      ## Dialog messaging
+
+
+      As always when writing copy, please refer to the [Tone of Voice](/guidelines/tone-of-voice) and [Style Guide](/guidelines/style-guide) sections when writing copy within a product.
+
+
+      However, specifically for **Dialogs**, it is important to get the messaging absolutely correct. You are interrupting a user's workflow, and they need to quickly switch contexts. 
+
+
+      A descriptive title for the **Dialog** is a good start. Make sure it's not too long, and gives a good overview of what the message is about. In the body text of the **Dialog**, be respectful of the user's time. Without sacrificing quality of copy and losing the gravity of the message, try and be as succinct as possible.
+
+
+      Similarly, the labels for [Buttons](/guidelines/buttons) in your **Dialog** should be short and concise, ideally one or two words. Their function should be obvious and clear, and follow similar conventions to other **Buttons** in your product. **Buttons** should be clear in their use - for example, a **Button** should say "Save" instead of "OK" in a form **Dialog** that is creating a new record.
+
+
+      ### Closing a Dialog
+
+
+      **Dialogs** should always be closable, regardless of the content inside. Each **Dialog** needs to include the following three methods of exit:
+
+
+      - A "cancel" **Button** at the bottom of the **Dialog** that allows them to close the message or exit the process early. This **Button** does not necessarily need to be labelled "cancel", but it should follow the same conventions as similar buttons in the rest of your product.
+
+      - A close icon in the top right-hand corner that functions similarly to the cancel **Button**.
+
+      - The **Dialog** must be able to be closed with the escape key. This is crucial for users that are keyboard-only.
 
 
       The following rules apply to all types of Dialogs:
 
-
-      * Always use a descriptive title
-
-      * Always provide the following methods for users to close a Dialog; Cancel, Close icon, Escape key. The Escape key is important for keyboard users
-
-      * Always make button labels short and concise, ideally one or two words
 
       * Avoid using "OK" as a button label. Always be specific about a button's action, e.g. "Save changes" or "Delete user"
 
