@@ -130,12 +130,6 @@ tabs:
       - A close icon in the top right-hand corner that functions similarly to the cancel **Button**.
 
       - The **Dialog** must be able to be closed with the escape key. This is crucial for users that are keyboard-only.
-
-
-      The following rules apply to all types of Dialogs:
-
-
-      * Inputs in form Dialogs must stack vertically. Avoid multiple columns
     icon: file_invoice
   - title: Code
     hook: code
