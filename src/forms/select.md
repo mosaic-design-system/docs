@@ -7,11 +7,12 @@ chips:
 storybook: https://tessera.oneadvanced.io/dev/components-forms/?path=/docs/html-select-examples--default-story
 tabs:
   - title: Usage
-    body: >-
-      ## What is a Select?
+    body: "## What is a Select?
 
 
-      A **Select** is a drop-down list of options that a user can select from within a form.  The selected option is shown when the drop-down menu is no longer open and not the focus of the user. 
+      A **Select** is a drop-down list of options that a user can select
+      from within a form.  The selected option is shown when the drop-down menu
+      is no longer open and not the focus of the user.\ 
 
 
       - - -
@@ -20,7 +21,9 @@ tabs:
       ### When and why
 
 
-      When the user is required to select a one or more options from a large group of data. A **Select** can also allow the user to search and filter through the given list.
+      When the user is required to select a one or more options from a
+      large group of data. A **Select** can also allow the user to search and
+      filter through the given list.
 
 
       - - -
@@ -32,19 +35,28 @@ tabs:
       ### Types
 
 
-      | **Variant**   | **description**                                                  | **Example** |
+      | **Variant**   |
+      **description**                                                  |
+      **Example** |
 
-      | ------------- | ---------------------------------------------------------------- | ----------- |
+      | ------------- |
+      ---------------------------------------------------------------- |
+      ----------- |
 
-      | **Default**       | A dropdown selection allowing the user to select a single option |             |
+      | **Default**       | A dropdown selection allowing the user to
+      select a single option |             |
 
-      | **Required**      | The user is required to select at least one option               |             |
+      | **Required**      | The user is required to select at least one
+      option               |             |
 
-      | **Multiple**      | The user is able to select more than one answer                  |             |
+      | **Multiple**      | The user is able to select more than one
+      answer                  |             |
 
-      | **Option groups** | The options available to the user are grouped under headings     |             |
+      | **Option groups** | The options available to the user are grouped
+      under headings     |             |
 
-      | **Size** | There are three sizes available: small, default and large |  |
+      | **Size** | There are three sizes available: small, default and
+      large |  |
 
 
       ## Using a select
@@ -53,18 +65,24 @@ tabs:
       ### Minimum required options
 
 
-      A **Select** should only be used if there are six or more options to choose from. If the user has fewer options to choose from, then you can use radio buttons instead, or checkboxes for answers that require multiple answers.
+      A **Select** should only be used if there are six or more options to
+      choose from. If the user has fewer options to choose from, then you can
+      use radio buttons instead, or checkboxes for answers that require multiple
+      answers.
 
 
       ### Select sizing
 
 
-      The field width should be the same as the widest option that the user will be able to pick from. [See field affordance for more information](URLlink)
+      The field width should be the same as the widest option that the
+      user will be able to pick from. [See field affordance for more
+      information](URLlink)
 
 
       ### Select headers
 
-      Heading and item text styling should follow the [style guide](/guidelines/style-guide).
+      Heading and item text styling should follow the [style
+      guide](/guidelines/style-guide).
 
 
       ### Examples
@@ -73,18 +91,104 @@ tabs:
       #### If the user has one option to select:
 
 
-      <div class="mfc-select-wrapper">
-        <label for="selectInput1">Select input</label>
-        <select id="selectInput1" name="selectInput1">
-          <option value=""></option>
-          <option value="option1">Option 1</option>
-          <option value="option2">Option 2</option>
-          <option value="option3">Option 3</option>
-          <option value="option4">Option 4</option>
-          <option value="option5">Option 5</option>
-        </select>
-        <div class="mfc-help-text">Select input help text</div>
+      <div class=\"mcc-card\">
+
+      \  <div class=\"mcc-card__header\">\r
+
+      \    <h2 class=\"mcc-card__title\">Select single option</h2>\r
+
+      \    <div class=\"mcc-card__subtitle\">The user can only select one
+      answer</div>\r
+
+      \  </div>
+
+      \r
+
+      \r
+
+      \  <div class=\"mcc-card__body\">
+
+      \r
+
+      <div class=\"mfc-select-wrapper\">
+
+      \  <label for=\"selectInput1\">Select input</label>
+
+      \  <select id=\"selectInput1\" name=\"selectInput1\">
+
+      \    <option value=\"\"></option>
+
+      \    <option value=\"option1\">Option 1</option>
+
+      \    <option value=\"option2\">Option 2</option>
+
+      \    <option value=\"option3\">Option 3</option>
+
+      \    <option value=\"option4\">Option 4</option>
+
+      \    <option value=\"option5\">Option 5</option>
+
+      \  </select>
+
+      \  <div class=\"mfc-help-text\">Select input help text</div>
+
+      </div>\r
+
+      \  </div>\r
+
+      \r
+
       </div>
+
+      <div class=\"mcc-card\">
+
+      \  <div class=\"mcc-card__header\">\r
+
+      \    <h2 class=\"mcc-card__title\">Another example</h2>\r
+
+      \    <div class=\"mcc-card__subtitle\">More information</div>\r
+
+      \  </div>
+
+      \r
+
+      \r
+
+      \  <div class=\"mcc-card__body\">
+
+      \r
+
+      <div class=\"mfc-select-wrapper\">
+
+      \  <label for=\"selectInput1\">Select input</label>
+
+      \  <select id=\"selectInput1\" name=\"selectInput1\">
+
+      \    <option value=\"\"></option>
+
+      \    <option value=\"option1\">Option 1</option>
+
+      \    <option value=\"option2\">Option 2</option>
+
+      \    <option value=\"option3\">Option 3</option>
+
+      \    <option value=\"option4\">Option 4</option>
+
+      \    <option value=\"option5\">Option 5</option>
+
+      \  </select>
+
+      \  <div class=\"mfc-help-text\">Select input help text</div>
+
+      </div>\r
+
+      \  </div>\r
+
+      \r
+
+      </div>
+
+
 
 
 
@@ -93,10 +197,16 @@ tabs:
 
 
 
-      If the options in your **Select** menu have a hierarchy or categorisation, you should split them into groups (see below). This allows users to find the option quickly by scanning the group labels instead of every single option. This can also be used if you have more than one option to select:
+      If the options in your **Select** menu have a hierarchy or
+      categorisation, you should split them into groups (see below). This allows
+      users to find the option quickly by scanning the group labels instead of
+      every single option. This can also be used if you have more than one
+      option to select:
 
 
-      <mfc-select name="selectInput1" label="Text input" help-text="Text input help text" required="true" .options="${someOptions}"></mfc-select>
+      <mfc-select name=\"selectInput1\" label=\"Text input\"
+      help-text=\"Text input help text\" required=\"true\"
+      .options=\"${someOptions}\"></mfc-select>
 
 
       - - -
@@ -107,7 +217,7 @@ tabs:
 
       https://www.nngroup.com/articles/drop-down-menus/
 
-      https://www.nngroup.com/articles/listbox-dropdown/
+      https://www.nngroup.com/articles/listbox-dropdown/"
     icon: file_invoice
   - title: Code
     hook: code
