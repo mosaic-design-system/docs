@@ -12,7 +12,7 @@ tabs:
       ## What is a Dialog?
 
 
-      A Dialog is a container or box used to display content in a layer that sits above the main application. They are an interaction between the application and the user.
+      A **Dialog** is a container or box used to display content in a layer that sits above the main application. You can think of them like "pop-up" windows (but they're significantly less irritating!). They're normally used convey information to the user, or provide the opportunity for the user to perform an action in the middle of their workflow.
 
 
       - - -
@@ -21,10 +21,15 @@ tabs:
       ### When, and why?
 
 
-      Use Dialogs to prompt users for information relating to the current task or to display messaging which helps them to make decisions about the current workflow. A Dialog is typically used when a particular action has to be performed and interrupts the user's workflow until its content has been reviewed, interacted with or dismissed.
+      Use **Dialogs** to prompt users for information relating to the current task, or to display messaging which helps them to make decisions about the current workflow. A **Dialog** is typically used when a particular action **has** to be performed and interrupts the user's workflow until its content has been reviewed, interacted with or dismissed.
 
 
-      There are two types of Dialogs; the first is used for messages and the second is used for forms. Use a messaging Dialog when you want to present the user with advisory, warnings, or system critical information and use a form Dialog when you want to capture additional data using a collection of form inputs.
+      There are two types of **Dialogs**:
+
+
+      - A messaging **Dialog** allows you to present the user with advisory information, warnings, or system critical information 
+
+      - A form **Dialog** is used when you want to capture additional data using a collection of form inputs
 
 
       - - -
@@ -33,18 +38,18 @@ tabs:
       ## Dialog types
 
 
-      The following types of Dialog are available:
+      The following types of **Dialog** are available:
 
 
       | **Name**   | **Description**                                                                                          | **Behaviour**                          | **Example**              |
 
       | ---------- | -------------------------------------------------------------------------------------------------------- | -------------------------------------- | ------------------------ |
 
-      | Default    | A neutral Dialog with no styling or context, used as a simple container for content, e.g. images, videos | Persists. Can be dismissed or actioned | Showing a video tutorial |
+      | Default    | A neutral Dialog with no styling or context, used as a simple container for content, e.g. images & videos | Persists. Can be dismissed or actioned | Showing a video tutorial |
 
-      | As message | A Dialog used for presenting users with messages                                                         | Persists. Can be dismissed or actioned | Warning about an action  |
+      | As message | A Dialog used for presenting users with messages                                                         | Persists. Can be dismissed or actioned | Warning a user about an action they are about to take  |
 
-      | As form    | A Dialog used when user input is required                                                                | Persists. Can be dismissed or actioned | Creating a new record    |
+      | As form    | A Dialog used when user input is required                                                                | Persists. Can be dismissed or actioned | Creating a new record |
 
       | As sized   | Allows a Dialog to use one of the following sizes; Extra small, Small, Medium, Large, and Full-screen    |                                        |                          |
 
