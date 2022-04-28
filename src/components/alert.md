@@ -119,15 +119,7 @@ tabs:
       **Alerts** should never stack vertically, nor should more than one **Alert** be visible at once. Each **Alert** type has its own distinct region in which it should be displayed. For consistency, these locations should not be ignored. The locations can be found in the [System Messaging](guidelines/system-messaging) guidelines.
 
 
-      **Alerts** should never cover another piece of content on the page, 
-
-
-      The following rules apply to all types of **Alerts**:
-
-
-
-
-      * Do not automatically dismiss **Alerts** for critical or emergency messages. Some users with disabilities need more time to read or interact with messages
+      **Alerts** should never cover another piece of content on the page - covering up a piece of content with an **Alert** may prove disruptive to users and inhibit their usage of the product.
     icon: file_invoice
   - title: Code
     hook: code
