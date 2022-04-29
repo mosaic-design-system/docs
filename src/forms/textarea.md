@@ -7,7 +7,47 @@ chips:
 storybook: https://tessera.oneadvanced.io/dev/components-forms/?path=/docs/html-textarea-examples--default-story
 tabs:
   - title: Usage
-    body: ""
+    body: >-
+      ## What is a Textarea?
+
+
+      A Textarea is a fixed height input that allows multiple lines of text to be entered.
+
+
+      - - -
+
+
+      ### When, and why?
+
+
+      Textareas are taller than regular text inputs and wrap text onto new lines automatically as a user types. They are a fixed height and scroll vertically when the cursor reaches the bottom. However, they can also be manually resized to create a bigger space for content if a user needs it. The starting size of a Textarea should indicate the amount of content that is expected.
+
+
+      - - -
+
+
+      ## Textarea types
+
+
+      The following types of Textarea are available:
+
+
+      | **Name**             | **Description**                                                                                          | **Behaviour** |
+
+      | -------------------- | -------------------------------------------------------------------------------------------------------- | ------------- |
+
+      | Default              | An input that allows more than one sentence to be entered                                                |               |
+
+      | With character count | A Textarea that also displays the total number of characters permitted and how many there are remaining. |               |
+
+
+      - - -
+
+
+      ## Using a Textarea
+
+
+      Textareas can also include a character limit and counter. This let users know how long their entry can be before they start typing.
     icon: file_invoice
   - title: Code
     hook: code
