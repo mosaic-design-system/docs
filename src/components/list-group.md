@@ -1,9 +1,83 @@
 ---
 storybook-url: https://tessera.oneadvanced.io/dev/components-core/?path=/docs/html-button--as-default
+title: List group
 toc: true
 chips:
   - "HTML/CSS: Available"
   - "Web Component: Available"
+storybook: https://tessera.oneadvanced.io/dev/components-core/?path=/docs/html-list-group--with-buttons
+tabs:
+  - title: Usage
+    body: >+
+      ## What is a List Group
+
+      List groups are a flexible and powerful component for displaying a series of content. Modify and extend them to support just about any content within.
+
+
+      ### When and why
+
+      When you have an ordered or unordered list of elements to display in your application this could be a list of items in a list group.
+
+
+      - - -
+
+      ## List Group Types
+
+      | **Type** | **Description** |
+
+      | -------- | -------- |
+
+      |default| a simple list of text items|
+
+      |with selector| Selectors can be applied to allow the user to select one of more items and perform actions against them. |
+
+      |with icon| Icons can be applied to support the content of the list item but should not be used in conjunction with buttons or chips on the right - this will add too much cognitive load to the page.|
+
+      |with chip| Chips can be used to signify status, content type, dates, etc.|
+
+      |with button| Buttons can be used to perform actions in relation to the list item, this could be a anchor style link|
+
+      |with filter| adds a filter to the list|
+
+      |as flush| removes the boarder and padding around the list|
+
+
+      The above types are our default layouts for list items and should be used as designed unless you need more content.  If additional content is needed see the section in Using List Groups
+
+
+      - - -
+
+      ## Using a List Group
+
+
+      ### List item content
+
+      If one of the default types doesn't allow enough information to be presented, start off with a default type and build on it so that you keep consistency with other List Groups. Each list item should only contain just enough information for the user to get what they need.  This keeps the items simpler and therefore more scannable making the user able to find what they need.
+
+
+      ### Filter
+
+      A filter can be added to the top of the List Group when the list gets large to allow the user to find the information they are interested in.  If pagination is being used to limit the number of list items returned, the filter should search the whole list available to the user, not just the items cached locally. 
+
+
+      ### Flush
+
+      Flush list groups have no border or padding.  Use this style of List Group when there is already a form of grouping around the List Group, for example you might be putting a List Group on a Card and therefore the Card is the container. 
+
+
+      ### Pagination
+
+      Pagination can be used with a List Group.  This could be for performance reasons or to help the user understand the size of the list and navigate around it.   To understand what type of pagination to use, see the [Pagination component page](pagination).
+
+    icon: file_invoice
+  - title: Code
+    hook: code
+    icon: source_code
+  - title: Accessibility
+    body: ""
+    icon: web_accessibility_1
+  - title: Status
+    hook: status
 code:
   example: <button class="mcc-button">Button text</button>
   body: >-
@@ -145,18 +219,4 @@ status:
   html_css: Available
   web_component: Available
 navigation: button
-title: List group
-storybook: https://tessera.oneadvanced.io/dev/components-core/?path=/docs/html-list-group--with-buttons
-tabs:
-  - title: Usage
-    body: ""
-    icon: file_invoice
-  - title: Code
-    hook: code
-    icon: source_code
-  - title: Accessibility
-    body: ""
-    icon: web_accessibility_1
-  - title: Status
-    hook: status
 ---
