@@ -50,7 +50,7 @@ tabs:
       When users click or tap a rail item, they are taken to the top-level destination associated with it and that item appears selected. Navigation rail destinations are always represented by icons that indicate the content or the nature of a destination. In addition, they must always include text labels. Icons alone should never be used, as icons may not be universally known and will automatically exclude users that do not known what they mean. Text labels should provide short, meaningful descriptions and provide an alternative way for users to understand an icon’s meaning. Labels should not be truncated and wrapping long labels should be avoided when possible.
 
 
-      Navigation Rails must only contain between 3 and 8 items.
+      Navigation Rails can contain up to 8 items.
 
 
       Rail icons can include Chips \[link to Chips component page] to convey information about the associated destination, such as a count. When Chips are used in this way, they must be placed centrally, underneath a rail item.
