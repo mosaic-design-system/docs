@@ -58,7 +58,7 @@ tabs:
       When users click or tap a bar item, they are taken to the top-level destination associated with it and that item appears selected. Navigation bar destinations are always represented by icons that indicate the content or the nature of a destination. In addition, they must always include text labels. Icons alone should never be used, as icons may not be universally known and will automatically exclude users that do not known what they mean. Text labels should provide short, meaningful descriptions and provide an alternative way for users to understand an icon’s meaning. Labels should not be truncated and wrapping long labels should be avoided when possible.
 
 
-      Navigation Bars must only contain between 3 and 5 items. If there are more items, then the fifth item should become a "More" button, which displays a separate menu of the additional items.
+      Navigation Bars can contain up to 5 items. If there are more items, then the fifth item should become a "More" button, which displays a separate menu of the additional items.
 
 
       Navigation Bars must be fixed to the bottom of the screen, i.e. when the page content is scrolled, the bar remains visible. Also, they do not scroll or move horizontally.
