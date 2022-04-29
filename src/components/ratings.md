@@ -11,7 +11,7 @@ tabs:
       ## What is a Rating?
 
 
-      **Ratings** provide a way for users to evaluate or assess content. User-submitted **Ratings** can help 
+      **Ratings** provide a way for users to evaluate or assess content. User-submitted **Ratings** can help users evaluate whether or not something is fit for purpose.
 
 
       - - -
@@ -20,26 +20,26 @@ tabs:
       ### When, and why?
 
 
-      You need users to engage with your system to express their emotion towards a particular item or make more complex decisions. Ratings are an invaluable source of feedback that can help surface issues with products and inform innovation.
+      A **Ratings** system is useful when you need users to engage with your product to express their emotion towards a particular item, or make more complex decisions by using other users' feedback. **Ratings** are an invaluable source of feedback that can help surface issues with products and inform innovation.
 
 
       - - -
 
 
-      ## Rating Variants
+      ## Rating types
 
 
-      | **Variant** | **Description**                                                                   | **Example**                                                                                                                                                                                                                                                                                                   |
+      | **Variant** | **Description**                                                                   |
 
-      | ----------- | --------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+      | ----------- | --------------------------------------------------------------------------------- |
 
-      | **Star**    | The stars give a 1-5 scale rating                                                 | <button class="mcc-button mcc-button--primary" disabled> <span class="mcc-button__label">Disabled</span> </button>                                                                                                                                                                                            |
+      | **Star**    | The stars give a 1-5 scale rating                                                 |
 
-      | **Thumbs**  | The thumbs up and downs rating collects a binary positive or negative repsonse    | <button class="mcc-button mcc-button--primary"><mcc-icon name="does-not-exist" aria-hidden="true"></mcc-icon><span class="mcc-button__label">Icon</span></button>                                                                                                                                             |
+      | **Thumbs**  | The thumbs up and down rating collects a binary positive or negative response |
 
-      | **Heart**   | Using the heart allows you collect and count only positive responses              | <button class="mcc-button mcc-button--primary"><mcc-icon name="does-not-exist" aria-hidden="true"></mcc-icon><span class="mcc-button__label">Icon</span><mcc-icon name="arrows_long_right" aria-hidden="true"></mcc-icon></button>                                                                            |
+      | **Heart**   | Using the heart allows you collect and count only positive responses              |
 
-      | **Faces**   | This scale should be used when you are collecting a saticfation or emotion rating | <button class="mcc-button mcc-button--primary"><svg class="mcc-spinner" viewBox="0 0 50 50"><circle class="mcc-spinner__track" cx="25" cy="25" r="20" fill="none" stroke-width="5"></circle><circle cx="25" cy="25" r="20" fill="none" stroke-width="5"></circle></svg><span class="mcc-button__label"></span |
+      | **Faces**   | This scale collects a satisfaction or emotion rating |
 
 
       - - -
@@ -48,7 +48,23 @@ tabs:
       ## Using Ratings
 
 
-      Rating can be used multiple ways to either collect or present data, there are no hard set rules on using the ratings components however, keep it consistent throughout your product and do not bombard the user with too many on the screen at one given time.
+      ### Rating Types
+
+
+      [Think we definitely need some guidance on what rating to use where - users of MDS aren't necessarily experts in data collection!]
+
+
+      However, once you have chosen a **Rating** type, you should stick to that type throughout your product. Comparing data from different source types can be difficult, and mixing different sources of data collection can lead to poor quality data.
+
+
+      ### Rating frequency
+
+
+      **Ratings** are an excellent source of quantifiable feedback, but user uptake can generally be harmed by bombarding the user with constant requests for feedback. If you make use of the **Ratings** component, take care not to use it too frequently. Remember that there are other sources of user feedback, such as /[User Research](link to user research guideline).
+
+
+
+      ////**Ratings** can be used in multiple ways to either collect or present different types of data. /[There are no hard set rules on using the **Ratings** components], except that you should keep it consistent throughout your product and do not bombard the user with too many on the screen at one given time.////
     icon: file_invoice
   - title: Code
     hook: code
