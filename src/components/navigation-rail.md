@@ -8,10 +8,10 @@ storybook: https://tessera.oneadvanced.io/dev/components-core/?path=/docs/html-n
 tabs:
   - title: Usage
     body: >-
-      ## What is a \[Component?]
+      ## What is a Navigation Rail?
 
 
-      A **\[Component]** is...
+      A Navigation Rail is a side navigation component that displays links to primary destinations in an application.
 
 
       - - -
@@ -26,55 +26,25 @@ tabs:
       - - -
 
 
-      ## \[Component] types
+      ## Navigation Rail types
 
 
-      The following types of \[Component] are available:
+      The following types of Navigation Rail are available:
 
 
-      | **Name** | **Description** | **Behaviour** | **Example** |
+      | **Name**      | **Description** | **Behaviour** |
 
-      | -------- | --------------- | ------------- | ----------- |
+      | ------------- | --------------- | ------------- |
 
-      | Default  |                 |               |             |
+      | Default       |                 |               |
 
-      |          |                 |               |             |
-
-      |          |                 |               |             |
-
-      |          |                 |               |             |
-
-      |          |                 |               |             |
-
-      |          |                 |               |             |
+      | With tooltips |                 |               |
 
 
       - - -
 
 
-      ## \[Component] contexts
-
-
-      Context helps convey the information being communicated. Dialog contexts correspond to a colour to provide a consistent experience for users. For more information, refer to Colours \[link to Colours page].
-
-
-      | **Name** | **Description** | **Behaviour** | **Examples** |
-
-      | -------- | --------------- | ------------- | ------------ |
-
-      | Success  |                 |               |              |
-
-      | Danger   |                 |               |              |
-
-      | Warning  |                 |               |              |
-
-      | Info     |                 |               |              |
-
-
-      - - -
-
-
-      ## Using a \[Component]
+      ## Using a Navigation Rail
 
 
       Text
