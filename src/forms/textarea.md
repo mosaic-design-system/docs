@@ -11,7 +11,7 @@ tabs:
       ## What is a Textarea?
 
 
-      A Textarea is a fixed height input that allows multiple lines of text to be entered.
+      A Textarea is a form input that allows multiple lines of text to be entered.
 
 
       - - -
@@ -20,7 +20,7 @@ tabs:
       ### When, and why?
 
 
-      Textareas are taller than regular text inputs and wrap text onto new lines automatically as a user types. They are a fixed height and scroll vertically when the cursor reaches the bottom. However, they can also be manually resized to create a bigger space for content if a user needs it. The starting size of a Textarea should indicate the amount of content that is expected.
+      Textareas are really useful when you want to provide users with a way of submitting or recording their comments. They are used when the expected amount of content is more than a single line of text.
 
 
       - - -
@@ -45,6 +45,12 @@ tabs:
 
 
       ## Using a Textarea
+
+
+      Textareas are taller than regular text inputs and wrap text onto new lines automatically as a user types. They have a fixed height and scroll vertically when the cursor reaches the bottom. However, they can also be manually resized to create a bigger space for content, if a user needs it.
+
+
+      The starting size of a Textarea should indicate the amount of content that is expected.
 
 
       Textareas can also include a character limit and counter. This let users know how long their entry can be before they start typing.
