@@ -11,7 +11,7 @@ tabs:
       ## What is a Rating?
 
 
-      Ratings provide a way for users to evaluate or assess content.
+      **Ratings** provide a way for users to evaluate or assess content. User-submitted **Ratings** can help 
 
 
       - - -
