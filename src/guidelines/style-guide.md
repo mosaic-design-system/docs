@@ -85,7 +85,7 @@ tabs:
       An abbreviation is when you shorten a word, i.e. using Hr. instead
       of hour. In general, the usage of abbreviations should be avoided – they
       can often get confusing. As an example, using Hr. for hour might be
-      confusing in Cloud HR!
+      confusing in Advanced HR!
 
 
       If an abbreviation is absolutely necessary for a page to work (for
@@ -200,8 +200,8 @@ tabs:
 
       We use 24-hour times across our products in general. There are
       exceptions to this when it comes to denoting time periods - for example in
-      CloudHR you can book annual leave “Starting in the AM” and “Finishing in
-      the PM”.\ 
+      Advanced HR you can book annual leave “Starting in the AM” and “Finishing
+      in the PM”.\ 
 
 
       Unless there is a strong reason not to, you should use 24-hour time
@@ -400,7 +400,7 @@ tabs:
       You should try and remain consistent when labelling throughout, and
       avoid using different terminology for the same action on different pages.
       If you use ‘Cancel’ on one modal, it should stay as ‘Cancel’ on other ones
-      and not change to ‘Close’. \r
+      and not change to ‘Discard’. \r
 
       \r
 
@@ -504,9 +504,9 @@ tabs:
       customer communications, bolding should be used for the names of products
       and their features. This is to indicate to the reader that you are
       referring to something **specific** within the product, and not something
-      generic. For example, in **Cloud HR**, an **Absence** (as in a booked
-      period of time off work within the **Cloud HR** system) should be bolded
-      to differentiate it from an absence in general. \r
+      generic. For example, in **Advanced HR**, an **Absence** (as in a booked
+      period of time off work within the **Advanced HR** system) should be
+      bolded to differentiate it from an absence in general. \r
 
       \r
 
@@ -556,25 +556,6 @@ tabs:
       should use a larger font and be bolded.\r
 
       \r
-
-
-      ## Colour\r
-
-      \r
-
-
-      [The original style guide ok’d colouring text, but I don’t think
-      this is accessible? Have included the text here just in case it is, but
-      I’m not sure.]\r
-
-      \r
-
-
-      Colour is a good way to emphasise things. However, don't use too
-      much colour, as a proportion of your readers may be colour blind and may
-      not see the highlighted bits. Also, if a user changes their Windows colour
-      scheme, the colours used may not be displayed as intended. Colours should
-      be taken from the Mosaic colour palette.
 
 
       ## Bullet points\r
