@@ -87,13 +87,21 @@ tabs:
       **Navigation Rails** are placed on the left-hand side of the screen and always run vertically along the side of a page.
 
 
-      The top of a **Navigation Rail** can also be used for a logo. However, this is dependent on the layout you are using. For example, if you are using a layout where the Navigation Header runs all the way across the top of the screen, then the logo would be placed on the left-hand side of the header. For more information, refer to Layouts \[link to Layouts page. We don't currently have one, but as we introduce more layouts, we'll need a page to document them].
+      [[Review the below section please Jop]]
 
 
-      As mention above, rails can also be used with a Drawer component. This supports your navigation structure if you have secondary destinations or additional actions. However, a drawer is unnecessary if there are no secondary destinations or actions in your application.
+      //The top of a **Navigation Rail** can also be used for a logo. However, this is dependent on the layout you are using. For example, if you are using a layout where the Navigation Header runs all the way across the top of the screen, then the logo would be placed on the left-hand side of the header. For more information, refer to Layouts \[link to Layouts page. We don't currently have one, but as we introduce more layouts, we'll need a page to document them].//
 
 
-      When moving from a large screen to a smaller display, rails transform into a Navigation Bar component, while still providing the same access but in a way that's suitable for smaller screens. However, the Navigation Rail and Navigation Bar should not be used together.
+      ### Drawers
+
+      As mentioned above, **Navigation Rails** can also be used with a **Drawer**. This supports your navigation structure if you have secondary destinations or additional actions, providing further navigation options for your user. They can continue to navigate between sub-destinations in each section, or move to another section in the **Navigation Rail**. Keep in mind that a **Drawer** is unnecessary if there are no secondary destinations or actions in your application.
+
+
+
+      ### Smaller screens
+
+      When moving from a large screen to a smaller display, a **Navigation Rail** transforms into a **Navigation Bar** component, which still provides the same access as a **Rail**, but in a way that's suitable for smaller screens. A **Rail** and a **Bar** should never be used at the same time - a user should only ever have one type of 'top-level' navigation available to them.
     icon: file_invoice
   - title: Code
     hook: code
