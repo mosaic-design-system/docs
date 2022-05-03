@@ -23,9 +23,6 @@ tabs:
       RTEs are really useful when you want to provide users with a way of adding or editing content, images, links, and other components, without having to know any code. They also allow content to be styled and formatted using bold, italics, headings, etc. The aim is to reduce the effort for users to enter formatted content directly into forms, as valid HTML.
 
 
-      This component is useful for any instance where a user is required to add comments, notes or additional text.
-
-
       - - -
 
 
