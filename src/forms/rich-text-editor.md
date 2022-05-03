@@ -20,9 +20,7 @@ tabs:
       ### When, and why?
 
 
-      RTEs are really useful when you want to provide users with a way of adding or editing content, images, links, and other components, without having to know any code. They also allow content to be styled and formatted using bold, italics, headings, etc. The aim is to reduce the effort for users to enter formatted content directly, as valid HTML.
-
-
+      RTEs are really useful when you want to provide users with a way of adding or editing content, images, links, and other components, without having to know any code. They also allow content to be styled and formatted using bold, italics, headings, etc. The aim is to reduce the effort for users to enter formatted content directly into forms, as valid HTML.
 
 
       - - -
@@ -31,7 +29,13 @@ tabs:
       ## Using a Rich Text Editor
 
 
-      RTEs...
+      In the way as Textareas \[link to Textareas page], RTEs are taller than regular text inputs and wrap text onto new lines automatically as a user types. They have a fixed height and scroll vertically when the cursor reaches the bottom. However, they can also be manually resized to create a bigger space for content, if a user needs it.
+
+
+      The starting size of an RTE should indicate the amount of content that is expected.
+
+
+      RTEs work in a similar way to a simple word processor, in that they contain many of the formatting options associated with them, they accept carriage returns, and content can be structured using bullets, etc.  
 
 
       As with all form inputs, a RTEs can be checked when a form is submitted to make sure its contents are valid or, if it is flagged as a mandatory field, that it's completed before continuing. For more information, refer to Form Validation \[link to Form Validation page].
