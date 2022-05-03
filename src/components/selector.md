@@ -8,37 +8,49 @@ chips:
 storybook: ""
 tabs:
   - title: Usage
-    body: |-
+    body: >-
       ## What is a Selector?
 
-      A Selector is...
+
+      A Selector is a visual component that indicates if something is selected or not.
+
 
       - - -
+
 
       ### When, and why?
 
-      Text
+
+      A Selector must not be confused with a Checkbox \[link to Checkbox page], which include a text label and are used in forms so that users can choose one or more options. Selectors do not have text labels and are used outside forms, for example, in tables where multiple rows can be selected in order to perform an action. In this scenario, a Selectors would be positioned in the left-most column of each row.
+
 
       - - -
+
 
       ## Selector types
 
+
       The following types of Selector are available:
 
-      | **Name** | **Description** | **Behaviour** |
-      | -------- | --------------- | ------------- |
-      | Default  |                 |               |
-      |          |                 |               |
-      |          |                 |               |
-      |          |                 |               |
-      |          |                 |               |
-      |          |                 |               |
+
+      | **Name**      | **Description**                                                                       | **Behaviour** |
+
+      | ------------- | ------------------------------------------------------------------------------------- | ------------- |
+
+      | Default       | When a Selector is unselected                                                         |               |
+
+      | Selected      | When a Selector is selected                                                           |               |
+
+      | Indeterminate | When a Selector is neither selected or unselected and therefore can not be determined |               |
+
 
       - - -
 
+
       ## Using a Selector
 
-      Text
+
+      Selectors can be selected, unselected, or indeterminate. They also have active, read-only and disabled states. Like Checkboxes, Selectors are used for multiple choices, not for mutually exclusive choices. Each Selector works independently from other Selectors in a list, therefore checking an additional Selector does not affect any other selections.
     icon: file_invoice
   - title: Code
     hook: code
