@@ -7,7 +7,34 @@ chips:
 storybook: https://tessera.oneadvanced.io/dev/components-forms/?path=/docs/html-input-checkbox--default-story
 tabs:
   - title: Usage
-    body: ""
+    body: >-
+      ## What is a Rich Text Editor?
+
+
+      A Rich Text Editor (RTE) is a form input that allows users to add or edit content in a "what-you-see-is-what-you-get" (WYSIWYG) editing area.
+
+
+      - - -
+
+
+      ### When, and why?
+
+
+      RTEs are really useful when you want to provide users with a way of adding or editing content, images, links, and other components, without having to know any code. They also allow content to be styled and formatted. The aim is to reduce the effort for users to enter formatted content directly as valid HTML.
+
+
+
+
+      - - -
+
+
+      ## Using a Rich Text Editor
+
+
+      RTEs...
+
+
+      As with all form inputs, a RTEs can be checked when a form is submitted to make sure its contents are valid or, if it is flagged as a mandatory field, that it's completed before continuing. For more information, refer to Form Validation \[link to Form Validation page].
     icon: file_invoice
   - title: Code
     hook: code
