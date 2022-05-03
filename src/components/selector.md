@@ -12,7 +12,7 @@ tabs:
       ## What is a Selector?
 
 
-      A Selector is a visual component that indicates if something is selected or not.
+      A **Selector** is a visual component that indicates if something is selected or not. They are usually used in lists or tables to highlight to the user what item(s) an action will affect.
 
 
       - - -
@@ -21,7 +21,7 @@ tabs:
       ### When, and why?
 
 
-      A Selector must not be confused with a Checkbox \[link to Checkbox page], which include a text label and are used in forms so that users can choose one or more options. Selectors do not have text labels and are used outside forms, for example, in tables where multiple rows can be selected in order to perform an action. In this scenario, a Selectors would be positioned in the left-most column of each row.
+      A **Selector** must not be confused with a [**Checkbox**](/forms/checkbox), which includes a text label and are used in forms so that users can choose one or more options. **Selectors** do not have text labels and are used outside forms, for example in tables where multiple rows can be selected in order to perform an action. In this scenario, a **Selector** would be positioned in the left-most column of each row.
 
 
       - - -
@@ -37,11 +37,11 @@ tabs:
 
       | ------------- | ------------------------------------------------------------------------------------- | ------------- |
 
-      | Default       | When a Selector is unselected                                                         |               |
+      | Default       | When an it is unselected                                                         |               |
 
-      | Selected      | When a Selector is selected                                                           |               |
+      | Selected      | When an item is selected                                                           |               |
 
-      | Indeterminate | When a Selector is neither selected or unselected and therefore can not be determined |               |
+      | Indeterminate | When an item is neither selected or unselected and therefore cannot be determined |               |
 
 
       - - -
@@ -50,13 +50,19 @@ tabs:
       ## Using a Selector
 
 
-      Selectors can be selected, unselected, or indeterminate. They also have active, read-only and disabled states. Like Checkboxes, Selectors are used for multiple choices, not for mutually exclusive choices. Each Selector works independently from other Selectors in a list, therefore checking an additional Selector does not affect any other selections.
+      ### Selector types
+
+      **Selectors** have three states: selected, unselected, and indeterminate. They also have active, read-only and disabled states. Like **Checkboxes**, **Selectors** are used for multiple choices, not for mutually exclusive choices. Each **Selector** works independently from other **Selectors** in a list, therefore selecting an additional item does not affect any other selections.
 
 
-      Do not use a Selector if a user can select only one option from a list. In this case, Radio Buttons \[link to Radio Buttons page] should be used instead. Selectors allow the user to select multiple items in a set whereas Radio Buttons allow the user to select only one option.
+      ### Single-selects
+
+      Do not use a **Selector** if a user can select **only** one option from a list. In this case, [Radio Buttons](link to Radio Buttons page) should be used instead. **Selectors** allow the user to select multiple items in a set, whereas **Radio Buttons** allow the user to select only one option.
 
 
-      Selectors are easy to scan to see if they are selected and are more visually prominent than unselected items. They also make it easier to compare available items.
+      ### Visual indication
+
+      **Selectors** are easy to scan to see if they are selected and are more visually prominent than unselected items. They also make it easier to compare available items. You should use them when you want it to be clear what has been selected by the user.
     icon: file_invoice
   - title: Code
     hook: code
