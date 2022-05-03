@@ -51,6 +51,12 @@ tabs:
 
 
       Selectors can be selected, unselected, or indeterminate. They also have active, read-only and disabled states. Like Checkboxes, Selectors are used for multiple choices, not for mutually exclusive choices. Each Selector works independently from other Selectors in a list, therefore checking an additional Selector does not affect any other selections.
+
+
+      Do not use a Selector if a user can select only one option from a list. In this case, Radio Buttons \[link to Radio Buttons page] should be used instead. Selectors allow the user to select multiple items in a set whereas Radio Buttons allow the user to select only one option.
+
+
+      Selectors are easy to scan to see if they are selected and are more visually prominent than unselected items. They also make it easier to compare available items.
     icon: file_invoice
   - title: Code
     hook: code
