@@ -66,7 +66,7 @@ tabs:
       ////**Ratings** can be used in multiple ways to either collect or present different types of data. /[There are no hard set rules on using the **Ratings** components], except that you should keep it consistent throughout your product and do not bombard the user with too many on the screen at one given time.////
 
 
-      The star (1-5 scale) work well when you want feedback on a new feature or if the rating is to be shared with other users e.g. '25145 rated ‘X’ 4/5. The Faces (satisfaction scale) are directly liked the user emotion and would be best suited when you are asking the user about their overall experience on a product or workflow. \
+      The star (1-5 scale) work well when you want feedback on a new feature or if the rating is to be shared with other users e.g. '145 rated ‘X’ 4/5. The Faces (satisfaction scale) are directly liked the user emotion and would be best suited when you are asking the user about their overall experience on a product or workflow. \
 
       Thumbs (Like or dislike) and hearts should be seen as reactional feedback and given in direct response to something intending to give instant results. For example, a blog post, a help document, a diagram, or image. This type of feedback can be used to promote content or help get high-level insights
     icon: file_invoice
