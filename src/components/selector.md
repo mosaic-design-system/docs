@@ -8,7 +8,37 @@ chips:
 storybook: ""
 tabs:
   - title: Usage
-    body: ""
+    body: |-
+      ## What is a Selector?
+
+      A Selector is...
+
+      - - -
+
+      ### When, and why?
+
+      Text
+
+      - - -
+
+      ## Selector types
+
+      The following types of Selector are available:
+
+      | **Name** | **Description** | **Behaviour** |
+      | -------- | --------------- | ------------- |
+      | Default  |                 |               |
+      |          |                 |               |
+      |          |                 |               |
+      |          |                 |               |
+      |          |                 |               |
+      |          |                 |               |
+
+      - - -
+
+      ## Using a Selector
+
+      Text
     icon: file_invoice
   - title: Code
     hook: code
