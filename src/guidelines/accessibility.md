@@ -305,4 +305,69 @@ tabs:
       In order to check the colour contrast of your product, you can use
       [this contrast
       checker](https://webaim.org/resources/contrastchecker/).\r\n"
+  - title: Statements
+    body: "Our standard of WCAG 2.1 AA is now the very minimum standard of
+      accessibility that our customers expect. If these guidelines are adhered
+      to, then you will reap the benefits of both being an awesome product for
+      users with accessibility considerations, and also protect yourself when it
+      comes to laws around accessibility (such as in the US).\r
+
+
+      If you aren’t following the guidelines, or aren’t working towards
+      it, you could be taken to court for disability discrimination, no matter
+      where the users are based. It does not matter where the product is
+      **based**, it matters where it is **used**.\r
+
+      Please make sure that you complete an accessibility statement (see
+      below) to show the customer and the users that you are working towards
+      fully adhering to the WCAG AA 2.1 guidelines, or indeed that you already
+      have done so.  \r
+
+
+      Applications that take Accessibility into account are quoted as
+      being 35% more usable in their own right, even for those who would not
+      consider themselves to have accessibility requirements. If you are
+      struggling with efficiency and user experience with your application,
+      improving your accessibility is a great place to start.\r
+
+
+      ## Accessibility Statement\r
+
+
+      At Advanced, all products **must** have an accessibility statement
+      and it must be displayed within the product in a way where the user can
+      access it from every page.\r
+
+      \r
+
+      Accessibility statements outline how closely a product follows the
+      WCAG guidelines, and where the product falls short. It also outlines the
+      plans for when the product will fix any of the accessibility issues the
+      product may have. These dates **must** be met, otherwise it could be seen
+      as discrimination and can leave you open for legal troubles.\r
+
+      \r
+
+
+      Software consumers are asking for accessibility statements more and
+      more in recent years when they are looking at buying software. It is vital
+      that these statements ready to go to take advantage of these opportunities
+      – but also, it's just the **right thing to do**. Remember, a truly good
+      user experience is fully inclusive for everyone **no matter who they
+      are**.\r
+
+      \r
+
+
+      To help understand how your product matches up with the guidelines,
+      you can follow these steps:\r
+
+      -  Check your product against our official Advanced code and visual
+      accessibility guidelines. (link here).\r
+
+      - Use our recommended tooling [WAVE](https://wave.webaim.org/)) to
+      assess how compliant your product is.\r
+
+      - Download and fill out our [accessibility statement template](link
+      here) ready to be displayed on your site.\r\n"
 ---
