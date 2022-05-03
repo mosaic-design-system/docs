@@ -52,20 +52,20 @@ tabs:
 
       ### Sizing
 
-      **Textareas** are taller than regular text inputs and wrap text onto new lines automatically as a user types. They have a fixed height and scroll vertically when the cursor reaches the bottom. However, they can also be manually resized to create a bigger space for content, if a user needs it.
+      **Textareas** are taller than regular text inputs and wrap text onto new lines automatically as a user types. They have a fixed height and scroll vertically when the text exceeds the bottom of the given area. However, they can also be manually resized to create a bigger space for content, if a user needs it.
 
 
-      The starting size of a **Textarea** should indicate the amount of content that is expected.
+      The starting size of a **Textarea** should indicate the amount of content that is expected, and roughly equate to the size required for the maximum of a character limit if you have included one.
 
 
       ### Character limits
 
-      **Textareas** can also include a character limit and counter. This lets users know how long their entry can be before they start typing.
+      **Textareas** can also include a character limit and counter. This lets users know how long their entry can be before they start typing. Once the character limit has been reached, the user will no longer be able to input any more text.
 
 
       ### Validation
 
-      As with all form inputs, a **Textarea** can be checked when a form is submitted to make sure its contents are valid or, if it is flagged as a mandatory field, that it's completed before continuing. For more information, please refer to [Form Validation](/forms/form-validation).
+      As with all form inputs, a **Textarea** can be checked when a form is submitted to make sure its contents are valid or, if it is flagged as a mandatory field, that it's completed before continuing. For more information, please refer to [**Form Validation**](/forms/form-validation).
     icon: file_invoice
   - title: Code
     hook: code
