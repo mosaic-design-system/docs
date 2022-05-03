@@ -32,9 +32,9 @@ tabs:
       ### Types
 
 
-      | **Variant**   | **description**                                                  | **Example** |
+      | **Variant**       | **description**                                                  | **Example** |
 
-      | ------------- | ---------------------------------------------------------------- | ----------- |
+      | ----------------- | ---------------------------------------------------------------- | ----------- |
 
       | **Default**       | A dropdown selection allowing the user to select a single option |             |
 
@@ -44,7 +44,7 @@ tabs:
 
       | **Option groups** | The options available to the user are grouped under headings     |             |
 
-      | **Size** | There are three sizes available: small, default and large |  |
+      | **Size**          | There are three sizes available: small, default and large        |             |
 
 
       ## Using a select
@@ -64,36 +64,14 @@ tabs:
 
       ### Select headers
 
+
       Heading and item text styling should follow the [style guide](/guidelines/style-guide).
 
 
-      ### Examples
+      ### Multi-select
 
 
-      #### If the user has one option to select:
-
-
-      <div class="mfc-select-wrapper">
-        <label for="selectInput1">Select input</label>
-        <select id="selectInput1" name="selectInput1">
-          <option value=""></option>
-          <option value="option1">Option 1</option>
-          <option value="option2">Option 2</option>
-          <option value="option3">Option 3</option>
-          <option value="option4">Option 4</option>
-          <option value="option5">Option 5</option>
-        </select>
-        <div class="mfc-help-text">Select input help text</div>
-      </div>
-
-
-
-      #### If the user can select multiple options:
-
-
-
-
-      If the options in your **Select** menu have a hierarchy or categorisation, you should split them into groups (see below). This allows users to find the option quickly by scanning the group labels instead of every single option. This can also be used if you have more than one option to select:
+      If the options in your **Select** menu have a hierarchy or categorisation, you should split them into groups. This allows users to find the option quickly by scanning the group labels instead of every single option. 
 
 
       - - -
