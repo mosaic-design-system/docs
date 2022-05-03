@@ -12,7 +12,7 @@ tabs:
       ## What is Pagination?
 
 
-      A mechanism which communicates the number of pages that can be loaded within a given context
+      A mechanism which communicates the number of pages that can be loaded within a given context.
 
 
       - - -
