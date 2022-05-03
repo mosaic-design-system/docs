@@ -96,15 +96,16 @@ tabs:
       interact with our software on a permanent basis. This covers things like
       blindness, dyslexia, and MS. |
 
-      | **Invisible** | Some accessibility issues are not always visible,
-      this includes diseases like chrons, colitis, mental health issues, types
-      of pain and many more. When looking at someone with an invisible issue,
-      you may not be immediately obvious that they have accessibility needs. |
+      | **Invisible** | Some accessibility requirements are not always
+      visible, this includes diseases like chrons, colitis, mental health
+      conditions, types of pain and many more. When looking at someone with an
+      invisible issue, you may not be immediately obvious that they have
+      accessibility needs. |
 
 
-      It is important to note that accessibility issues do not always fall
-      into one category. For example, someone recovering from a brain injury
-      would have an issue that was both invisible and temporary.
+      It is important to note that accessibility considerations do not
+      always fall into one category. For example, someone recovering from a
+      brain injury would have an issue that was both invisible and temporary.
 
 
       \r
@@ -214,4 +215,94 @@ tabs:
       arrow or tab navigation, then the user must be informed of this method.
       However, you should try your hardest to avoid any such situations. They
       should be a last resort.\r\n"
+  - title: Colour
+    body: "Colour is a key factor in making our products accessible and can have a
+      real impact on the user's experience. Colour can provide context clues for
+      users that struggle to read (for example, a red 'delete' button shows that
+      this button may be destructive) but can also be a hindrance when someone
+      is colour blind.\r
+
+      \r
+
+
+      ## Colour blindness\r
+
+
+      When using colour, it is vital that we consider how that colour may
+      be interpreted.  Not just by users without visual impairments, but by
+      those using assistive technology or have one of the following types of
+      colour blindness:\r
+
+
+      - **Tritanopia** - reduced sensitivity to blue light (this one is
+      extremely rare)\r
+
+      - **Protonopia** - reduced sensitivity to red light\r
+
+      - **Deuteranopia** - reduced sensitivity to green light (this is the
+      most common)\r
+
+      - **Greyscale** - completely devoid of colour.  Can only see
+      different shades of grey\r
+
+
+      People with Protonopia or Deuteranopia, typically known as red-green
+      colour blindness, find it difficult to distinguish between red, green,
+      brown and orange.\r
+
+      People with Tritanopia find it difficult to distinguish between
+      blue, purple, grey, black and greens.\r
+
+
+      More information on these can be found on the [colour blind
+      awareness
+      website](http://www.colourblindawareness.org/colour-blindness/types-of-co\
+      lour-blindness/)\r
+
+
+      [[IMAGE]]
+
+
+      \r
+
+      \r
+
+      \r
+
+      Notice the differences?  If you wanted to include some form of
+      highlighting on something like a data table, where you show warnings in
+      red and positives in green, a user with this form of colour-blindness
+      would not see any difference between the two.  Including an icon or text
+      alongside that colour would go a long way to making the data table
+      accessible to everyone.\r
+
+
+      A hard and fast rule across the Mosaic Design System is that we
+      never rely on colour alone to convey meaning to any part of our
+      products.\r
+
+
+      \r
+
+      ## Colour Contrast\r
+
+      It is essential that the correct contrast ratios are considered when
+      developing new screens and products.  If the contrast is too low, users
+      can find it difficult to distinguish important items on the page.\r
+
+
+      Getting the right contrast ratio means we can improve the experience
+      not only for users with low-contrast or colour-blind vision, but also for
+      users who may be impacted by a temporary situation, such as screen glare
+      or poorly-lit rooms.\r
+
+      The Mosaic team adhere to the WCAG AA 2.1 guidelines that text (or
+      visual representation of text) should have a minimum contrast ratio of
+      4.5:1.  There are a few exceptions to this, such as extra-large text
+      (minimum 3:1), or logos and page decoration.\r
+
+
+      In order to check the colour contrast of your product, you can use
+      [this contrast
+      checker](https://webaim.org/resources/contrastchecker/).\r\n"
 ---
