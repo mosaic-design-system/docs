@@ -18,20 +18,6 @@ html {
   scroll-padding-top: calc(var(--navigation-header-height) + 2rem);
 }
 
-/* drawer offset */
-@media (min-width: 993px) {
-  .mcc-drawer.mds-drawer--nav-header-adjust {
-    top: var(--navigation-header-height);
-    min-height: calc(100vh - var(--navigation-header-height)) !important;
-    height: calc(100vh - var(--navigation-header-height)) !important;
-  }
-}
-
-/* drawer frame  */
-.mcc-drawer-frame.mcc-drawer-frame--nav-header-adjust {
-  padding-top: var(--navigation-header-height);
-}
-
 /* app content position  */
 .mcc-drawer-app-content.mcc-drawer-app-content--nav-header-adjust {
   min-height: 100%;
@@ -110,7 +96,6 @@ html {
   grid-template-columns: 1fr minmax(0, max-content);
 }
 
-
 #drawer-toggle.drawer-is-closed mcc-icon:nth-child(1) {
   display: none;
 }
@@ -124,8 +109,3 @@ html {
   width: 100%;
   margin: 0 auto;
 }
-
-
-
-/* team bg colors */
-
