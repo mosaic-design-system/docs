@@ -67,19 +67,19 @@ tabs:
       All variations allow you to include a subheading
 
 
-      | Variant                   | Description                                                                                                                                       |
+      | Variant                   | Description                                                                                                                                                                                       |
 
-      | ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
+      | ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
-      | **Default**               | The default **Table** has an overflow button.                                                                                                     |
+      | **Default**               | The default **Table** has an overflow button to enable actions to be performed on a specific selected row.                                                                                        |
 
-      | **With chips**            | Chips in a **Table**                                                                                                                              |
+      | **With chips**            | Chips can be included within the cells of a **Table** to help with quick references, breaking up repetitive information and quickly show positive, negative, etc statuses of various information. |
 
-      | **With editable cell**    | An editable cell in a **Table**                                                                                                                   |
+      | **With editable cell**    | An editable cell in a **Table** allowing users to edit the data within a specific cell.                                                                                                           |
 
-      | **With reordered header** | Within the header                                                                                                                                 |
+      | **With reordered header** | Icons within the header to allow the user to Ireorder the content ocf that ospecific column. alphabetically or numerically.                                                                       |
 
-      | **With selector**         | **Selectors** in **Tables** are there to help with selecting rows of the tables in order to edit/delete etc or highlight for visibility purposes. |
+      | **With selector**         | **Selectors** in **Tables** are there to help with selecting rows, in order to edit/delete etc or highlight specific cells for visibility purposes.                                               |
 
 
       \[[Code up some examples here]]
@@ -97,25 +97,16 @@ tabs:
       Where tick boxes are used. **Tables** are accompanied by button groups so that actions can be applied to the whole table or the specific row the user has clicked.
 
 
-      **Tables** should not have vertical scroll bars, the pagenation (See pagenation) component should be used with the table instead (See example).
+      Zebra striping should not be overridden as it is there to help users scan and follow the **Table's** content easier as well as increasing accessibility.
 
 
-      Zebra striping should not be overridden as it is there to help users scan and follow the **Table's** content easier as well as increasing the accessibility.
+      **Tables** should not have vertical scroll bars, pagination should be used as part of the **Table** pattern (documentation coming soon). **Tables** should not have more than 13 rows before using the pagination as part of the **Table** pattern.
 
 
-      We recommend 6 columns maximum, we appreciate some product may need more but the product's information architecture should be reviewed when creating tables. The need to have  Is it necessary to have more than 6 columns?
+      We recommend 6 columns maximum within the **Table**, we appreciate some product may need more but the product's information architecture should be reviewed when creating tables. The need to have 6 columns should be a necessity for the user experience.
 
 
-      Row amount 13
-
-
-      **Accordions** are a great way to section off content-rich pages, collapsing the sections will also give users an overview of the content available whilst minimising scrolling and make the page appear less daunting. If your page contains multiple different content types, an **Accordion** should be used to separate them out into easy-to-digest sections.
-
-
-      Make sure the section headings are clear and concise, but still give the user enough information about what each one contains. Headings should be sentence case and not have the first letter of every word capitalised - you can read more about this in the [style guide](/guidelines/Style-Guide).
-
-
-      Always allow the user to expand multiple **Accordions** at a time, and avoid hiding task critical content. If a user can only open one **Accordion** at a time, then it is better to consider a different approach.
+      Long text should be truncated in order to give the user an overview of the information. However a pop out (see pop out) should be implemented to reveal all of the information within that particular cell.
     icon: file_invoice
   - title: Code
     hook: code
