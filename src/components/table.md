@@ -9,7 +9,16 @@ storybook: https://tessera.oneadvanced.io/dev/components-core/?path=/docs/html-a
 tabs:
   - title: Usage
     body: >-
-      ## What is an Accordion?
+      ## What is a Table?
+
+
+      A **Table** is a useful component for displaying and editing large amounts of data in a more customised and organised way.
+
+
+      **Tables** consist of logical rows and columns to help users easily find and reference sections of data.
+
+
+      They don't have to only contain text, **Tables** can contain chips (see chips) to help signal negative, positive etc status' of information.
 
 
       An **Accordion** is a useful tool for splitting out information on a page - if you have a page that contains multiple different pieces of information, an **Accordion** can help reduce the amount of vertical space a page uses.
@@ -27,6 +36,16 @@ tabs:
       ### When, and why?
 
 
+      A **Table** is useful when you have tabular data to display such as data charts. **Tables** can help users easily digest large amounts of data. It can be especially useful when a user might need to edit this data.
+
+
+      For example, in Cloud HR, **Tables** are used to show a list of how many holidays you have booked and when they are. You can then perform a series of actions on these rows.
+
+
+      **Tables** should make data and information easier to digest information, not harder.\
+
+      \
+
       An **Accordion** is useful when your users need to consume multiple items with specific content in a single page. Allowing users to have control over the content by expanding it, or leaving it collapsed, lets them decide what is relevant to them at that time. 
 
 
@@ -42,25 +61,25 @@ tabs:
       - - -
 
 
-      ## Accordion Types
+      ## Table Types
 
 
       All variations allow you to include a subheading
 
 
-      | Variant           | Description                                                                                                                                                                              |
+      | Variant                   | Description                                                                                                                                       |
 
-      | ----------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+      | ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
 
-      | **Default**       | The default **Accordion** has no actions on it, and simply expands and collapses content.|
+      | **Default**               | The default **Table** has an overflow button.                                                                                                     |
 
-      | **With chip**     | Chips in the header of an **Accordion** can be used to signify status, content type, dates, etc.                                                                                         |
+      | **With chips**            | Chips in a **Table**                                                                                                                              |
 
-      | **With edit**     | An edit button on an **Accordion** allows the user to enter an edit state.                                                                                                               |
+      | **With editable cell**    | An editable cell in a **Table**                                                                                                                   |
 
-      | **With overflow** | Used when there a specific actions linked to each accordion                                                                                                                              |
+      | **With reordered header** | Within the header                                                                                                                                 |
 
-      | **With icon**     | Icons can be applied to support the content of the heading but should not be used in conjunction with buttons or chips on the right - this will add too much cognitive load to the page. |
+      | **With selector**         | **Selectors** in **Tables** are there to help with selecting rows of the tables in order to edit/delete etc or highlight for visibility purposes. |
 
 
       \[[Code up some examples here]]
@@ -69,7 +88,25 @@ tabs:
       - - -
 
 
-      ## Using an Accordion
+      ## Using a Table
+
+
+      **Tables** should be used for data, not long sentences of text.
+
+
+      Where tick boxes are used. **Tables** are accompanied by button groups so that actions can be applied to the whole table or the specific row the user has clicked.
+
+
+      **Tables** should not have vertical scroll bars, the pagenation (See pagenation) component should be used with the table instead (See example).
+
+
+      Zebra striping should not be overridden as it is there to help users scan and follow the **Table's** content easier as well as increasing the accessibility.
+
+
+      We recommend 6 columns maximum, we appreciate some product may need more but the product's information architecture should be reviewed when creating tables. The need to have  Is it necessary to have more than 6 columns?
+
+
+      Row amount 13
 
 
       **Accordions** are a great way to section off content-rich pages, collapsing the sections will also give users an overview of the content available whilst minimising scrolling and make the page appear less daunting. If your page contains multiple different content types, an **Accordion** should be used to separate them out into easy-to-digest sections.
