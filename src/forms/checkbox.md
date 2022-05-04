@@ -7,7 +7,65 @@ chips:
 storybook: https://tessera.oneadvanced.io/dev/components-forms/?path=/docs/html-input-checkbox--default-story
 tabs:
   - title: Usage
-    body: ""
+    body: >-
+      ## What is a Checkbox?
+
+
+      A Checkbox is a visual component that indicates if something is selected or not.
+
+
+      - - -
+
+
+      ### When, and why?
+
+
+      Used in forms so that users can choose one or more options.
+
+
+      - - -
+
+
+      ## Checkbox types
+
+
+      Checkboxes can be unselected, selected or indeterminate which is when a checkbox is neither selected or unselected and therefore cannot be determined. Disabled, Read only and focused states also apply to all of the above
+
+
+      | **Name**      | **Description**                                                                                                           |
+
+      | ------------- | ------------------------------------------------------------------------------------------------------------------------- |
+
+      | With label    | This is the default and should be used to multiple choice lists and parent-child multiple choice lists                    |
+
+      | Without label | This should only be used within a selector column of a table where the column header becomes the label for the checkboxes |
+
+
+      - - -
+
+
+      ## Using a Checkbox
+
+
+      Checkboxes are used for multiple choices, and work independently from other checkboxes in the same list therefore checking an additional box does not affect any other selections.
+
+
+      Checkboxes allow users to select one or multiple from a list. Applying a parent checkbox allows the user to easily select all or unselect all. The undetermined state will appear if the user selects all via the parent and then deselect 1 or more of the children. 
+
+
+      We only suggest using a single checkbox to collect data and as part of another question/item, rather than as a standalone question/item. For example a checkbox used on a log in page with 'Keep me logged in' only works relation to the input fields above and the perference is saved upon succesfully logging in.
+
+
+      ### Single-selects
+
+
+      Do not use a **Checkbox** if a user can select **only** one option from a list. In this case, \[Radio Buttons](link to Radio Buttons page) or a \[Toggle switch](link to toggle-switch page) depending on the 'save' should be used instead. **Checkboxes** allow the user to select multiple items in a set, whereas **Radio Buttons** allow the user to select only one option.
+
+
+      ### Using a checkbox in a table
+
+
+      A selection column on a table is the only instant a checkbox without a label is vailed as the column header become the overarching label. Applying a selection column to a table allows the user to easily scan read and see which rows are selected and are more visually prominent than unselected items. They also make it easier to compare available items.
     icon: file_invoice
   - title: Code
     hook: code
