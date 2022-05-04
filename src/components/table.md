@@ -21,41 +21,23 @@ tabs:
       They don't have to only contain text, **Tables** can contain chips (see chips) to help signal negative, positive etc status' of information.
 
 
-      An **Accordion** is a useful tool for splitting out information on a page - if you have a page that contains multiple different pieces of information, an **Accordion** can help reduce the amount of vertical space a page uses.
-
-
-      **Accordions** can be toggled between a collapsed and expanded state to expose hidden content, which can help the user locate the specific information they need without presenting all of it to them at once. 
-
-
-      The expanded state pushes the other page content down rather than being overlaying it on top of other content, which helps to maintain the vertical hierarchy of the page.
-
-
       - - -
 
 
       ### When, and why?
 
 
-      A **Table** is useful when you have tabular data to display such as data charts. **Tables** can help users easily digest large amounts of data. It can be especially useful when a user might need to edit this data.
+      A **Table** is useful when you have tabular data to display such as data charts. **Tables** can help users easily digest large amounts of data. It can be especially useful when a user might need to edit this data or find a specific piece easily.
 
 
-      For example, in Cloud HR, **Tables** are used to show a list of how many holidays you have booked and when they are. You can then perform a series of actions on these rows.
+      For example, in Cloud HR, **Tables** are used to show a list of how many holidays you have booked and when they are. You can then perform a series of actions on each of these specific rows.
 
 
-      **Tables** should make data and information easier to digest information, not harder.\
+      Please be mindful that **Tables** should make data and information easier to digest information, not harder.\
 
       \
 
-      An **Accordion** is useful when your users need to consume multiple items with specific content in a single page. Allowing users to have control over the content by expanding it, or leaving it collapsed, lets them decide what is relevant to them at that time. 
-
-
-      For example, in Clear Review **Accordions** are used to section off specific sections of feedback, as you can see below. The user can expand each piece of feedback and interact with the "Reply/Thank" button within. Without the **Accordion**, this page would be quite cluttered and the user wouldn't be able to focus one one specific piece of feedback.
-
-
-      **Accordions** should only be used when there is enough content to condense - they shouldn't be used as an organisational tool, or for navigation purposes. They are a tool to help reduce visual clutter for a user and should only be used when necessary, not by default.
-
-
-      Similarly, **critical** information shouldn't be hidden from users. If the content is critical for the page's function, it should always be visible and shouldn't be hidden by an **Accordion**.
+      In order for the selectors to be used, they must be used in conjunction with the Table header components. Also, for the pagination, it should be used with the Table footer component. Both of these components fall under the Table pattern. Documentation for this is coming soon.
 
 
       - - -
@@ -77,7 +59,7 @@ tabs:
 
       | **With editable cell**    | An editable cell in a **Table** allowing users to edit the data within a specific cell.                                                                                                           |
 
-      | **With reordered header** | Icons within the header to allow the user to Ireorder the content ocf that ospecific column. alphabetically or numerically.                                                                       |
+      | **With reordered header** | There are icons within the header to allow the user to reorder the content of that specific column either alphabetically or numerically, depending on the content.                                |
 
       | **With selector**         | **Selectors** in **Tables** are there to help with selecting rows, in order to edit/delete etc or highlight specific cells for visibility purposes.                                               |
 
