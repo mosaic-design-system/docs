@@ -23,7 +23,9 @@ tabs:
       A **treeview** can be used for large sets of data which can be
       categorised into two or more levels. This provides a natural hierarchy and
       structure. This should be familiar to most users even with two or more
-      levels
+      levels. A **treeview** could be used for a large storage system such as in
+      legal to provide solicitors with a way of managing case documents similar
+      in nature to Windows Explorer
 
       - - -
 
