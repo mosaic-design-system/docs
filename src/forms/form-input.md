@@ -72,6 +72,9 @@ tabs:
 
 
       \n"
+  - title: Code
+  - title: Accessibility
+  - title: Status
 status:
   web_component: Available
   html_css: Available
