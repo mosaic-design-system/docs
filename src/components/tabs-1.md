@@ -57,18 +57,22 @@ tabs:
 
 
       •\tTabs should be arranged in a logical order for example the first
-      tab is the most important or more most read
+      tab is the most important or more most read.
+
+
+      •\tTab titles should be no longer than either one or two words.
 
       \r
 
-      •\tSingle tabs should never be used
+      •\tA minimum of two tabs should be used with a maximum of up to
+      eight to ensure tabs remain on a single row and don't wrap onto two.
 
 
       \r
 
       •\tTabs should not be used as an alternative form of navigation
       replacing links or breadcrumbs to take the user to another page or part of
-      the application
+      the application.
 
 
       \r
@@ -81,7 +85,7 @@ tabs:
       \r
 
       •\tContent should be placed in the correct tab. Avoid mismatching
-      content that doesn’t fit in a tab
+      content that doesn’t fit in a tab.
 
 
       \r
