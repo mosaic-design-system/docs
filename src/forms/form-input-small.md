@@ -120,6 +120,9 @@ tabs:
       \r
 
       \n"
+  - title: Code
+  - title: Accessibility
+  - title: Status
 status:
   design: Yes
   documentation: Yes
