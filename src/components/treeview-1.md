@@ -63,6 +63,9 @@ tabs:
       \r
 
       •\tEach level should have indentation to differentiate them.\r\n"
+  - title: Code
+  - title: Accessibility
+  - title: Status
 status:
   design: Yes
   documentation: Yes
