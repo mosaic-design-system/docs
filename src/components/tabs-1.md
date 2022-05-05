@@ -105,6 +105,9 @@ tabs:
       aria-controls attribute set to the id of the matching panel and each panel
       should have an aria-labelledby attribute set to the id of the tab
       associated with the panel.\r\n"
+  - title: Code
+  - title: Accessibility
+  - title: Status
 status:
   web_component: Available
   html_css: Available
