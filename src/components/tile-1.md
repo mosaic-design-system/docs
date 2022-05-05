@@ -10,7 +10,7 @@ tabs:
 
       **Tiles** are customisable buttons, with a larger centralised icon
       and title text underneath. They are great for acting as large navigation
-      links.
+      links. Tiles are 150px by 150px with an icon size of 64px by 64px
 
       - - -
 
@@ -28,23 +28,15 @@ tabs:
 
       ## Types of Tile
 
-      Fixed Tile: Used for data visualisation and assembling a dashboard.
-      The fixed **tile** has a default size for the small set at 140px or 170px
-      for the large set which can be used for desktop and other larger
-      devices.\r
+      Default: Used for data visualisation and assembling a dashboard. The
+      default **tile** has both the icon and text and can be used for desktop
+      and other larger devices.\r
 
       \r
 
-      Block Tile: This provides a fluid layout that adapts will expand to
-      fill the width of its container.\r
-
-      \r
-
-      Fixed Tile container: Can be used for navigation on a mobile device
-      or other space is limited to display content. Tiles are fixed at a size of
-      140px wide however the tile text will truncate if it doesn't fit the
-      width. The container allows multiple tiles to be placed next to each
-      other.\r
+      Title Tile: These are very much like the standard **tile** however
+      they don't have an icon. These require less space ensuring they work
+      better on devices where space may be finite space such as tablet.\ 
 
       \r
 
