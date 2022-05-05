@@ -13,6 +13,7 @@ tabs:
 
       Placeholders are indicators of the layout of how the page content will look once data has fully loaded.
 
+
       - - -
 
 
@@ -20,6 +21,7 @@ tabs:
 
 
       Use a placeholder on an initial page load that that has more than 1 element, and takes more than 0.3s to load on an average connection. Using a placeholder will give a perception of shorter wait time.
+
 
       - - -
 
@@ -29,14 +31,16 @@ tabs:
 
       We have 3 types of placeholders to help give a truer representation of the content
 
+
       | Types                   | Description                                                                                                                                                          |
 
       | ----------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
-      | **Single content area** | Use this Timeline when the event point is clearly labelled using the right hand content area                                                                         |
+      | **Paragraph** | Use this to indicate text heavy text data loading                                                                       |
 
-      | **Dual content area**   | This should be used when additional information is needed to explain the event point than what is available from a single label, For example Time, date, status etc. |
+      | **Image**   | This should be used when you are loading imagery |
 
+      | **Image with text**   | This can be used to show a mix of data I loading |
 
 
       \[[Code up some examples here]]
@@ -48,13 +52,10 @@ tabs:
       ## Using a Placeholder
 
 
-      Every event point on a timeline represents something that happened that is relevant to the subject of the timeline. We suggest focusing on user/system actions and dates secondary information. For example header in the content area is the user action and the date is less prominent below or using the dual content type, the date and time could sit on the right of the timeline.
+      Only apply a placeholder to your loading screen if the average load time is longer than 0.3seconds. Consider using a place holder when the page has more than 1 item to load at a time. When using a placeholder you should start displaying the data as it loads, rather than waiting for the all the data to load.
 
 
-      When using a time line each event point should be in chronological order, making sure each status is dependent on the previous. If you’ve events can progress independently of each other consider using an Accordion with status chips \[Link to Accordion]. 
-
-
-      Take a look at our contextual guidance information on how to use the contextual colours and icons to represent statuses.
+      A placeholder shouldn’t be used for long-running processes or background processes (e.g. importing data or exporting reports). Use a progress indicator \[link to progress indicator] for this instead.
     icon: file_invoice
   - title: Code
     hook: code
