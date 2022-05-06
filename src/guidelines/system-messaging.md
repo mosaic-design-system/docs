@@ -9,15 +9,15 @@ Sometimes, you need to communicate directly with a user. Direct communication is
 
 There are many ways to engage with users through system messaging. It could be a global message to indicate that some essential maintenance to your product has been scheduled, or a simple message to inform a user that a report is now ready. Mosaic employs three primary methods of communicating with its users, that each have their own components and use cases. In Mosaic, you can find:
 
-* [**Alerts**](/components/alerts)
-* [**Snackbars**](/components/snackbar)
-* [**Dialogues**](/component/dialogue)
+* **Alerts**
+* **Snackbars**
+* **Dialogs**
 
 Continue reading to learn about each component, and when you should use them. You can visit the component's page directly to learn about how you should use them. You should also make yourself familiar with Mosaic's [Tone of Voice](/guidelines/tone-of-voice) and review the [Style Guide](/guidelines/style-guide) to learn how to effectively write the copy in these messages.
 
 ## Alerts
 
-An Alert provides feedback to users which allows them to understand a state that affects the entire system, the page, or an input. They are static messages, which are dismissible and can also contain a single action. Alerts can be implemented using the following methods:
+An **Alert** provides feedback to users which allows them to understand a state that affects the entire system, the page, or an input. They are static messages, which are dismissible and can also contain a single action. **Alerts** can come in one of the following forms:
 
 ### Banner
 
@@ -27,37 +27,35 @@ A system or product-level message that is not specific to an action. This type p
 
 ### Inline
 
-Alerts can also be displayed at form or input-level, specific to an action or task. This type persists until the message is resolved or dismissed by the user and may be actionable. Place near their related items. Alerts at this level must not be confused with form validation. Form validation is tied to individual form fields and use an input’s help text.
+**Alerts** can also be displayed at form or input-level, specific to an action or task. This type persists until the message is resolved or dismissed by the user and may be actionable. Ensure that these are placed near their related items. **Alerts** at this level must not be confused with form validation, as form validation is tied to individual form fields and use an input’s help text.
 
 \[example screenshot]
 
-For more information, refer to Alerts \[link to Alerts page].
+For more information, refer to [**Alerts**](/components/alerts).
 
 ## Snackbars
 
-A Snackbar informs users of something that has or will be performed by the software. They appear temporarily and disappear automatically without user interaction. Snackbars are an unintrusive way of providing feedback as to the status of particular actions. Snackbars are implemented as follows:
+A **Snackbar** informs users of something that **has** or **will be** performed by the software. They appear temporarily and disappear automatically without user interaction. **Snackbars** are a subtle way of providing feedback as to the status of particular actions, without entirely pulling the user's focus. **Snackbars** are always shown as a footer.
 
-### Footer
-
-Snackbars must be positioned at the bottom centre of a page or sheet. In a page a Snackbar has a fixed width, but in a side sheet it would occupy the full width. They are short, time-based messages that fade in and out automatically. However, they can be actionable, i.e. contain a button. Where this is the case, they always persist until the user has interacted with them.
+The **Snackbar** footer must be positioned at the bottom centre of a page or sheet. In a page a **Snackbar** has a fixed width, but in a side sheet it would occupy the full width. They are short, time-based messages that fade in and out automatically. However, they can be actionable, i.e. contain a button. Where this is the case, they always persist until the user has interacted with them.
 
 \[example]
 
-For more information, refer to Snackbars \[link to Snackbars page].
+For more information, refer to [Snackbars](/components/snackbar).
 
 ## Dialogs
 
-A Dialog is used to inform users when a particular action has to be carried out. They interrupt the current workflow until its content is reviewed or interacted with. Dialogs can contain critical messages, require decisions, provide non-critical information, or capture data. Dialogs are implemented as follows:
+A **Dialog** is used to inform users when a particular action has to be carried out. They interrupt the current workflow until its content is reviewed or interacted with. Dialogs can contain critical messages, require decisions, provide non-critical information, or capture data. **Dialogs** can come in one of two ways:
 
 ### Message
 
-This type of Dialog must always be positioned front and centre of a page. The page is obscured using an overlay, so that the user is focused on the content of the Dialog. A user cannot return to their previous workflow until the message has been reviewed or dismissed by the user. The size of the Dialog should be appropriate to the content being displayed and scrolling should be avoided.
+This type of **Dialog** must always be positioned front and centre of a page. The page is obscured using an overlay, so that the user is focused on the content of the **Dialog**. A user cannot return to their previous workflow until the message has been reviewed or dismissed by the user. The size of the **Dialog** should be appropriate to the content being displayed so that scrolling is not necessary.
 
 \[example]
 
 ### Form
 
-As above, this type of Dialog must always be positioned front and centre of a page, but an overlay is not required. A user cannot return to their previous workflow until the information requested has been supplied or dismissed by the user. The size of the Dialog should be appropriate to the content being displayed and scrolling should be avoided.
+As above, this type of **Dialog** must always be positioned front and centre of a page, but an overlay is not required. A user cannot return to their previous workflow until the information requested has been supplied or dismissed by the user. The size of the **Dialog** should be appropriate to the content being displayed and scrolling should be avoided.
 
 \[example]
 
