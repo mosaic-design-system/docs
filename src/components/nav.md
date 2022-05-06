@@ -1,8 +1,22 @@
 ---
 storybook-url: https://tessera.oneadvanced.io/dev/components-core/?path=/docs/html-button--as-default
+title: Nav
 toc: true
 chips:
   - "HTML/CSS: Available"
+storybook: https://tessera.oneadvanced.io/dev/components-core/?path=/docs/html-nav--as-default
+tabs:
+  - title: Usage
+    body: aa
+    icon: file_invoice
+  - title: Code
+    hook: code
+    icon: source_code
+  - title: Accessibility
+    body: ""
+    icon: web_accessibility_1
+  - title: Status
+    hook: status
 code:
   example: <button class="mcc-button">Button text</button>
   body: >-
@@ -35,18 +49,4 @@ status:
   html_css: Available
   web_component: Not applicable
 navigation: button
-title: Nav
-storybook: https://tessera.oneadvanced.io/dev/components-core/?path=/docs/html-nav--as-default
-tabs:
-  - title: Usage
-    body: ""
-    icon: file_invoice
-  - title: Code
-    hook: code
-    icon: source_code
-  - title: Accessibility
-    body: ""
-    icon: web_accessibility_1
-  - title: Status
-    hook: status
 ---
