@@ -52,19 +52,12 @@ tabs:
 
       | **With editable cell**             | An editable cell in a **Table** allowing users to edit the data within a specific cell.                                                                                                                                   |
 
-      | **With reordered header**          | There are icons within the header to allow the user to reorder the content of that specific column either alphabetically or numerically, depending on the content.                                                        |
+      | **With reordered header**          | There are icons within the header to allow the user to reorder the content of that specific column either alphabetically or numerically, depending on the content. | 
 
-      | **With selector**\
+      | **With Selector** | **Selectors** in **Tables** are there to help with selecting rows, in order to edit/delete etc or highlight specific cells for visibility purposes. |
 
-      \
+      | **Nested tables** | Each **Table** row can be expanded to show additional information.|
 
-      Nested tables | **Selectors** in **Tables** are there to help with selecting rows, in order to edit/delete etc or highlight specific cells for visibility purposes.\
-
-      \
-
-      Each **Table** row can be expanded to show additional information. |
-
-      |   |   |  
 
       \[[Code up some examples here]]
 
