@@ -8,36 +8,16 @@ chips:
 storybook: https://tessera.oneadvanced.io/dev/components-core/?path=/docs/custom-elements-drawer--as-dismissible-start
 tabs:
   - title: Usage
-    body: "## What is a Drawer
+    body: >-
+      ## What is a Drawer
 
-
-      A Drawer is a panel that slides out from the edge...  Some more text
-      about what it is so the user can visualise it..\ 
-
-      <div class=\"mcc-alert mcc-alert--compact mcc-alert--secondary-solid
-      mu-mb-00\" role=\"alert\">\r
-
-      \  <mcc-icon name=\"info_popup\" icon-set=\"fluency-outline\"
-      aria-hidden=\"true\"></mcc-icon>\r
-
-      \  <div class=\"mu-fw-semi-bold\">Also known as </div> : sheet;
-      panel\r
-
-      </div>
-
-
-
-
-
-      **Also known as:** sheet; panel;
-
-
+      A Drawer is a panel that slides out from the edge...  Some more text about what it is so the user can visualise it.. 
 
 
       ### When and where
 
 
-      Blah.."
+      Blah..
     icon: file_invoice
   - title: Code
     hook: code
