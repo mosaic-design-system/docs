@@ -227,14 +227,14 @@ tabs:
       ## Colour blindness
 
 
-      When using colour, it is vital that we consider how that colour may be interpreted.  Not just by users without visual impairments, but by those using assistive technology or have one of the following types of colour blindness:
+      When using colour, it is vital that we consider how that colour may be interpreted.  Not just by users without visual impairments, but by those using assistive technology or have one of the following types of colour blindness (with example images below):
 
 
-      * **Tritanopia** - reduced sensitivity to blue light (this one is extremely rare)
+      * **Protonopia** (top right) - reduced sensitivity to red light
 
-      * **Protonopia** - reduced sensitivity to red light
+      * **Deuteranopia** (bottom left) - reduced sensitivity to green light (this is the most common)
 
-      * **Deuteranopia** - reduced sensitivity to green light (this is the most common)
+      * **Tritanopia** (bottom right) - reduced sensitivity to blue light (this one is extremely rare)
 
       * **Greyscale** - completely devoid of colour.  Can only see different shades of grey
 
@@ -247,9 +247,7 @@ tabs:
       More information on these can be found on the [colour blind awareness website](http://www.colourblindawareness.org/colour-blindness/types-of-colour-blindness/)
 
 
-
-
-      ![A group of 4 images showing how different people with different visual impairments perceive different colours. Normal vision, Protanopia, Tritanopia and Deuteranopia. ](/assets/img/colour-perception-images.png)
+      ![A group of 4 images showing how different people with different visual impairments perceive different colours. Normal vision, Protanopia, Tritanopia and Deuteranopia.](/assets/img/colour-perception-images.png)
 
 
       Notice the differences?  If you wanted to include some form of highlighting on something like a data table, where you show warnings in red and positives in green, a user with this form of colour-blindness would not see any difference between the two.  Including an icon or text alongside that colour would go a long way to making the data table accessible to everyone.
