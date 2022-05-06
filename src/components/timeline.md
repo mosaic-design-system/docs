@@ -61,7 +61,7 @@ tabs:
       When using a **Timeline** each event point should be in chronological order, making sure each status is dependent on the previous. If you have events can progress independently of each other, consider using an [Accordion](/guidelines/accordion) with status chips. 
 
 
-      Take a look at our contextual guidance information on how to use the contextual colours and icons to represent statuses.
+      Take a look at our [contextual colours guidance](guidelines/colour/) for more information on how to use the contextual colours, and similarly you can read our [Icons guidelines](/guidelines/icons) to represent statuses.
     icon: file_invoice
   - title: Code
     hook: code
