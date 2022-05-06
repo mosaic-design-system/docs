@@ -12,9 +12,10 @@ tabs:
 
 
       **Tabs** allow a significant amount of content to be viewed without
-      having to navigate away from that page and reduce scrolling required. The
-      content is instead broken up into multiple sections with each section
-      having its own tab available with just one click.
+      having to navigate away from the page - the content is instead broken up
+      into multiple sections with each section having its own tab available that
+      can be opened by selecting its name.
+
 
       - - -
 
@@ -23,29 +24,35 @@ tabs:
 
 
       **Tabs** are an easy way to organize content and switch between
-      related content.  **Tabs** consist of two or more **tabs** which behave in
-      a similar manner to a link, the user remains on the original page, but
-      different content is displayed. Tabs can be shown horizontally or
-      vertically to adapt and suit the content being shown and the devices being
-      used to view it.
+      related content.  **Tabs** consist of two or more **Tabs** that can be
+      selected to open what seems like a 'new page', however the user actually
+      remains on the original page, but different content is displayed. By
+      remaining on the original page, the user doesn't need to reload the entire
+      page and can navigate between two related areas much quicker than if they
+      were on separate pages.
+
+
+      **Tabs** can be shown horizontally or vertically to adapt and suit
+      the content being shown, and the device being used to view it.
+
 
       - - -
 
 
       ## Types of Tabs
 
-      Horizontal tabs \r
 
-      Horizontal tabs provide more vertical space and enable easy scanning
-      of items, this helps with reading from left to right. Horizontal **tabs**
-      also allow you to occupy the content area of your page with content
-      only.\r
+      ### Horizontal Tabs \r
+
+      **Horizontal Tabs** provide more vertical space and enable easy
+      scanning of items, which helps with reading from left to right. They also
+      allow you to occupy the content area of your page with content only.\r
 
 
-      Vertical tabs\r
+      ### Vertical Tabs\r
 
-      Vertical tabs work best for form or installation wizards when a user
-      is working down a list of steps and horizontal **tabs** are best for
+      **Vertical Tabs** work best for form or installation wizards when a
+      user is working down a list of steps - **Horizontal Tabs** are best for
       groups of related information.\r
 
       \r
