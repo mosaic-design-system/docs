@@ -216,158 +216,116 @@ tabs:
       However, you should try your hardest to avoid any such situations. They
       should be a last resort.\r\n"
   - title: Colour
-    body: "Colour is a key factor in making our products accessible and can have a
+    body: >-
+      Colour is a key factor in making our products accessible and can have a
       real impact on the user's experience. Colour can provide context clues for
       users that struggle to read (for example, a red 'delete' button shows that
       this button may be destructive) but can also be a hindrance when someone
-      is colour blind.\r
-
-      \r
+      is colour blind.
 
 
-      ## Colour blindness\r
+      ## Colour blindness
 
 
-      When using colour, it is vital that we consider how that colour may
-      be interpreted.  Not just by users without visual impairments, but by
-      those using assistive technology or have one of the following types of
-      colour blindness:\r
+      When using colour, it is vital that we consider how that colour may be interpreted.  Not just by users without visual impairments, but by those using assistive technology or have one of the following types of colour blindness:
 
 
-      - **Tritanopia** - reduced sensitivity to blue light (this one is
-      extremely rare)\r
+      * **Tritanopia** - reduced sensitivity to blue light (this one is extremely rare)
 
-      - **Protonopia** - reduced sensitivity to red light\r
+      * **Protonopia** - reduced sensitivity to red light
 
-      - **Deuteranopia** - reduced sensitivity to green light (this is the
-      most common)\r
+      * **Deuteranopia** - reduced sensitivity to green light (this is the most common)
 
-      - **Greyscale** - completely devoid of colour.  Can only see
-      different shades of grey\r
+      * **Greyscale** - completely devoid of colour.  Can only see different shades of grey
 
 
-      People with Protonopia or Deuteranopia, typically known as red-green
-      colour blindness, find it difficult to distinguish between red, green,
-      brown and orange.\r
+      People with Protonopia or Deuteranopia, typically known as red-green colour blindness, find it difficult to distinguish between red, green, brown and orange.
 
-      People with Tritanopia find it difficult to distinguish between
-      blue, purple, grey, black and greens.\r
+      People with Tritanopia find it difficult to distinguish between blue, purple, grey, black and greens.
 
 
-      More information on these can be found on the [colour blind
-      awareness
-      website](http://www.colourblindawareness.org/colour-blindness/types-of-co\
-      lour-blindness/)\r
+      More information on these can be found on the [colour blind awareness website](http://www.colourblindawareness.org/colour-blindness/types-of-colour-blindness/)
 
 
-      [[IMAGE]]
 
 
-      \r
-
-      \r
-
-      \r
-
-      Notice the differences?  If you wanted to include some form of
-      highlighting on something like a data table, where you show warnings in
-      red and positives in green, a user with this form of colour-blindness
-      would not see any difference between the two.  Including an icon or text
-      alongside that colour would go a long way to making the data table
-      accessible to everyone.\r
+      ![A group of 4 images showing how different people with different visual impairments perceive different colours. Normal vision, Protanopia, Tritanopia and Deuteranopia. ](/assets/img/colour-perception-images.png)
 
 
-      A hard and fast rule across the Mosaic Design System is that we
-      never rely on colour alone to convey meaning to any part of our
-      products.\r
+      Notice the differences?  If you wanted to include some form of highlighting on something like a data table, where you show warnings in red and positives in green, a user with this form of colour-blindness would not see any difference between the two.  Including an icon or text alongside that colour would go a long way to making the data table accessible to everyone.
 
 
-      \r
-
-      ## Colour Contrast\r
-
-      It is essential that the correct contrast ratios are considered when
-      developing new screens and products.  If the contrast is too low, users
-      can find it difficult to distinguish important items on the page.\r
+      A hard and fast rule across the Mosaic Design System is that we never rely on colour alone to convey meaning to any part of our products.
 
 
-      Getting the right contrast ratio means we can improve the experience
-      not only for users with low-contrast or colour-blind vision, but also for
-      users who may be impacted by a temporary situation, such as screen glare
-      or poorly-lit rooms.\r
-
-      The Mosaic team adhere to the WCAG AA 2.1 guidelines that text (or
-      visual representation of text) should have a minimum contrast ratio of
-      4.5:1.  There are a few exceptions to this, such as extra-large text
-      (minimum 3:1), or logos and page decoration.\r
+      ## Colour Contrast
 
 
-      In order to check the colour contrast of your product, you can use
-      [this contrast
-      checker](https://webaim.org/resources/contrastchecker/).\r\n"
+      It is essential that the correct contrast ratios are considered when developing new screens and products.  If the contrast is too low, users can find it difficult to distinguish important items on the page.
+
+
+      Getting the right contrast ratio means we can improve the experience not only for users with low-contrast or colour-blind vision, but also for users who may be impacted by a temporary situation, such as screen glare or poorly-lit rooms.
+
+      The Mosaic team adhere to the WCAG AA 2.1 guidelines that text (or visual representation of text) should have a minimum contrast ratio of 4.5:1.  There are a few exceptions to this, such as extra-large text (minimum 3:1), or logos and page decoration.
+
+
+      In order to check the colour contrast of your product, you can use [this contrast checker](https://webaim.org/resources/contrastchecker/).
   - title: Statements
-    body: "Our standard of WCAG 2.1 AA is now the very minimum standard of
+    body: >-
+      Our standard of WCAG 2.1 AA is now the very minimum standard of
       accessibility that our customers expect. If these guidelines are adhered
       to, then you will reap the benefits of both being an awesome product for
       users with accessibility considerations, and also protect yourself when it
-      comes to laws around accessibility (such as in the US).\r
+      comes to laws around accessibility (such as in the US).
 
 
-      If you aren’t following the guidelines, or aren’t working towards
-      it, you could be taken to court for disability discrimination, no matter
-      where the users are based. It does not matter where the product is
-      **based**, it matters where it is **used**.\r
+      If you aren’t following the guidelines, or aren’t working towards it, you could be taken to court for disability discrimination, no matter where the users are based. It does not matter where the product is **based**, it matters where it is **used**.
 
-      Please make sure that you complete an accessibility statement (see
-      below) to show the customer and the users that you are working towards
-      fully adhering to the WCAG AA 2.1 guidelines, or indeed that you already
-      have done so.  \r
+      Please make sure that you complete an accessibility statement (see below) to show the customer and the users that you are working towards fully adhering to the WCAG AA 2.1 guidelines, or indeed that you already have done so.  
 
 
-      Applications that take Accessibility into account are quoted as
-      being 35% more usable in their own right, even for those who would not
-      consider themselves to have accessibility requirements. If you are
-      struggling with efficiency and user experience with your application,
-      improving your accessibility is a great place to start.\r
+      Applications that take Accessibility into account are quoted as being 35% more usable in their own right, even for those who would not consider themselves to have accessibility requirements. If you are struggling with efficiency and user experience with your application, improving your accessibility is a great place to start.
 
 
-      ## Accessibility Statement\r
+      ## Accessibility Statement
 
 
-      At Advanced, all products **must** have an accessibility statement
-      and it must be displayed within the product in a way where the user can
-      access it from every page.\r
-
-      \r
-
-      Accessibility statements outline how closely a product follows the
-      WCAG guidelines, and where the product falls short. It also outlines the
-      plans for when the product will fix any of the accessibility issues the
-      product may have. These dates **must** be met, otherwise it could be seen
-      as discrimination and can leave you open for legal troubles.\r
-
-      \r
+      At Advanced, all products **must** have an accessibility statement and it must be displayed within the product in a way where the user can access it from every page.
 
 
-      Software consumers are asking for accessibility statements more and
-      more in recent years when they are looking at buying software. It is vital
-      that these statements ready to go to take advantage of these opportunities
-      – but also, it's just the **right thing to do**. Remember, a truly good
-      user experience is fully inclusive for everyone **no matter who they
-      are**.\r
-
-      \r
+      Accessibility statements outline how closely a product follows the WCAG guidelines, and where the product falls short. It also outlines the plans for when the product will fix any of the accessibility issues the product may have. These dates **must** be met, otherwise it could be seen as discrimination and can leave you open for legal troubles.
 
 
-      To help understand how your product matches up with the guidelines,
-      you can follow these steps:\r
+      Software consumers are asking for accessibility statements more and more in recent years when they are looking at buying software. It is vital that these statements ready to go to take advantage of these opportunities – but also, it's just the **right thing to do**. Remember, a truly good user experience is fully inclusive for everyone **no matter who they are**.
 
-      -  Check your product against our official Advanced code and visual
-      accessibility guidelines. (link here).\r
 
-      - Use our recommended tooling [WAVE](https://wave.webaim.org/)) to
-      assess how compliant your product is.\r
+      To help understand how your product matches up with the guidelines, you can follow these steps:
 
-      - Download and fill out our [accessibility statement template](link
-      here) ready to be displayed on your site.\r\n"
+
+      * Check your product against our official Advanced code and visual accessibility guidelines. (link here).
+
+      * Use our recommended tooling [WAVE](https://wave.webaim.org/) to assess how compliant your product is.
+
+      * Download and fill out our \[accessibility statement template](link here) ready to be displayed on your site.
+  - title: Pendo
+    body: >-
+      Where we do use Pendo within our products, we are limited by the levels of
+      accessibility that Pendo offers in order to guarantee a AA level of
+      accessibility. You can read more about the work that Pendo's commitment to
+      accessibility
+      [here](https://www.pendo.io/pendo-blog/pendos-commitment-to-web-accessibility/). 
+
+
+      If your product is using or implementing Pendo then please ensure that you are adhering to the following guidelines so that we can ensure as much accessibility as possible:
+
+
+      * The link to access Pendo in the 'Product Hub' can be accessed and operated using a keyboard as well as the contents within it.
+
+      * All guides, on boarding or general popups etc, can all be accessed and operated by using a keyboard.
+
+      * The colour themes for the guides are using our product branded colour theming and is signed off by your UX designer.
+
+      * Copy is written as short and simply as possible in an inclusive manner. Please refer to the STYLE GUIDE for more information.
+
+      * The link to access the product hub uses the correct icon and is displayed in a way that follows good colour contrast.
 ---
