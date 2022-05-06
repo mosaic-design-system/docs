@@ -66,65 +66,79 @@ tabs:
       ## Using Tabs
 
 
-      •\tTabs should be arranged in a logical order for example the first
-      tab is the most important or more most read.
+      ### Number of Tabs
 
 
-      •\tTab titles should be no longer than either one or two words.
-
-      \r
-
-      •\tA minimum of two tabs should be used with a maximum of up to
-      eight to ensure all tabs remain on a single row and don't wrap onto two.
-
-
-      \r
-
-      •\tTabs should not be used as an alternative form of navigation
-      replacing links or breadcrumbs to take the user to another page or part of
-      the application.
+      You should only use **Tabs** when you have two or more **Tabs**, and
+      a maximum number of eight. If you have more than eight, then they will not
+      remain on a single row. Be mindful of the number of **Tabs** that you use
+      - while **Tabs** are quicker to navigate than separate pages, they still
+      require interaction from the user. Ensure you group related content into
+      the same **Tab** to avoid forcing the user to swap between many, many
+      **Tabs** for a single process.
 
 
-      \r
-
-      •\tThe size of the tabs should not be modified, they are large
-      enough for users to easily click or tap them. Mobile tabs need to be at
-      least the size of a finger of at least 30px wide.
+      ### Tab ordering
 
 
-      \r
+      **Tabs** should be arranged in a logical order. They do not need to
+      be sorted alphabetically, and you should aim to have the **Tabs** that are
+      the most used first, and **Tabs** that have less usage towards the end.
 
-      •\tContent should be placed in the correct tab. Avoid mismatching
-      content that doesn’t fit in a tab.
 
+      ### Tab styling
+
+
+      The size of the **Tabs** should not be modified. They are large
+      enough for users to easily select them. For mobile users, the **Tabs**
+      need to be at least the size of a finger (about 30px wide).
 
       \r
 
-      •\tTab headers should be clear and concise but still give the user
-      enough information about what each tab contains. In doing so speed and
-      ease of use can be improved.
+
+
+      ### Tab headers and content
+
+
+      A **Tab** title should be no longer than one or two words - users
+      should be able to quickly scan across the **Tabs** to find what they are
+      looking for. The titles should be clear and concise and give the user
+      information about what each **Tab** contains. For more information, please
+      see the [Structure section](guidelines/style-guide/#structure) of the
+      **Style Guide**.
+
+
+      Ensure that each **Tab** is displaying the correct content for their
+      header. If the header doesn't match the content, this will lead to
+      confusion for users. Content should also be related to the rest of the
+      content in the **Tab** - multipurpose **Tabs** should be avoided and
+      unrelated content should be split out into their own areas.
+
+
+      ### Tabs as navigation
+
+
+      **Tabs** should **not** be used an an alternative form of
+      navigation. Do not be tempted to replace links or
+      [**Breadcrumbs**](/guidelines/breadcrumb) with **Tabs** to take the user
+      to another page or part of the application.\ 
+
 
       \r
 
-      •\tTab headings should be sentence case with only the first letter
-      of the first word in capitals rather than the first letter of every word
-      capitalised.
-
-      \r
-
-      Accessibility Tip: The active tab should have the attribute
-      aria-selected set to true, and the others to false. The active panel
-      associated with the active tab should have the attribute aria-hidden set
-      to true, and the others to false. In addition, each tab should have an
-      aria-controls attribute set to the id of the matching panel and each panel
-      should have an aria-labelledby attribute set to the id of the tab
-      associated with the panel.\r\n"
+      \r\n"
     icon: file_invoice
   - title: Code
     hook: code
     icon: source_code
   - title: Accessibility
-    body: ""
+    body: "Accessibility Tip: The active tab should have the attribute aria-selected
+      set to true, and the others to false. The active panel associated with the
+      active tab should have the attribute aria-hidden set to true, and the
+      others to false. In addition, each tab should have an aria-controls
+      attribute set to the id of the matching panel and each panel should have
+      an aria-labelledby attribute set to the id of the tab associated with the
+      panel.\r\n"
     icon: web_accessibility_1
   - title: Status
     hook: status
