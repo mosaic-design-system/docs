@@ -29,7 +29,7 @@ tabs:
       ## Checkbox types
 
 
-      Checkboxes can be unselected, selected or indeterminate which is when a checkbox is neither selected or unselected and therefore cannot be determined. Disabled, Read only and focused states also apply to all of the above
+      Checkboxes can be unselected, selected or indeterminate which is when a checkbox is neither selected or unselected and therefore cannot be determined. Active, Disabled, Read-only and Focussed states also apply to all of the above.
 
 
       | **Name**      | **Description**                                                                                                           |
