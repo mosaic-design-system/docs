@@ -64,6 +64,7 @@ tabs:
 
       Each **Table** row can be expanded to show additional information. |
 
+      |   |   |  
 
       \[[Code up some examples here]]
 
