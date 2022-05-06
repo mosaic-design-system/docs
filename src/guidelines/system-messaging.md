@@ -5,13 +5,15 @@ toc: true
 ---
 ## Introduction
 
-There are many ways to engage with users through system messaging. This might be a global message to indicate that some essentials maintenance to your product has been scheduled or a simple message to inform a user that a report is now ready.
+Sometimes, you need to communicate directly with a user. Direct communication is different to the normal ways of communicating with a user (labels, icons, buttons, components) - a direct communication is delivered through a system message. These messages are actual chunks of copy that form sentences and paragraphs, where something cannot be communicated easily without essentially 'speaking' to the user.
 
-It is important to understand that Mosaic has different components to handle messaging and that each one has its own particular use cases. Messaging is available in the following ways:
+There are many ways to engage with users through system messaging. It could be a global message to indicate that some essential maintenance to your product has been scheduled, or a simple message to inform a user that a report is now ready. Mosaic employs three primary methods of communicating with its users, that each have their own components and use cases. In Mosaic, you can find:
 
-* Alerts
-* Snackbars
-* Dialog
+* [**Alerts**](/components/alerts)
+* [**Snackbars**](/components/snackbar)
+* [**Dialogues**](/component/dialogue)
+
+Continue reading to learn about each component, and when you should use them. You can visit the component's page directly to learn about how you should use them. You should also make yourself familiar with Mosaic's [Tone of Voice](/guidelines/tone-of-voice) and review the [Style Guide](/guidelines/style-guide) to learn how to effectively write the copy in these messages.
 
 ## Alerts
 
