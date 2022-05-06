@@ -65,7 +65,7 @@ tabs:
       \r
 
       •\tA minimum of two tabs should be used with a maximum of up to
-      eight to ensure tabs remain on a single row and don't wrap onto two.
+      eight to ensure all tabs remain on a single row and don't wrap onto two.
 
 
       \r
