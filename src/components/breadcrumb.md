@@ -32,7 +32,7 @@ tabs:
       All types of **Breadcrumb** allow you to include a subheading
 
 
-      | Variant     | Description                                                                                                                                       | Example                                                                                                           |
+      | Variant     | Description                                                                                                                                       |
 
       | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
 
