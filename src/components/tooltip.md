@@ -32,25 +32,25 @@ tabs:
       Our tooltip has 8 different beak directions to make sure the content is always clearly connected to its trigger and the content fully visible.
 
 
-      | Variant           | Description                                                                               | Example                                                                                                            |
+      | Variant           | Description                                                                               | 
 
       | ----------------- | ----------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
 
-      | **Left**          | Use when there enough space right of trigger for the content is fully visible on the page | <button class="mcc-button mcc-button--primary" disabled> <span class="mcc-button__label">Disabled</span> </button> |
+      | **Left**          | Use when there enough space right of trigger for the content is fully visible on the page 
 
-      | **Top left**      | Use when there enough space below of trigger for the content is fully visible on the page | <button class="mcc-button mcc-button--primary" disabled> <span class="mcc-button__label">Disabled</span> </button> |
+      | **Top left**      | Use when there enough space below of trigger for the content is fully visible on the page | 
 
-      | **Top middle**    | Use when there enough space below of trigger for the content is fully visible on the page | <button class="mcc-button mcc-button--primary" disabled> <span class="mcc-button__label">Disabled</span> </button> |
+      | **Top middle**    | Use when there enough space below of trigger for the content is fully visible on the page | 
 
-      | **Top right**     | Use when there enough space below of trigger for the content is fully visible on the page | <button class="mcc-button mcc-button--primary" disabled> <span class="mcc-button__label">Disabled</span> </button> |
+      | **Top right**     | Use when there enough space below of trigger for the content is fully visible on the page | 
 
-      | **Right**         | Use when there enough space left of trigger for the content is fully visible on the page  | <button class="mcc-button mcc-button--primary" disabled> <span class="mcc-button__label">Disabled</span> </button> |
+      | **Right**         | Use when there enough space left of trigger for the content is fully visible on the page  | 
 
-      | **Bottom right**  | Use when there enough space above of trigger for the content is fully visible on the page | <button class="mcc-button mcc-button--primary" disabled> <span class="mcc-button__label">Disabled</span> </button> |
+      | **Bottom right**  | Use when there enough space above of trigger for the content is fully visible on the page | 
 
-      | **Bottom Middle** | Use when there enough space above of trigger for the content is fully visible on the page | <button class="mcc-button mcc-button--primary" disabled> <span class="mcc-button__label">Disabled</span> </button> |
+      | **Bottom Middle** | Use when there enough space above of trigger for the content is fully visible on the page | 
 
-      | **Bottom left**   | Use when there enough space above of trigger for the content is fully visible on the page | <button class="mcc-button mcc-button--primary" disabled> <span class="mcc-button__label">Disabled</span> </button> |
+      | **Bottom left**   | Use when there enough space above of trigger for the content is fully visible on the page | 
 
 
       - - -
