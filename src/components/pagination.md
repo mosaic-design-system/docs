@@ -1,9 +1,80 @@
 ---
 storybook-url: https://tessera.oneadvanced.io/dev/components-core/?path=/docs/html-button--as-default
+title: Pagination
 toc: true
 chips:
   - "HTML/CSS: Available"
   - "Web Component: Available"
+storybook: https://tessera.oneadvanced.io/dev/components-core/?path=/docs/html-pagination--with-active-button
+tabs:
+  - title: Usage
+    body: >-
+      ## What is Pagination?
+
+
+      **Pagination** is a mechanism for breaking up content into multiple pages, and includes a visual depiction of the number of said pages that are available in a given context. For example, if a user is looking at a list of employees in a department, a **Pagination** component would break that down into 15 pages of employees, and show which page they are currently on and how many pages there are in total, and give them a method of quickly moving between these pages.
+
+
+      - - -
+
+
+      ### When, and why?
+
+
+      **Pagination** should be used when there are more than 25 items displayed in one view, or when there is a large amount of data that cannot reasonably be presented on a single page. **Pagination** makes it easier for a user to find the information that they are looking for, and prevents needlessly long pages. 
+
+
+      - - -
+
+
+      ## Pagination types
+
+
+      There are 2 types of **Pagination**:
+
+
+      | **Types**             | **Description**                                                                                                                 |
+
+      | ----------------- | --------------------------------------------------------------------------------------------------------------------------- |
+
+      | **Page list**     | All pages listed horizontally with single step forward/back buttons and start/end buttons either side |
+
+      | **Page selector** | The active page is selected via a drop-down menu with the total number of pages detailed beside it. There is a single step forward/back button either side of the drop-down menu. |
+
+
+      - - -
+
+
+      ## Using Pagination
+
+
+      ### Pagination types
+
+
+      A **Page list Pagination** is appropriate when there is a small fixed number of pages. Users can get frustrated if there is a very long list of available pages, and it can prove difficult to find the page they want.
+
+
+      The **Page selector** is more useful for larger data sets. The buttons provided allow the user to jump backwards and forwards more easily.
+
+
+      ### Pagination totals
+
+
+      Both types of **Pagination** display the number of pages available to the user, and clearly show which one they are currently on. Ensure that the rest of the page clearly shows what it is that the user is looking through, and make sure that the entries on each page are displayed in a logical order (for example, alphabetically).
+
+
+      ### Table Pagination
+
+      **Pagination** is commonly used for data tables. It helps to help break down the data into a digestible manner. Table **Pagination** should always sit in the bottom right directly under the table.
+    icon: file_invoice
+  - title: Code
+    hook: code
+    icon: source_code
+  - title: Accessibility
+    body: ""
+    icon: web_accessibility_1
+  - title: Status
+    hook: status
 code:
   example: <button class="mcc-button">Button text</button>
   body: >-
@@ -50,18 +121,4 @@ status:
   html_css: Available
   web_component: Available
 navigation: button
-title: Pagination
-storybook: https://tessera.oneadvanced.io/dev/components-core/?path=/docs/html-pagination--with-active-button
-tabs:
-  - title: Usage
-    body: ""
-    icon: file_invoice
-  - title: Code
-    hook: code
-    icon: source_code
-  - title: Accessibility
-    body: ""
-    icon: web_accessibility_1
-  - title: Status
-    hook: status
 ---
