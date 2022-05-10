@@ -37,7 +37,7 @@ tabs:
 
       | ------------- | --------------------------------------------------------------------------------- | ------------- |
 
-      | Default       | When an it is unselected                                                          |               |
+      | Default       | When an item is unselected                                                          |               |
 
       | Selected      | When an item is selected                                                          |               |
 
