@@ -19,6 +19,11 @@ tabs:
       Dropdowns are most commonly used with a Button, but can be triggered from other components. On selecting the component an overlay (often as a Card) will be shown with a list of items to enable the user to navigate to another area or perform an action in context to the current page. Very common examples of Dropdowns are overflow menus. 
 
 
+      #### Dropdown or a Select?
+
+      Dropdowns and Select component can appear to be very similar and sometimes it is hard to chose the appropriate component. As general rule of thumb, the component triggering the dropdown doesn't change when an item is selected, eg if trigger from a button, the button text should not change.  If you want the selection to be shown when the overlay is hidden, then you should use the Select component. 
+
+
       - - -
 
       ## Dropdown type
@@ -69,6 +74,7 @@ tabs:
       -   Display your options in alphabetical order, unless there is good reason to show in another order - eg recent items would be show in descending date order. 
 
       -   All headings should be sentence case and not have the first letter of every word capitalised. More information in the [text style guide](link)
+
 
       #### Icons
 
