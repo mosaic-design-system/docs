@@ -87,10 +87,7 @@ tabs:
       **Navigation Rails** are placed on the left-hand side of the screen and always run vertically along the side of a page.
 
 
-      [[Review the below section please Jop]]
-
-
-      //The top of a **Navigation Rail** can also be used for a logo. However, this is dependent on the layout you are using. For example, if you are using a layout where the Navigation Header runs across the entire top of the screen, then the logo would be placed on the left-hand side of the header. For more information, please refer to Layouts \[link to Layouts page. We don't currently have one, but as we introduce more layouts, we'll need a page to document them].//
+      The top of a **Navigation Rail** can also be used for a logo. However, this is dependent on the layout you are using. For example, if you are using a layout where the Navigation Header runs across the entire top of the screen, then the logo would be placed on the left-hand side of the header. For more information, please refer to Layouts \[link to Layouts page. We don't currently have one, but as we introduce more layouts, we'll need a page to document them].
 
 
       ### Drawers
