@@ -62,7 +62,7 @@ tabs:
       ### Tooltip content
 
 
-      Users shouldn’t need tooltips to use your product, they are supplementary messages that help to provide more information or context to something. Think of them as helpful nuggets of information that will give users a push in the right direction, rather than something they **need** to read to use your product effectively. If a user needs that information, they won't be able to see it while interacting with another element - thus, they would need to read it, remember it, and hope they don't forget when they move their cursor to interact with the element!
+      Users shouldn’t need **Tooltips** to use your product, they are supplementary messages that help to provide more information or context to something. Think of them as helpful nuggets of information that will give users a push in the right direction, rather than something they **need** to read to use your product effectively. If a user needs that information, they won't be able to see it while interacting with another element - thus, they would need to read it, remember it, and hope they don't forget when they move their cursor to interact with the element!
 
 
       Similarly, don't use **Tooltips** to reiterate information the user can already see. 
