@@ -11,7 +11,7 @@ tabs:
       ## What is a Tooltip?
 
 
-      User-triggered popups that display informative text via a hover
+      A **Tooltip** is a pop-up that displays informative text and are triggered by the user hovering over something.
 
 
       - - -
@@ -20,19 +20,19 @@ tabs:
       ### When, and why?
 
 
-      When a singular element needs more explanation than the UI is able to provide, tooltips supplement the UI and ensure the element usage is clear
+      You should use a **Tooltip** when an element on the page needs more explanation than the UI is able to provide. **Tooltips** supplement the UI and ensure the element usage is clear.
 
 
       - - -
 
 
-      ## Tooltip Variants
+      ## Tooltip types
 
 
-      Our tooltip has 8 different beak directions to make sure the content is always clearly connected to its trigger and the content fully visible.
+      The **Tooltip** has 8 different beak directions to make sure the content is always clearly connected to its trigger and the content fully visible.
 
 
-      | Variant           | Description                                                                               | 
+      | Type | Description                                                                               | 
 
       | ----------------- | ----------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
 
@@ -59,15 +59,25 @@ tabs:
       ## Using a Tooltip
 
 
-      Users shouldn’t need tooltips to use your product, they are supplementary messages that are triggered by the user hovering over elements such as images, icons, buttons or hyperlinks. 
+      ### Tooltip content
 
 
-      Although similar to the Popover, the tooltip is triggered by the user hovering over an element not clicking. Also, a popover can hold more contextual information than a tooltip. See Popover for more information.
+      Users shouldn’t need tooltips to use your product, they are supplementary messages that help to provide more information or context to something. Think of them as helpful nuggets of information that will give users a push in the right direction, rather than something they **need** to read to use your product effectively. If a user needs that information, they won't be able to see it while interacting with another element - thus, they would need to read it, remember it, and hope they don't forget when they move their cursor to interact with the element!
 
 
-      Don’t use tooltips to repeat text that is already visible, or for critical information the user needs to complete a task. For example requirements on a password field is critical information we wouldn’t put in a tooltip, it will only be available when the user is interacting with the trigger element, this will result in the user trying to remember the information whilst completing the task. 
+      Similarly, don't use **Tooltips** to reiterate information the user can already see. 
 
-      We advise all icon buttons include a label but if this isn’t possible tooltips can help distinguish actions between unlabelled icons.
+
+      ### Tooltip triggers
+
+
+      Although similar to the [**Popover**](/components/popover), the **Tooltip** is triggered by the user hovering over an element, not by selecting it. For example, they can be triggered by the user hovering over elements such as images, icons, buttons or hyperlinks
+
+
+      ### Tooltips on buttons
+
+
+      All icon buttons should include a label, but if this isn’t possible **Tooltips** can help distinguish actions between unlabelled icons.
     icon: file_invoice
   - title: Code
     hook: code
