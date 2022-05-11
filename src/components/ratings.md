@@ -7,7 +7,7 @@ storybook-url: https://tessera.oneadvanced.io/dev/components-core/?path=/docs/ht
 storybook: https://tessera.oneadvanced.io/dev/components-core/?path=/docs/html-button--as-default
 tabs:
   - title: Usage
-    body: >-
+    body: >+
       ## What is a Rating?
 
 
@@ -51,10 +51,16 @@ tabs:
       ### Rating Types
 
 
-      \[Think we definitely need some guidance on what rating to use where - users of MDS aren't necessarily experts in data collection!]
+      The star (1-5 scale) type works well when you want feedback on a new feature or if the rating is to be shared with other users e.g. '145 rated ‘X’ 4/5. 
 
 
-      However, once you have chosen a **Rating** type, you should stick to that type throughout your product. Comparing data from different source types can be difficult, and mixing different sources of data collection can lead to poor quality data.
+      The Faces (satisfaction scale) are directly liked the user emotion and would be best suited when you are asking the user about their overall experience on a product or workflow.
+
+
+      Thumbs (like or dislike) and hearts should be seen as reactional feedback and given in direct response to something intending to give instant results. For example, a blog post, a help document, a diagram, or image. This type of feedback can be used to promote content or help get high-level insights
+
+
+      Once you have chosen a **Rating** type, you should stick to that type throughout your product. Comparing data from different source types can be difficult, and mixing different sources of data collection can lead to poor quality data.
 
 
       ### Rating frequency
@@ -63,12 +69,8 @@ tabs:
       **Ratings** are an excellent source of quantifiable feedback, but user uptake can generally be harmed by bombarding the user with constant requests for feedback. If you make use of the **Ratings** component, take care not to use it too frequently. Remember that there are other sources of user feedback, such as /\[User Research](link to user research guideline).
 
 
-      ////**Ratings** can be used in multiple ways to either collect or present different types of data. /[There are no hard set rules on using the **Ratings** components], except that you should keep it consistent throughout your product and do not bombard the user with too many on the screen at one given time.////
+      **Ratings** can be used in multiple ways to either collect or present different types of data. There are no hard set rules on using the **Ratings** components, except that you should keep it consistent throughout your product and do not bombard the user with too many on the screen at one given time.
 
-
-      The star (1-5 scale) work well when you want feedback on a new feature or if the rating is to be shared with other users e.g. '145 rated ‘X’ 4/5. The Faces (satisfaction scale) are directly liked the user emotion and would be best suited when you are asking the user about their overall experience on a product or workflow. \
-
-      Thumbs (Like or dislike) and hearts should be seen as reactional feedback and given in direct response to something intending to give instant results. For example, a blog post, a help document, a diagram, or image. This type of feedback can be used to promote content or help get high-level insights
     icon: file_invoice
   - title: Code
     hook: code
