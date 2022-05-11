@@ -42,21 +42,21 @@ tabs:
       All variations allow you to include a subheading
 
 
-      | Variant                            | Description                                                                                                                                                                                                               |
+      | Variant                   | Description                                                                                                                                                                   |
 
-      | ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+      | ------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
-      | **Default**                        | The default **Table** has an overflow button to enable actions to be performed on a specific selected row.                                                                                                                |
+      | **Default**               | The default **Table** has an overflow button to enable actions to be performed on a specific selected row.                                                                    |
 
-      | **With chips**                     | Chips can be included within the cells of a **Table** to help with quick references, breaking up repetitive information and/or quickly show positive, negative, etc statuses.                                             |
+      | **With chips**            | Chips can be included within the cells of a **Table** to help with quick references, breaking up repetitive information and/or quickly show positive, negative, etc statuses. |
 
-      | **With editable cell**             | An editable cell in a **Table** allowing users to edit the data within a specific cell.                                                                                                                                   |
+      | **With editable cell**    | An editable cell in a **Table** allowing users to edit the data within a specific cell.                                                                                       |
 
-      | **With reordered header**          | There are icons within the header to allow the user to reorder the content of that specific column either alphabetically or numerically, depending on the content. | 
+      | **With reordered header** | There are icons within the header to allow the user to reorder the content of that specific column either alphabetically or numerically, depending on the content.            |
 
-      | **With Selector** | **Selectors** in **Tables** are there to help with selecting rows, in order to edit/delete etc or highlight specific cells for visibility purposes. |
+      | **With Selector**         | **Selectors** in **Tables** are there to help with selecting rows, in order to edit/delete etc or highlight specific cells for visibility purposes.                           |
 
-      | **Nested tables** | Each **Table** row can be expanded to show additional information.|
+      | **Nested tables**         | Each **Table** row can be expanded to show additional information.                                                                                                            |
 
 
       \[[Code up some examples here]]
@@ -81,7 +81,7 @@ tabs:
       The zebra striping should not be overridden as it is there to help users scan and follow the **Table's** content easier as well as increasing accessibility. 
 
 
-      Long text should be truncated in order to give the user an overview of the information. However a pop out (see pop out) should be implemented to reveal all of the information within that particular cell.
+      Long text should be truncated in order to give the user an overview of the information. However a [Tooltip](https://stupendous-dango-108acc.netlify.app/components/tooltip/) should be implemented to reveal all of the information within that particular cell.
 
 
       We recommend 6 columns maximum within the **Table**, we appreciate some products may need more, however we advise that the product's information architecture should be reviewed when creating **Tables** to ensure that all columns are necessary for the user experience.
