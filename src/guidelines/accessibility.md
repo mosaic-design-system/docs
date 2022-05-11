@@ -325,7 +325,7 @@ tabs:
 
       * The colour themes for the guides are using our product branded colour theming and is signed off by your UX designer.
 
-      * Copy is written as short and simply as possible in an inclusive manner. Please refer to the STYLE GUIDE for more information.
+      * Copy is written as short and simply as possible in an inclusive manner. Please refer to the [Style Guide](/guidelines/style-guide) for more information.
 
       * The link to access the product hub uses the correct icon and is displayed in a way that follows good colour contrast.
 ---
