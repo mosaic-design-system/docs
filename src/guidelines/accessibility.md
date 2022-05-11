@@ -312,8 +312,8 @@ tabs:
       Where we do use Pendo within our products, we are limited by the levels of
       accessibility that Pendo offers in order to guarantee a AA level of
       accessibility. You can read more about the work that Pendo's commitment to
-      accessibility
-      [here](https://www.pendo.io/pendo-blog/pendos-commitment-to-web-accessibility/). 
+      accessibility [on their
+      blog](https://www.pendo.io/pendo-blog/pendos-commitment-to-web-accessibility/). 
 
 
       If your product is using or implementing Pendo then please ensure that you are adhering to the following guidelines so that we can ensure as much accessibility as possible:
