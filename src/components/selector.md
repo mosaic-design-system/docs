@@ -59,7 +59,7 @@ tabs:
       ### Single-selects
 
 
-      Do not use a **Selector** if a user can select **only** one option from a list. In this case, **[Radio Buttons](</forms/radio-button>)** should be used instead. **Selectors** allow the user to select multiple items in a set, whereas **Radio Buttons** allow the user to select only one option.
+      Do not use a **Selector** if a user can select **only** one option from a list. In this case, **[Radio Buttons](/forms/radio-button)** should be used instead. **Selectors** allow the user to select multiple items in a set, whereas **Radio Buttons** allow the user to select only one option.
 
 
       ### Visual indication
