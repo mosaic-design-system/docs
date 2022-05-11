@@ -7,10 +7,11 @@ storybook-url: https://tessera.oneadvanced.io/dev/components-core/?path=/docs/ht
 storybook: https://tessera.oneadvanced.io/dev/components-core/?path=/docs/html-button--as-default
 tabs:
   - title: Usage
-    body: "## What is a Row?
+    body: >-
+      ## What is a Row?
 
 
-      A horizontal group of elements.\ 
+      A horizontal group of elements. 
 
 
       - - -
@@ -19,31 +20,20 @@ tabs:
       ### When, and why?
 
 
-      When you want columns displayed within your page, rows to create
-      horizontal groups of columns.\t
+      When you want columns displayed within your page, rows to create horizontal groups of columns.	
 
 
       - - -
 
 
-      ## Using a Button
+      ## Using a Row
 
 
-      Content should be placed within columns, and only columns may be
-      immediate children of rows. Columns create gutters (gaps between column
-      content) via padding. That padding is offset in rows for the first and
-      last column via negative margin on <mosaic-rows>.\r
+      Content should be placed within columns, and only columns may be immediate children of rows. Columns create gutters (gaps between column content) via padding. That padding is offset in rows for the first and last column via negative margin on <mosaic-rows>.
 
-      Rows must be placed within a
-      <mosaic-main-container></mosaic-main-container> tag (fixed-width) or
-      <mosaic-main-container fluid></mosaic-main-container> (full-width) for
-      proper alignment and padding. Predefined classes like <mosaic-row>and
-      <mosaic-col> are available for quickly making grid layouts.\r
+      Rows must be placed within a <mosaic-main-container></mosaic-main-container> tag (fixed-width) or <mosaic-main-container fluid></mosaic-main-container> (full-width) for proper alignment and padding. Predefined classes like <mosaic-row>and <mosaic-col> are available for quickly making grid layouts.
 
-      Grid columns are created by specifying the number of 12 available
-      columns you wish to span. For example, three equal columns of equal size
-      would use three <mosaic-col>. Column widths are in percentage, so they are
-      always fluid and sized relative to their parent element.\r\n"
+      Grid columns are created by specifying the number of 12 available columns you wish to span. For example, three equal columns of equal size would use three <mosaic-col>. Column widths are in percentage, so they are always fluid and sized relative to their parent element.
     icon: file_invoice
   - title: Code
     hook: code
