@@ -321,7 +321,7 @@ tabs:
 
       * The link to access Pendo in the 'Product Hub' can be accessed and operated using a keyboard as well as the contents within it.
 
-      * All guides, on boarding or general popups etc, can all be accessed and operated by using a keyboard.
+      * All guides, on boarding or general popups etc., can all be accessed and operated by using a keyboard.
 
       * The colour themes for the guides are using our product branded colour theming and is signed off by your UX designer.
 
