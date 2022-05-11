@@ -17,7 +17,9 @@ Continue reading to learn about each component, and when you should use them. Yo
 
 ## Alerts
 
-An **Alert** provides feedback to users which allows them to understand a state that affects the entire system, the page, or an input. They are static messages, which are dismissible and can also contain a single action. **Alerts** can come in one of the following forms:
+An **Alert** provides feedback to users which allows them to understand a state that affects the entire system, the page, or an input. They are static messages, which are dismissible and can also contain a single action. For more information on the component, please refer to [**Alerts**](/components/alerts).
+
+**Alerts** can come in one of the following forms:
 
 ### Banner
 
@@ -25,13 +27,21 @@ A system or product-level message that is not specific to an action. This type p
 
 \[example screenshot]
 
+There are a number of places you might use a banner:
+
+- Notifying the user of downtime
+- Announcing the latest version release
+
 ### Inline
 
 **Alerts** can also be displayed at form or input-level, specific to an action or task. This type persists until the message is resolved or dismissed by the user and may be actionable. Ensure that these are placed near their related items. **Alerts** at this level must not be confused with form validation, as form validation is tied to individual form fields and use an input’s help text.
 
 \[example screenshot]
 
-For more information, refer to [**Alerts**](/components/alerts).
+An inline **Alert** could be used to:
+
+- Tell a user their new password does not meet the password criteria
+- Tell a user that one of their selections in a form conflicts with another, i.e. a chosen date and time is already in use
 
 ## Snackbars
 
@@ -39,13 +49,21 @@ A **Snackbar** informs users of something that **has** or **will be** performed 
 
 The **Snackbar** footer must be positioned at the bottom centre of a page or sheet. In a page a **Snackbar** has a fixed width, but in a side sheet it would occupy the full width. They are short, time-based messages that fade in and out automatically. However, they can be actionable, i.e. contain a button. Where this is the case, they always persist until the user has interacted with them.
 
+For more information on the component, please refer to [Snackbars](/components/snackbar).
+
 \[example]
 
-For more information, refer to [Snackbars](/components/snackbar).
+**Snackbars** can be used for a multitude of reasons, for example:
+
+- Your changes have been successfully saved
+- The report has finished running
+- X has been deleted (and include an undo button in the **Snackbar**
 
 ## Dialogs
 
-A **Dialog** is used to inform users when a particular action has to be carried out. They interrupt the current workflow until its content is reviewed or interacted with. Dialogs can contain critical messages, require decisions, provide non-critical information, or capture data. **Dialogs** can come in one of two ways:
+A **Dialog** is used to inform users when a particular action has to be carried out. They interrupt the current workflow until its content is reviewed or interacted with. Dialogs can contain critical messages, require decisions, provide non-critical information, or capture data. For more information on the component, please refer to [Dialogs](/components/dialog).
+
+**Dialogs** can come in one of two ways:
 
 ### Message
 
@@ -53,10 +71,19 @@ This type of **Dialog** must always be positioned front and centre of a page. Th
 
 \[example]
 
+For example, you could use a message **Dialog** to:
+
+- Warn the user what their action will do
+- Ask the user to confirm their choice
+- Explain something in detail
+
 ### Form
 
 As above, this type of **Dialog** must always be positioned front and centre of a page, but an overlay is not required. A user cannot return to their previous workflow until the information requested has been supplied or dismissed by the user. The size of the **Dialog** should be appropriate to the content being displayed and scrolling should be avoided.
 
 \[example]
 
-For more information, refer to Dialogs \[link to Dialogs page].
+A form can be used for things like:
+
+- Enter some information for a record being created
+- Ask for some supplementary information
