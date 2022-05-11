@@ -11,7 +11,7 @@ tabs:
       ## What is a Nav?
 
 
-      A Nav is an easy way to position one or more links together inside other components.
+      A **Nav** is an easy way to position one or more links together inside other components.
 
 
       - - -
@@ -20,7 +20,10 @@ tabs:
       ### When, and why?
 
 
-      There may occasions when you want to display a series of links inside another component. For example, inside a tabbed UI, where sub-tabs or links are required. Another example of where a Nav component could be used is in a footer, where a number of links need to be grouped together into a block. Where this is the case, a Nav component positions links horizontally or vertically in a consistent manner, so you don't have to worry about padding or spacing.
+      There may occasions when you want to display a series of links inside another component. For example, inside a tabbed UI, where sub-tabs or links are required. 
+
+
+      Another example of where a **Nav** component could be used is in a footer, where a number of links need to be grouped together into a block. Where this is the case, a Nav component positions links horizontally or vertically in a consistent manner, so you don't have to worry about padding or spacing.
 
 
       - - -
@@ -32,17 +35,17 @@ tabs:
       The following types of Nav are available:
 
 
-      | **Name**               | **Description**                                                                                                                                                      | **Behaviour** |
+      | **Name**               | **Description** |                                                                                                                                   
 
-      | ---------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------- |
+      | ---------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
-      | Default                | A Nav with its links positioned horizontally                                                                                                                         |               |
+      | Default                | A Nav with its links positioned horizontally                                                                                                                         |
 
-      | As vertical            | A Nav with its links positioned vertically                                                                                                                           |               |
+      | As vertical            | A Nav with its links positioned vertically                                                                                                                           |
 
-      | As simple              | A Nav with its links positioned horizontally, but without any padding. This is useful if the Nav is being placed inside a container that already has its own padding |               |
+      | As simple              | A Nav with its links positioned horizontally, but without any padding. This is useful if the Nav is being placed inside a container that already has its own padding |
 
-      | As vertical and simple | A Nav with its links positioned vertically, but without any padding. This is useful if the Nav is being placed inside a container that already has its own padding   |               |
+      | As vertical and simple | A Nav with its links positioned vertically, but without any padding. This is useful if the Nav is being placed inside a container that already has its own padding   |
 
 
       - - -
