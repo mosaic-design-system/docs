@@ -8,11 +8,12 @@ tabs:
     body: "## What is a Treeview?
 
 
-      A **treeview** presents a hierarchical view of information by
-      breaking them down into multiple levels of importance. The tree view
-      allows for required levels to be opened whilst the rest of the tree can
-      remain collapsed reducing the amount of space required but maintaining the
-      necessary information.
+      A **Treeview** presents a hierarchical view of information by
+      breaking them down into multiple levels of importance. The **Treeview**
+      allows for different levels to be opened whilst the rest of the tree can
+      remain collapsed, reducing the amount of space required but maintaining
+      the necessary information.
+
 
       - - -
 
@@ -20,10 +21,10 @@ tabs:
       ## When, and why?
 
 
-      A **treeview** can be used for large sets of data which can be
+      A **Treeview** can be used for large sets of data which can be
       categorised into two or more levels. This provides a natural hierarchy and
       structure. This should be familiar to most users even with two or more
-      levels. A **treeview** could be used for a large storage system such as in
+      levels. A **Treeview** could be used for a large storage system such as in
       legal to provide solicitors with a way of managing case documents similar
       in nature to Windows Explorer
 
