@@ -58,7 +58,7 @@ tabs:
       Every event point on a **Timeline** represents something that happened that is relevant to the subject of the **Timeline**. We suggest focusing on user/system actions on the event points itself, with the option of having dates and secondary information either as subheadings or in the right-hand side content area. 
 
 
-      For example, the header in the content area should always be the user action. When adding supplementary information such as a date, it can be less prominent below when using the dual content type, the date and time could sit on the right of the timeline.
+      For example, the header in the content area should always be the user action. When adding supplementary information such as a date, it can be less prominent below, you could use the dual content type to display the date and time on the right of the timeline.
 
 
       When using a **Timeline** each event point should be in chronological order, making sure each status is dependent on the previous. If you have events can progress independently of each other, consider using an [Accordion](/guidelines/accordion) with status chips. 
