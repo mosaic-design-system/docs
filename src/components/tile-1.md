@@ -71,7 +71,7 @@ tabs:
 
 
       •\tTiles should be used with caution of risk of overusing, an easy
-      to use navigation system is better for the user than too many **tiles**
+      to use navigation system is better for the user than too many **Tiles**
       (16 or more would be considered close to too many).
 
 
