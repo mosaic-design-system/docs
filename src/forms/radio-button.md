@@ -39,9 +39,9 @@ tabs:
 
       | Without label       | This should only be used within a selector column of a table where the column header becomes the label for the radio button                                                   |
 
-      | Radio choice button | This is a container with the radio button. This is used where a label isn’t enough information, and a title and subtitle are required. This is positioned within a container. |
+      | Radio choice button | This is a container and the **Radio button** is within the container. This is used where a label isn’t enough information and more text is required. This instead has both a title and subtitle accompanying the **Radio button** . |
 
-      | Visual Radio button | It is similar to the radio choice button however there is an icon positioned to the left-hand side and the radio button itself is aligned to the right hand side.             |
+      | Visual Radio button | It is similar to the radio choice button however there is an icon positioned to the left-hand side and the radio button itself is aligned to the right hand side.  This should only be used where the icon is of benefit           |
 
 
       - - -
