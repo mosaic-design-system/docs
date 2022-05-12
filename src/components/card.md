@@ -10,6 +10,7 @@ tabs:
     body: >-
       ## What is a Card
 
+
       Cards form the backbone of all content areas. They should surround and group your content into meaningful 'boxes' of functionality, and can be used alongside columns and rows to lay out your application in a variety of ways.
 
 
@@ -18,74 +19,84 @@ tabs:
 
       - - -
 
+
       ### When and why
+
 
       All over the place! Cards should surround all components in your content-container, either the whole page or subdivided into separate cards per functional area.  Within a card you can have other nested cards to help with grouping of components/information. 
 
 
       - - -
 
+
       ## Card types
 
-      | **Variant** | **description** |
 
-      | -------- | -------- |
+      | **Variant**           | **description**                                                                                                                                                                |
 
-      |Non-interactable| General white card to display or capture content |
+      | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 
-      |Interactable| A card that a user can click to interact with it |
+      | Non-interactable      | General white card to display or capture content                                                                                                                               |
 
-      |Interactable active| The active state of an interactable card |
+      | Interactable          | A card that a user can click to interact with it                                                                                                                               |
 
-      |Grouping | Grey card to group components together to indicate their relationship to each other.  |
+      | Interactable active   | The active state of an interactable card                                                                                                                                       |
 
-      |Selected | For when a card is selected, user might click the whole card or a checkbox on the card to select it as part of a workflow |
+      | Grouping              | Grey card to group components together to indicate their relationship to each other.                                                                                           |
 
-      |Selected active | Active state of a selected card |
+      | Selected              | For when a card is selected, user might click the whole card or a checkbox on the card to select it as part of a workflow                                                      |
 
-      |Selected with context | A contextual colour border and tick to indicated meaning of selection.  This could be to indicate that items are going to be removed or added. |
+      | Selected active       | Active state of a selected card                                                                                                                                                |
 
-      |Contextual | Styled to indicate the context of the card.  This should be used to represent the contents of the card.  Eg danger context card could be used to show information about issues |
+      | Selected with context | A contextual colour border and tick to indicated meaning of selection.  This could be to indicate that items are going to be removed or added.                                 |
+
+      | Contextual            | Styled to indicate the context of the card.  This should be used to represent the contents of the card.  Eg danger context card could be used to show information about issues |
 
 
       ## Card contexts
 
+
       Context helps convey the information being communicated. **Card** contexts correspond to a colour to provide a consistent experience for users. For more information, refer to the [Colours](/guidelines/colours) guidelines.
 
 
-      | **Name** | **Description** | **Behaviour** | **Examples** |
+      | **Name** | **Description**                                                                                                               | **Behaviour**                                                            | **Examples**                                                             |
 
-      | -------- | ---------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------ | ------------ |
+      | -------- | ----------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------ | ------------------------------------------------------------------------ |
 
-      | Success  | Indicates actions were completed successfully. The Success colour is green.                                                   | Does not require user interaction, but persists until the user dismisses |  The user finishes a work flow successfully            |
+      | Success  | Indicates actions were completed successfully. The Success colour is green.                                                   | Does not require user interaction, but persists until the user dismisses | The user finishes a work flow successfully                               |
 
-      | Danger   | Indicates errors and, optionally, prevents users from proceeding until the issue has been resolved. The Danger colour is red. | Always persists until the user dismisses or resolves the issue           |  The user inputs an invalid configuration for a record             |
+      | Danger   | Indicates errors and, optionally, prevents users from proceeding until the issue has been resolved. The Danger colour is red. | Always persists until the user dismisses or resolves the issue           | The user inputs an invalid configuration for a record                    |
 
-      | Warning  | Indicates that actions are not desirable or might have unexpected results. The Warning colour is yellow.                      | Persists until the user dismisses or continues regardless                |  The user enters a record that will overwrite another non-critical record             |
+      | Warning  | Indicates that actions are not desirable or might have unexpected results. The Warning colour is yellow.                      | Persists until the user dismisses or continues regardless                | The user enters a record that will overwrite another non-critical record |
 
-      | Info     | Indicates neutral or advisory information that may not be related to the current action. The info colour is teal.             | Does not require user interaction, but persists until user dismisses     |  A dialog that gives a tip to the user about another related feature         |
+      | Info     | Indicates neutral or advisory information that may not be related to the current action. The info colour is teal.             | Does not require user interaction, but persists until user dismisses     | A dialog that gives a tip to the user about another related feature      |
 
 
       - - -
 
+
       ## Using a Card
+
 
       **Cards** are used to display all content with the application.  On a page you could have just one card, or hundreds of cards, depending on what you are needing to do.  Cards can be laid out in grids, but the grids should be responsive so that cards tend to stay a similar size and more vertical space is used on smaller screens by decreasing the number of columns. 
 
 
       ### Nested cards
 
-      Cards can be nested within another Card to aid the users understanding of what is grouped together.  As with any card these can be organised in columns an rows to best suit the data being displayed, however in forms they should always tend to be in only a single column.  Nested cards are when you might want to use the Grouping type to help separate it from the parent card. 
+
+      Cards can be nested within another Card to aid the users understanding of what is grouped together.  As with any card these can be organised in columns an rows to best suit the data being displayed, however in forms they should always be in only a single column.  Nested cards are when you might want to use the Grouping type to help separate it from the parent card. 
 
 
       ### Headers
+
 
       A Card may have a header section which could contain a title, subtitle and other inputs (eg Buttons or Selects) for additional actions related to the card.  The header section should always be used for items that relate to the whole card
 
 
       ### Footers
 
-      The footer section of a Card is there for actions on the card in the form of buttons.  This is where the call to action button would live for example.  On forms this can also be use to show additional information to the user, eg All fields are required. 
+
+      The footer section of a Card is there for actions on the card in the form of buttons.  This is where the call to action button would live for example.  On forms this can also be used to show additional information to the user, eg All fields are required.
     icon: file_invoice
   - title: Code
     hook: code
