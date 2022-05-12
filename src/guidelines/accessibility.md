@@ -304,7 +304,7 @@ tabs:
 
       * Use our recommended tooling [WAVE](https://wave.webaim.org/) to assess how compliant your product is.
 
-      * Download and fill out our \[accessibility statement template](link here) ready to be displayed on your site.
+      * Download and fill out our \[accessibility statement template] ready to be displayed on your site.
 
       * Display your accessibility statement on your product in a way where it can be accessed from every page on the site (similar to a privacy policy).
   - title: Pendo
