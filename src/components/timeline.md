@@ -11,7 +11,7 @@ tabs:
       ## What is a Timeline?
 
 
-      A **Timeline** is a vertical list of events in chronological order linked using a single path. 
+      A **Timeline** is a vertical list of events in chronological order, linked using a single path. It gives a breakdown of "event points" to give an overview of something like a project which can be used to present a chronological breakdown of key information.
 
 
       - - -
