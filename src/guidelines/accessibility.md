@@ -63,12 +63,6 @@ tabs:
 
 
       Accessible design doesn't just offer a better experience to users with accessibility considerations; a truly good user experience is fully inclusive for everyone **no matter who they are**.
-
-
-      <a href="/assets/img/A & AA WCAG 2.1 Accessibility Guidelines for Visual elements.docx.zip" target="_blank" class="mcc=button--primary"><span class="mcc-button__label">Download accessibility guidelines for visual elements</span></a>
-
-
-      <a href="/assets/img/A & AA WCAG 2.1 Accessibility Guidelines for Visual elements.docx.zip" target="_blank" class="mcc=button--primary"><span class="mcc-button__label">Download accessibility guidelines for code elements</span></a>
   - title: Keyboards
     body: >-
       For many users, keyboard navigation is essential to their daily use of
@@ -197,7 +191,7 @@ tabs:
       ## Accessibility Statement
 
 
-      At Advanced, all products **must** have an accessibility statement and it must be displayed within the product in a way where the user can access it from every page.
+      At Advanced, all products **must** have an accessibility statement and it must be displayed within the product in a way where the user can access it from every page (similar to a privacy policy).
 
 
       Accessibility statements outline how closely a product follows the WCAG guidelines, and where the product falls short. It also outlines the plans for when the product will fix any of the accessibility issues the product may have. These dates **must** be met, otherwise it could be seen as discrimination and can leave you open for legal troubles.
@@ -209,13 +203,14 @@ tabs:
       To help understand how your product matches up with the guidelines, you can follow these steps:
 
 
-      * Check your product against our official Advanced code and visual accessibility guidelines. (link here).
+      * Check your product against these Advanced code and visual accessibility guidelines.
 
+        <a href="/assets/img/A & AA WCAG 2.1 Accessibility Guidelines for Visual elements.docx.zip" target="_blank" class="mcc=button--primary"><span class="mcc-button__label">Download accessibility guidelines for visual elements</span></a>
+
+        <a href="/assets/img/A & AA WCAG 2.1 Accessibility Guidelines for Visual elements.docx.zip" target="_blank" class="mcc=button--primary"><span class="mcc-button__label">Download accessibility guidelines for code elements</span></a>
       * Use our recommended tooling [WAVE](https://wave.webaim.org/) to assess how compliant your product is.
 
       * Download and fill out our <a href="/assets/img/Accessibility statement - Template.docx.zip" target="_blank" class="mcc=button--primary"><span class="mcc-button__label">Accessibility Statement Template</span></a> ready to be displayed on your site.
-
-      * Display your accessibility statement on your product in a way where it can be accessed from every page on the site (similar to a privacy policy).
   - title: Pendo
     body: >-
       Where we do use Pendo within our products, we are limited by the levels of
