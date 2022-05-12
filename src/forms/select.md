@@ -20,7 +20,7 @@ tabs:
       ### When and why
 
 
-      When the user is required to select a one or more options from a large group of data. A **Select** can also allow the user to search and filter through the given list.
+      You should use a **Select** when you need a user to select one or more options from a large group of data. Using a **Select** allows the user to search and filter through the given list.
 
 
       - - -
@@ -32,19 +32,19 @@ tabs:
       ### Types
 
 
-      | **Variant**       | **description**                                                  | **Example** |
+      | **Type**       | **Description**                                                  | **Example** |
 
-      | ----------------- | ---------------------------------------------------------------- | ----------- |
+      | ----------------- | ---------------------------------------------------------------- |
 
-      | **Default**       | A dropdown selection allowing the user to select a single option |             |
+      | **Default**       | The user can select a single option |
 
-      | **Required**      | The user is required to select at least one option               |             |
+      | **Required**      | The user is required to select at least one option               |
 
-      | **Multiple**      | The user is able to select more than one answer                  |             |
+      | **Multiple**      | The user is able to select more than one answer                  |
 
-      | **Option groups** | The options available to the user are grouped under headings     |             |
+      | **Option groups** | The options available to the user are grouped under headings     |
 
-      | **Size**          | There are three sizes available: small, default and large        |             |
+      | **Size**          | There are three sizes available: small, default and large        |
 
 
       ## Using a select
@@ -53,7 +53,7 @@ tabs:
       ### Minimum required options
 
 
-      A **Select** should only be used if there are six or more options to choose from. If the user has fewer options to choose from, then you can use radio buttons instead, or checkboxes for answers that require multiple answers.
+      A **Select** should only be used if there are six or more options to choose from. If the user has fewer options to choose from, then you can use [Radio buttons](/forms/radio-buttons) instead, or [Checkboxes](/forms/checkbox) for answers that require multiple answers.
 
 
       ### Select sizing
@@ -71,7 +71,7 @@ tabs:
       ### Multi-select
 
 
-      If the options in your **Select** menu have a hierarchy or categorisation, you should split them into groups. This allows users to find the option quickly by scanning the group labels instead of every single option. 
+      If the options in your **Select** menu have a hierarchy or categorisation, you should split them into groups. This allows users to find the option quickly by scanning the group labels instead of every single option. These groups should be logical (for the user) and have meaningful names.
 
 
       - - -
