@@ -66,7 +66,7 @@ tabs:
       In Mosaic, there are six contexts for **Buttons**. Each has a different function, and the look of the button will signal a different usage to the user. For example, a **Primary Button** tends to be the most positive outcome for an action, things like submitting a form or saving a sheet. Conversely, a **Danger Button** tends to be something negative, like deleting something. 
 
 
-      | Button Type   | Description                                                                                                                                                                                                                                                                                                                                  | Example                                                                                                     |
+      | Button Type   | Description                                                                                                                                                                                                                                                                                                                                  
 
       | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
 
