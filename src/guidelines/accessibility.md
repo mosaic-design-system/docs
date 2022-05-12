@@ -260,7 +260,7 @@ tabs:
 
       * Use our recommended tooling [WAVE](https://wave.webaim.org/) to assess how compliant your product is.
 
-      * Download and fill out our <a href="/assets/img/accessibility-statement-template.docx.zip" target="_blank" class="mcc=button--primary"><span class="mcc-button__label">Accessibility Statement Template</span></a> ready to be displayed on your site.
+      * Download and fill out our <a href="src/assets/img/Accessibility statement - Template.docx.zip" target="_blank" class="mcc=button--primary"><span class="mcc-button__label">Accessibility Statement Template</span></a> ready to be displayed on your site.
 
       * Display your accessibility statement on your product in a way where it can be accessed from every page on the site (similar to a privacy policy).
   - title: Pendo
