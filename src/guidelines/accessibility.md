@@ -56,7 +56,7 @@ tabs:
 
       | **Permanent**   | This is what most of us think of when talking about "disability." An accessibility issue that affects how the user can interact with our software on a permanent basis. This covers things like blindness, dyslexia, and MS.                                                         |
 
-      | **Invisible**   | Some accessibility requirements are not always visible, this includes diseases like chron's, colitis, mental health conditions, types of pain and many more. When looking at someone with an invisible issue, it may not be immediately obvious that they have accessibility needs. |
+      | **Invisible**   | Some accessibility requirements are not always visible, this includes diseases like chron's, colitis, mental health conditions, types of pain and many more. When looking at someone with an invisible issue, you may not be immediately obvious that they have accessibility needs. |
 
 
       It is important to note that accessibility considerations do not always fall into one category. For example, someone recovering from a brain injury could have an issue that was both invisible and temporary.
@@ -241,4 +241,6 @@ tabs:
       * Copy is written as short and simply as possible in an inclusive manner. Please refer to the [Style Guide](/guidelines/style-guide) for more information.
 
       * The link to access the product hub uses the correct icon and is displayed in a way that follows good colour contrast.
+
+      * All these guidelines need to be met by the next time you review your accessibility statement or within one year of implementing Mosaic. Please ensure that your position regarding  these guidelines are explained within your accessibly statement.
 ---
