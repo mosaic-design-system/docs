@@ -3,9 +3,9 @@ title: Overview
 order: 10
 toc: true
 ---
-**We are still putting the pieces together**
+![Drawing of a person building a progress bar with blocks. ](/assets/img/downloading.svg "title")
 
-![](/assets/img/downloading.svg)
+**Just a few more pieces to go before it is ready...** 
 
 ## Heading 1
 
