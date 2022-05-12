@@ -28,19 +28,36 @@ tabs:
       depending on what details are required for a form, these include,
 
 
-      * Checkbox
+      * Form input
+
+      * <a
+      href=\"https://stupendous-dango-108acc.netlify.app/admin/#/collections/Fo\
+      rms/entries/checkbox\" target=\"_blank\"
+      class=\"mcc=button--primary\"><span
+      class=\"mcc-button__label\">Checkbox</span></a>
 
       * File upload
 
-      * Form input
+      * <a
+      href=\"https://stupendous-dango-108acc.netlify.app/admin/#/collections/Fo\
+      rms/entries/select\" target=\"_blank\" class=\"mcc=button--primary\"><span
+      class=\"mcc-button__label\">Multi-select</span></a>
 
-      * Multi select
+      * <a
+      href=\"https://stupendous-dango-108acc.netlify.app/admin/#/collections/Fo\
+      rms/entries/select\" target=\"_blank\" class=\"mcc=button--primary\"><span
+      class=\"mcc-button__label\">Selects</span></a>
 
-      * Radio button
+      * <a
+      href=\"https://stupendous-dango-108acc.netlify.app/admin/#/collections/Fo\
+      rms/entries/radio\" target=\"_blank\" class=\"mcc=button--primary\"><span
+      class=\"mcc-button__label\">Radio Button</span></a>
 
-      * Selects
-
-      * Text area
+      * <a
+      href=\"https://stupendous-dango-108acc.netlify.app/admin/#/collections/Fo\
+      rms/entries/textarea\" target=\"_blank\"
+      class=\"mcc=button--primary\"><span class=\"mcc-button__label\">Text
+      area</span></a>
 
       * Toggle
 
