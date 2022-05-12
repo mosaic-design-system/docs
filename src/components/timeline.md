@@ -41,10 +41,10 @@ tabs:
 
       | **Single content area** | Use this Timeline when the event point is clearly labelled using the right-hand content area                                                                         |
 
-      | **Dual content area**   | This should be used when additional information is needed to explain the event point than what is available from a single label. For example Time, date, status etc. could be put into a separate content area. |
+      | **Dual content area**   | This should be used when additional information is needed to explain the event point compared to what is available from a single label. For example Time, date, status etc. could be put into a separate content area. |
 
 
-      \[[Code up some examples here]]
+      \[[Examples to come]]
 
 
       - - -
@@ -55,7 +55,10 @@ tabs:
 
       ### Event points
 
-      Every event point on a **Timeline** represents something that happened that is relevant to the subject of the **Timeline**. We suggest focusing on user/system actions, dates and secondary information. For example header in the content area is the user action and the date is less prominent below or using the dual content type, the date and time could sit on the right of the timeline.
+      Every event point on a **Timeline** represents something that happened that is relevant to the subject of the **Timeline**. We suggest focusing on user/system actions on the event points itself, with the option of having dates and secondary information either as subheadings or in the right-hand side content area. 
+
+
+      For example, the header in the content area should always be the user action. When adding supplementary information such as a date, it can be less prominent below when using the dual content type, the date and time could sit on the right of the timeline.
 
 
       When using a **Timeline** each event point should be in chronological order, making sure each status is dependent on the previous. If you have events can progress independently of each other, consider using an [Accordion](/guidelines/accordion) with status chips. 
