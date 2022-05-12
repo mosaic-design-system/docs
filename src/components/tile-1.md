@@ -56,23 +56,9 @@ tabs:
       ## Using a Tile
 
 
-      Using tiles\r
-
-      \r
-
-      •\tBoth the icon and label should be centrally aligned
-
-      \r
-
-      \r
-
-      •\tIcons are set to a height and width of 48px and can be found
-      using the Icons8 icon library
-
-
       •\tTiles should be used with caution of risk of overusing, an easy
-      to use navigation system is better for the user than too many **Tiles**
-      (16 or more would be considered close to too many).
+      to use navigation system is better for the user than too many tiles (16 or
+      more would be considered close to too many).
 
 
       ### Tile labels
@@ -96,7 +82,18 @@ tabs:
 
       The icons are set to a height and width of 48px, and should use the
       icons from the [Icons8 icon
-      library](https://mosaic-icon-search.oneadvanced.io/)."
+      library](https://mosaic-icon-search.oneadvanced.io/).
+
+
+      ### Number of Tiles
+
+
+      We do not have rules governing the number of **Tiles** that you
+      include on a page. However, do keep in mind that an overuse of **Tiles**
+      will make it hard for users to locate the content they are looking for.
+      For example, 16 or more **Tiles** would be harder to navigate than an
+      application that uses an effective navigation system, such as a
+      [Nav](/components/nav) component."
   - title: Code
   - title: Accessibility
   - title: Status
