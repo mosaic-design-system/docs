@@ -46,20 +46,20 @@ tabs:
       The four types of disability that need to be considered are as follows:
 
 
-      | **Type**        | **Description**                                                                                                                                                                                                                                                                     |
+      | **Type**        | **Description**                                                                                                                                                                                                                                                                      |
 
-      | --------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+      | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 
-      | **Situational** | Examples of this include a brightly lit room or area where a person with 'typical' vision is working could affect how easy a screen is to view. Similarly, someone in a busy office may not be able to listen to audio or have their sound on.                                      |
+      | **Situational** | Examples of this include a brightly lit room or area where a person with 'typical' vision is working, this could affect how easy a screen is to view. Similarly, someone in a busy office may not be able to listen to audio or have their sound on.                                 |
 
-      | **Temporary**   | An injury to a hand or an arm (or even an eye!) may prevent someone from using a mouse, keyboard, or screen for a short time, but they will be able to use them once they have recovered.                                                                                           |
+      | **Temporary**   | An injury to a hand or an arm (or even an eye!) may prevent someone from using a mouse, keyboard, or screen for a short time, but they will be able to use them once they have recovered.                                                                                            |
 
-      | **Permanent**   | This is what most of us think of when talking about "disability." An accessibility issue that affects how the user can interact with our software on a permanent basis. This covers things like blindness, dyslexia, and MS.                                                        |
+      | **Permanent**   | This is what most of us think of when talking about "disability." An accessibility issue that affects how the user can interact with our software on a permanent basis. This covers things like blindness, dyslexia, and MS.                                                         |
 
-      | **Invisible**   | Some accessibility requirements are not always visible, this includes diseases like chrons, colitis, mental health conditions, types of pain and many more. When looking at someone with an invisible issue, you may not be immediately obvious that they have accessibility needs. |
+      | **Invisible**   | Some accessibility requirements are not always visible, this includes diseases like chron's, colitis, mental health conditions, types of pain and many more. When looking at someone with an invisible issue, you may not be immediately obvious that they have accessibility needs. |
 
 
-      It is important to note that accessibility considerations do not always fall into one category. For example, someone recovering from a brain injury would have an issue that was both invisible and temporary.
+      It is important to note that accessibility considerations do not always fall into one category. For example, someone recovering from a brain injury could have an issue that was both invisible and temporary.
 
 
       Accessible design doesn't just offer a better experience to users with accessibility considerations; a truly good user experience is fully inclusive for everyone **no matter who they are**.
