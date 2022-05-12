@@ -71,8 +71,8 @@ tabs:
 
 
       •\tTiles should be used with caution of risk of overusing, an easy
-      to use navigation system is better for the user than too many tiles (16
-      would be considered too many).
+      to use navigation system is better for the user than too many tiles (16 or
+      more would be considered too many).
 
 
       ### Tile labels
