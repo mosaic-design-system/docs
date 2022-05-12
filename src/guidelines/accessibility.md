@@ -242,5 +242,5 @@ tabs:
 
       * The link to access the product hub uses the correct icon and is displayed in a way that follows good colour contrast.
 
-      * All these guidelines need to be met by the next time you review your accessibility statement or within one year of implementing Mosaic. Please ensure that your position regarding  these guidelines are explained within your accessibly statement.
+      * All these guidelines need to be met by the next time you review your accessibility statement or within one year of implementing Mosaic. Please ensure that your position regarding these guidelines are explained within your accessibly statement.
 ---
