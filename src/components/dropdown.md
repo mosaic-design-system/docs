@@ -11,41 +11,38 @@ tabs:
     body: >-
       ## What is a dropdown?
 
-
       A Dropdown is an overlay that displays a lists of links or options for the user to choose, generally opened from a Button. The options might navigate the user to another place or perform an action.
 
 
       ### When and why
-
 
       Dropdowns are most commonly used with a Button, but can be triggered from other components. On selecting the component an overlay (often as a Card) will be shown with a list of items to enable the user to navigate to another area or perform an action in context to the current page. Very common examples of Dropdowns are overflow menus. 
 
 
       #### Dropdown or a Select?
 
-
       Dropdowns and Select component can appear to be very similar and sometimes it is hard to chose the appropriate component. As general rule of thumb, the component triggering the dropdown doesn't change when an item is selected, eg if trigger from a button, the button text should not change.  If you want the selection to be shown when the overlay is hidden, then you should use the Select component. 
+
+      [Read more on the form Select page](/forms/select/)
 
 
       - - -
 
-
-      ## Dropdown type
+      ## Dropdown types
 
 
       | **Type**       | **Description**                                                          |
 
       | -------------- | ------------------------------------------------------------------------ |
 
-      | Default        | Dropdown card with a list of line items                                  |
+      | Default        | Dropdown card displayed as an overlay, with a list of selectable line items|
 
-      | With Alignment | Set the position of dropdown in relation to the component that opened it |
-
-
-      ### Dropdown line item type
+      | With Alignment | Used to set the position of the Dropdown in relation to the component that opened it |
 
 
-      A line item is one item in the list that is displayed in the Dropdown.  Each line item is interactable and when clicked will perform some kind of action much like a Button would. The exception to this is when they are a heading or divider.  Line items can have content which best meets their needs. 
+      ### Dropdown line item types
+
+      A line item is one item in the list that is displayed in the Dropdown.  Each line item is interactable and when clicked will perform some kind of action, much like a Button would. The exception to this is when they are a heading or divider. 
 
 
       | **Type**  | **Description**                                                                        |
@@ -54,26 +51,26 @@ tabs:
 
       | Default   | Text only line item                                                                    |
 
-      | Header    | used to split the line items in to groups with heading text                            |
+      | Header    | Used to split the line items in to groups with heading text                            |
 
-      | Divider   | used to split the line items in to groups but where a header description is not needed |
+      | Divider   | Used to split the line items in to groups but where a header description is not needed |
 
-      | With icon | Icon inline with the text to help identify it, these can be on left or right           |
+      | With icon | Adds an icon inline with the text to help identify it, these can be on left or right but never both|
 
 
       - - -
-
 
       ## Using a Dropdown
 
 
       ### Alignment
 
-
       Where the Dropdown opens in relation to the triggering component is an important consideration.  The Dropdown should always be next to the component but might need to open on a specific side to allow it to be easily interacted with.  For example if you have a button on the righthand side of the screen you would need the dropdown to open below and to the left so it doesn't go off the screen. 
 
 
-      ### Dropdown list items
+      ### Dropdown line items
+
+      Even though line items can have any content to best meets their needs, they should stick to the types outlined here.  If there is a use case to differ then talk to the UX team first. 
 
 
       * Labels should describe what is in the list and inform users what to expect.
@@ -82,13 +79,15 @@ tabs:
 
       * Display your options in alphabetical order, unless there is good reason to show in another order - eg recent items would be show in descending date order. 
 
-      * All headings should be sentence case and not have the first letter of every word capitalised. More information in the [text style guide](link)
+      * All headings should be sentence case and not have the first letter of every word capitalised. More information in the [text style guide](/guidelines/style-guide/#structure)
 
 
       #### Icons
 
+      These can be position on the left or right.  If every list item has an icon then they should be positioned on the left of the label. If you just want to emphasis one item using an icon then position it to the right of the label. You should never have an icon both left and right of the label. 
 
-      These can be left or right.  Use left when every list item has an icon, use right when you want to emphasis some of the list items. Icons should be used to help the user identify the item in the list quicker than reading every item, if it doesn't help the user then they shouldn't be used.  For example having the same icon on  every list item will actually hinder the user in finding what they need.  [Find out more in the Iconography guidelines](link)
+
+      Icons should be used to help the user identify the item in the list quicker than reading every item, if it doesn't help the user then they shouldn't be used. For example having the same icon on every list item will actually hinder the user in finding what they need.  [Find out more in the Iconography guidelines](/guidelines/iconography)
     icon: file_invoice
   - title: Code
     hook: code
