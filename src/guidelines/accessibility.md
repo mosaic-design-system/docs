@@ -65,10 +65,10 @@ tabs:
       Accessible design doesn't just offer a better experience to users with accessibility considerations; a truly good user experience is fully inclusive for everyone **no matter who they are**.
 
 
-      <a href="accessibility-statement-template.docx.zip" target="_blank" class="mcc=button--primary"><span class="mcc-button__label">Download accessibility guidelines for visual elements</span></a>
+      <a href="/assets/img/accessibility-statement-template.docx.zip" target="_blank" class="mcc=button--primary"><span class="mcc-button__label">Download accessibility guidelines for visual elements</span></a>
 
 
-      <a href="accessibility-statement-template.docx.zip" target="_blank" class="mcc=button--primary"><span class="mcc-button__label">Download accessibility guidelines for code elements</span></a>
+      <a href="/assets/img/accessibility-statement-template.docx.zip" target="_blank" class="mcc=button--primary"><span class="mcc-button__label">Download accessibility guidelines for code elements</span></a>
   - title: Keyboards
     body: "For many users, keyboard navigation is essential to their daily use of
       Advanced products. Some users are limited to keyboard-only navigation in
