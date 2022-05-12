@@ -88,7 +88,7 @@ tabs:
       will make it hard for users to locate the content they are looking for.
       For example, 16 or more **Tiles** would be harder to navigate than an
       application that uses an effective navigation system, such as a
-      [Nav](/components/nav) component."
+      [**Navigation bar**](/components/navigation-bar) component."
   - title: Code
   - title: Accessibility
   - title: Status
