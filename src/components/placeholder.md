@@ -11,7 +11,7 @@ tabs:
       ## What is a Placeholder?
 
 
-      Placeholders are indicators of the layout of how the page content will look once data has fully loaded.
+      Placeholders are indicators of how the page content will look once data has fully loaded.
 
 
       - - -
@@ -20,7 +20,7 @@ tabs:
       ### When, and why?
 
 
-      Use a placeholder on an initial page load that that has more than 1 element, and takes more than 0.3s to load on an average connection. Using a placeholder will give a perception of shorter wait time.
+      Use a Placeholder on an initial page load that has more than 1 element, and takes more than 0.3s to load on an average connection. Using a Placeholder will give a perception of shorter wait time.
 
 
       - - -
@@ -29,18 +29,18 @@ tabs:
       ## Placeholder Types
 
 
-      We have 3 types of placeholders to help give a truer representation of the content
+      We have 3 types of Placeholders to help give a truer representation of the content:
 
 
-      | Types                   | Description                                                                                                                                                          |
+      | **Types**           | **Description**                                   |
 
-      | ----------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+      | ------------------- | ------------------------------------------------- |
 
-      | **Paragraph** | Use this to indicate text heavy text data loading                                                                       |
+      | **Paragraph**       | Use this to indicate text heavy text data loading |
 
-      | **Image**   | This should be used when you are loading imagery |
+      | **Image**           | This should be used when you are loading imagery  |
 
-      | **Image with text**   | This can be used to show a mix of data I loading |
+      | **Image with text** | This can be used to show a mix of data I loading  |
 
 
       \[[Code up some examples here]]
@@ -52,10 +52,10 @@ tabs:
       ## Using a Placeholder
 
 
-      Only apply a placeholder to your loading screen if the average load time is longer than 0.3seconds. Consider using a place holder when the page has more than 1 item to load at a time. When using a placeholder you should start displaying the data as it loads, rather than waiting for the all the data to load.
+      Only apply a Placeholder to your loading screen if the average load time is longer than 0.3seconds. Consider using a Placeholder when the page has more than 1 item to load at a time. When using a Placeholder you should start displaying the data as it loads, rather than waiting for the all the data to load.
 
 
-      A placeholder shouldn’t be used for long-running processes or background processes (e.g. importing data or exporting reports). Use a progress indicator \[link to progress indicator] for this instead.
+      A Placeholder shouldn’t be used for long-running processes or background processes (e.g. importing data or exporting reports). Use a progress indicator \[link to progress indicator] for this instead.
     icon: file_invoice
   - title: Code
     hook: code
