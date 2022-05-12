@@ -84,7 +84,7 @@ tabs:
 
       #### Icons
 
-      These can be position on the left or right.  If every list item has an icon then they should be positioned on the left of the label. If you just want to emphasis one item using an icon then position it to the right of the label. You should never have an icon both left and right of the label. 
+      These can be position on the left or right.  If every list item has an icon then they should be positioned on the left of the label. If you just want to emphasis one item using an icon (eg delete item) then position it to the right of the label. You should never have an icon both left and right of the label. 
 
 
       Icons should be used to help the user identify the item in the list quicker than reading every item, if it doesn't help the user then they shouldn't be used. For example having the same icon on every list item will actually hinder the user in finding what they need.  [Find out more in the Iconography guidelines](/guidelines/iconography)
