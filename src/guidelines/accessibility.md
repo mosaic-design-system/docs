@@ -65,10 +65,10 @@ tabs:
       Accessible design doesn't just offer a better experience to users with accessibility considerations; a truly good user experience is fully inclusive for everyone **no matter who they are**.
 
 
-      <a href="src/assets/img/A & AA WCAG 2.1 Accessibility Guidelines for Visual elements.docx.zip" target="_blank" class="mcc=button--primary"><span class="mcc-button__label">Download accessibility guidelines for visual elements</span></a>
+      <a href="/assets/img/A & AA WCAG 2.1 Accessibility Guidelines for Visual elements.docx.zip" target="_blank" class="mcc=button--primary"><span class="mcc-button__label">Download accessibility guidelines for visual elements</span></a>
 
 
-      <a href="src/assets/img/A & AA WCAG 2.1 Accessibility Guidelines for Visual elements.docx.zip" target="_blank" class="mcc=button--primary"><span class="mcc-button__label">Download accessibility guidelines for code elements</span></a>
+      <a href="/assets/img/A & AA WCAG 2.1 Accessibility Guidelines for Visual elements.docx.zip" target="_blank" class="mcc=button--primary"><span class="mcc-button__label">Download accessibility guidelines for code elements</span></a>
   - title: Keyboards
     body: "For many users, keyboard navigation is essential to their daily use of
       Advanced products. Some users are limited to keyboard-only navigation in
@@ -260,7 +260,7 @@ tabs:
 
       * Use our recommended tooling [WAVE](https://wave.webaim.org/) to assess how compliant your product is.
 
-      * Download and fill out our <a href="src/assets/img/Accessibility statement - Template.docx.zip" target="_blank" class="mcc=button--primary"><span class="mcc-button__label">Accessibility Statement Template</span></a> ready to be displayed on your site.
+      * Download and fill out our <a href="/assets/img/Accessibility statement - Template.docx.zip" target="_blank" class="mcc=button--primary"><span class="mcc-button__label">Accessibility Statement Template</span></a> ready to be displayed on your site.
 
       * Display your accessibility statement on your product in a way where it can be accessed from every page on the site (similar to a privacy policy).
   - title: Pendo
