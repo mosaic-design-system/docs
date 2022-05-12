@@ -65,6 +65,12 @@ tabs:
       Accessible design doesn't just offer a better experience to users with accessibility considerations; a truly good user experience is fully inclusive for everyone **no matter who they are**.
 
 
+      - - -
+
+
+      ## Guidelines
+
+
       <a href="/assets/img/A & AA WCAG 2.1 Accessibility Guidelines for Visual elements.docx.zip" target="_blank" class="mcc=button--primary"><span class="mcc-button__label">Download accessibility guidelines for visual elements</span></a>
 
 
@@ -189,9 +195,6 @@ tabs:
       If you aren’t following the guidelines, or aren’t working towards it, you could be taken to court for disability discrimination, no matter where the users are based. It does not matter where the product is **based**, it matters where it is **used**.
 
       Please make sure that you complete an accessibility statement (see below) to show the customer and the users that you are working towards fully adhering to the WCAG AA 2.1 guidelines, or indeed that you already have done so.  
-
-
-      Applications that take Accessibility into account are quoted as being 35% more usable in their own right, even for those who would not consider themselves to have accessibility requirements. If you are struggling with efficiency and user experience with your application, improving your accessibility is a great place to start.
 
 
       ## Accessibility Statement
