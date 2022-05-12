@@ -70,6 +70,10 @@ tabs:
       using the Icons8 icon library
 
 
+      •\tTiles should be used with caution of risk of overusing, an easy
+      to use navigation system is better for the user than too many tiles.
+
+
       ### Tile labels
 
 
