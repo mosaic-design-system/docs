@@ -63,7 +63,7 @@ tabs:
 
       | -------- | ----------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------ | ------------------------------------------------------------------------ |
 
-      | Success  | Indicates actions were completed successfully. The Success colour is green.                                                   | Does not require user interaction, but persists until the user dismisses | The user finishes a work flow successfully                               |
+      | Success  | Indicates the card is display positive data or has been selected. The Success colour is green.                                | Does not require user interaction, but persists until the user dismisses | The user adds a card to a selection. Or the                              |
 
       | Danger   | Indicates errors and, optionally, prevents users from proceeding until the issue has been resolved. The Danger colour is red. | Always persists until the user dismisses or resolves the issue           | The user inputs an invalid configuration for a record                    |
 
