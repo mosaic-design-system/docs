@@ -12,13 +12,13 @@ tabs:
       ## What is a List Group
 
 
-      List groups are a flexible and powerful component for displaying a series of content. Modify and extend them to support just about any content within.
+      **List groups** are a flexible component that can display a series of content. They can be modified and extended to support just about any content within.
 
 
       ### When and why
 
 
-      When you have an ordered or unordered list of elements to display in your application this could be a list of items in a list group.
+      When you have an ordered or unordered list of elements to display in your application, a **List group** can be used to display them.
 
 
       - - -
@@ -27,26 +27,26 @@ tabs:
       ## List Group Types
 
 
-      The following types of List Group are available. These are our default configurations for list items and should be used as designed, unless you need more content. If additional content is needed refer to Using a List Group below.
+      The following types of **List Group are available**. These are our default configurations for list items and should be used as designed, unless you need more content. If additional content is needed, please refer to Using a List Group below.
 
 
       | **Type**      | **Description**                                                                                                                                                                            |
 
       | ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 
-      | default       | a simple list of text items                                                                                                                                                                |
+      | Default       | A simple list of text items                                                                                                                                                                |
 
-      | with selector | Selectors can be applied to allow the user to select one of more items and perform actions against them.                                                                                   |
+      | With selector | Selectors can be applied to allow the user to select one or more items and perform actions against them.                                                                                   |
 
-      | with icon     | Icons can be applied to support the content of the list item but should not be used in conjunction with buttons or chips on the right - this will add too much cognitive load to the page. |
+      | With icon     | Icons can be added to support the content of the list item, but should not be used in conjunction with buttons or chips on the right - this will add too much cognitive load to the page |
 
-      | with chip     | Chips can be used to signify status, content type, dates, etc.                                                                                                                             |
+      | With chip     | Chips can be used to signify status, content type, dates, etc.                                                                                                                             |
 
-      | with button   | Buttons can be used to perform actions in relation to the list item, this could be a anchor style link                                                                                     |
+      | With button   | Buttons can be used to perform actions in relation to the list item                                                                                   |
 
-      | with filter   | adds a filter to the list                                                                                                                                                                  |
+      | With filter   | This adds a filter to the list                                                                                                                                                                  |
 
-      | as flush      | removes the boarder and padding around the list                                                                                                                                            |
+      | As flush      | This removes the boarder and padding around the list                                                                                                                                            |
 
 
       - - -
@@ -55,28 +55,28 @@ tabs:
       ## Using a List Group
 
 
-      ### List item content
+      ### Building list content
 
 
-      If one of the default types doesn't allow enough information to be presented, start off with a default type and build on it so that you keep consistency with other List Groups. Each list item should only contain just enough information for the user to get what they need.  This keeps the items simpler and therefore more scannable making the user able to find what they need.
+      If one of the default types doesn't allow enough information to be presented, start off with a default type and build on it so that you keep consistency with other **List Groups**. Each list item should only contain just enough information for the user to get what they need.  This keeps the items simpler and helps the user find what they need.
 
 
       ### Filter
 
 
-      A filter can be added to the top of the List Group when the list gets large to allow the user to find the information they are interested in.  If pagination is being used to limit the number of list items returned, the filter should search the whole list available to the user, not just the items cached locally. 
+      A filter can be added to the top of the **List Group** if the list is large to help the user to find the information they are interested in.  If pagination is being used to limit the number of list items returned, the filter should search the whole list available to the user, not just the items on their current page. 
 
 
       ### Flush
 
 
-      Flush list groups have no border or padding.  Use this style of List Group when there is already a form of grouping around the List Group, for example you might be putting a List Group on a Card and therefore the Card is the container. 
+      Flush **List groups** have no border or padding.  Use this style of **List group** when there is already a form of grouping around the **List Group**. As an example, you might be putting a **List Group** on a **Card** and therefore the **Card** is the container. 
 
 
       ### Pagination
 
 
-      Pagination can be used with a List Group.  This could be for performance reasons or to help the user understand the size of the list and navigate around it.   To understand what type of pagination to use, see the [Pagination component page](pagination).
+      Pagination can be used with a **List Group**.  This could be for performance reasons, or to help the user understand the size of the list and navigate around it.   To understand what type of pagination to use, see the [Pagination component page](/component/pagination).
     icon: file_invoice
   - title: Code
     hook: code
