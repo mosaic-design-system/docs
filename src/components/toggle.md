@@ -39,13 +39,9 @@ tabs:
 
       | **Default**                       | The default **Toggle** has is a standard looking **Toggle** that is grey when toggled 'off' and green when toggled 'on'.   |
 
-      | **With on/off**\
+      | **With on/off**|  The same as the default toggle but with labels for when it is toggled 'on' and 'off'.| 
 
-      \
-
-      **With label** | The same as the default toggle but with labels for when it is toggled 'on' and 'off'.\
-
-      A label to the right hand side. |
+      **With label** |A label to the right hand side. |
 
 
       \[[Code up some examples here]]
