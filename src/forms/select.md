@@ -26,13 +26,13 @@ tabs:
       - - -
 
 
-      ## Select Types
+      ## Select types
 
 
       ### Types
 
 
-      | **Type**       | **Description**                                                  | **Example** |
+      | **Type**       | **Description**                                                  |
 
       | ----------------- | ---------------------------------------------------------------- |
 
