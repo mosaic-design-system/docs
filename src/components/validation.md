@@ -43,11 +43,11 @@ tabs:
 
       | -------------------------------------------- | -------------------------------------------------------------------------- |
 
-      | **Form with red asterisk**                   | Shows that form is mandatory and has validation applied to it.             |
+      | **Form with red asterisk**                   | Shows that form is mandatory and has Validation applied to it.             |
 
       | **Form with help text below**                | Shows the user what form criteria they will have to complete to continue.  |
 
-      | **Form with red highlight**                  | Shows the user which forms have failed **Validation**.                     |
+      | **Form with red highlight**                  | Shows the user which forms have failed Validation.                         |
 
       | **Generic page error**                       | Generic page errors will show if the data can't be submitted and why.      |
 
