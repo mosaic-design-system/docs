@@ -11,6 +11,9 @@ tabs:
       ## What is a Card
 
 
+      *<a href="[http://example.com/"](http://example.com/%22 "http\://example.com/%22") target="_blank">Hello, world! <mcc-icon class="mcc-icon--primary" name="home" icon-set="" width="24" height="24"></mcc-icon></a>*
+
+
       Cards form the backbone of all content areas. They should surround and group your content into meaningful 'boxes' of functionality, and can be used alongside columns and rows to lay out your application in a variety of ways.
 
 
@@ -32,25 +35,25 @@ tabs:
       ## Card types
 
 
-      | **Variant**           | **description**                                                                                                                                                                |
+      | **Variant**           | **description**                                                                                                                                                                                |
 
-      | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+      | --------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
-      | Non-interactable      | General white card to display or capture content                                                                                                                               |
+      | Non-interactable      | General white Card to display or capture content, used for a lot of things!                                                                                                                    |
 
-      | Interactable          | A card that a user can click to interact with it                                                                                                                               |
+      | Interactable          | A Card that a user can click to interact with, for example to select or act as a button to perform an action/navigation.                                                                       |
 
-      | Interactable active   | The active state of an interactable card                                                                                                                                       |
+      | Interactable active   | The active state of an interactable Card (while clicking)                                                                                                                                      |
 
-      | Grouping              | Grey card to group components together to indicate their relationship to each other.                                                                                           |
+      | Grouping              | A grey Card to group components together to indicate their relationship to each other.                                                                                                         |
 
-      | Selected              | For when a card is selected, user might click the whole card or a checkbox on the card to select it as part of a workflow                                                      |
+      | Selected              | To show a Card is selected, user might click the whole card or a checkbox on the card to select it as part of a workflow.                                                                      |
 
-      | Selected active       | Active state of a selected card                                                                                                                                                |
+      | Selected active       | Active state of a selected card - when the card is clicked to be selected or the card is being dragged.                                                                                        |
 
-      | Selected with context | A contextual colour border and tick to indicated meaning of selection.  This could be to indicate that items are going to be removed or added.                                 |
+      | Selected with context | A contextual colour border and tick to indicated meaning of selection.  This could be to indicate that items are going to be removed or added.                                                 |
 
-      | Contextual            | Styled to indicate the context of the card.  This should be used to represent the contents of the card.  Eg danger context card could be used to show information about issues |
+      | Contextual            | Styled to indicate the context of the Card.  This should be used to represent the contents of the Card.  Eg a danger context Card could be used to show information about issues in the system |
 
 
       ## Card contexts
@@ -59,17 +62,17 @@ tabs:
       Context helps convey the information being communicated. **Card** contexts correspond to a colour to provide a consistent experience for users. For more information, refer to the [Colours](/guidelines/colours) guidelines.
 
 
-      | **Name** | **Description**                                                                                                               | **Behaviour**                                                            | **Examples**                                                             |
+      | **Name** | **Description**                                                                                                               | **Examples**                                                                                          |
 
-      | -------- | ----------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------ | ------------------------------------------------------------------------ |
+      | -------- | ----------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
 
-      | Success  | Indicates the card is display positive data or has been selected. The Success colour is green.                                | Does not require user interaction, but persists until the user dismisses | The user adds a card to a selection. Or the                              |
+      | Success  | Indicates a Card with positive information or selected for a positive action. The Success colour is green.                    | To highlight target that have been met. The user selects a Card(s) to be added as part of an action.  |
 
-      | Danger   | Indicates errors and, optionally, prevents users from proceeding until the issue has been resolved. The Danger colour is red. | Always persists until the user dismisses or resolves the issue           | The user inputs an invalid configuration for a record                    |
+      | Danger   | Indicates errors and, optionally, prevents users from proceeding until the issue has been resolved. The Danger colour is red. | The user inputs an invalid configuration for a record                                                 |
 
-      | Warning  | Indicates that actions are not desirable or might have unexpected results. The Warning colour is yellow.                      | Persists until the user dismisses or continues regardless                | The user enters a record that will overwrite another non-critical record |
+      | Warning  | Indicates that actions are not desirable or might have unexpected results. The Warning colour is yellow.                      | The user enters a record that will overwrite another non-critical record                              |
 
-      | Info     | Indicates neutral or advisory information that may not be related to the current action. The info colour is teal.             | Does not require user interaction, but persists until user dismisses     | A dialog that gives a tip to the user about another related feature      |
+      | Info     | Indicates neutral or advisory information that may not be related to the current action. The info colour is teal.             | A dialog that gives a tip to the user about another related feature                                   |
 
 
       - - -
