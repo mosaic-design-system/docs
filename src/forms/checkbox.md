@@ -11,7 +11,7 @@ tabs:
       ## What is a Checkbox?
 
 
-      A Checkbox is a visual component that indicates if something is selected or not.
+      A **Checkbox** is a visual component that indicates if something is selected or not.
 
 
       - - -
