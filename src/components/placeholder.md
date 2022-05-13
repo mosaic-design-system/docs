@@ -11,7 +11,7 @@ tabs:
       ## What is a Placeholder?
 
 
-      **Placeholders** are indicators of how the page content will look once data has fully loaded - they give a quick preview of what the page will end up looking like, but without details. 
+      **Placeholders** are indicators of how the page content will look once data has fully loaded - they give a quick preview of what the page will end up looking like, but without specific details. You can think of them like small loading screens for each individual component.
 
 
       They only appear while a page is loading, and are **not** permanent stand-ins for pages that aren't ready for the user to use.
@@ -43,7 +43,7 @@ tabs:
 
       | **Image**           | This should be used when you are loading imagery  |
 
-      | **Image with text** | This can be used to show a mix of text ad imagery |
+      | **Image with text** | This can be used to show a mix of text and imagery |
 
 
       - - -
