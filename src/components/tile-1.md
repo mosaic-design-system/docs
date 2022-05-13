@@ -29,7 +29,7 @@ tabs:
       - - -
 
 
-      ## Types of Tile
+      ## Tile types
 
 
       There are two types of **Tile** available for use:\ 
