@@ -36,24 +36,22 @@ tabs:
       ## Validation types
 
 
-      All variations allow you to include a subheading
+      The following **Validation types are available, all of which allow you to include a subheading:
 
 
       | **Variant**                              | **Description**                                                           |
 
       | ---------------------------------------- | ------------------------------------------------------------------------- |
 
-      | \*\*Form with red asterisk               | Shows that form is mandatory and has Validation applied to it.            |
+      | Form with red asterisk               | Shows that the form is mandatory and has Validation applied to it            |
 
-      | Form with help text below                | Shows the user what form criteria they will have to complete to continue. |
+      | Form with help text below                | Shows the user what form criteria they will have to complete to continue |
 
       | Form with red highlight                  | Shows the user which forms have failed Validation.                        |
 
-      | Generic page error                       | Generic page errors will show if the data can't be submitted and why.     |
+      | Generic page error                       | Generic page errors will show if the data can't be submitted and why     |
 
-      | Validation in sheet and/or applet footer | Shows validation within that sheet/applet before submitting information.  |
-
-
+      | Validation in sheet and/or applet footer | Shows validation within that sheet/applet before submitting information |
 
 
       - - -
@@ -62,7 +60,7 @@ tabs:
       ## Using Validation
 
 
-      Where necessary, show valid text is most useful for fields that require special inputs such as a password field.  Most other times you would not show valid text.
+      ### Text validation
 
 
       Invalid text is **essential** for form fields as it helps the user to understand if something isn't right and gives them the opportunity to correct it.
@@ -71,14 +69,29 @@ tabs:
       Where possible, you must show **Validation** (invalid) as soon as the user has completed an input so that they can correct as they go.
 
 
+      Where necessary, showing the valid text is the most useful for fields that require special inputs, such as a password field.  Most other times you would not show valid text.
+
+
+
+      ### Help text
+
+
       Help text should be considered part of your **Validation**. Giving help text below an input can provide useful additional information about what a field expects the user to enter. This type of information should be given as early as possible in the process. For example, if an input requires specific characters or length to be entered.
 
 
       The required or optional **Validation** should be considered part of your **Validation**.  If the majority of fields on the form are required (mandatory) then it is better to just show the optional ones. Similarly, if the majority of fields are optional, just show the required ones.
     icon: file_invoice
   - title: Code
-    hook: code
+    hook: ""
     icon: source_code
+    body: >-
+      ### Uh-oh! Looks like we haven't finished building this page yet.
+
+
+      Come back soon, and we'll have more exciting content to share.
+
+
+      ![Drawing of a person building a progress bar with blocks.](/assets/img/downloading.svg "Just a few more pieces to go before it is ready...")
   - title: Accessibility
     body: ""
     icon: web_accessibility_1
