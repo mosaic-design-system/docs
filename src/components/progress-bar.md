@@ -19,12 +19,15 @@ tabs:
 
       ### When, and why?\r
 
-      A **Progress indicator** can be used when the process is more than
-      10 seconds and the system can estimate the completion of an operation. Use
-      of a **Progress indicator** gives a visual expectation of wait time, which
-      will encourage the user to stay until the process has finished.\r
+      A **Progress indicator** should be used when the process will
+      typically take more than 10 seconds, and some types can tell the user the
+      estimated time until completion of an operation. Use of a **Progress
+      indicator** gives a visual expectation of wait time, which will encourage
+      the user to stay until the process has finished, or simply reassure the
+      user that something is happening and the system hasn't frozen.\r
 
       \r
+
 
       Good examples of where they would be helpful are when the user is
       submitting a large form, uploading a file or saving updates to the system
@@ -92,10 +95,10 @@ tabs:
       **Progress** indicators are a great way to visually inform your
       users the system is processing an operation and if possible how long it
       will take to complete. However, you should use **Progress indicators**
-      sparingly, and only when an operation takes over 10 seconds. Overuse will
-      make it seem like the application is slow and constantly requires the user
-      to wait. For actions that take less than 10 seconds, consider using the
-      [**Spinner**(/components/spinner) component."
+      sparingly, and only when an operation is likely to take over 10 seconds.
+      Overuse will make it seem like the application is slow and constantly
+      requires the user to wait. For actions that take less than 10 seconds,
+      consider using the [**Spinner**(/components/spinner) component."
     icon: file_invoice
   - title: Code
     hook: code
