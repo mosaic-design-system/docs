@@ -27,7 +27,7 @@ tabs:
       A **Treeview** can be used for large sets of data which can be
       categorised into two or more levels, like a folder structure on a PC. For
       example, in Windows Explorer a file inside a folder would be on the second
-      level of hierarchy, but a subsequent folder withi that second level would
+      level of hierarchy, but a subsequent folder within that second level would
       contain the data in the third level of hierarchy. This should be familiar
       to most users, as it is a method used across many different devices and
       provides a logical structure.\ 
@@ -77,7 +77,7 @@ tabs:
 
       You should ensure that the **Treeview** can be expanded to reveal
       the sub-items in the tree. When a level is expanded, then that level
-      should be indeted to make it visually clear to the user that it is a
+      should be indented to make it visually clear to the user that it is a
       separate level to the one above it.\ 
 
 
