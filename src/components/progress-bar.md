@@ -73,15 +73,15 @@ tabs:
       the operation will take |\r
 
       | **With percentage and estimated time** (Determinate) | Use this
-      when the system estimate how long it will take until completion and track
-      operation progress      |\r
+      when the system can estimate how long it will take until completion and
+      track operation progress      |\r
 
       | **With label** (Indeterminate)                       | Use this
       when the system cannot track
       progression                                                          |\r
 
       | **Bar only** (Indeterminate & determinate)           | Only use
-      when the other elements on the screen to information the user what
+      when there are other elements on the screen to inform the user what
       operation/task is underway     |\r
 
       - - -\r
