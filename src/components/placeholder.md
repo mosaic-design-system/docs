@@ -52,7 +52,7 @@ tabs:
       ## Using a Placeholder
 
 
-      Only apply a Placeholder to your loading screen if the average load time is longer than 0.3seconds. Consider using a Placeholder when the page has more than 1 item to load at a time. When using a Placeholder you should start displaying the data as it loads, rather than waiting for the all the data to load.
+      Only apply a Placeholder to your loading screen if the average load time is longer than 0.3seconds. Consider using a Placeholder when the page has more than 1 item to load at a time. Placeholders should be replaced with content as soon as it's available for loading, rather than waiting until all content is available and showing everything at once. This will make pages look like they're loading faster.
 
 
       A Placeholder shouldn’t be used for long-running processes or background processes (e.g. importing data or exporting reports). Use a progress indicator \[link to progress indicator] for this instead.
