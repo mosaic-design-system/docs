@@ -9,7 +9,7 @@ Product branding is used to ensure a clear identity that represents our core val
 
 This is simplified by our mission statement – “Making a Difference” – and that is at the core of the Mosaic philosophy. It is about making a difference, not only for our product teams, but by delivering changes to the overall product experience for the benefit of the end users of our products.
 
-You can view the extended brand guidelines on the \[Advanced Hub](link to the Hub). However, not all of these apply to Mosaic and our product interfaces, so the following sections explain the key points.
+You can view the extended brand guidelines on the [Advanced Hub](https://cloud.advancedhub.me/marketing/brand/SitePages/Home.aspx). However, not all of these apply to Mosaic and our product interfaces, so the following sections explain the key points.
 
 **Note**: You may need to log in to access the Advanced Hub.
 
