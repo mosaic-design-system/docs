@@ -92,7 +92,6 @@ tabs:
       The zebra striping should not be overridden within a **Table**, as it is there to help users scan and follow the **Table's** content easier - it is also helpful in maintaiing accessibility standards of your product. 
 
 
-      \[[Could you take another look at this paragraph, Zoe?]]
 
 
       ### Selectors and Pagination 
