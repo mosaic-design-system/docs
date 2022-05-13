@@ -12,7 +12,7 @@ tabs:
       ## What is a Table?
 
 
-      A **Table** is a useful component for displaying and editing large amounts of data like, statistics, employee clock ins, holidays, etc in a more customised yet organised way.
+      A **Table** is a useful component for displaying and editing large amounts of data like statistics, employee clock ins, holidays, etc. Data displayed within a table is both organised and customisable.
 
 
       **Tables** consist of logical rows and columns to help users easily find and reference sections of data.
@@ -24,10 +24,10 @@ tabs:
       ### When, and why?
 
 
-      A **Table** is useful when you have tabular data to display such as data charts. **Tables** can help users easily digest large amounts of data. It can be especially useful when a user might need to edit this data or find a specific piece easily.
+      A **Table** is useful when you have tabular data to display, such as data charts. **Tables** can help users easily digest large amounts of data, and can be especially useful when a user might need to edit this data or find a specific piece easily.
 
 
-      For example, in Cloud HR, **Tables** are used to show a list of how many holidays you have booked and when they are. You can then perform a series of actions on each of these specific rows.
+      For example, in Advanced HR, **Tables** are used to show a list of how many holidays you have booked and when they are. You can then perform a series of actions on each of these specific rows.
 
 
       Please be mindful that **Tables** should make data and information easier to digest information, not harder.
@@ -36,27 +36,27 @@ tabs:
       - - -
 
 
-      ## Table Types
+      ## Table types
 
 
-      All variations allow you to include a subheading
+      The following types of **Table** are available- each type of **Table** also allows you to include a subheading:
 
 
-      | Variant                   | Description                                                                                                                                                                   |
+      | Type                  | Description                                                                                                                                                                   |
 
       | ------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
-      | **Default**               | The default **Table** has an overflow button to enable actions to be performed on a specific selected row.                                                                    |
+      | **Default**               | The default Table has an overflow button to enable actions to be performed on a specific selected row                                                                    |
 
-      | **With chips**            | Chips can be included within the cells of a **Table** to help with quick references, breaking up repetitive information and/or quickly show positive, negative, etc statuses. |
+      | **With chips**            | Chips can be included within the cells of a Table to help with quick references, break up repetitive information and/or quickly show different statuses of the date (e.g. positive or negative) |
 
-      | **With editable cell**    | An editable cell in a **Table** allowing users to edit the data within a specific cell.                                                                                       |
+      | **With editable cell**    | An editable cell in a Table allows users to edit the data within a specific cell                                                                                       |
 
-      | **With reordered header** | There are icons within the header to allow the user to reorder the content of that specific column either alphabetically or numerically, depending on the content.            |
+      | **With reordered header** | There are icons within the header to allow the user to reorder the content of that specific column either alphabetically or numerically, depending on the content            |
 
-      | **With Selector**         | **Selectors** in **Tables** are there to help with selecting rows, in order to edit/delete etc or highlight specific cells for visibility purposes.                           |
+      | **With Selector**         | [Selectors}(/component/selector) in Tables are there to help with selecting rows, in order to interact with specific cells - the Selector highlights the desired cells and helps the user visualise the impact of their actions                          |
 
-      | **Nested tables**         | Each **Table** row can be expanded to show additional information.                                                                                                            |
+      | **Nested tables**         | Each Table row can be expanded to show additional information                                                                                                            |
 
 
       \[[Code up some examples here]]
@@ -68,23 +68,32 @@ tabs:
       ## Using a Table
 
 
-      **Tables** should be used for data, not long sentences of text.
+      ### Table data
+
+      First, and most importantly, **Tables** should only be used for data. Data can contain words, but long sentences of text within a table should be avoided. 
 
 
-      Selectors must be used in conjunction with the **Table** header component. Where using pagination, it should be used with the **Table** footer component. Both of these components fall under the **Table** pattern and documentation for this pattern is coming soon.
+      If you do need to use long text (for example when the text itself is a piece of data, like a reason for an absence when an employee has booked holiday), the text should be truncated in order to give the user an overview of the information. However, a [**Tooltip**](/components/tooltip/) should be used to reveal all of the information within that particular cell.
 
 
-      **Tables** should not have vertical scroll bars, pagination should be used instead as part of the footer **Table** pattern. **Tables** should not have more than 13 rows before using pagination.\
+      ### Table sizing
 
-      \
-
-      The zebra striping should not be overridden as it is there to help users scan and follow the **Table's** content easier as well as increasing accessibility. 
+      **Tables** should not have so many rows that they need a vertical scroll bar - pagination should be used instead as part of the footer **Table** pattern. **Tables** should have at least 13 rows before using pagination.
 
 
-      Long text should be truncated in order to give the user an overview of the information. However a [Tooltip](https://stupendous-dango-108acc.netlify.app/components/tooltip/) should be implemented to reveal all of the information within that particular cell.
+      Similarly, we recommend 6 columns maximum within the **Table** -  some products may need more, but it may be worth reviewing the product's information architecture when creating **Tables** to ensure that all columns are necessary for the user experience.
 
 
-      We recommend 6 columns maximum within the **Table**, we appreciate some products may need more, however we advise that the product's information architecture should be reviewed when creating **Tables** to ensure that all columns are necessary for the user experience.
+      ### Zebra striping
+
+      The zebra striping should not be overridden within a **Table**, as it is there to help users scan and follow the **Table's** content easier - it is also helpful in maintaiing accessibility standards of your product. 
+
+
+      [[Could you take another look at this paragraph, Zoe?]]
+
+      ### Selectors
+
+      **Selectors** must be used in conjunction with the **Table** header component. Where using pagination, it should be used with the **Table** footer component. Both of these components fall under the [**Table pattern**](patterns/table).
     icon: file_invoice
   - title: Code
     hook: code
