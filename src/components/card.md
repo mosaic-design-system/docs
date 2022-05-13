@@ -14,7 +14,7 @@ tabs:
       <a href="http://example.com/" target="_blank">Attempt 1 16px icon <mcc-icon class="mcc-icon--primary" name="external_link" icon-set="fluency-outline" width="16" height="16"></mcc-icon></a>
 
 
-      I’m an <button class="mcc-button mcc-button--anchor mcc-button--flush"><span class="mcc-button__label">anchor button</span> <mcc-icon name="external_link" icon-set="fluency-outline" aria-hidden="true"></mcc-icon></button> Some more text
+      I’m an <button class="mcc-button mcc-button--anchor mcc-button--flush"><span class="mcc-button__label">anchor button</span> <mcc-icon name="external_link" icon-set="fluency-outline" aria-hidden="true" width="20" height="20"></mcc-icon></button> Some more text
 
 
       <a href="http://example.com/" target="_blank" class="mu-d-inline-flex mu-d-flex mu-align-items-center">Attempt 20px icon <mcc-icon class="mcc-icon--primary" name="external_link" icon-set="fluency-outline" width="20" height="20"></mcc-icon></a>
