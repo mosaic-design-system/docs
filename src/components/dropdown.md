@@ -18,13 +18,13 @@ tabs:
       ### When, and why?
 
 
-      **Dropdowns** are most commonly used with a **Button**, but can be triggered from other components. When the triggering component is selected, an overlay (often a [**Card**](/components/card)) will be shown with a list of items. Usually, these items navigate to another area of the application, or perform an action in context to the current page. Very common examples of **Dropdowns** are overflow menus. 
+      **Dropdowns** are most commonly used with a **Button**, but can be triggered from other components. When the triggering component is selected, an overlay (often a **[Card](/components/card)**) will be shown with a list of items. Usually, these items navigate to another area of the application, or perform an action in context to the current page. Very common examples of **Dropdowns** are overflow menus. 
 
 
       #### Dropdown or a Select?
 
 
-      **Dropdowns** and [**Select**](/forms/select) components can appear to be very similar, and sometimes it is hard to chose the appropriate one. As a general rule of thumb, the component triggering the **Dropdown** doesn't change when an item is selected, e.g. if the trigger is a **Button**, then **Button's** label should not change. On the other hand, if you want the selection to be shown when the overlay is hidden, then you should use the Select component. 
+      **Dropdowns** and **[Select](/forms/select)** components can appear to be very similar, and sometimes it is hard to chose the appropriate one. As a general rule of thumb, the component triggering the **Dropdown** doesn't change when an item is selected, e.g. if the trigger is a **Button**, then **Button's** label should not change. On the other hand, if you want the selection to be shown when the overlay is hidden, then you should use the Select component. 
 
 
       [Read more on the **Select** page](/forms/select/)
@@ -36,7 +36,7 @@ tabs:
       ## Dropdown types
 
 
-      The following **Dropdown** types are available. First, there are two types of **Dropdown** for alignment, and then you can choose a different type for each line items within the **Dropdown** overlay:
+      The following **Dropdown** types are available. First, there are two types of **Dropdown** for alignment, and then you can choose a different type for each line item within the **Dropdown** overlay:
 
 
       ### Dropdown positioning
@@ -65,7 +65,7 @@ tabs:
 
       | Header    | Used to split the line items in to groups with heading text                                         |
 
-      | Divider   | Used to split the line items in to groups but where a header description is not needed    |
+      | Divider   | Used to split the line items in to groups but where a header description is not needed              |
 
       | With icon | Adds an icon inline with the text to help identify it, these can be on left or right but never both |
 
@@ -91,7 +91,7 @@ tabs:
       ### Dropdown line items
 
 
-      Even though line items can have any content to best meet their needs, they should stick to the types outlined here.  If there is a use case to differ then speak to your UX Designer first. 
+      Even though line items can have any content to best meet their needs, they should stick to the types outlined here.  If there is a use case that differs, then speak to your UX Designer first. 
 
 
       Each line item should be short and concise, limited to a single line of text. If necessary, two lines and an ellipsis can be used for longer line items that do not need the whole text - for example, a "recent documents" **Dropdown** could truncate the document names if they are excessively long.
