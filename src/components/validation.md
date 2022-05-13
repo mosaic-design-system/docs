@@ -39,19 +39,19 @@ tabs:
       All variations allow you to include a subheading
 
 
-      | Variant           | Description                                                                                                                                                                              |
+      | Variant                               | Description                                                                |
 
-      | ----------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+      | ------------------------------------- | -------------------------------------------------------------------------- |
 
-      | **Default**       | The default **Accordion** has no actions on it, and simply expands and collapses content.                                                                                                |
+      | **Form with red asterisk**            | Shows that form is mandatory and has validation applied to it.             |
 
-      | **With chip**     | Chips in the header of an **Accordion** can be used to signify status, content type, dates, etc.                                                                                         |
+      | **Form with help text below**         | Shows the user what form criteria they will have to complete to continue.  |
 
-      | **With edit**     | An edit button on an **Accordion** allows the user to enter an edit state.                                                                                                               |
+      | **Form with red highlight**           | Shows the user which forms have failed **Validation**.                     |
 
-      | **With overflow** | Used when there a specific actions linked to each accordion                                                                                                                              |
+      | **Generic page error**                | Generic page errors will show if the data can't be submitted and why.      |
 
-      | **With icon**     | Icons can be applied to support the content of the heading but should not be used in conjunction with buttons or chips on the right - this will add too much cognitive load to the page. |
+      | **Validation in sheet/applet footer** | Shows validation on that functionality.                                    |
 
 
       \[[Code up some examples here]]
