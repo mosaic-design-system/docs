@@ -45,10 +45,6 @@ tabs:
 
       **With label** | The same as the default toggle but with labels for when it is toggled 'on' and 'off'.\
 
-      \
-
-      \
-
       A label to the right hand side. |
 
 
