@@ -63,8 +63,16 @@ tabs:
       **Toggles** should not be used for yes or no responses - they should only be used for turning things on or off. If you want a yes or no response, you should consider something like a [**Select**](/forms/selector) or [**Radio button**]
     icon: file_invoice
   - title: Code
-    hook: code
+    hook: ""
     icon: source_code
+    body: >-
+      ## Uh-oh! Looks like we haven't finished building this page yet.
+
+
+      Come back soon, and we'll have more exciting content to share.
+
+
+      ![Drawing of a person building a progress bar with blocks.](/assets/img/downloading.svg "Just a few more pieces to go before it is ready...")
   - title: Accessibility
     body: ""
     icon: web_accessibility_1
@@ -74,10 +82,13 @@ tabs:
 code:
   example: <button class="mcc-button">Button text</button>
   body: >-
-    ## Live demo
+    ## Uh-oh! Looks like we haven't finished building this page yet.
 
 
-    Below, you can find a live demo for an Accordion component. Use the drop-down menus and radio buttons to view the different Button Types and Variants.
+    Come back soon, and we'll have more exciting content to share.
+
+
+    ![Drawing of a person building a progress bar with blocks.](/assets/img/downloading.svg "Just a few more pieces to go before it is ready...")
   preview:
     variants:
       - template:
