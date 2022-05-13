@@ -14,6 +14,9 @@ tabs:
       <a href="http://example.com/" target="_blank">Hello, world! <mcc-icon class="mcc-icon--primary" name="external_link" icon-set="" width="24" height="24"></mcc-icon></a>
 
 
+      I’m an <button class="mcc-button mcc-button--anchor mcc-button--flush"><span class="mcc-button__label">anchor button</span> <mcc-icon name="external_link" aria-hidden="true"></mcc-icon></button> Some more text
+
+
       Cards form the backbone of all content areas. They should surround and group your content into meaningful 'boxes' of functionality, and can be used alongside columns and rows to lay out your application in a variety of ways.
 
 
