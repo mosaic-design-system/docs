@@ -1,5 +1,5 @@
 ---
-title: Input
+title: Text input
 toc: true
 chips:
   - "HTML/CSS: Available"
