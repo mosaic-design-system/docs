@@ -69,13 +69,13 @@ tabs:
       Invalid text is **essential** for form fields as it helps the user to understand if something isn't right and gives them the opportunity to correct it.
 
 
-      Where possible, you must show validation (invalid) as soon as the user has completed an input so that they can correct as they go.
+      Where possible, you must show **Validation** (invalid) as soon as the user has completed an input so that they can correct as they go.
 
 
-      Help text should be considered part of your validation. Giving help text below an input can provide useful additional information about what a field expects the user to enter. This type of information should be given as early as possible in the process. For example, if an input requires specific characters or length to be entered.
+      Help text should be considered part of your **Validation**. Giving help text below an input can provide useful additional information about what a field expects the user to enter. This type of information should be given as early as possible in the process. For example, if an input requires specific characters or length to be entered.
 
 
-      The required or optional validation should be considered part of your validation.  If the majority of fields on the form are required (mandatory) then it is better to just show the optional ones. Similarly, if the majority of fields are optional, just show the required ones.
+      The required or optional **Validation** should be considered part of your **Validation**.  If the majority of fields on the form are required (mandatory) then it is better to just show the optional ones. Similarly, if the majority of fields are optional, just show the required ones.
     icon: file_invoice
   - title: Code
     hook: code
