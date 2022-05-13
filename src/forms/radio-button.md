@@ -43,6 +43,7 @@ tabs:
 
       | Radio choice button visual | This similar to the radio choice button, however there is an icon positioned to the left-hand side and the Radio button itself is aligned to the right hand side.  This should only be used where the icon helps the user to make a selection |
 
+      | Segmented control| A segmented control is a group of buttons wrapped in a single container. The buttons are separated by dividers with only one option from the segmented control being able to be selected at a time. These could be used for example to toggle between multiple different views|
 
       - - -
 
