@@ -72,14 +72,17 @@ tabs:
 
       ## Using an progress indicator\r
 
-      Progress indicators are a great way to visually inform your users
-      the system is processing an operation and if possible how long it will
-      take to complete.\\\r
+      **Progress** indicators are a great way to visually inform your
+      users the system is processing an operation and if possible how long it
+      will take to complete.\\\r
 
       Use progress bars sparingly, only when an operation takes over
       10seconds. Over use will make it seem like the application is slow and
       constantly requires the user to wait. For actions that take less than
-      10seconds consider using the spinner component.\r
+      10seconds consider using the spinner component.
+
+
+      \r
 
       Progress indicators are suitable for operations such as, submitting
       a form, uploading a file or saving updates to the system settings"
