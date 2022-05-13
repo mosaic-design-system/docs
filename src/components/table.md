@@ -42,21 +42,21 @@ tabs:
       The following types of **Table** are available- each type of **Table** also allows you to include a subheading:
 
 
-      | Type                  | Description                                                                                                                                                                   |
+      | Type                      | Description                                                                                                                                                                                                                     |
 
-      | ------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+      | ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
-      | **Default**               | The default Table has an overflow button to enable actions to be performed on a specific selected row                                                                    |
+      | **Default**               | The default Table has an overflow button to enable actions to be performed on a specific selected row                                                                                                                           |
 
-      | **With chips**            | Chips can be included within the cells of a Table to help with quick references, break up repetitive information and/or quickly show different statuses of the date (e.g. positive or negative) |
+      | **With chips**            | Chips can be included within the cells of a Table to help with quick references, break up repetitive information and/or quickly show different statuses of the date (e.g. positive or negative)                                 |
 
-      | **With editable cell**    | An editable cell in a Table allows users to edit the data within a specific cell                                                                                       |
+      | **With editable cell**    | An editable cell in a Table allows users to edit the data within a specific cell                                                                                                                                                |
 
-      | **With reordered header** | There are icons within the header to allow the user to reorder the content of that specific column either alphabetically or numerically, depending on the content            |
+      | **With reordered header** | There are icons within the header to allow the user to reorder the content of that specific column either alphabetically or numerically, depending on the content                                                               |
 
-      | **With Selector**         | [Selectors}(/component/selector) in Tables are there to help with selecting rows, in order to interact with specific cells - the Selector highlights the desired cells and helps the user visualise the impact of their actions                          |
+      | **With Selector**         | [Selectors}(/component/selector) in Tables are there to help with selecting rows, in order to interact with specific cells - the Selector highlights the desired cells and helps the user visualise the impact of their actions |
 
-      | **Nested tables**         | Each Table row can be expanded to show additional information                                                                                                            |
+      | **Nested tables**         | Each Table row can be expanded to show additional information                                                                                                                                                                   |
 
 
       \[[Code up some examples here]]
@@ -70,13 +70,15 @@ tabs:
 
       ### Table data
 
+
       First, and most importantly, **Tables** should only be used for data. Data can contain words, but long sentences of text within a table should be avoided. 
 
 
-      If you do need to use long text (for example when the text itself is a piece of data, like a reason for an absence when an employee has booked holiday), the text should be truncated in order to give the user an overview of the information. However, a [**Tooltip**](/components/tooltip/) should be used to reveal all of the information within that particular cell.
+      If you do need to use long text (for example when the text itself is a piece of data, like a reason for an absence when an employee has booked holiday), the text should be truncated in order to give the user an overview of the information. However, a **[Tooltip](/components/tooltip/)** should be used to reveal all of the information within that particular cell.
 
 
       ### Table sizing
+
 
       **Tables** should not have so many rows that they need a vertical scroll bar - pagination should be used instead as part of the footer **Table** pattern. **Tables** should have at least 13 rows before using pagination.
 
@@ -86,14 +88,17 @@ tabs:
 
       ### Zebra striping
 
+
       The zebra striping should not be overridden within a **Table**, as it is there to help users scan and follow the **Table's** content easier - it is also helpful in maintaiing accessibility standards of your product. 
 
 
-      [[Could you take another look at this paragraph, Zoe?]]
+      \[[Could you take another look at this paragraph, Zoe?]]
 
-      ### Selectors
 
-      **Selectors** must be used in conjunction with the **Table** header component. Where using pagination, it should be used with the **Table** footer component. Both of these components fall under the [**Table pattern**](patterns/table).
+      ### Selectors and Pagination 
+
+
+      **Selectors** must be used in conjunction with the **Table** header component in order for batch actions to be included and Pagination should be used with the **Table** footer component. Both of these components fall under the **[Table pattern](patterns/table)**.
     icon: file_invoice
   - title: Code
     hook: code
