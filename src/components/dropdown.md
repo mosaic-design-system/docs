@@ -36,30 +36,36 @@ tabs:
       ## Dropdown types
 
 
+      The following **Dropdown** types are available. First, there are two types of **Dropdown** for alignment, and then you can choose a different type for each line items within the **Dropdown** overlay:
+
+
+      ### Dropdown positioning
+
+
       | **Type**       | **Description**                                                                      |
 
       | -------------- | ------------------------------------------------------------------------------------ |
 
       | Default        | Dropdown card displayed as an overlay, with a list of selectable line items          |
 
-      | With Alignment | Used to set the position of the Dropdown in relation to the component that opened it |
+      | With alignment | Used to set the position of the Dropdown in relation to the component that opened it |
 
 
       ### Dropdown line item types
 
 
-      A line item is one item in the list that is displayed in the Dropdown.  Each line item is interactable and when clicked will perform some kind of action, much like a Button would. The exception to this is when they are a heading or divider. 
+      A line item is one item in the list that is displayed in the **Dropdown**.  Each line item is interactable and when clicked will perform some kind of action, much like a **Button** would. The exception to this is when they are a heading or divider, which are non-interactable visual elements to provide structure to the **Dropdown** overlay.
 
 
       | **Type**  | **Description**                                                                                     |
 
       | --------- | --------------------------------------------------------------------------------------------------- |
 
-      | Default   | Text only line item                                                                                 |
+      | Default   | Text-only line item                                                                                 |
 
       | Header    | Used to split the line items in to groups with heading text                                         |
 
-      | Divider   | Used to split the line items in to groups but where a header description is not needed              |
+      | Divider   | Used to split the line items in to groups but where a header description is not needed    |
 
       | With icon | Adds an icon inline with the text to help identify it, these can be on left or right but never both |
 
@@ -73,20 +79,23 @@ tabs:
       ### Alignment
 
 
-      Where the Dropdown opens in relation to the triggering component is an important consideration.  The Dropdown should always be next to the component but might need to open on a specific side to allow it to be easily interacted with.  For example if you have a button on the right-hand side of the screen you would need the Dropdown to open below and to the left so it doesn't go off the screen. 
+      Where the **Dropdown** opens in relation to the triggering component is an important consideration.  The **Dropdown** should always be next to the component, but might need to open on a specific side to allow it to be easily interacted with.  For example, if you have a **Button** on the right-hand side of the screen you would need the **Dropdown** to open below and to the left so it doesn't go off the screen. 
 
 
       ### Dropdown line items
 
 
-      Even though line items can have any content to best meets their needs, they should stick to the types outlined here.  If there is a use case to differ then talk to the UX team \[link to UX email address] first. 
+      Even though line items can have any content to best meet their needs, they should stick to the types outlined here.  If there is a use case to differ then speak to your UX Designer first. 
+
+
+      Display your options in alphabetical order, unless there is good reason to show in another order - for example, a "recent items" **Dropdown** could be shown in descending date order. 
 
 
       * Labels should describe what is in the list and inform users what to expect.
 
       * Keep the labels short and concise, limiting it to a single line of text but if necessary two lines and an ellipsis.
 
-      * Display your options in alphabetical order, unless there is good reason to show in another order - eg recent items would be show in descending date order. 
+      * 
 
       * All headings should be sentence case and not have the first letter of every word capitalised. More information in the [text style guide](/guidelines/style-guide/#structure)
 
