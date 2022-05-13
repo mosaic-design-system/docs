@@ -26,7 +26,7 @@ A ** multi select** behaves in a similar nature to a standard dropdown, however 
 
 - - -
 
-## Using a collapse
+## Using a Multi select
 
 •	Should only be used if it is required for two or more values to be selected
 
