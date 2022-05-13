@@ -20,9 +20,15 @@ tabs:
       ### When, and why?\r
 
       A **Progress indicator** can be used when the process is more than
-      10 seconds and the system can estimate the completion of an operation.
-      Setting a visual expectation of wait time encourages the user to stay
-      until completion.\r
+      10 seconds and the system can estimate the completion of an operation. Use
+      of a **Progress indicator** gives a visual expectation of wait time, which
+      will encourage the user to stay until the process has finished.\r
+
+      \r
+
+      Good examples of where they would be helpful are when the user is
+      submitting a large form, uploading a file or saving updates to the system
+      settings.\r
 
       - - -\r
 
@@ -30,19 +36,26 @@ tabs:
 
       ## Progress indicator types\r
 
-      There are 2 types of progress indicator\r
+      \r
 
-      1. **Determinate** - Used when the system can indicate how long an
-      operation will take. Using a 0-100% scale in sync with the operation
-      progress.\r
+      There are two different use cases for a **Progress indicator**:\r
 
-      2. **Indeterminate** - Used when the system cannot give an estimated
-      time or track progression with a percentage scale. A looped animation
-      shows the user the system is working. \r
+      1. **Determinate Progress indicators** are used when the system can
+      estimate how long an operation will take. They use a 0-100% scale to
+      display the operation progress.\r
 
-      All progress bars are available in 3 different sizes large, regular
-      and small\r
+      2. **Indeterminate Progress indicators** are used when the system
+      cannot give an estimated time or track progression with a percentage
+      scale. A looped animation reassures the user that the system is working,
+      but with no indication of the remaining progress. \r
 
+      \r
+
+      All **Progress indicators** are available in large, regular and
+      small sizes. The types of **Progress indicators** are available, separated
+      between determinate and indeterminate **Progress indicators**:\r
+
+      \r
 
       | Types                                                |
       Description                                                                                              \
@@ -72,21 +85,17 @@ tabs:
 
       ## Using a Progress indicator\r
 
+      \r
+
+      ### Progress indicator frequency\r
 
       **Progress** indicators are a great way to visually inform your
       users the system is processing an operation and if possible how long it
-      will take to complete.\\\r
-
-      Use progress bars sparingly, only when an operation takes over
-      10seconds. Over use will make it seem like the application is slow and
-      constantly requires the user to wait. For actions that take less than
-      10seconds consider using the spinner component.
-
-
-      \r
-
-      Progress indicators are suitable for operations such as, submitting
-      a form, uploading a file or saving updates to the system settings"
+      will take to complete. However, you should use **Progress indicators**
+      sparingly, and only when an operation takes over 10 seconds. Overuse will
+      make it seem like the application is slow and constantly requires the user
+      to wait. For actions that take less than 10 seconds, consider using the
+      [**Spinner**(/components/spinner) component."
     icon: file_invoice
   - title: Code
     hook: code
