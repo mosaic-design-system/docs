@@ -1,0 +1,147 @@
+---
+title: Toggle
+toc: true
+chips:
+  - "HTML/CSS: Available"
+  - "Web Component: Available"
+storybook-url: https://tessera.oneadvanced.io/dev/components-core/?path=/docs/html-button--as-default
+storybook: https://tessera.oneadvanced.io/dev/components-core/?path=/docs/html-accordion--as-default
+tabs:
+  - title: Usage
+    body: >-
+      ## What is an Toggle?
+
+
+      A **Toggle** is a useful tool for turning different functionality on or off.
+
+
+      **Accordions** can be toggled between a collapsed and expanded state to expose hidden content, which can help the user locate the specific information they need without presenting all of it to them at once. 
+
+
+      The expanded state pushes the other page content down rather than being overlaying it on top of other content, which helps to maintain the vertical hierarchy of the page.
+
+
+      - - -
+
+
+      ### When, and why?
+
+
+      An **Accordion** is useful when your users need to consume multiple items with specific content in a single page. Allowing users to have control over the content by expanding it, or leaving it collapsed, lets them decide what is relevant to them at that time. 
+
+
+      For example, in Clear Review **Accordions** are used to section off specific sections of feedback, as you can see below. The user can expand each piece of feedback and interact with the "Reply/Thank" button within. Without the **Accordion**, this page would be quite cluttered and the user wouldn't be able to focus one one specific piece of feedback.
+
+
+      **Accordions** should only be used when there is enough content to condense - they shouldn't be used as an organisational tool, or for navigation purposes. They are a tool to help reduce visual clutter for a user and should only be used when necessary, not by default.
+
+
+      Similarly, **critical** information shouldn't be hidden from users. If the content is critical for the page's function, it should always be visible and shouldn't be hidden by an **Accordion**.
+
+
+      - - -
+
+
+      ## Toggle Types
+
+
+      All variations allow you to include a subheading
+
+
+      | Variant        | Description                                                                                                              |
+
+      | -------------- | ------------------------------------------------------------------------------------------------------------------------ |
+
+      | **Default**    | The default **Toggle** has is a standard looking **Toggle** that is grey when toggled 'off' and green when toggled 'on'. |
+
+      | **With label** | The same as the default toggle but with labels for when it is toggled 'on' and 'off'.                                    |
+
+
+      \[[Code up some examples here]]
+
+
+      - - -
+
+
+      ## Using a Toggle
+
+
+      **Accordions** are a great way to section off content-rich pages, collapsing the sections will also give users an overview of the content available whilst minimising scrolling and make the page appear less daunting. If your page contains multiple different content types, an **Accordion** should be used to separate them out into easy-to-digest sections.
+
+
+      Make sure the section headings are clear and concise, but still give the user enough information about what each one contains. Headings should be sentence case and not have the first letter of every word capitalised - you can read more about this in the [style guide](/guidelines/Style-Guide).
+
+
+      Always allow the user to expand multiple **Accordions** at a time, and avoid hiding task critical content. If a user can only open one **Accordion** at a time, then it is better to consider a different approach.
+    icon: file_invoice
+  - title: Code
+    hook: code
+    icon: source_code
+  - title: Accessibility
+    body: ""
+    icon: web_accessibility_1
+  - title: Status
+    hook: status
+    icon: source_code
+code:
+  example: <button class="mcc-button">Button text</button>
+  body: >-
+    ## Live demo
+
+
+    Below, you can find a live demo for an Accordion component. Use the drop-down menus and radio buttons to view the different Button Types and Variants.
+  preview:
+    variants:
+      - template:
+          lang: html
+          code: >-
+            <details class="mcc-accordion" style="max-width: 400px; width:
+            100%">
+              <summary>
+                <span class="mcc-accordion__label">Accordion item</span>
+                <mcc-icon class="mcc-accordion__caret mu-ml-auto" name="angle_down" aria-hidden="true"></mcc-icon>
+              </summary>
+              <div class="mcc-accordion__body">
+                Something small enough to escape casual notice.
+              </div>
+            </details>
+        name: As default
+        modifiers: []
+      - template:
+          lang: html
+          code: >-
+            <details class="mcc-accordion mcc-card mcc-card--high-emphasis"
+            style="max-width: 400px; width: 100%">
+              <summary>
+                <span class="mcc-accordion__label">Accordion item</span>
+                <mcc-icon class="mcc-accordion__caret mu-ml-auto" name="angle_down" aria-hidden="true"></mcc-icon>
+              </summary>
+              <div class="mcc-accordion__body">
+                Something small enough to escape casual notice.
+              </div>
+            </details>
+        name: With card
+        modifiers: []
+      - template:
+          lang: html
+          code: >-
+            <details class="mcc-accordion mcc-card" style="max-width: 400px;
+            width: 100%">
+              <summary>
+                <mcc-icon name="does-not-exist" aria-hidden="true"></mcc-icon>
+                <span class="mcc-accordion__label">Accordion item</span>
+                <mcc-icon class="mcc-accordion__caret mu-ml-auto" name="angle_down" aria-hidden="true"></mcc-icon>
+              </summary>
+              <div class="mcc-accordion__body">
+                Something small enough to escape casual notice.
+              </div>
+            </details>
+        name: With icon
+        modifiers: []
+status:
+  body: This is some content in relation to the status of this component.
+  design: Yes
+  documentation: Yes
+  html_css: Available
+  web_component: Available
+---
