@@ -29,7 +29,7 @@ tabs:
       ## Tooltip types
 
 
-      The **Tooltip** has 8 different beak directions to make sure the content is always clearly connected to its trigger and the content fully visible.
+      The **Tooltip** can point in 8 different directions, depending on the space available. Choose a direction carefully to make sure the content is always clearly connected to its trigger and is not covered up by the **Tooltip**.
 
 
       | Type | Description                                                                               | 
