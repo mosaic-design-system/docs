@@ -98,7 +98,7 @@ tabs:
       sparingly, and only when an operation is likely to take over 10 seconds.
       Overuse will make it seem like the application is slow and constantly
       requires the user to wait. For actions that take less than 10 seconds,
-      consider using the [**Spinner**(/components/spinner) component."
+      consider using the [**Spinner**](/components/spinner) component."
     icon: file_invoice
   - title: Code
     hook: code
