@@ -7,7 +7,100 @@ storybook-url: https://tessera.oneadvanced.io/dev/components-core/?path=/docs/ht
 storybook: https://tessera.oneadvanced.io/dev/components-core/?path=/docs/html-chip--as-default
 tabs:
   - title: Usage
-    body: ""
+    body: >-
+      ## What is a Chip?
+
+
+      A **Chip** is a compact element that represent statuses, counts, selections, filters, or even trigger actions.
+
+
+      - - -
+
+
+      ### When, and why?
+
+
+      Chips are mainly used to show statuses or as counters to indicate, for example, the number of unread notifications, emails, or outstanding tasks. By default, they are small and compact, and can be easily placed where space is limited and information is to be shown discretely.
+
+
+
+
+      Common uses are to show the number of messages a user has, or how many tasks may need to be completed.
+
+
+      - - -
+
+
+      ## Chip types
+
+
+      The following types of Chip are available:
+
+
+      | **Name**           | **Description** | **Example** |
+
+      | ------------------ | --------------- | ----------- |
+
+      | Default            |                 |             |
+
+      | With icon          |                 |             |
+
+      | With trailing icon |                 |             |
+
+      | As soft            |                 |             |
+
+      | As outline         |                 |             |
+
+      | As sized           |                 |             |
+
+      | As anchor          |                 |             |
+
+      | As button          |                 |             |
+
+      | As disabled        |                 |             |
+
+
+      - - -
+
+
+      ## Chip contexts
+
+
+      Context helps convey the information being communicated. Chip contexts correspond to a colour to provide a consistent experience for users. For more information, refer to Colours \[link to Colours page].
+
+
+      | **Name** | **Description** | **Behaviour** | **Examples** |
+
+      | -------- | --------------- | ------------- | ------------ |
+
+      | Success  |                 |               |              |
+
+      | Danger   |                 |               |              |
+
+      | Warning  |                 |               |              |
+
+      | Info     |                 |               |              |
+
+
+      - - -
+
+
+      ## Using a Chip
+
+
+      Chip can be used as labels or as counters. The important fact is that they are in-line and hold no positional or layout styling, enabling them to be placed pretty much anywhere.
+
+
+      Like any UI element, over use can quickly erode their usefulness. Consider how often Chips are being used in their content. They often work well in elements like navbars, sidebars, tabs, or in tables to indicate a status.
+
+
+      Use the various contextual colours to denote further meaning, but be careful when combining colours with backgrounds of other elements. Red Chips on green backgrounds for example are not accessible. Consider high contrast pairings so the Chip value is easy to read.
+
+
+      Chips should have a clear and helpful relationship to the content or task they represent.
+
+
+      Chips should make tasks easier to complete, or content easier to sort.
     icon: file_invoice
   - title: Code
     hook: code
