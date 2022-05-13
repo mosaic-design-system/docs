@@ -32,13 +32,17 @@ tabs:
       Checkboxes can be unselected, selected or indeterminate which is when a checkbox is neither selected or unselected and therefore cannot be determined. Active, Disabled, Read-only and Focussed states also apply to all of the above.
 
 
-      | **Name**      | **Description**                                                                                                           |
+      | **Name**                      | **Description**                                                                                                           |
 
-      | ------------- | ------------------------------------------------------------------------------------------------------------------------- |
+      | ----------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
 
-      | With label    | This is the default and should be used to multiple choice lists and parent-child multiple choice lists                    |
+      | With label                    | This is the default and should be used to multiple choice lists and parent-child multiple choice lists                    |
 
-      | Without label | This should only be used within a selector column of a table where the column header becomes the label for the checkboxes |
+      | Without label                 | This should only be used within a selector column of a table where the column header becomes the label for the checkboxes |
+
+      | Checkbox choice button        | The checkbox is within the container. This is used where a label isn’t enough information and more text is required. This instead has both a title and subtitle accompanying the checkbox.                    |
+
+      | Visual checkbox choice button | This similar to the checkbox choice button, however there is an icon positioned to the left-hand side and the checkbox itself is aligned to the right hand side. This should only be used where the icon helps the user to make a selection |
 
 
       - - -
