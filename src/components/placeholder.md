@@ -23,7 +23,7 @@ tabs:
       ### When, and why?
 
 
-      **Placeholders** can be used when a page is initially loading, as long as it has more than 1 element. They should also only be used when a page typically takes more than 0.3s to load on an average connection. Using a **Placeholder** will give a perception of shorter wait time, and let the user know that the system is busy loading the content and hasn't frozen.
+      **Placeholders** can be used when a page is initially loading, as long as it has more than one element. They should also only be used when a page typically takes more than 0.3s to load on an average connection. Using a **Placeholder** will give a perception of a shorter wait time, and let the user know that the system is busy loading the content and hasn't frozen.
 
 
       - - -
@@ -60,12 +60,12 @@ tabs:
 
       ### Placeholder transitions
 
-      **Placeholders** should be replaced with content as soon as it's available for loading, rather than waiting until all content is available and showing everything at once. If the page gradually loads in, the page looks like they're loading faster. It makes little sense to make the user wait for all pieces of content to be available at once - after all, they may only be looking for the piece of content that loads first.
+      **Placeholders** should be replaced with content as soon as it's available for loading, rather than waiting until all content is available and showing everything at once. If the page gradually loads in, the page looks like it's loading faster. It makes little sense to make the user wait for all pieces of content to be available at once - after all, they may only be looking for the piece of content that loads first.
 
 
       ### Loading bars
 
-      A **Placeholder** shouldn’t be used for long-running processes or background processes (e.g. importing data or exporting reports). Use a [**Progress indicator**](/components/progress-indicator) instead.
+      A **Placeholder** shouldn’t be used for long-running processes or background processes (e.g. importing data or exporting reports). Use a [**Progress indicator**](/components/progress-indicator) for that instead.
     icon: file_invoice
   - title: Code
     hook: code
