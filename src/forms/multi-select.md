@@ -14,7 +14,7 @@ status:
   html_css: In queue
   web_component: In queue
 ---
-## What is a Collapse?
+## What is a Multi select?
 
 A **multi select** allows multiple items to be selected using a component. It is based on the form input dropdown component. The **multi select** differs however in that after an item has been selected the selected item displays as a chip like item in the top row of the dropdown whilst still maintaining the same behaviour to allow additional items to be selected.
 
