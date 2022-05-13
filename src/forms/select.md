@@ -17,7 +17,7 @@ tabs:
       - - -
 
 
-      ### When and why
+      ### When, and why?
 
 
       You should use a **Select** when you need a user to select one or more options from a large group of data. Using a **Select** allows the user to search and filter through the given list.
