@@ -52,8 +52,8 @@ tabs:
       ---------------------------------- |
 
       | **Default**       | **Default Buttons** are full-colour buttons
-      and are used for all important actions, your primary action (which may or
-      may not use the primary
+      and are used for all important actions, such as your primary action (which
+      may or may not use the primary
       colour)                                                                                                                                                                                                                                                                                                                                                                                           \
       |
 
