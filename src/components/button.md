@@ -103,7 +103,7 @@ tabs:
       ### Ordering of Buttons
 
 
-      We have a set order for groups of **Buttons** in our products, to encourage user familiarity and build a familiarity around what a user can expect, and where. The ordering is simple: the least positive **Button** is the one furthest to the left (before any Cancel or Close), and the most positive **Button** is the one to the right. As an example, a form with 'Cancel/Close', 'Delete' and 'Save' would be ordered as such – 'Delete' is the most negative, 'Save' is the most positive, and 'Cancel' is relatively neutral but present in a lot of screens so is always furthest left for consistency. 
+      We have a set order for groups of **Buttons** in our products, to encourage user familiarity and build a familiarity around what a user can expect, and where. The ordering is simple: the least positive **Button** is the one furthest to the left (but after any Cancel or Close), and the most positive **Button** is the one to the right. As an example, a form with 'Cancel/Close', 'Delete' and 'Save' would be ordered as such – 'Delete' is the most negative, 'Save' is the most positive, and 'Cancel' is relatively neutral but present in a lot of screens so is always furthest left for consistency. 
 
 
       This ordering of the **Buttons** provides a sense of 'moving forward' to the user when they see a **Button** on the right-hand side, whereas a **Button** on the left-hand side feels like 'moving backward'. 
@@ -112,16 +112,16 @@ tabs:
       ### Button labels
 
 
-      A **Button's Label** is as important as the **Button** itself. A set of **Buttons** that are simply a green and a red **Button** might imply 'good' and 'bad' actions, but there is no context for the user. As such, there are a couple of things to keep in mind when labelling a **Button**:
+      A **Button's label** is as important as the **Button** itself. A set of **Buttons** that are simply a green and a red **Button** might imply 'good' and 'bad' actions, but there is no context for the user. As such, there are a couple of things to keep in mind when labelling a **Button**:
 
 
       * **Buttons** require a **Label** in the vast majority of cases. We cannot assume that a user will instinctively know what an icon means on a **Button**. An infamous example of this is the classic floppy disk icon for saving – think about how soon it will be until virtually all of our users will have never seen a floppy disk? 
 
 
-      > **Note**: there are some very specific use cases for Icon-only Buttons, but these are few and far between. We have [guidance](link) on where a **Button** can forgo a label, but the UX Team should be contacted in advance of using an **Icon Only Button** to ensure that it is appropriate. 
+      > **Note**: there are some very specific use cases for Icon-only buttons, but these are few and far between. We have [guidance](link) on where a **Button** can forgo a label, but the UX Team should be contacted in advance of using an **Icon only button** to ensure that it is appropriate. 
 
 
-      * **Button Labels** should be specific, rather than general. A user should feel confident that they know what a **Button** does. Generic **Buttons** like 'OK' when a user is actually changing something are not informative enough – the user needs to know that the **Button** will 'Confirm changes', which is a much better **Label**.
+      * **Button labels** should be specific, rather than general. A user should feel confident that they know what a **Button** does. Generic **Buttons** like 'OK' when a user is actually changing something are not informative enough – the user needs to know that the **Button** will 'Confirm changes', which is a much better **Label**.
 
 
       Deciding when you should use Cancel or Close as your button label is very important.  Historically many applications used Cancel as a means to leave a screen or page.  However, we would strongly recommend Close is used in this instance.  Cancel should be reserved for instances such as forms where cancelling out of the form discards any changes the user has made.
@@ -142,10 +142,10 @@ tabs:
       ### Button colours
 
 
-      The colour of your **Button** will be dictated by the **Button Type**. For example, a **Success Button** is green, whereas a **Danger Button** is red. The rationale is simple: green is associated with positive actions (green for go), while red is associated with negative actions (red for stop). However, it should be noted that colour only gives a visual clue if that visual cue is perceptible to the user – screen readers and colour-blind users will get no benefit from **Button colours**. This is why it is important to use a combination of **Button labels** and **Icons** to properly delineate the usage of a **Button**.
+      The colour of your **Button** will be dictated by the **Button context**. For example, a **Success button** is green, whereas a **Danger button** is red. The rationale is simple: green is associated with positive actions (green for go), while red is associated with negative actions (red for stop). However, it should be noted that colour only gives a visual clue if that visual cue is perceptible to the user – screen readers and colour-blind users will get no benefit from **Button colours**. This is why it is important to use a combination of **Button labels** and **Icons** to properly delineate the usage of a **Button**.
 
 
-      Refer to the **Button types** section to read about the different colours for **Button Types**.
+      Refer to the **Button contexts** section to read about the different colours for **Button contexts**.
 
 
       ### Button spinners
@@ -157,7 +157,7 @@ tabs:
       \[example]
 
 
-      However, if the button is performing a check, then I think we need a third button state which indicates the success or failure. For example, if we were checking a URL or validate a user, then it might look something like this:
+      However, if the button is performing a check, then a third button state would be needed which indicates the success or failure. For example, if we were checking a URL or validate a user, then it might look something like this:
 
 
       \[example]
