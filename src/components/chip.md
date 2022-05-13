@@ -20,7 +20,7 @@ tabs:
       ### When, and why?
 
 
-      Chips are mainly used to show statuses or as counters to indicate, for example, the number of unread notifications, emails, or outstanding tasks. By default, they are small and compact, and can be easily placed where space is limited and information is to be shown discretely.
+      Chips are mainly used to show statuses or as counters to indicate, for example, the number of unread notifications, emails, or outstanding tasks. By default, they are small and compact, and can be easily placed where space is limited and information is to be shown discretely. They should be used when you want to provide a clear visual indicator of something that aids the scannability or readability a page.
 
 
       - - -
@@ -83,19 +83,13 @@ tabs:
       ## Using a Chip
 
 
-      Chip can be used as labels or as counters. The important fact is that they are in-line and hold no positional or layout styling, enabling them to be placed pretty much anywhere.
+      As already mentioned, Chip can be used as labels or counters. The important fact is that they are in-line elements, enabling them to be placed pretty much anywhere. They often work well in navbars, sidebars, tabs, or in tables to indicate a status.
 
 
-      Like any UI element, over use can quickly erode their usefulness. Consider how often Chips are being used in their content. They often work well in elements like navbars, sidebars, tabs, or in tables to indicate a status.
+      Like any component, overuse can quickly erode usefulness. With this in mind, you should always consider how often Chips are being used and whether they provide a clear and helpful relationship with their associated content. Most importantly, Chips should make tasks easier to complete, content easier to sort, selections easier to determine, and pages easier to scan.
 
 
-      Use the various contextual colours to denote further meaning, but be careful when combining colours with backgrounds of other elements. Red Chips on green backgrounds for example are not accessible. Consider high contrast pairings so the Chip value is easy to read.
-
-
-      Chips should have a clear and helpful relationship to the content or task they represent.
-
-
-      Chips should make tasks easier to complete, or content easier to sort.
+      Use the various contextual colours described above to denote further meaning, but be careful when combining colours with backgrounds of other elements. For example, red Chips on green backgrounds are not accessible. Consider high contrast pairings so the Chip value is easy to read.
     icon: file_invoice
   - title: Code
     hook: code
