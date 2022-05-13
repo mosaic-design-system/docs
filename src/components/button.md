@@ -80,9 +80,7 @@ tabs:
 
       | **Primary**   | Used for the main CTA on the screen. This is reserved for actions such as add, or import. There should only ever be one **Primary Button** on the page, **Form** or **Card**                                                                                                                                                                 |
 
-      | **Secondary** | Buttons that do not fall into one of the other categories. This can be used for things that are largely inconsequential but necessary, like closing a dialogue box. 
-
-      The secondary default button is now no longer used, we now use the outline button for these types of actions.                                                                                                               |
+      | **Secondary** | Buttons that do not fall into one of the other categories. This can be used for things that are largely inconsequential but necessary, like closing a dialogue box.     The secondary default button is now no longer used, we now use the outline button for these types of actions.                                                                                                               |
 
       | **Success**   | used for positive actions, like saving, confirming accepting or editing. Typically, like the **Primary Button**, there should only be one **Success Button**.                                                                                                                                                                                |
 
