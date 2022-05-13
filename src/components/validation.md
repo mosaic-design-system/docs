@@ -12,7 +12,7 @@ tabs:
       ## What is Validation?
 
 
-      **Validation** is when a user enters data, the form checks to see that the data is correct. If correct, the form notifies the application that the data can be submitted to the server; if not, it gives you an error message explaining what corrections need to be made
+      **Validation** is when a user enters data, the form checks to see that the data is correct. If correct, the form notifies the application that the data can be submitted to the server; if not, it gives you an error message explaining what corrections need to be made.
 
 
       - - -
@@ -21,16 +21,13 @@ tabs:
       ### When, and why?
 
 
-      An **Accordion** is useful when your users need to consume multiple items with specific content in a single page. Allowing users to have control over the content by expanding it, or leaving it collapsed, lets them decide what is relevant to them at that time. 
+      **Validation** is useful when you have a form where specific data where a particular criterion needs to be met eg, amount of characters or specific fields that need to be filled out, in order for that data be submitted or in order to progress to the next step.
 
 
-      For example, in Clear Review **Accordions** are used to section off specific sections of feedback, as you can see below. The user can expand each piece of feedback and interact with the "Reply/Thank" button within. Without the **Accordion**, this page would be quite cluttered and the user wouldn't be able to focus one one specific piece of feedback.
+      For example, when you are logging into a product and you don't fill out the email field, then the **Validation** will show an error message explaining that you need to fill out the email field in order to continue.
 
 
-      **Accordions** should only be used when there is enough content to condense - they shouldn't be used as an organisational tool, or for navigation purposes. They are a tool to help reduce visual clutter for a user and should only be used when necessary, not by default.
-
-
-      Similarly, **critical** information shouldn't be hidden from users. If the content is critical for the page's function, it should always be visible and shouldn't be hidden by an **Accordion**.
+      **Validation** isn't just to show people when they haven't completed something incorrectly, but in some cases to show them that they have completed something correctly.
 
 
       - - -
@@ -66,13 +63,19 @@ tabs:
       ## Using Validation
 
 
-      **Accordions** are a great way to section off content-rich pages, collapsing the sections will also give users an overview of the content available whilst minimising scrolling and make the page appear less daunting. If your page contains multiple different content types, an **Accordion** should be used to separate them out into easy-to-digest sections.
+      Where necessary, show valid text is most useful for fields that require special inputs such as a password field.  Most other times you would not show valid text.
 
 
-      Make sure the section headings are clear and concise, but still give the user enough information about what each one contains. Headings should be sentence case and not have the first letter of every word capitalised - you can read more about this in the [style guide](/guidelines/Style-Guide).
+      Invalid text is **essential** for form fields as it helps the user to understand if something isn't right and gives them the opportunity to correct it.
 
 
-      Always allow the user to expand multiple **Accordions** at a time, and avoid hiding task critical content. If a user can only open one **Accordion** at a time, then it is better to consider a different approach.
+      Where possible, you must show validation (invalid) as soon as the user has completed an input so that they can correct as they go.
+
+
+      Help text should be considered part of your validation. Giving help text below an input can provide useful additional information about what a field expects the user to enter. This type of information should be given as early as possible in the process. For example, if an input requires specific characters or length to be entered.
+
+
+      The required or optional validation should be considered part of your validation.  If the majority of fields on the form are required (mandatory) then it is better to just show the optional ones. Similarly, if the majority of fields are optional, just show the required ones.
     icon: file_invoice
   - title: Code
     hook: code
