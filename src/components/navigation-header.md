@@ -8,7 +8,7 @@ storybook: https://tessera.oneadvanced.io/dev/components-core/?path=/docs/html-n
 tabs:
   - title: Usage
     body: >-
-      ## What is a Navigation Header?
+      ## What is a Navigation header?
 
 
       A **Navigation header** contains a list of global navigation links to guide users around your application.
