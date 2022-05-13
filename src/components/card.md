@@ -78,7 +78,7 @@ tabs:
       ## Using a Card
 
 
-      **Cards** are used to display all content with the application.  On a page you could have just one **Card**, or hundreds of **Cards**, depending on what you are needing to do.  **Cards** can be laid out in grids, but the grids should be responsive so that **Cards** tend to stay a similar size and more vertical space is used on smaller screens by decreasing the number of columns. 
+      **Cards** are used to display all content within the application.  On a page you could have just one **Card**, or hundreds of **Cards**, depending on what you are needing to do.  **Cards** can be laid out in grids, but the grids should be responsive so that **Cards** tend to stay a similar size and more vertical space is used on smaller screens by decreasing the number of columns. 
 
 
       ### Nested Cards
