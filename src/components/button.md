@@ -126,6 +126,19 @@ tabs:
       |
 
 
+      - - -
+
+
+      > \\*if a user will never be able to use the **Button**, for example
+      if they lack the requisite permissions or security, then a **Button**
+      should just not be visible to them. It is frustrating for a user to see a
+      **Button** and never have the ability to use it.  For disabled buttons
+      that are visible, it should also be clear to the user what they need to do
+      to enable this Button.
+
+
+      - - -
+
 
       ## Button contexts
 
@@ -192,16 +205,6 @@ tabs:
       some additional information, or perform an action that does not leave the
       page or make any change to data, i.e. print or view guidelines. |
 
-
-      - - -
-
-
-      > \\*if a user will never be able to use the **Button**, for example
-      if they lack the requisite permissions or security, then a **Button**
-      should just not be visible to them. It is frustrating for a user to see a
-      **Button** and never have the ability to use it.  For disabled buttons
-      that are visible, it should also be clear to the user what they need to do
-      to enable this Button. \t
 
 
       - - -
