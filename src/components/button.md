@@ -36,23 +36,23 @@ tabs:
 
       | ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
-      | **Default**       | **Default Buttons** are full-colour buttons and are used for all important actions, such as your primary action (which may or may not use the primary colour)                                                                                                                                                                                                                                                                                                                                                                                                               |
+      | **Default**       | **Default buttons** are full-colour buttons and are used for all important actions, such as your primary action (which may or may not use the primary colour)                                                                                                                                                                                                                                                                                                                                                                                                               |
 
-      | **Outline**       | **Outline Buttons** are not full-colour buttons – instead, they are just a **Button** outline. This is useful when the **Button** is on a page that has a coloured background. This is used for all our **secondary** actions.                                                                                                                                                                                                                                                                                                                                              |
+      | **Outline**       | **Outline buttons** are not full-colour buttons – instead, they are just a **Button** outline. This is useful when the **Button** is on a page that has a coloured background. This is used for all our **secondary** actions.                                                                                                                                                                                                                                                                                                                                              |
 
-      | **Soft**          | **Soft Buttons** are medium-emphasis **Buttons**. They contains actions that are important, but aren't the primary action in an app.                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+      | **Soft**          | **Soft buttons** are medium-emphasis **Buttons**. They contains actions that are important, but aren't the primary action in an app.                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 
       | **Anchor**        | **Buttons** that are styled to look like an anchor (which in turn looks like a link). This is useful for adding emphasis to a link, and you want to encourage the user to interact with it as they would any other action.                                                                                                                                                                                                                                                                                                                                                  |
 
       | **Block**         | **Buttons** that are larger than others, and span to fit their container. Normally this is used when you have a single action on a page that you need to draw attention to, like a login page or a button to register for something.                                                                                                                                                                                                                                                                                                                                        |
 
-      | **Small**         | **Small Buttons** are the opposite – necessary **Buttons** that are small and unobtrusive. These can be used in situations where you have limited space, or for situations like a table with repeated actions all across it (such as editing and deleting).                                                                                                                                                                                                                                                                                                                 |
+      | **Small**         | **Small buttons** are the opposite – necessary **Buttons** that are small and unobtrusive. These can be used in situations where you have limited space, or for situations like a table with repeated actions all across it (such as editing and deleting).                                                                                                                                                                                                                                                                                                                 |
 
-      | **Icon**          | **Buttons** can (and should) be given an icon to provide further context. Read below in the **[Button Icons](https://mosaic-design-system.herokuapp.com/components/button/#button-icons)** section.                                                                                                                                                                                                                                                                                                                                                                         |
+      | **Icon**          | **Buttons** can (and should) be given an icon to provide further context. Read below in the **[Button icons](https://mosaic-design-system.herokuapp.com/components/button/#button-icons)** section.                                                                                                                                                                                                                                                                                                                                                                         |
 
-      | **Trailing Icon** | You can also use **Trailing Icons** in a **Button**, which appear after the text rather than before.                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+      | **Trailing icon** | You can also use **Trailing icons** in a **Button**, which appear after the text rather than before.                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 
-      | **Icon-Only**     | **Icon Only Buttons** are **Buttons** without a label but containing an icon. These should use universally known icons and actions for common functionality, such as a save, delete or home icon. These are rare and should only be used in specific cases. There is a separate document for **Icon Only Buttons** which you can be found on the **Icon Only Buttons** documentation page, and you should read the [entry for **Button Labels**](https://mosaic-design-system.herokuapp.com/components/button/#button-labels) for the limitations on using this **Button**. |
+      | **Icon-only**     | **Icon Only Buttons** are **Buttons** without a label but containing an icon. These should use universally known icons and actions for common functionality, such as a save, delete or home icon. These are rare and should only be used in specific cases. There is a separate document for **Icon only buttons** which you can be found on the **Icon only buttons** documentation page, and you should read the [entry for **Button labels**](https://mosaic-design-system.herokuapp.com/components/button/#button-labels) for the limitations on using this **Button**. |
 
       | **Disabled**      | This can be added to limit when a **Button** can be used. A **Disabled Button** is always visible to the user, but it will not be interactable until the user has completed a specific task. Once the task in question has been performed, the **Disabled Button** will be set to active.*                                                                                                                                                                                                                                                                                  |
 
@@ -71,24 +71,24 @@ tabs:
       Context helps convey the information being communicated. Button contexts correspond to a colour to provide a consistent experience for users. For more information, refer to the [Colours guidelines](/guidelines/colour).
 
 
-      In Mosaic, there are six contexts for **Buttons**. Each has a different function, and the look of the button will signal a different usage to the user. For example, a **Primary Button** tends to be the most positive outcome for an action, things like submitting a form or saving a sheet. Conversely, a **Danger Button** tends to be something negative, like deleting something. 
+      In Mosaic, there are six contexts for **Buttons**. Each has a different function, and the look of the button will signal a different usage to the user. For example, a **Primary button** tends to be the most positive outcome for an action, things like submitting a form or saving a sheet. Conversely, a **Danger button** tends to be something negative, like deleting something. 
 
 
       | Button Type   | Description                                                                                                                                                                                                                                                                                                                                  |
 
       | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
-      | **Primary**   | Used for the main CTA on the screen. This is reserved for actions such as add, or import. There should only ever be one **Primary Button** on the page, **Form** or **Card**                                                                                                                                                                 |
+      | **Primary**   | Used for the main CTA on the screen. This is reserved for actions such as add, or import. There should only ever be one **Primary button** on the page, **Form** or **Card**                                                                                                                                                                 |
 
-      | **Secondary** | Buttons that do not fall into one of the other categories. This can be used for things that are largely inconsequential but necessary, like closing a dialogue box.     The secondary default button is now no longer used, we now use the outline button for these types of actions.                                                                                                               |
+      | **Secondary** | Buttons that do not fall into one of the other categories. This can be used for things that are largely inconsequential but necessary, like closing a dialogue box.     The secondary default button is now no longer used, we now use the **Outline button** for these types of actions.                                                                                                               |
 
-      | **Success**   | used for positive actions, like saving, confirming accepting or editing. Typically, like the **Primary Button**, there should only be one **Success Button**.                                                                                                                                                                                |
+      | **Success**   | used for positive actions, like saving, confirming accepting or editing. Typically, like the **Primary button**, there should only be one **Success button**.                                                                                                                                                                                |
 
       | **Warning**   | Not used very often, but they can be useful when you want the user to take caution with a particular action. You might want to include a **Button** to reload some data, for example, but want to warn the user not to do this too often.                                                                                                    |
 
-      | **Danger**    | Should be used for dangerous or destructive activity, like deleting or removing something from the system. Typically this should be the only **Danger Button** available to the user at that time.                                                                                                                                           |
+      | **Danger**    | Should be used for dangerous or destructive activity, like deleting or removing something from the system. Typically this should be the only **Danger button** available to the user at that time.                                                                                                                                           |
 
-      | **Info**      | Can be used when the user might require some more context, or for less important actions than the **Primary Button**. Some examples would be an **Info Button** that opens a new dialogue box with some additional information, or perform an action that does not leave the page or make any change to data, i.e. print or view guidelines. |
+      | **Info**      | Can be used when the user might require some more context, or for less important actions than the **Primary button**. Some examples would be an **Info button** that opens a new dialogue box with some additional information, or perform an action that does not leave the page or make any change to data, i.e. print or view guidelines. |
 
 
       - - -
@@ -109,7 +109,7 @@ tabs:
       This ordering of the **Buttons** provides a sense of 'moving forward' to the user when they see a **Button** on the right-hand side, whereas a **Button** on the left-hand side feels like 'moving backward'. 
 
 
-      ### Button Labels
+      ### Button labels
 
 
       A **Button's Label** is as important as the **Button** itself. A set of **Buttons** that are simply a green and a red **Button** might imply 'good' and 'bad' actions, but there is no context for the user. As such, there are a couple of things to keep in mind when labelling a **Button**:
@@ -130,7 +130,7 @@ tabs:
       If you are unsure about **Labels**, please review the [product tone-of-voice document](link) or contact the UX Copywriter.
 
 
-      ### Button Icons
+      ### Button icons
 
 
       **Icons** can be used to give further meaning to your **Buttons**. By default, all **Buttons** in a page header should have an **Icon**, but occasionally this is not always practical when there is not an obvious **Icon** available for use, or there are space limitations for the **Button**. In cases like these, it is acceptable to forgo an icon.
@@ -139,19 +139,20 @@ tabs:
       When using an **Icon**, the **Icon** should always appear to the left of the **Button's Label**. The **Icon** is describing the **Label**, not the other way around! It also improves readability and is easier to quickly scan the functionality of each **Button** if the **Icons** all appear on the left-hand side.  The one exception to this is when an icon is used to indicate direction of travel.  In this scenario, icons are permitted on the right-hand side of a label, e.g. a Next button.
 
 
-      ### Button Colours
+      ### Button colours
 
 
-      The colour of your **Button** will be dictated by the **Button Type**. For example, a **Success Button** is green, whereas a **Danger Button** is red. The rationale is simple: green is associated with positive actions (green for go), while red is associated with negative actions (red for stop). However, it should be noted that colour only gives a visual clue if that visual cue is perceptible to the user – screen readers and colour-blind users will get no benefit from **Button Colours**. This is why it is important to use a combination of **Button Labels** and **Icons** to properly delineate the usage of a **Button**.
+      The colour of your **Button** will be dictated by the **Button Type**. For example, a **Success Button** is green, whereas a **Danger Button** is red. The rationale is simple: green is associated with positive actions (green for go), while red is associated with negative actions (red for stop). However, it should be noted that colour only gives a visual clue if that visual cue is perceptible to the user – screen readers and colour-blind users will get no benefit from **Button colours**. This is why it is important to use a combination of **Button labels** and **Icons** to properly delineate the usage of a **Button**.
 
 
-      Refer to the **Button Types** section to read about the different colours for **Button Types**.
+      Refer to the **Button types** section to read about the different colours for **Button Types**.
 
 
       ### Button spinners
 
 
       Where a spinner is used on a button, it should replace the button's default icon, as below. This works fine in the example below, as the landing page would be shown if the login was successful and the button would be reset.
+
 
       \[example]
 
