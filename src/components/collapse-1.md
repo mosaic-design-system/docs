@@ -10,7 +10,7 @@ tabs:
       ## What is a Collapse?
 
 
-      A **Collapse** component allows you to show and hide content with a button. The button, when selected, toggles whether the user can see the content or not. This component differs from an [**Accordion**](/components/accordion) as the content is not within a self-contained section in and of itself, and a button is used to toggle the content rather than a drop-down style arrow.
+      A **Collapse** component allows you to show and hide content with a button. The button, when selected, toggles whether the user can see the content or not. This component differs from an [**Accordion**](/components/accordion) as the content is not within a self-contained section in and of itself, and a button is used to toggle the content rather than a drop-down style arrow. When the content of a **Collapse** is revealed the content is pushed below the down button
 
 
       - - -
@@ -36,6 +36,8 @@ tabs:
       * The contents of a collapse should never include critical information such as important instructions, warnings, etc.
 
       * If you intend to show/hide multiple pieces of related information on a page, then an [**Accordion**](/components/accordion) is the preferred method.
+
+      * A **Collapse** should not include navigation.
   - title: Code
   - title: Accessibility
   - title: Status
