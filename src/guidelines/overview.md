@@ -3,11 +3,9 @@ title: Overview
 order: 10
 toc: false
 ---
-
-
 ![Drawing of a person building a progress bar with blocks. ](/assets/img/downloading.svg "title")
 
-**Just a few more pieces to go before it is ready...** 
+<p text-align: center>Just a few more pieces to go before it is ready...</p>
 
 ## Heading 1
 
