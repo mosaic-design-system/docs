@@ -1,5 +1,5 @@
 ---
-title: Toggle - D
+title: Toggle
 toc: true
 chips:
   - "HTML/CSS: Available"
