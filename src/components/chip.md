@@ -11,7 +11,7 @@ tabs:
       ## What is a Chip?
 
 
-      A Chip is a compact element used to represent statuses, counts, selections, filters, or even trigger actions.
+      A **Chip** is a compact element used to represent statuses, counts, selections, filters, or even trigger actions.
 
 
       - - -
@@ -20,7 +20,7 @@ tabs:
       ### When, and why?
 
 
-      Chips are mainly used to show statuses or as counters to indicate, for example, the number of unread notifications, emails, or outstanding tasks. By default, they are small and compact, and can be easily placed where space is limited and information is to be shown discretely. They should be used when you want to provide a clear visual indicator of something that aids the scannability or readability a page.
+      **Chips** are mainly used to show statuses, or as counters to indicate, things like the number of unread notifications, emails, or outstanding tasks. By default, they are small and compact, and can be easily placed where space is limited and information is to be shown discretely. They should be used when you want to provide a clear visual indicator of something that aids the readability of a page without impacting the visual design too much.
 
 
       - - -
@@ -29,10 +29,10 @@ tabs:
       ## Chip types
 
 
-      The following types of Chip are available:
+      The following types of **Chip** are available:
 
 
-      | **Name**           | **Description**                                                                        | **Example** |
+      | **Type**           | **Description**                                                                        | **Example** |
 
       | ------------------ | -------------------------------------------------------------------------------------- | ----------- |
 
@@ -48,7 +48,7 @@ tabs:
 
       | As sized           | Allows a Chip to use one of the following sizes; Extra Small, Small, Medium, and Large |             |
 
-      | As anchor          | Allows a Chip to be used a link                                                        |             |
+      | As anchor          | Allows a Chip to be used as a link                                                        |             |
 
       | As button          | Allows a Chip to be used as a button                                                   |             |
 
@@ -61,10 +61,10 @@ tabs:
       ## Chip contexts
 
 
-      Context helps convey the information being communicated. Chip contexts correspond to a colour to provide a consistent experience for users. For more information, refer to Colours \[link to Colours page].
+      Context helps convey the information being communicated. **Chip** contexts correspond to a colour to provide a consistent experience for users. For more information, please refer to [Colours](/guidelines/colours).
 
 
-      | **Name**    | **Description**                                                                                                          |
+      | **Context**    | **Description**                                                                                                          |
 
       | ----------- | ------------------------------------------------------------------------------------------------------------------------ |
 
@@ -74,7 +74,7 @@ tabs:
 
       | **Warning** | Used where a Chip is required to show an element with an undesirable or unexpected nature. The Warning colour is yellow. |
 
-      | **Info**    | Used where a Chip is required to show an element with a neutral or advisory nature. The info colour is teal.             |
+      | **Info**    | Used where a Chip is required to show an element with a neutral or advisory nature. The Info colour is teal.             |
 
 
       - - -
@@ -83,13 +83,19 @@ tabs:
       ## Using a Chip
 
 
-      As already mentioned, Chip can be used as labels or counters. The important fact is that they are in-line elements, enabling them to be placed pretty much anywhere. They often work well in navbars, sidebars, tabs, or in tables to indicate a status.
+      ### Chip placement
+
+      **Chips** can be used as labels or counters. The important fact is that they are in-line elements, enabling them to be placed pretty much anywhere. They often work well in navbars, sidebars, tabs, or in tables to indicate a status.
 
 
-      Like any component, overuse can quickly erode usefulness. With this in mind, you should always consider how often Chips are being used and whether they provide a clear and helpful relationship with their associated content. Most importantly, Chips should make tasks easier to complete, content easier to sort, selections easier to determine, and pages easier to scan.
+      **Chip frequency**
+
+      Like any component, overuse can quickly erode usefulness. With this in mind, you should always consider how often **Chips** are being used and whether they provide a clear and helpful relationship with their associated content. Most importantly, **Chips** should make tasks easier to complete, content easier to sort, selections easier to determine, and pages easier to scan.
 
 
-      Use the various contextual colours described above to denote further meaning, but be careful when combining colours with backgrounds of other elements. For example, red Chips on green backgrounds are not accessible. Consider high contrast pairings so the Chip value is easy to read.
+      **Chip contexts**
+
+      Use the various contextual colours described above to denote further meaning, but be careful when combining colours with backgrounds of other elements. For example, red **Chips** on green backgrounds are not accessible. Consider high contrast pairings so the **Chip** value is easy to read.
     icon: file_invoice
   - title: Code
     hook: code
