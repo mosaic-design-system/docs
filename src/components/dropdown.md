@@ -1,9 +1,121 @@
 ---
 storybook-url: https://tessera.oneadvanced.io/dev/components-core/?path=/docs/html-button--as-default
+title: Dropdown
 toc: true
 chips:
   - "HTML/CSS: Available"
   - "Web Component: Available"
+storybook: https://tessera.oneadvanced.io/dev/components-core/?path=/docs/html-dropdown--as-default
+tabs:
+  - title: Usage
+    body: >-
+      ## What is a Dropdown?
+
+
+      A **Dropdown** is a component that overlays a list of links or options for the user to choose over the page. They're usually opened from a **Button**. The options might navigate the user to another place or perform an action.
+
+
+      ### When, and why?
+
+
+      **Dropdowns** are most commonly used with a **Button**, but can be triggered from other components. When the triggering component is selected, an overlay (often a **[Card](/components/card)**) will be shown with a list of items. Usually, these items navigate to another area of the application, or perform an action in context to the current page. Very common examples of **Dropdowns** are overflow menus. 
+
+
+      #### Dropdown or a Select?
+
+
+      **Dropdowns** and **[Select](/forms/select)** components can appear to be very similar, and sometimes it is hard to chose the appropriate one. As a general rule of thumb, the component triggering the **Dropdown** doesn't change when an item is selected, e.g. if the trigger is a **Button**, then **Button's** label should not change. On the other hand, if you want the selection to be shown when the overlay is hidden, then you should use the Select component. 
+
+
+      [Read more on the **Select** page](/forms/select/)
+
+
+      - - -
+
+
+      ## Dropdown types
+
+
+      The following **Dropdown** types are available. First, there are two types of **Dropdown** for alignment, and then you can choose a different type for each line item within the **Dropdown** overlay:
+
+
+      ### Dropdown positioning
+
+
+      | **Type**       | **Description**                                                                      |
+
+      | -------------- | ------------------------------------------------------------------------------------ |
+
+      | Default        | Dropdown card displayed as an overlay, with a list of selectable line items          |
+
+      | With alignment | Used to set the position of the Dropdown in relation to the component that opened it |
+
+
+      ### Dropdown line item types
+
+
+      A line item is one item in the list that is displayed in the **Dropdown**.  Each line item is interactable and when clicked will perform some kind of action, much like a **Button** would. The exception to this is when they are a heading or divider, which are non-interactable visual elements to provide structure to the **Dropdown** overlay.
+
+
+      | **Type**  | **Description**                                                                                     |
+
+      | --------- | --------------------------------------------------------------------------------------------------- |
+
+      | Default   | Text-only line item                                                                                 |
+
+      | Header    | Used to split the line items in to groups with heading text                                         |
+
+      | Divider   | Used to split the line items in to groups but where a header description is not needed              |
+
+      | With icon | Adds an icon inline with the text to help identify it, these can be on left or right but never both |
+
+
+      - - -
+
+
+      ## Using a Dropdown
+
+
+      ### Alignment
+
+
+      Where the **Dropdown** opens in relation to the triggering component is an important consideration.  The **Dropdown** should always be next to the component, but might need to open on a specific side to allow it to be easily interacted with.  For example, if you have a **Button** on the right-hand side of the screen you would need the **Dropdown** to open below and to the left so it doesn't go off the screen. 
+
+
+      ### Triggering component
+
+
+      Your triggering component should be accurately labelled to describe what is in the **Dropdown** list, and inform users what to expect.
+
+
+      ### Dropdown line items
+
+
+      Even though line items can have any content to best meet their needs, they should stick to the types outlined here.  If there is a use case that differs, then speak to your UX Designer first. 
+
+
+      Each line item should be short and concise, limited to a single line of text. If necessary, two lines and an ellipsis can be used for longer line items that do not need the whole text - for example, a "recent documents" **Dropdown** could truncate the document names if they are excessively long.
+
+
+      Display your options in alphabetical order, unless there is good reason to show in another order - for example, a "recent items" **Dropdown** could be shown in descending date order. 
+
+
+      #### Icons
+
+
+      These can be positioned on the left or right of each list item.  If every list item has an icon then they should be positioned to the left of the label. If you just want to emphasis one item using an icon (e.g. a delete item action), then the icon should be positioned to the right of the label. You should never have an icon on both the left and right of the label. 
+
+
+      Icons should be used to help the user identify the item in the list quicker than reading every item - if it doesn't help the user, then they shouldn't be used. For example, having the same icon on every list item will actually hinder the user in finding what they need.  [Find out more in the Iconography guidelines](/guidelines/iconography)
+    icon: file_invoice
+  - title: Code
+    hook: code
+    icon: source_code
+  - title: Accessibility
+    body: ""
+    icon: web_accessibility_1
+  - title: Status
+    hook: status
 code:
   example: <button class="mcc-button">Button text</button>
   body: >-
@@ -475,18 +587,4 @@ status:
   html_css: Available
   web_component: Available
 navigation: button
-title: Dropdown
-storybook: https://tessera.oneadvanced.io/dev/components-core/?path=/docs/html-dropdown--as-default
-tabs:
-  - title: Usage
-    body: ""
-    icon: file_invoice
-  - title: Code
-    hook: code
-    icon: source_code
-  - title: Accessibility
-    body: ""
-    icon: web_accessibility_1
-  - title: Status
-    hook: status
 ---
