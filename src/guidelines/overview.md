@@ -7,8 +7,6 @@ toc: false
 
 ![Drawing of a person building a progress bar with blocks. ](/assets/img/downloading.svg "title")
 
-<center>Just a few more pieces to go before it is ready...</center>
-
 ## Heading 1
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Libero nunc consequat interdum varius sit amet. Viverra mauris in aliquam sem fringilla ut morbi tincidunt augue. Semper quis lectus nulla at volutpat diam ut. Lectus proin nibh nisl condimentum id venenatis a. Viverra vitae congue eu consequat ac. Facilisis magna etiam tempor orci eu lobortis elementum. Ullamcorper sit amet risus nullam eget felis eget. Quisque sagittis purus sit amet volutpat consequat mauris nunc congue. Vivamus at augue eget arcu dictum varius duis at. Vitae auctor eu augue ut lectus. Diam quam nulla porttitor massa id neque. Nulla porttitor massa id neque. Morbi tincidunt augue interdum velit euismod in. Dignissim enim sit amet venenatis urna cursus eget. Eget mauris pharetra et ultrices neque ornare.
