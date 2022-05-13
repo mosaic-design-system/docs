@@ -89,15 +89,13 @@ tabs:
       ### Zebra striping
 
 
-      The zebra striping should not be overridden within a **Table**, as it is there to help users scan and follow the **Table's** content easier - it is also helpful in maintaiing accessibility standards of your product. 
+      The zebra striping should not be overridden within a **Table**, as it is there to help users scan and follow the **Table's** content easier - it is also helpful in maintaining accessibility standards of your product. 
 
 
+      ### Selectors and Pagination
 
 
-      ### Selectors and Pagination 
-
-
-      **Selectors** must be used in conjunction with the **Table** header component in order for batch actions to be included and Pagination should be used with the **Table** footer component. Both of these components fall under the **[Table pattern](patterns/table)**.
+      Titles, search and filters for the **Table** must be designed/implemented by using the **Table** header component and Pagination should be used with the **Table** footer component. Both of these components fall under the **[Table pattern](patterns/table)**.
     icon: file_invoice
   - title: Code
     hook: code
