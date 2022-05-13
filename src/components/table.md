@@ -98,13 +98,13 @@ tabs:
       The zebra striping should not be overridden within a **Table**, as it is there to help users scan and follow the **Table's** content easier - it is also helpful in maintaining accessibility standards of your product. 
 
 
-      ### Table header and footer components
+      ### Headers & Footers
 
 
-      **Table** titles, search, export, filters and the overflow menu for triggering whole **Table** actions etc,must be designed/implemented by using the **Table** header component and pagination should be used be designing/implementing the **Table** footer component. Both of these components fall under the **[Table pattern](patterns/table)**.
+      **Table** titles, search, export, filters and the overflow menu for triggering whole **Table** actions etc. must be paired with the **Table header** component. Similarly, **Pagination** should be used with the **Table footer** component. Both of these components fall under the **[Table pattern](patterns/table)**.
 
 
-      You can use the **Table** component alone, but never use the **Table** header or **Table** footer components without the **Table** component.
+      You can use the **Table** component alone, but never use the **Table header** or **Table footer** components without the **Table** component.
     icon: file_invoice
   - title: Code
     hook: code
