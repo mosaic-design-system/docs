@@ -71,7 +71,7 @@ tabs:
       ### Tooltip triggers
 
 
-      Although similar to the [**Popover**](/components/popover), the **Tooltip** is triggered by the user hovering over an element, not by selecting it. For example, they can be triggered by the user hovering over elements such as images, icons, buttons or hyperlinks
+      Although similar to the [**Popover**](/components/popover), the **Tooltip** is triggered by the user hovering over an element, not by selecting it. For example, they can be triggered by the user hovering over elements such as images, icons, buttons or hyperlinks.  It is important to note that this behaviour can be considered less accessible so be cautious in it's usage.
 
 
       ### Tooltips on buttons
