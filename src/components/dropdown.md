@@ -82,31 +82,31 @@ tabs:
       Where the **Dropdown** opens in relation to the triggering component is an important consideration.  The **Dropdown** should always be next to the component, but might need to open on a specific side to allow it to be easily interacted with.  For example, if you have a **Button** on the right-hand side of the screen you would need the **Dropdown** to open below and to the left so it doesn't go off the screen. 
 
 
+      ### Triggering component
+
+
+      Your triggering component should be accurately labelled to describe what is in the **Dropdown** list, and inform users what to expect.
+
+
       ### Dropdown line items
 
 
       Even though line items can have any content to best meet their needs, they should stick to the types outlined here.  If there is a use case to differ then speak to your UX Designer first. 
 
 
+      Each line item should be short and concise, limited to a single line of text. If necessary, two lines and an ellipsis can be used for longer line items that do not need the whole text - for example, a "recent documents" **Dropdown** could truncate the document names if they are excessively long.
+
+
       Display your options in alphabetical order, unless there is good reason to show in another order - for example, a "recent items" **Dropdown** could be shown in descending date order. 
-
-
-      * Labels should describe what is in the list and inform users what to expect.
-
-      * Keep the labels short and concise, limiting it to a single line of text but if necessary two lines and an ellipsis.
-
-      * 
-
-      * All headings should be sentence case and not have the first letter of every word capitalised. More information in the [text style guide](/guidelines/style-guide/#structure)
 
 
       #### Icons
 
 
-      These can be position on the left or right.  If every list item has an icon then they should be positioned on the left of the label. If you just want to emphasis one item using an icon (eg delete item) then position it to the right of the label. You should never have an icon both left and right of the label. 
+      These can be positioned on the left or right of each list item.  If every list item has an icon then they should be positioned to the left of the label. If you just want to emphasis one item using an icon (e.g. a delete item action), then the icon should be positioned to the right of the label. You should never have an icon on both the left and right of the label. 
 
 
-      Icons should be used to help the user identify the item in the list quicker than reading every item, if it doesn't help the user then they shouldn't be used. For example having the same icon on every list item will actually hinder the user in finding what they need.  [Find out more in the Iconography guidelines](/guidelines/iconography)
+      Icons should be used to help the user identify the item in the list quicker than reading every item - if it doesn't help the user, then they shouldn't be used. For example, having the same icon on every list item will actually hinder the user in finding what they need.  [Find out more in the Iconography guidelines](/guidelines/iconography)
     icon: file_invoice
   - title: Code
     hook: code
