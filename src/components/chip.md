@@ -11,7 +11,7 @@ tabs:
       ## What is a Chip?
 
 
-      A **Chip** is a compact element that represent statuses, counts, selections, filters, or even trigger actions.
+      A **Chip** is a compact element used to represent statuses, counts, selections, filters, or even trigger actions.
 
 
       - - -
@@ -23,11 +23,6 @@ tabs:
       Chips are mainly used to show statuses or as counters to indicate, for example, the number of unread notifications, emails, or outstanding tasks. By default, they are small and compact, and can be easily placed where space is limited and information is to be shown discretely.
 
 
-
-
-      Common uses are to show the number of messages a user has, or how many tasks may need to be completed.
-
-
       - - -
 
 
@@ -37,27 +32,27 @@ tabs:
       The following types of Chip are available:
 
 
-      | **Name**           | **Description** | **Example** |
+      | **Name**           | **Description**                                                                        | **Example** |
 
-      | ------------------ | --------------- | ----------- |
+      | ------------------ | -------------------------------------------------------------------------------------- | ----------- |
 
-      | Default            |                 |             |
+      | Default            | A Chip that contains a simple text label                                               |             |
 
-      | With icon          |                 |             |
+      | With icon          | A Chip that contains a text label and an icon on the left-hand side                    |             |
 
-      | With trailing icon |                 |             |
+      | With trailing icon | A Chip that contains a text label and an icon on the right-hand side                   |             |
 
-      | As soft            |                 |             |
+      | As soft            | A Chip that is styled using subtle background colours and a border                     |             |
 
-      | As outline         |                 |             |
+      | As outline         | A Chip that is styled using a white background and a solid dark border                 |             |
 
-      | As sized           |                 |             |
+      | As sized           | Allows a Chip to use one of the following sizes; Extra Small, Small, Medium, and Large |             |
 
-      | As anchor          |                 |             |
+      | As anchor          | Allows a Chip to be used a link                                                        |             |
 
-      | As button          |                 |             |
+      | As button          | Allows a Chip to be used as a button                                                   |             |
 
-      | As disabled        |                 |             |
+      | As disabled        | Allows a Chip to be disabled                                                           |             |
 
 
       - - -
@@ -69,17 +64,17 @@ tabs:
       Context helps convey the information being communicated. Chip contexts correspond to a colour to provide a consistent experience for users. For more information, refer to Colours \[link to Colours page].
 
 
-      | **Name** | **Description** | **Behaviour** | **Examples** |
+      | **Name**    | **Description**                                                                                                          |
 
-      | -------- | --------------- | ------------- | ------------ |
+      | ----------- | ------------------------------------------------------------------------------------------------------------------------ |
 
-      | Success  |                 |               |              |
+      | **Success** | Used where a Chip is required to show an element with a successful or positive nature. The Success colour is green.      |
 
-      | Danger   |                 |               |              |
+      | **Danger**  | Used where a Chip is required to show an element with an unsuccessful or negative nature. The Danger colour is red.      |
 
-      | Warning  |                 |               |              |
+      | **Warning** | Used where a Chip is required to show an element with an undesirable or unexpected nature. The Warning colour is yellow. |
 
-      | Info     |                 |               |              |
+      | **Info**    | Used where a Chip is required to show an element with a neutral or advisory nature. The info colour is teal.             |
 
 
       - - -
