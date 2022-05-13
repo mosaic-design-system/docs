@@ -51,6 +51,12 @@ tabs:
       -------------------------------------------------------------------------\
       ---------------------------------- |
 
+      | **Default**       | **Default Buttons** are full-colour buttons
+      and are used for all important actions, your primary action (which may or
+      may not use the primary
+      colour)                                                                                                                                                                                                                                                                                                                                                                                           \
+      |
+
       | **Outline**       | **Outline Buttons** are not full-colour
       buttons – instead, they are just a **Button** outline. This is useful when
       the **Button** is on a page that has a coloured background. This is used
@@ -124,9 +130,6 @@ tabs:
       just timed out or is
       unresponsive.                                                                                                             \
       |
-
-
-      - - -
 
 
       > \\*if a user will never be able to use the **Button**, for example
