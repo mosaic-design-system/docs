@@ -32,6 +32,9 @@ tabs:
       ## Select types
 
 
+      The following types of **Selects** are available:
+
+
       ### Types
 
 
@@ -68,7 +71,7 @@ tabs:
       ### Multiple select
 
 
-      In cases where the user needs to **Select** multiple options, consideration needs to be taken about the number of options they might **Select**.  If it is going to be a large amount, say more than 10, then it might be better to try a different approach.  For example the **Select** input could be split it to several select inputs if the options can be grouped. Or a Picklist might be a better component to use. 
+      In cases where the user needs to select multiple options, consideration needs to be taken about the number of options they might Select.  If it is going to be a large amount, for example more than 10, then it might be better to try a different approach.  For example, the **Select** input could be split it to several select inputs if the options can be grouped, or a **Picklist** might be a better component to use. 
 
 
       ### Option groups
