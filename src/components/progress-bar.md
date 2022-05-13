@@ -52,8 +52,8 @@ tabs:
       \r
 
       All **Progress indicators** are available in large, regular and
-      small sizes. The types of **Progress indicators** are available, separated
-      between determinate and indeterminate **Progress indicators**:\r
+      small sizes. The following types of **Progress indicators** are available,
+      separated between determinate and indeterminate **Progress indicators**:\r
 
       \r
 
