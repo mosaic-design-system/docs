@@ -70,7 +70,8 @@ tabs:
 
       - - -\r
 
-      ## Using an progress indicator\r
+      ## Using a Progress indicator\r
+
 
       **Progress** indicators are a great way to visually inform your
       users the system is processing an operation and if possible how long it
