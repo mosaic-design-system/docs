@@ -86,16 +86,25 @@ tabs:
       Similarly, we recommend 6 columns maximum within the **Table** -  some products may need more, but it may be worth reviewing the product's information architecture when creating **Tables** to ensure that all columns are necessary for the user experience.
 
 
+      ### Table Actions
+
+
+      In order to perform an action on a single/multiple **Table** row, you can access the overflow menu and actions will appear in there. To perform multiple actions, user the overflow menu in the header, this will contain the actions that you can perform on those items selected only.
+
+
       ### Zebra striping
 
 
       The zebra striping should not be overridden within a **Table**, as it is there to help users scan and follow the **Table's** content easier - it is also helpful in maintaining accessibility standards of your product. 
 
 
-      ### Selectors and Pagination
+      ### Table header and footer components
 
 
-      Titles, search and filters for the **Table** must be designed/implemented by using the **Table** header component and Pagination should be used with the **Table** footer component. Both of these components fall under the **[Table pattern](patterns/table)**.
+      **Table** titles, search, export, filters and the overflow menu for triggering whole **Table** actions etc,must be designed/implemented by using the **Table** header component and pagination should be used be designing/implementing the **Table** footer component. Both of these components fall under the **[Table pattern](patterns/table)**.
+
+
+      You can use the **Table** component alone, but never use the **Table** header or **Table** footer components without the **Table** component.
     icon: file_invoice
   - title: Code
     hook: code
