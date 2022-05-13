@@ -32,25 +32,28 @@ tabs:
       ## Card types
 
 
-      | **Variant**           | **description**                                                                                                                                                                                            |
+      The following **Card** types are available:
 
-      | --------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
-      | Non-interactable      | General white **Card** to display or capture content, used for a lot of things!                                                                                                                            |
+      | **Type**           | **Description**                                                                                                                                                                                |
 
-      | Interactable          | A **Card** that a user can click to interact with, for example to select or act as a button to perform an action/navigation.                                                                               |
+      | --------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
-      | Interactable active   | The active state of an interactable **Card** (while clicking)                                                                                                                                              |
+      | Non-interactable      | General white Card to display or capture content, used for a lot of things!                                                                                                                    |
 
-      | Grouping              | A grey **Card** to group components together to indicate their relationship to each other.                                                                                                                 |
+      | Interactable          | A Card that a user can click to interact with, for example to select or act as a button to perform an action/navigation                                                                       |
 
-      | Selected              | To show a **Card** is selected, user might click the whole card or a checkbox on the card to select it as part of a workflow.                                                                              |
+      | Interactable active   | The active state of an interactable Card (while clicking)                                                                                                                                      |
 
-      | Selected active       | Active state of a selected **Card** - when the **Card** is clicked to be selected or the **Card** is being dragged.                                                                                        |
+      | Grouping              | A grey Card to group components together to indicate their relationship to each other                                                                                                          |
 
-      | Selected with context | A contextual colour border and tick to indicated meaning of selection.  This could be to indicate that items are going to be removed or added.                                                             |
+      | Selected              | To show a Card is selected, a user might click the whole card or a checkbox on the card to select it as part of a workflow                                                                       |
 
-      | Contextual            | Styled to indicate the context of the **Card**.  This should be used to represent the contents of the **Card**.  Eg a danger context **Card** could be used to show information about issues in the system |
+      | Selected active       | Active state of a selected Card - when the Card is clicked to be selected or the Card is being dragged                                                                                       |
+
+      | Selected with context | A contextual colour border and tick to indicate the meaning of a selection - this could be to indicate that items are going to be removed or added                                                 |
+
+      | Contextual            | Styled to indicate the context of the Card, which is used to represent the contents of the Card - for example, a danger context Card could be used to show information about issues in the system |
 
 
       ## Card contexts
@@ -59,17 +62,17 @@ tabs:
       Context helps convey the information being communicated. **Card** contexts correspond to a colour to provide a consistent experience for users. For more information, refer to the [Colours](/guidelines/colours) guidelines.
 
 
-      | **Name** | **Description**                                                                                                  | **Examples**                                                                                                                      |
+      | **Name** | **Description**                                                                                              | **Examples**                                                                                                                  |
 
-      | -------- | ---------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+      | -------- | ------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------- |
 
-      | Success  | Indicates a **Card** with positive information or selected for a positive action. The Success colour is green.   | On a dashboard to highlight targets have been met. The user selects a **Card**(s) to be added as part of an action.               |
+      | Success  | Indicates a Card with positive information or selected for a positive action. The Success colour is green.   | On a dashboard to highlight targets have been met. The user selects a Card(s) to be added as part of an action.               |
 
-      | Danger   | Indicates a **Card** with negative information or selected for a danger action. The Danger colour is red.        | On a dashboard to highlight targets have failed to be met. The user selects a **Card**(s) to be added as part of a delete action. |
+      | Danger   | Indicates a Card with negative information or selected for a danger action. The Danger colour is red.        | On a dashboard to highlight targets have failed to be met. The user selects a Card(s) to be added as part of a delete action. |
 
-      | Warning  | Indicates a **Card** with warning information or selected highlighted for issues.  The Warning colour is yellow. | On a dashboard to highlight targets that might fail to be met.  **Card**(s) are selected that have potential issues.              |
+      | Warning  | Indicates a Card with warning information or selected highlighted for issues.  The Warning colour is yellow. | On a dashboard to highlight targets that might fail to be met.  Card(s) are selected that have potential issues.              |
 
-      | Info     | Indicates a **Card** with advisory information. The info colour is teal.                                         | Advisory information for the user to read as part of completing a task.                                                           |
+      | Info     | Indicates a Card with advisory information. The info colour is teal.                                         | Advisory information for the user to read as part of completing a task.                                                       |
 
 
       - - -
@@ -78,25 +81,25 @@ tabs:
       ## Using a Card
 
 
-      **Cards** are used to display all content within the application.  On a page you could have just one **Card**, or hundreds of **Cards**, depending on what you are needing to do.  **Cards** can be laid out in grids, but the grids should be responsive so that **Cards** tend to stay a similar size and more vertical space is used on smaller screens by decreasing the number of columns. 
+      **Cards** are used to display all content within the application.  On a page you could have just one **Card**, or maybe even hundreds of **Cards**, depending on what you are needing to do.  **Cards** can be laid out in grids, but the grids should be responsive so that **Cards** tend to stay a similar size - on smaller screens, they will resize themselves to use fewer columns and use more vertical space.
 
 
       ### Nested Cards
 
 
-      **Cards** can be nested within another **Card** to aid the users understanding of what is grouped together.  As with any **Card** these can be organised in columns an rows to best suit the data being displayed, however in forms they should always be in only a single column.  Nested **Cards** are when you might want to use the Grouping type to help separate it from the parent **Card**. 
+      **Cards** can be nested within another **Card** to aid the users understanding of what is grouped together.  As with any **Card** these can be organised in columns and rows to best suit the data being displayed - however. in forms they should always be in a single column.  Nested **Cards** are when you might want to use the Grouping type to help separate it from the parent **Card**. 
 
 
       ### Headers
 
 
-      A **Card** may have a header section which could contain a title, subtitle and other inputs (eg Buttons or Selects) for additional actions related to the **Card**.  The header section should always be used for items that relate to the whole **Card.**
+      A **Card** may have a header section which could contain a title, subtitle and other inputs (e.g. **Buttons** or **Selects**) for additional actions related to the **Card**.  The header section should always be used for items that relate to the whole **Card.**
 
 
       ### Footers
 
 
-      The footer section of a **Card** is there for actions on the **Card** in the form of buttons.  This is where the call to action Button would live for example.  On forms this can also be used to show additional information to the user, eg All fields are required.
+      The footer section of a **Card** is there for actions on the **Card** in the form of **Buttons**.  This is where the call to action **Button** would be placed, for example.  On forms this can also be used to show additional information to the user, e.g. "All fields are required".
     icon: file_invoice
   - title: Code
     hook: code
