@@ -52,12 +52,11 @@ tabs:
 
       ### Where to use a Radio button
 
+
       **Radio buttons** are used when multiple options are available, no matter how they are linked. Only one **Radio button** can be selected from a list at any one time, so if the user selects an option in the list, other options will remain unselected or automatically become unselected.
 
 
-      [[[We only suggest using a **Radio button** as part of a form to collect data, otherwise instances such as changing the view or other visual changes should use the segmented button component.]]]]
-
-
+      Additionally, **Radio buttons** should only be used within forms to collect data. Other areas of your product where you would be tempted to use them (i.e. choosing from a list of settings in a configuration page) should use components such as [**Buttons**](/components/buttons) instead.
 
 
       ### Multiple-selects
