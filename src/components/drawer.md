@@ -149,7 +149,7 @@ tabs:
       Rail](/components/navigation-rail), so when an item is selected in the
       **Rail**, the **Drawer** will slide out to provide more navigation
       options.  It can be used without a **Rail** if the top level navigation is
-      not needed.a"
+      not needed."
     icon: file_invoice
   - title: Code
     hook: code
