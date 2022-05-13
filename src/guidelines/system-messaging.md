@@ -57,7 +57,7 @@ For more information on the component, please refer to [Snackbars](/components/s
 
 - Your changes have been successfully saved
 - The report has finished running
-- X has been deleted (and include an undo button in the **Snackbar**
+- X has been deleted (and include an undo button in the **Snackbar**)
 
 ## Dialogs
 
