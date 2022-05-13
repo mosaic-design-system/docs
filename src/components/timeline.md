@@ -29,7 +29,7 @@ tabs:
       - - -
 
 
-      ## Timeline Types
+      ## Timeline types
 
 
       We have 2 types of **Timelines**, Single content area and Dual content area. Both of these also have "event points" that vary from one another based on user input. Event points run along the vertical path to create the timeline, and each point can be coloured with a contextual colour and icon to indicate their status. 
@@ -61,7 +61,7 @@ tabs:
       For example, the header in the content area should always be the user action. When adding supplementary information such as a date, it can be less prominent below, you could use the dual content type to display the date and time on the right of the timeline.
 
 
-      When using a **Timeline** each event point should be in chronological order, making sure each status is dependent on the previous. If you have events can progress independently of each other, consider using an [Accordion](/guidelines/accordion) with status chips. 
+      When using a **Timeline** each event point should be in chronological order, making sure each status is dependent on the previous. If you have events that can progress independently of each other, consider using an [Accordion](/guidelines/accordion) with status chips. 
 
 
       Take a look at our [contextual colours guidance](guidelines/colour/) for more information on how to use the contextual colours, and similarly you can read our [Icons guidelines](/guidelines/icons) to represent statuses.
