@@ -64,7 +64,7 @@ tabs:
       ### Multiple-selects
 
 
-      Do not use a **Radio button** if a user can select multiple options from a list. In this case, [**Checkboxes**](/forms/checkbox/) or a [**Toggle**](/forms/toggle) should be used instead. **Radio buttons** only allow the user to select a single item from a set, whereas **Checkboxes** allow the user to select multiple options.
+      Do not use a **Radio button** if a user can select multiple options from a list. In this case, [**Checkboxes**](/forms/checkbox/) should be used instead. **Radio buttons** only allow the user to select a single item from a set, whereas **Checkboxes** allow the user to select multiple options.
     icon: file_invoice
   - title: Code
     hook: code
