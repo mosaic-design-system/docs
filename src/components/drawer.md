@@ -18,13 +18,7 @@ tabs:
       ### When and why
 
 
-      There are two main purposes of a **Drawer**, navigation or contextual content. 
-
-      The navigation Drawer is usual used as part of the shell of the application to do site wide navigation. 
-
-      Contextual content Drawers are used to show options or information that relate the current page, such as, filters, advanced search options, form submissions, etc. The drawer would be shown by an action a user takes on the main page, eg a button. 
-
-      On mobile bottom Drawers are also used a instead of Dropdowns to display a list of actions. 
+      There are two main purposes of a **Drawer**, navigation or contextual content. The navigation Drawer is usually used as part of the shell of the application to do site-wide navigation. Contextual content Drawers are used to show options or information that relate to the current page, such as, filters, advanced search options, form submissions, etc. The drawer would be shown by an action a user takes on the main page, eg a button. On mobile bottom Drawers are also used a instead of Dropdowns to display a list of actions. 
 
 
       - - -
@@ -54,25 +48,23 @@ tabs:
       ### Dismissible or modal?
 
 
-      The choice here depends on if the user should be able to interact with rest of the page while the drawer is open.\
-
-      For example a navigation drawer would want to be dismissible as they might want to leave it open while using the page they have navigated to.  However if the intention was to complete a task, a modal Drawer should be used to make the user focus on that task until completion (unless they decide to cancel). 
+      The choice here depends on if the user should be able to interact with the rest of the page while the Drawer is open. For example a navigation drawer would want to be dismissible as they might want to leave it open while using the page they have navigated to.  However if the intention was to complete a task, a modal Drawer should be used to make the user focus on that task until completion (unless they decide to cancel). 
 
 
       ### Position
 
 
-      Drawers can be configured to appear at the top, bottom, start or finish of a screen and they can be triggered by any action such as the click of a button, the selection of a checkbox, etc. Drawers slide in and out from their specified location.
-
-      In general if you are using a drawer with content they are positioned at the finish. 
+      Drawers can be configured to appear at the top, bottom, start or finish of a screen and they can be triggered by any action such as the click of a button, the selection of a checkbox, etc. Drawers slide in and out from their specified location. In general if you are using a drawer with content they are positioned at the finish. 
 
 
       ### With content
 
 
-      The content and styling of a Drawer is entirely customisable using other Mosaic components, however you should stick to our Drawer with content layout (header, body, footer) and only customise the body section unless you have a good reason and then speak with your UX Designer. 
+      The content and styling of a Drawer is entirely customisable using other Mosaic components, however you should stick to our Drawer with content layout (header, body, footer) and only customise the body section unless you have a good reason and then speak with your UX Designer.
+
 
       The sections would be used for the following:
+
 
       **Header** - Title, subtitle and close button (cross top right)
 
@@ -84,7 +76,7 @@ tabs:
       ### With navigation
 
 
-      A Drawer with navigation will often be used with our [Navigation Rail](Link), so when an item is selected in the Rail the Drawer will slide out to provide more navigation options.  It can be used without a Rail if the top level navigation is not needed.
+      A Drawer with navigation will often be used with our [Navigation Rail](Link), so when an item is selected in the Rail, the Drawer will slide out to provide more navigation options.  It can be used without a Rail if the top level navigation is not needed.
     icon: file_invoice
   - title: Code
     hook: code
