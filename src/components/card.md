@@ -11,7 +11,7 @@ tabs:
       ## What is a Card
 
 
-      <a href="http://example.com/" target="_blank">Hello, world! <mcc-icon class="mcc-icon--primary" name="external_link" icon-set="fluency_regular" width="24" height="24"></mcc-icon></a>
+      <a href="http://example.com/" target="_blank">Hello, world! <mcc-icon class="mcc-icon--primary" name="external_link" icon-set="" width="24" height="24"></mcc-icon></a>
 
 
       Cards form the backbone of all content areas. They should surround and group your content into meaningful 'boxes' of functionality, and can be used alongside columns and rows to lay out your application in a variety of ways.
