@@ -23,7 +23,7 @@ tabs:
       **Navigation rails** provide a compact, but consistent, approach to navigation. They should be used to provide access to top-level destinations on desktops and tablets, which need to be accessed from anywhere. 
 
 
-      On smaller screens the **Navigation rail** should transition to a [**Navigation Bar**](/components/navigation-bar). 
+      On smaller screens the **Navigation rail** should transition to a [**Navigation bar**](/components/navigation-bar). 
 
 
       Although a **rail** can be used in its own, when there is a secondary navigation structure it should be used in conjunction with a [**Drawer**](/components/drawer) to display secondary destinations or actions. 
