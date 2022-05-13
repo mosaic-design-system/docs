@@ -9,7 +9,7 @@ status:
   html_css: In queue
   web_component: In queue
 ---
-## What is a Checkbox chice button?
+## What is a Checkbox choice button?
 
 A Checkbox choice button is an expanded version of the simple checkbox component which indicates if something is selected or not.
 
