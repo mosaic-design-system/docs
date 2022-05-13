@@ -9,24 +9,25 @@ storybook: https://tessera.oneadvanced.io/dev/components-core/?path=/docs/html-d
 tabs:
   - title: Usage
     body: >-
-      ## What is a dropdown?
+      ## What is a Dropdown?
 
 
-      A **Dropdown** is an overlay that displays a lists of links or options for the user to choose, generally opened from a **Button**. The options might navigate the user to another place or perform an action.
+      A **Dropdown** is a component that overlays a list of links or options for the user to choose over the page. They're usually opened from a **Button**. The options might navigate the user to another place or perform an action.
 
 
       ### When and why
 
 
-      Dropdowns are most commonly used with a Button, but can be triggered from other components. On selecting the component an overlay (often as a Card) will be shown with a list of items to enable the user to navigate to another area or perform an action in context to the current page. Very common examples of Dropdowns are overflow menus. 
+      **Dropdowns** are most commonly used with a **Button**, but can be triggered from other components. When the triggering component is selected, an overlay (often a [**Card**](/components/card)) will be shown with a list of items. Usually, these items navigate to another area of the application, or perform an action in context to the current page. Very common examples of **Dropdowns** are overflow menus. 
 
 
       #### Dropdown or a Select?
 
 
-      Dropdowns and Select component can appear to be very similar and sometimes it is hard to chose the appropriate component. As general rule of thumb, the component triggering the dropdown doesn't change when an item is selected, eg if trigger from a button, the button text should not change.  If you want the selection to be shown when the overlay is hidden, then you should use the Select component. 
+      **Dropdowns** and [**Select**](/forms/select) components can appear to be very similar, and sometimes it is hard to chose the appropriate one. As a general rule of thumb, the component triggering the **Dropdown** doesn't change when an item is selected, e.g. if the trigger is a **Button**, then **Button's** label should not change. On the other hand, if you want the selection to be shown when the overlay is hidden, then you should use the Select component. 
 
-      [Read more on the form Select page](/forms/select/)
+
+      [Read more on the **Select** page](/forms/select/)
 
 
       - - -
