@@ -12,7 +12,7 @@ tabs:
       ## What is a dropdown?
 
 
-      A Dropdown is an overlay that displays a lists of links or options for the user to choose, generally opened from a Button. The options might navigate the user to another place or perform an action.
+      A **Dropdown** is an overlay that displays a lists of links or options for the user to choose, generally opened from a **Button**. The options might navigate the user to another place or perform an action.
 
 
       ### When and why
