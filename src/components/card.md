@@ -11,13 +11,13 @@ tabs:
       ## What is a Card
 
 
-      <a href="http://example.com/" target="_blank">Attempt 1 16px icon <mcc-icon class="mcc-icon--primary" name="external_link" icon-set="" width="16" height="16"></mcc-icon></a>
+      <a href="http://example.com/" target="_blank">Attempt 1 16px icon <mcc-icon class="mcc-icon--primary" name="external_link" icon-set="fluency_outline" width="16" height="16"></mcc-icon></a>
 
 
       I’m an <button class="mcc-button mcc-button--anchor mcc-button--flush"><span class="mcc-button__label">anchor button</span> <mcc-icon name="external_link" aria-hidden="true"></mcc-icon></button> Some more text
 
 
-      <a href="http://example.com/" target="_blank" class="mu-d-inline-flex mu-d-flex mu-align-items-center">Attempt 20px icon <mcc-icon class="mcc-icon--primary" name="home" icon-set="" width="20" height="20"></mcc-icon></a>
+      <a href="http://example.com/" target="_blank" class="mu-d-inline-flex mu-d-flex mu-align-items-center">Attempt 20px icon <mcc-icon class="mcc-icon--primary" name="external_link" icon-set="" width="20" height="20"></mcc-icon></a>
 
 
       Cards form the backbone of all content areas. They should surround and group your content into meaningful 'boxes' of functionality, and can be used alongside columns and rows to lay out your application in a variety of ways.
