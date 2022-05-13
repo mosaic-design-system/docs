@@ -11,7 +11,7 @@ tabs:
       ## What is a Navigation Bar?
 
 
-      A Navigation Bar is a bottom navigation component that displays links to primary destinations in an application.
+      A **Navigation bar** is a bottom navigation component that displays links to primary destinations in an application.
 
 
       - - -
@@ -20,33 +20,7 @@ tabs:
       ### When, and why?
 
 
-      Navigation Bars provide a compact, but consistent approach to navigation. They should be used to provide access to top-level destinations on mobile devices, which need to be accessed from anywhere. On larger screens the bar should transition to a Navigation Rail \[link to Navigation Rail page]. Although a bar can be used in its own, when there is a secondary navigation structure, it should be used in conjunction with a Drawer component \[link to Drawer page] to display secondary destinations or actions.
-
-
-      - - -
-
-
-      ## Navigation Bar types
-
-
-      The following types of Navigation Bar are available:
-
-
-      | **Name** | **Description** | **Behaviour** | **Example** |
-
-      | -------- | --------------- | ------------- | ----------- |
-
-      | Default  |                 |               |             |
-
-      |          |                 |               |             |
-
-      |          |                 |               |             |
-
-      |          |                 |               |             |
-
-      |          |                 |               |             |
-
-      |          |                 |               |             |
+      **Navigation bars** provide a compact, but consistent approach to navigation. They should be used to provide access to top-level destinations on mobile devices, which need to be accessed from anywhere. On larger screens, the bar should transition to a [**Navigation rail**](/components/navigation-rail). Although a **Bar** can be used in its own, when there is a secondary navigation structure, it should be used in conjunction with a [**Drawer**}(/components/drawer) to display secondary destinations or actions.
 
 
       - - -
@@ -55,25 +29,44 @@ tabs:
       ## Using a Navigation Bar
 
 
-      When users click or tap a bar item, they are taken to the top-level destination associated with it and that item appears selected. Navigation bar destinations are always represented by icons that indicate the content or the nature of a destination. In addition, they must always include text labels. Icons alone should never be used, as icons may not be universally known and will automatically exclude users that do not known what they mean. Text labels should provide short, meaningful descriptions and provide an alternative way for users to understand an icon’s meaning. Labels should not be truncated and wrapping long labels should be avoided when possible.
+      ### Navigation items
 
 
-      Navigation Bars can contain up to 5 items. If there are more items, then the fifth item should become a "More" button, which displays a separate menu of the additional items.
+      Each item on a **Bar** takes the user to the top-level destination associated with it, and that item then appears selected. **Navigation** bar destinations are always represented by icons and labels that indicate the content or the nature of a destination (see below for more information on using labels and icons effectively). 
 
 
-      Navigation Bars must be fixed to the bottom of the screen, i.e. when the page content is scrolled, the bar remains visible. Also, they do not scroll or move horizontally.
+      **Navigation bars** can contain up to 5 items. If there are more items, then the fifth item should become a "More" button, which displays a separate menu of the additional items.
 
 
-      Bar icons can include Chips \[link to Chips component page] to convey information about the associated destination, such as a count. When Chips are used in this way, they must be placed centrally, underneath a bar item.
+      ### Bar positioning
 
 
-      Navigation bars are placed at the bottom of the screen and always runs horizontally along the bottom of a page.
+      **Navigation bars** must be fixed to the bottom of the screen, i.e. when the page content is scrolled, the **Bar** remains visible. They run horizontally across the bottom of the screen, but do not scroll or move horizontally.
 
 
-      As mention above, bars can also be used with a Drawer component. This supports your navigation structure if you have secondary destinations or additional actions. However, a drawer is unnecessary if there are no secondary destinations or actions in your application.
+      ### Icons
 
 
-      When moving from a small screen to a larger display, bars transform into a Navigation Rail component, while still providing the same access but in a way that's suitable for larger screens. However, the Navigation Rail and Navigation Bar should not be used together.
+      Icons alone should never be used, as icons may not be universally known and will automatically exclude users that do not known what they mean.
+
+
+      Bar icons can include [**Chips**](/components/chips) to convey information about the associated destination, such as a count. When **Chips** are used in this way, they must be placed centrally, underneath a bar item.
+
+
+      ### Labels
+
+
+      In addition, they must always include text labels. Text labels should provide short, meaningful descriptions and provide an alternative way for users to understand an icon’s meaning. Labels should not be truncated and wrapping long labels should be avoided when possible.
+
+
+      ### Drawer
+
+      As mentioned above, **Bars** can also be used with a **Drawer** component. This supports your navigation structure if you have secondary destinations or additional actions. However, a **Drawer** is unnecessary if there are no secondary destinations or actions in your application.
+
+
+      ### Bars on other devices
+
+      When moving from a small screen to a larger display, **Bars** transform into a **Navigation rail** component. The **Rail** provides the same access as a **Bar**, but in a way that's suitable for larger screens. **Rails** and **Bars** should never appear on the same page together.
     icon: file_invoice
   - title: Code
     hook: code
