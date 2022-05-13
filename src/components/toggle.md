@@ -33,15 +33,15 @@ tabs:
       All variations allow you to include a subheading
 
 
-      | Variant                           | Description                                                                                                                |
+      | Variant         | Description                                                                                                      |
 
-      | --------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
+      | --------------- | ---------------------------------------------------------------------------------------------------------------- |
 
-      | **Default**                       | The default **Toggle** has is a standard looking **Toggle** that is grey when toggled 'off' and green when toggled 'on'.   |
+      | **Default**     | The default Toggle has is a standard looking Toggle that is grey when toggled 'off' and green when toggled 'on'. |
 
-      | **With on/off**|  The same as the default toggle but with labels for when it is toggled 'on' and 'off'.| 
+      | **With on/off** | The same as the default toggle but with labels for when it is toggled 'on' and 'off'.                            |
 
-      **With label** |A label to the right hand side. |
+      | **With label**  | A label to the right hand side.                                                                                  |
 
 
       \[[Code up some examples here]]
@@ -53,7 +53,7 @@ tabs:
       ## Using a Toggle
 
 
-      **Toggles** are a great way for a user to quickly switch on/off one or a number of settings. In order for this to be effective we must insure (unlike tick boxes) that the label is on the right hand side of the **Toggle**. Labels should be in sentence case and both the **Toggle** and the label should be contained within the same columns.
+      **Toggles** are a great way for a user to quickly switch on/off one or a number of settings. In order for this to be effective we must ensure (unlike tick boxes) that the label is on the right hand side of the **Toggle**. Labels should be in sentence case and both the **Toggle** and the label should be contained within the same columns.
 
 
       **Toggles** should not be used for yes/no responses. **Toggles** should only be used for turning things on/off.
