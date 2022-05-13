@@ -21,27 +21,27 @@ tabs:
       ### When, and why?
 
 
-      A **Toggle** is useful for when you want to switch on/off settings in an environment. For example in Clear Review, we use a Toggle to turn on 'Giving Feedback anonymously' when a user is giving Feedback.
+      A **Toggle** is useful for when you want to switch something on or off in a given context. For example, in Clear Review, we use a **Toggle** to turn on 'Giving Feedback anonymously' when a user is giving Feedback.
 
 
       - - -
 
 
-      ## Toggle Types
+      ## Toggle types
 
 
-      All variations allow you to include a subheading
+      The following types of **Toggle** are available:
 
 
       | Variant         | Description                                                                                                      |
 
       | --------------- | ---------------------------------------------------------------------------------------------------------------- |
 
-      | **Default**     | The default Toggle has is a standard looking Toggle that is grey when toggled 'off' and green when toggled 'on'. |
+      | **Default**     | The default Toggle is a standard looking Toggle that is grey when toggled 'off' and green when toggled 'on' |
 
-      | **With on/off** | The same as the default toggle but with labels for when it is toggled 'on' and 'off'.                            |
+      | **With on/off** | The same as the default Toggle but with labels for when it is toggled 'on' and 'off'                            |
 
-      | **With label**  | A label to the right hand side.                                                                                  |
+      | **With label**  | A Toggle with a label to the right hand side                                                                                  |
 
 
       \[[Code up some examples here]]
@@ -53,10 +53,14 @@ tabs:
       ## Using a Toggle
 
 
-      **Toggles** are a great way for a user to quickly switch on/off one or a number of settings. In order for this to be effective we must ensure (unlike tick boxes) that the label is on the right hand side of the **Toggle**. Labels should be in sentence case and both the **Toggle** and the label should be contained within the same columns.
+      ### Toggle labels
+
+      Labels should be on the right-hand side of the **Toggle**. They should also be in sentence case and both the **Toggle** and the label should be contained within the same columns.
 
 
-      **Toggles** should not be used for yes/no responses. **Toggles** should only be used for turning things on/off.
+      ### Toggle placement
+
+      **Toggles** should not be used for yes or no responses - they should only be used for turning things on or off. If you want a yes or no response, you should consider something like a [**Select**](/forms/selector) or [**Radio button**]
     icon: file_invoice
   - title: Code
     hook: code
