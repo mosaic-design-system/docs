@@ -20,7 +20,7 @@ tabs:
       ### When, and why?
 
 
-      **Navigation bars** provide a compact, but consistent approach to navigation. They should be used to provide access to top-level destinations on mobile devices, which need to be accessed from anywhere. On larger screens, the bar should transition to a [**Navigation rail**](/components/navigation-rail). Although a **Bar** can be used in its own, when there is a secondary navigation structure, it should be used in conjunction with a [**Drawer**}(/components/drawer) to display secondary destinations or actions.
+      **Navigation bars** provide a compact, but consistent approach to navigation. They should be used to provide access to top-level destinations on mobile devices, which need to be accessed from anywhere. On larger screens, the bar should transition to a [**Navigation rail**](/components/navigation-rail). Although a **Bar** can be used in its own, when there is a secondary navigation structure, it should be used in conjunction with a [**Drawer**](/components/drawer) to display secondary destinations or actions.
 
 
       - - -
