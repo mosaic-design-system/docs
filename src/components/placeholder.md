@@ -11,7 +11,10 @@ tabs:
       ## What is a Placeholder?
 
 
-      Placeholders are indicators of how the page content will look once data has fully loaded.
+      **Placeholders** are indicators of how the page content will look once data has fully loaded - they give a quick preview of what the page will end up looking like, but without details. 
+
+
+      They only appear while a page is loading, and are **not** permanent stand-ins for pages that aren't ready for the user to use.
 
 
       - - -
@@ -20,16 +23,16 @@ tabs:
       ### When, and why?
 
 
-      Use a Placeholder on an initial page load that has more than 1 element, and takes more than 0.3s to load on an average connection. Using a Placeholder will give a perception of shorter wait time.
+      **Placeholders** can be used when a page is initially loading, as long as it has more than 1 element. They should also only be used when a page typically takes more than 0.3s to load on an average connection. Using a **Placeholder** will give a perception of shorter wait time, and let the user know that the system is busy loading the content and hasn't frozen.
 
 
       - - -
 
 
-      ## Placeholder Types
+      ## Placeholder types
 
 
-      We have 3 types of Placeholders to help give a truer representation of the content:
+      The following types of **Placeholder** are available:
 
 
       | **Types**           | **Description**                                   |
@@ -40,10 +43,7 @@ tabs:
 
       | **Image**           | This should be used when you are loading imagery  |
 
-      | **Image with text** | This can be used to show a mix of data I loading  |
-
-
-      \[[Code up some examples here]]
+      | **Image with text** | This can be used to show a mix of text ad imagery |
 
 
       - - -
@@ -52,10 +52,20 @@ tabs:
       ## Using a Placeholder
 
 
-      Only apply a Placeholder to your loading screen if the average load time is longer than 0.3seconds. Consider using a Placeholder when the page has more than 1 item to load at a time. Placeholders should be replaced with content as soon as it's available for loading, rather than waiting until all content is available and showing everything at once. This will make pages look like they're loading faster.
+      ### Loading times
 
 
-      A Placeholder shouldn’t be used for long-running processes or background processes (e.g. importing data or exporting reports). Use a progress indicator \[link to progress indicator] for this instead.
+      Only apply a **Placeholder** to your loading screen if the average load time is longer than 0.3seconds. You should only use a **Placeholder** when the page has more than one item to load at a time. Using them on smaller pages with little content will be arbitrary and are unlikely to impact the user's perception of load times.
+
+
+      ### Placeholder transitions
+
+      **Placeholders** should be replaced with content as soon as it's available for loading, rather than waiting until all content is available and showing everything at once. If the page gradually loads in, the page looks like they're loading faster. It makes little sense to make the user wait for all pieces of content to be available at once - after all, they may only be looking for the piece of content that loads first.
+
+
+      ### Loading bars
+
+      A **Placeholder** shouldn’t be used for long-running processes or background processes (e.g. importing data or exporting reports). Use a [**Progress indicator**](/components/progress-indicator) instead.
     icon: file_invoice
   - title: Code
     hook: code
