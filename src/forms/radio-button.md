@@ -56,13 +56,13 @@ tabs:
       **Radio buttons** are used when multiple options are available, no matter how they are linked. Only one **Radio button** can be selected from a list at any one time, so if the user selects an option in the list, other options will remain unselected or automatically become unselected.
 
 
-      Additionally, **Radio buttons** should only be used within forms to collect data. Other areas of your product where you would be tempted to use them (i.e. choosing from a list of settings in a configuration page) should use components such as [**Buttons**](/components/buttons) instead.
+      Additionally, **Radio buttons** should only be used within forms to collect data. Other areas of your product where you would be tempted to use them (i.e. choosing from a list of settings in a configuration page) should use components such as [**Buttons**](/component/button) instead.
 
 
       ### Multiple-selects
 
 
-      Do not use a **Radio button** if a user can select multiple options from a list. In this case, [**Checkboxes**](/forms/checkbox/) or a [**Toggle switch**](/forms/toggle-switch) /[Component guidelines pending] should be used instead. **Radio buttons** only allow the user to select a single item from a set, whereas **Checkboxes** allow the user to select multiple options.
+      Do not use a **Radio button** if a user can select multiple options from a list. In this case, [**Checkboxes**](/forms/checkbox/) or a [**Toggle**](/forms/toggle) should be used instead. **Radio buttons** only allow the user to select a single item from a set, whereas **Checkboxes** allow the user to select multiple options.
   - title: Code
   - title: "Accessibility "
   - title: Status
