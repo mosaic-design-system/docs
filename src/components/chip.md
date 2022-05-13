@@ -11,7 +11,7 @@ tabs:
       ## What is a Chip?
 
 
-      A **Chip** is a compact element used to represent statuses, counts, selections, filters, or even trigger actions.
+      A Chip is a compact element used to represent statuses, counts, selections, filters, or even trigger actions.
 
 
       - - -
