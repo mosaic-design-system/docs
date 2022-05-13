@@ -21,7 +21,7 @@ tabs:
       ### When, and why?
 
 
-      **Validation** is useful when you have a form where specific data where a particular criterion needs to be met eg, amount of characters or specific fields that need to be filled out, in order for that data be submitted or in order to progress to the next step.
+      **Validation** is useful when you have a form where a particular criterion needs to be met (for example the amount of characters or specific fields that need to be filled out) in order for that data be submitted or in order to progress to the next step.
 
 
       For example, when you are logging into a product and you don't fill out the email field, then the **Validation** will show an error message explaining that you need to fill out the email field in order to continue.
@@ -33,28 +33,27 @@ tabs:
       - - -
 
 
-      ## Validation Types
+      ## Validation types
 
 
       All variations allow you to include a subheading
 
 
-      | Variant                                      | Description                                                                |
+      | **Variant**                              | **Description**                                                           |
 
-      | -------------------------------------------- | -------------------------------------------------------------------------- |
+      | ---------------------------------------- | ------------------------------------------------------------------------- |
 
-      | **Form with red asterisk**                   | Shows that form is mandatory and has Validation applied to it.             |
+      | \*\*Form with red asterisk               | Shows that form is mandatory and has Validation applied to it.            |
 
-      | **Form with help text below**                | Shows the user what form criteria they will have to complete to continue.  |
+      | Form with help text below                | Shows the user what form criteria they will have to complete to continue. |
 
-      | **Form with red highlight**                  | Shows the user which forms have failed Validation.                         |
+      | Form with red highlight                  | Shows the user which forms have failed Validation.                        |
 
-      | **Generic page error**                       | Generic page errors will show if the data can't be submitted and why.      |
+      | Generic page error                       | Generic page errors will show if the data can't be submitted and why.     |
 
-      | **Validation in sheet and/or applet footer** | Shows validation within that sheet/applet before submitting information.   |
+      | Validation in sheet and/or applet footer | Shows validation within that sheet/applet before submitting information.  |
 
 
-      \[[Code up some examples here]]
 
 
       - - -
