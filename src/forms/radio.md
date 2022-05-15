@@ -23,7 +23,7 @@ tabs:
       A **Radio button** can be used in forms where it is only possible to select one item, but the user has multiple choices.
 
 
-      **Radio buttons** should only be used when there are 5 or less options.  More than that and you should consider a [select](/forms/select).
+      **Radio buttons** should only be used when there are 5 or less options.  More than that and you should consider a [**Select**](/forms/select).
 
 
       - - -
@@ -61,7 +61,7 @@ tabs:
       **Radio buttons** are used when multiple options are available, no matter how they are linked. Only one **Radio button** can be selected from a list at any one time, so if the user selects an option in the list, other options will remain unselected or automatically become unselected.
 
 
-      Additionally, **Radio buttons** should only be used within forms to collect data. Other areas of your product where you would be tempted to use them (i.e. choosing from a list of settings in a configuration page) should use components such as [**Buttons**](/component/button) instead. Segmented controls are an exception to this rule, as they share a lot of traits with [**Buttons**](/components/button) - they can be used to do things like toggle between different views.
+      Additionally, **Radio buttons** should only be used within forms to collect data. Other areas of your product where you would be tempted to use them (i.e. choosing from a list of settings in a configuration page) should use components such as [**Buttons**](/components/button) instead. Segmented controls are an exception to this rule, as they share a lot of traits with [**Buttons**](/components/button) - they can be used to do things like toggle between different views.
 
 
       ### Multiple-selects
