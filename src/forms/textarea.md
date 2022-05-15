@@ -32,10 +32,10 @@ tabs:
       ## Textarea types
 
 
-      The following types of **Textarea** are available:
+      The following **Textarea** types are available:
 
 
-      | **Name**             | **Description**                                                                                          | **Behaviour** |
+      | **Type**             | **Description**                                                                                          | **Behaviour** |
 
       | -------------------- | -------------------------------------------------------------------------------------------------------- | ------------- |
 
@@ -65,7 +65,7 @@ tabs:
 
       ### Validation
 
-      As with all form inputs, a **Textarea** can be checked when a form is submitted to make sure its contents are valid or, if it is flagged as a mandatory field, that it's completed before continuing. For more information, please refer to [**Form Validation**](/forms/form-validation).
+      As with all form inputs, a **Textarea** can be checked when a form is submitted to make sure its contents are valid or, if it is flagged as a mandatory field, that it's completed before continuing. For more information, please refer to [**Form Validation**](/components/validation).
     icon: file_invoice
   - title: Code
     hook: code
