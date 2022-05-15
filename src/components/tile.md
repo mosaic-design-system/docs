@@ -34,7 +34,7 @@ tabs:
       ## Tile types
 
 
-      There are two types of **Tile** available for use:\ 
+      The following **Tile** types are available:\ 
 
 
       | Type | Description |
@@ -64,7 +64,7 @@ tabs:
       All **Tiles** should have a label, **just like Buttons**. Make sure
       you use an informative label that describes where it will take the user,
       and be mindful of keeping it concise. You can check out the
-      [Structure](guidelines/style-guide/#structure) section of the Style Guide
+      [Structure](/guidelines/style-guide/#structure) section of the Style Guide
       for more help on creating appropriate headings and labels.
 
 
