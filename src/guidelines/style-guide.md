@@ -1,10 +1,10 @@
 ---
-title: Style Guide
+title: Content
 order: 31
 toc: true
 tabs:
   - title: Introduction
-    body: "This guide will talk you through the different way text should be
+    body: "This guide will talk you through the different way text content should be
       formatted and presented throughout our products. Reading through these
       guidelines is essential to making sure that our products are consistent
       across the whole suite.\r
@@ -12,8 +12,8 @@ tabs:
       \r
 
       This document won't tell you what to write – you can find that in
-      the [Tone of Voice](/guidelines/tone-of-voice) article – but instead how
-      to write something, i.e. what to capitalise, how to format a table, etc.
+      [Tone of voice](/guidelines/tone-of-voice) – but instead how to write
+      something, i.e. what to capitalise, how to format a table, etc.
 
 
       \r
