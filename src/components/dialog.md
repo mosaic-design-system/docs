@@ -54,7 +54,7 @@ tabs:
 
       | As form    | A Dialog used when user input is required                                                                | Persists. Can be dismissed or actioned | Creating a new record |
 
-      | As sized   | Allows a Dialog to use one of the following sizes; Extra small, Small, Medium, Large, and Full-screen    |                                        |                          |
+      | Sizing   | Allows a Dialog to use one of the following sizes; Extra small, Small, Medium, Large, and Full-screen    |                                        |                          |
 
 
       - - -
