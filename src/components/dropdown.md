@@ -27,7 +27,7 @@ tabs:
       **Dropdowns** and **[Select](/forms/select)** components can appear to be very similar, and sometimes it is hard to chose the appropriate one. As a general rule of thumb, the component triggering the **Dropdown** doesn't change when an item is selected, e.g. if the trigger is a **Button**, then **Button's** label should not change. On the other hand, if you want the selection to be shown when the overlay is hidden, then you should use the Select component. 
 
 
-      [Read more on the **Select** page](/forms/select/)
+      [Read more on the **Select** page](/forms/select/).
 
 
       - - -
@@ -42,6 +42,9 @@ tabs:
       ### Dropdown positioning
 
 
+      **Dropsdowns** can either be manually positioned, or use their default positioning:
+
+
       | **Type**       | **Description**                                                                      |
 
       | -------------- | ------------------------------------------------------------------------------------ |
@@ -54,7 +57,7 @@ tabs:
       ### Dropdown line item types
 
 
-      A line item is one item in the list that is displayed in the **Dropdown**.  Each line item is interactable and when clicked will perform some kind of action, much like a **Button** would. The exception to this is when they are a heading or divider, which are non-interactable visual elements to provide structure to the **Dropdown** overlay.
+      A line item is one item in the list that is displayed in the **Dropdown**.  Each line item is interactable and when clicked will perform some kind of action, much like a **Button** would. The exception to this is when they are a heading or divider, which are non-interactable visual elements to provide structure to the **Dropdown** overlay:
 
 
       | **Type**  | **Description**                                                                                     |
@@ -106,7 +109,7 @@ tabs:
       These can be positioned on the left or right of each list item.  If every list item has an icon then they should be positioned to the left of the label. If you just want to emphasis one item using an icon (e.g. a delete item action), then the icon should be positioned to the right of the label. You should never have an icon on both the left and right of the label. 
 
 
-      Icons should be used to help the user identify the item in the list quicker than reading every item - if it doesn't help the user, then they shouldn't be used. For example, having the same icon on every list item will actually hinder the user in finding what they need.  [Find out more in the Iconography guidelines](/guidelines/iconography)
+      Icons should be used to help the user identify the item in the list quicker than reading every item - if it doesn't help the user, then they shouldn't be used. For example, having the same icon on every list item will actually hinder the user in finding what they need.  [Find out more in the Iconography guidelines](/guidelines/icons-1)
     icon: file_invoice
   - title: Code
     hook: code
