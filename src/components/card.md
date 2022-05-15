@@ -8,7 +8,7 @@ storybook: https://tessera.oneadvanced.io/dev/components-core/?path=/docs/html-c
 tabs:
   - title: Usage
     body: >-
-      ## What is a Card
+      ## What is a Card?
 
 
       **Cards** form the backbone of all content areas. They should surround and group your content into meaningful 'boxes' of functionality, and can be used alongside columns and rows to lay out your application in a variety of ways.
@@ -20,7 +20,7 @@ tabs:
       - - -
 
 
-      ### When and why
+      ### When, and why?
 
 
       All over the place! **Cards** should surround all components in your content-container, either the whole page or subdivided into separate cards per functional area.  Within a **Card** you can have other nested cards to help with grouping of components/information. 
