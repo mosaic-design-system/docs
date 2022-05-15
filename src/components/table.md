@@ -39,7 +39,7 @@ tabs:
       ## Table types
 
 
-      The following types of **Table** are available- each type of **Table** also allows you to include a subheading:
+      The following **Table** types are available - each type of **Table** also allows you to include a subheading:
 
 
       | Type                      | Description                                                                                                                                                                                                                     |
@@ -54,12 +54,9 @@ tabs:
 
       | **With reordered header** | There are icons within the header to allow the user to reorder the content of that specific column either alphabetically or numerically, depending on the content                                                               |
 
-      | **With Selector**         | [Selectors}(/component/selector) in Tables are there to help with selecting rows, in order to interact with specific cells - the Selector highlights the desired cells and helps the user visualise the impact of their actions |
+      | **With Selector**         | [Selectors](/component/selector) in Tables are there to help with selecting rows, in order to interact with specific cells - the Selector highlights the desired cells and helps the user visualise the impact of their actions |
 
       | **Nested tables**         | Each Table row can be expanded to show additional information                                                                                                                                                                   |
-
-
-      \[[Code up some examples here]]
 
 
       - - -
