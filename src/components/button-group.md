@@ -1,8 +1,29 @@
 ---
 storybook-url: https://tessera.oneadvanced.io/dev/components-core/?path=/docs/html-button--as-default
+title: Button group
 toc: true
 chips:
   - "HTML/CSS: Available"
+storybook: https://tessera.oneadvanced.io/dev/components-core/?path=/docs/html-button-group--as-default
+tabs:
+  - title: Usage
+    body: >-
+      ### Uh-oh! Looks like we haven't finished building this page yet.
+
+
+      Come back soon, and we'll have more exciting content to share.
+
+
+      ![Drawing of a person building a progress bar with blocks.](/assets/img/downloading.svg "Just a few more pieces to go before it is ready...")
+    icon: file_invoice
+  - title: Code
+    hook: code
+    icon: source_code
+  - title: Accessibility
+    body: ""
+    icon: web_accessibility_1
+  - title: Status
+    hook: status
 code:
   example: <button class="mcc-button">Button text</button>
   body: >-
@@ -68,18 +89,4 @@ status:
   html_css: Available
   web_component: Not applicable
 navigation: button
-title: Button group
-storybook: https://tessera.oneadvanced.io/dev/components-core/?path=/docs/html-button-group--as-default
-tabs:
-  - title: Usage
-    body: ""
-    icon: file_invoice
-  - title: Code
-    hook: code
-    icon: source_code
-  - title: Accessibility
-    body: ""
-    icon: web_accessibility_1
-  - title: Status
-    hook: status
 ---
