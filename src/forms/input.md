@@ -7,15 +7,17 @@ chips:
 storybook: https://tessera.oneadvanced.io/dev/components-forms/?path=/docs/html-input-text--as-default
 tabs:
   - title: Usage
-    body: "
+    body: "## What is a Text input?
 
 
-      ## What is a form input small?
+      A **Text input** is a small text field mostly used for details
+      consisting of a few words or numbers. It can also have the dropdown icon
+      to choose from multiple pre-defined options where appropriate.
 
 
-      A **form input small** is a small text field most used for details
-      consisting of a few words or numbers. The field input small can also have
-      the dropdown icon to choose from multiple pre-defined where appropriate.
+      A **Text input** differs from a **Rich-text area** in that it
+      doesn't feature any features like bolding, underlining, or formatting of
+      text.
 
 
       - - -
@@ -24,11 +26,15 @@ tabs:
       ## When, and why?
 
 
-      A **form input small** is often used for details such as name, phone
-      number, email address or other similar details consisting of a few words
-      or numbers, or the form input short dropdown can be used for short
-      pre-defined options. There are two different types of the **form input
-      small**.
+      A **Text input** is often used for smaller details, such as a name,
+      phone number, email address or other similar details consisting of a few
+      words or numbers.\ 
+
+
+      Alternatively, the **Text input** dropdown type can be used for
+      short pre-defined options. This is for things like \"title\" options on
+      forms, which would give a choice of things like \"Ms\", \"Mr\", \"Dr\",
+      \"Mx\" etc.
 
 
       - - -
@@ -37,84 +43,75 @@ tabs:
       ## Types
 
 
-
-      Default: the form field has a label to the top left and appropriate
-      form text indicating what goes in the field. In certain circumstances can
-      include an icon to either the left or the right of the form text
-
-      \r
-
-      Dropdown. Like a default form field, has a label with form text
-      positioned to the left of the field. The dropdown chevron down icon is
-      aligned to the right-hand side.\ 
+      The following **Form input** types are available, with each being
+      able to be marked as mandatory (see [Validation](/components/validation)),
+      disabled or read-only:
 
 
-      - - -
+      | **Type** | Description |
 
+      | --- | --- |
 
-      ## Variants
+      | Default | The form field has a label to the top-left, and an
+      appropriate label indicating what goes in the field - this can also
+      include an icon to the left or the right of the form text |
 
-
-
-      Mandatory: has a label above the form field with a red asterisk to
-      indicate the mandatory state. Also has a grey strip down the left-hand
-      side before the field text acting as further indication.
-
-      \r
-
-      Disabled: the same styling as the default form field with the
-      opacity of all elements set to 40% showing the user it is in the form but
-      isn’t able to be used.
-
-      \r
-
-      Read-only: field text and labels remain the same as the default
-      variant however the form field itself has no border and has a dark grey
-      fill indicating the user is unable to change the content, but ensuring the
-      content is still readable.
+      | Dropdown | Like a default form field, but with a number of
+      predefined options to choose from. |
 
 
       - - -
 
 
-      ## Using form field small?
+      ## Using a Text input
 
 
-      * Labels are aligned to the top left just above the form field.
+      ### Labelling
+
+
+      Like all copy within your product, you should read the [Tone of
+      voice](/guidelines/tone-of-voice) and the [Content](/guides/style-guide)
+      guidelines to create effective labels. Remember that your labels must be
+      crystal clear on a form, so the user does not input the wrong information.
+
+
+      ### Layout
+
 
       \r
 
-      * Capital letters should only be used for the first word with the
-      rest remaining lowercase
-
-      \r
-
-      * Form inputs should be presented in a single column layout not and
-      not use two columns.
+      Form inputs should be presented in a single column layout, and not
+      use two columns. Each field should be appropriate to the size of the
+      expected information. For example, a field for a telephone number should
+      have enough space to contain 11 character - for more information, please
+      see [Field affordance](/guidelines/field-affordance).
 
 
       \r
 
-      * The field length should be used to indicate the length of the
-      content so for example for a phone number it should be about 11 characters
-      long (with the width attribute, in pixels).
+      ### Validation
+
+
+      Many of your **Text inputs** will be mandatory, such as names and
+      contact information. Familiarise yourself with the
+      [Validation](/components/validation) guidelines to make sure you implement
+      it properly, both before and after entering information and submitting
+      forms.
 
       \r
 
-      * Fields where necessary should contain correct validation showing
-      the mandatory strip as red if filled in incorrectly with useful help text
-      shown below.
+
+      ### Disabled & Read-only
 
       \r
 
-      * Make sure disabled fields have a light grey background with light
-      grey text to show they are protected and cannot be edited unless a user
-      enables them by interacting with the screen.
+      Disabled fields should have a light grey background with light grey
+      text to show they are protected and cannot be edited, unless a user
+      enables them by interacting with the screen elsewhere.
 
-      \r
 
-      * Make sure read-only fields have a dark background with no input
-      border to show that they are for display purposes only and to
+      Similarly, read-only fields have a dark background with no input
+      border to show that they are for display purposes only - this
       differentiate them from regular fields."
     icon: file_invoice
   - title: Code
