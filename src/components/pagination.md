@@ -30,10 +30,10 @@ tabs:
       ## Pagination types
 
 
-      There are 2 types of **Pagination**:
+      The following **Pagination** types are available:
 
 
-      | **Types**             | **Description**                                                                                                                 |
+      | **Type**             | **Description**                                                                                                                 |
 
       | ----------------- | --------------------------------------------------------------------------------------------------------------------------- |
 
