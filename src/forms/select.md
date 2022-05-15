@@ -23,7 +23,7 @@ tabs:
       You should use a **Select** when you need a user to select one or more options from a large group of data. Using a **Select** allows the user to search and filter through the given list.
 
 
-      Selects are similar to [Dropdowns](/component/dropdown).  Dropdowns however should never be used as part of a form.
+      Selects are similar to [Dropdowns](/components/dropdown).  Dropdowns however should never be used as part of a form.
 
 
       - - -
@@ -32,7 +32,7 @@ tabs:
       ## Select types
 
 
-      The following types of **Selects** are available:
+      The following **Select** types are available:
 
 
       ### Types
