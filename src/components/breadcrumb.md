@@ -26,10 +26,10 @@ tabs:
       - - -
 
 
-      ## Types of Breadcrumbs
+      ## Breadcrumb types
 
 
-      All types of **Breadcrumb** allow you to include a subheading
+      The following **Breadcrumb** types are available, and each allows you to include a subheading
 
 
       | Variant     | Description                                                                                                                                       |
