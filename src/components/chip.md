@@ -29,7 +29,7 @@ tabs:
       ## Chip types
 
 
-      The following types of **Chip** are available:
+      The following **Chip** types are available:
 
 
       | **Type**           | **Description**                                                                        | **Example** |
@@ -61,7 +61,7 @@ tabs:
       ## Chip contexts
 
 
-      Context helps convey the information being communicated. **Chip** contexts correspond to a colour to provide a consistent experience for users. For more information, please refer to [Colours](/guidelines/colours).
+      Context helps convey the information being communicated. **Chip** contexts correspond to a colour to provide a consistent experience for users. For more information, please refer to [Colours](/guidelines/colour).
 
 
       | **Context**    | **Description**                                                                                                          |
