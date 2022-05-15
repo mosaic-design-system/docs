@@ -8,7 +8,7 @@ chips:
 storybook: https://tessera.oneadvanced.io/dev/components-core/?path=/docs/custom-elements-drawer--as-dismissible-start
 tabs:
   - title: Usage
-    body: "## What is a Drawer\r
+    body: "## What is a Drawer?\r
 
       \r
 
@@ -18,7 +18,7 @@ tabs:
 
       \r
 
-      ### When and why\r
+      ### When, and why?\r
 
       \r
 
