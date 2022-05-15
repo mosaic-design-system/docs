@@ -42,13 +42,13 @@ tabs:
       - - -
 
 
-      ## Accordion Types
+      ## Accordion types
 
 
-      All variations allow you to include a subheading
+      The following **Accordion** types are available, and each one allows you to include a subheading:
 
 
-      | Variant           | Description                                                                                                                                                                              |
+      | Type          | Description                                                                                                                                                                              |
 
       | ----------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
@@ -61,9 +61,6 @@ tabs:
       | **With overflow** | Used when there a specific actions linked to each accordion                                                                                                                              |
 
       | **With icon**     | Icons can be applied to support the content of the heading but should not be used in conjunction with buttons or chips on the right - this will add too much cognitive load to the page. |
-
-
-      \[[Code up some examples here]]
 
 
       - - -
