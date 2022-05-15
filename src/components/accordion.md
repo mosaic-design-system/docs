@@ -76,7 +76,7 @@ tabs:
 
       ### Accordion labels
 
-      Make sure the section headings are clear and concise, but still give the user enough information about what each one contains. Headings should be sentence case and not have the first letter of every word capitalised - you can read more about styling copy like this by reading our [content guidelines](/guidelines/content).
+      Make sure the section headings are clear and concise, but still give the user enough information about what each one contains. Headings should be sentence case and not have the first letter of every word capitalised - you can read more about styling copy like this by reading our [content guidelines](/guidelines/style-guide).
 
 
       ### Multiple Accordions
