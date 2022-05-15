@@ -31,19 +31,28 @@ tabs:
       ### Using a map
 
 
+      ### Map markers
+
       Whenever a **Map** is used to show a location, a marker should be displayed on the location to illustrate effectively where the user's attention should be focused.
 
+
+      ### Map zoom
 
       A **Map** should have functionality that allows the user to zoom in and out to get a wider context of the location. There should also be a zoom level included to show how zoomed in the user is.
 
 
+      ### Map cursor
+
       While the user's cursor is over the map, it should change to a 'hand' symbol rather than a pointer to demonstrate that the map is interactable.
   - title: Code
-    body: >
-      ## Live demo
+    body: >-
+      ### Uh-oh! Looks like we haven't finished building this page yet.
 
 
-      Below, you can find a live demo for an Accordion component. Use the drop-down menus and radio buttons to view the different Button Types and Variants.
+      Come back soon, and we'll have more exciting content to share.
+
+
+      ![Drawing of a person building a progress bar with blocks.](/assets/img/downloading.svg "Just a few more pieces to go before it is ready...")
   - title: Accessibility
   - title: Status
 status:
