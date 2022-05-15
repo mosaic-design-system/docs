@@ -31,9 +31,9 @@ tabs:
 
       | ------------ | ------------------------------ |
 
-      | Default      | default **Picklist**               |
+      | Default      | Default Picklist              |
 
-      | With filters | adds filters to each **Picklist** |
+      | With filters | Adds filters to each Picklist |
 
 
       - - -
