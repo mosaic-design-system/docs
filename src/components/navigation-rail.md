@@ -35,10 +35,10 @@ tabs:
       ## Navigation rail types
 
 
-      The following types of **Navigation rail** are available:
+      The following **Navigation rail** types are available:
 
 
-      | **Name**      | **Description**                                                                         | **Behaviour** |
+      | **Type**      | **Description**                                                                         | **Behaviour** |
 
       | ------------- | --------------------------------------------------------------------------------------- | ------------- |
 
