@@ -40,10 +40,10 @@ tabs:
       ## Page Header types
 
 
-      The following types of **Page Header** are available:
+      The following **Page Header** types are available:
 
 
-      | **Name** | **Description** | **Behaviour** |\r
+      | **Type** | **Description** | **Behaviour** |\r
 
       | -------- | --------------- | ------------- |\r
 
