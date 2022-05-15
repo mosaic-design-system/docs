@@ -1,5 +1,5 @@
 ---
-title: Tone of Voice
+title: Tone of voice
 order: 30
 toc: true
 tabs:
