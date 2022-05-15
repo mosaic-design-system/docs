@@ -7,13 +7,13 @@ storybook: https://mosaic-components-storybook.oneadvanced.io/mosaic-components-
 tabs:
   - title: Usage
     body: >-
-      ## What is a Back to Top?
+      ## What is a Back to top?
 
 
-      The **Back to Top** component is a button that fades in when the user has scrolled beyond a specific point on the page, and allows the user to easily navigate back to the top of the page when interacted with. 
+      The **Back to top** component is a button that fades in when the user has scrolled beyond a specific point on the page, and allows the user to easily navigate back to the top of the page when interacted with. 
 
 
-      You can find a **Back to Top** component on this page - scroll further down and then you'll see it pop up in the corner
+      You can find a **Back to top** component on this page - scroll further down and then you'll see it pop up in the corner
 
 
       - - -
@@ -22,28 +22,28 @@ tabs:
       ### When, and why?
 
 
-      The **Back to Top** component allows users to scroll smoothly back to the top of the page with a single interaction. It enhances the navigation experience for users on pages with lots of content, and lets them get back to the top of the page. It is especially useful when a page has lots of content and reduces the amount of scrolling a user needs to do.
+      The **Back to top** component allows users to scroll smoothly back to the top of the page with a single interaction. It enhances the navigation experience for users on pages with lots of content, and lets them get back to the top of the page. It is especially useful when a page has lots of content and reduces the amount of scrolling a user needs to do.
 
 
       - - -
 
 
-      ## Using a Back to Top
+      ## Using a Back to top
 
 
       ### Page size
 
-      A **Back to Top** should only be used for pages with lots of content - they shouldn't be used on pages with a small amount content that doesn't need much scrolling, as this will add too much visual clutter to the page with minimal return on usability.
+      A **Back to top** should only be used for pages with lots of content - they shouldn't be used on pages with a small amount content that doesn't need much scrolling, as this will add too much visual clutter to the page with minimal return on usability.
 
 
       ### Back to top placement
 
-      The **Back to Top** component should always appear in the bottom right-hand corner of the page in order to prevent it covering the page's information. 
+      The **Back to top** component should always appear in the bottom right-hand corner of the page in order to prevent it covering the page's information. 
 
 
       ### Back to top trigger
 
-      You should consider how quickly you want the **Back to Top** button to appear when the user scrolls. The number of pixels the user has to scroll before the button appears can be specified using the "scroll-y" attribute.
+      You should consider how quickly you want the **Back to top** button to appear when the user scrolls. The number of pixels the user has to scroll before the button appears can be specified using the "scroll-y" attribute.
     hook: ""
   - title: Code
     hook: ""
