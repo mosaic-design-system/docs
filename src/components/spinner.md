@@ -10,7 +10,7 @@ tabs:
     body: >
       ## What is a Spinner
 
-      A **Spinner** is used to show the user that something is currently happening on the application. It is an animated component that **doesn't** show progress (that would be a [**Progress Indicator**](/components/progress-indicator), but provides visual feedback to the user that the application has responded to their input and hasn't frozen.
+      A **Spinner** is used to show the user that something is currently happening on the application. It is an animated component that **doesn't** show progress (that would be a [**Progress Indicator**](/components/progress-bar), but provides visual feedback to the user that the application has responded to their input and hasn't frozen.
 
 
       ### When and why
@@ -24,6 +24,10 @@ tabs:
       - - -
 
       ## Spinner types
+
+
+      The following **Spinner** types are available:
+
 
       | **Type** | **Description** | **Example** |
 
@@ -43,7 +47,7 @@ tabs:
 
       ### Loading times
 
-      You should only use a loading **Spinner** whenever the wait time is likely to be longer than three seconds. However, if the wait is potentially going to be longer than 10 seconds then a (**Progress Bar**)[/components/progress-bar] should be used instead.
+      You should only use a loading **Spinner** whenever the wait time is likely to be longer than three seconds. However, if the wait is potentially going to be longer than 10 seconds then a [**Progress Bar**](/components/progress-bar) should be used instead.
 
 
       ### Spinner sizes
