@@ -45,7 +45,7 @@ tabs:
       The following types of **Nav** are available:
 
 
-      | **Name**               | **Description**
+      | **Type**               | **Description**
       |                                                                                                                                  \
       \ 
 
