@@ -65,7 +65,7 @@ tabs:
       ### Select sizing
 
 
-      The field width should be the same as the widest option that the user will be able to pick from. [See field affordance for more information](URLlink)
+      The field width should be the same as the widest option that the user will be able to pick from. [See field affordance for more information](/guidelines/field-affordance)
 
 
       ### Multiple select
@@ -80,7 +80,7 @@ tabs:
       If the options in your **Select** menu have a hierarchy or categorisation, you should split them into groups (using headings). This allows users to find the option quickly by scanning the group labels instead of every single option. These groups should be logical (for the user) and have meaningful names.
 
 
-      Heading and item text styling should follow the [style guide](/guidelines/style-guide).
+      All headings should follow the guidelines outline in [Content](/guidelines/style-guide).
 
 
       - - -
