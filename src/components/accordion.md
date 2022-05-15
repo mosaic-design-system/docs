@@ -42,13 +42,13 @@ tabs:
       - - -
 
 
-      ## Accordion Types
+      ## Accordion types
 
 
-      All variations allow you to include a subheading
+      The following **Accordion** types are available, and each one allows you to include a subheading:
 
 
-      | Variant           | Description                                                                                                                                                                              |
+      | Type          | Description                                                                                                                                                                              |
 
       | ----------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
@@ -63,20 +63,23 @@ tabs:
       | **With icon**     | Icons can be applied to support the content of the heading but should not be used in conjunction with buttons or chips on the right - this will add too much cognitive load to the page. |
 
 
-      \[[Code up some examples here]]
-
-
       - - -
 
 
       ## Using an Accordion
 
 
+      ### Grouping content
+
       **Accordions** are a great way to section off content-rich pages, collapsing the sections will also give users an overview of the content available whilst minimising scrolling and make the page appear less daunting. If your page contains multiple different content types, an **Accordion** should be used to separate them out into easy-to-digest sections.
 
 
-      Make sure the section headings are clear and concise, but still give the user enough information about what each one contains. Headings should be sentence case and not have the first letter of every word capitalised - you can read more about this in the [style guide](/guidelines/Style-Guide).
+      ### Accordion labels
 
+      Make sure the section headings are clear and concise, but still give the user enough information about what each one contains. Headings should be sentence case and not have the first letter of every word capitalised - you can read more about styling copy like this by reading our [content guidelines](/guidelines/content).
+
+
+      ### Multiple Accordions
 
       Always allow the user to expand multiple **Accordions** at a time, and avoid hiding task critical content. If a user can only open one **Accordion** at a time, then it is better to consider a different approach.
     icon: file_invoice
