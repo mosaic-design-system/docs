@@ -1,5 +1,5 @@
 ---
-title: System Messaging
+title: System messaging
 order: 22
 toc: true
 ---
