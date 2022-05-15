@@ -56,6 +56,7 @@ tabs:
 
       ### Checkbox behaviour
 
+
       **Checkboxes** are used for multiple choices, and work independently from other **Checkboxes** in the same list - therefore, checking an additional box does not affect any other selections.
 
 
