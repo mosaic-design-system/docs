@@ -60,7 +60,7 @@ tabs:
 
       ### Toggle placement
 
-      **Toggles** should not be used for yes or no responses - they should only be used for turning things on or off. If you want a yes or no response, you should consider something like a [**Select**](/forms/selector) or [**Radio button**]
+      **Toggles** should not be used for yes or no responses - they should only be used for turning things on or off. If you want a yes or no response, you should consider something like a [**Select**](/forms/selector) or [**Radio button**](/components/radio)
     icon: file_invoice
   - title: Code
     hook: ""
