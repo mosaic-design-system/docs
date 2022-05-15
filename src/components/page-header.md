@@ -68,7 +68,7 @@ tabs:
 
       **Page Headers** must always include a page title, which should be
       short, concise, and kept to one line - more guidance for headings can be
-      found in the [Style Guide](/guidelines/style-guide/#structure).\ 
+      found in the [Content](/guidelines/style-guide/#structure).\ 
 
 
       Optionally, a **Page Header** can also include a page subtitle which
