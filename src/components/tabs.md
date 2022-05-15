@@ -104,7 +104,7 @@ tabs:
       should be able to quickly scan across the **Tabs** to find what they are
       looking for. The titles should be clear and concise and give the user
       information about what each **Tab** contains. For more information, please
-      see the [Structure section](guidelines/style-guide/#structure) of the
+      see the [Structure section](/guidelines/style-guide/#structure) of the
       **Style Guide**.
 
 
@@ -120,8 +120,8 @@ tabs:
 
       **Tabs** should **not** be used an an alternative form of
       navigation. Do not be tempted to replace links or
-      [**Breadcrumbs**](/guidelines/breadcrumb) with **Tabs** to take the user
-      to another page or part of the application.\ 
+      [**Breadcrumb**](/guidelines/breadcrumb) with **Tabs** to take the user to
+      another page or part of the application.\ 
 
 
       \r
