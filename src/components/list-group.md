@@ -9,7 +9,7 @@ storybook: https://tessera.oneadvanced.io/dev/components-core/?path=/docs/html-l
 tabs:
   - title: Usage
     body: >-
-      ## What is a List group
+      ## What is a List group?
 
 
       **List groups** are a flexible component that can display a series of content. They can be modified and extended to support just about any content within.
@@ -24,10 +24,10 @@ tabs:
       - - -
 
 
-      ## List group Types
+      ## List group yypes
 
 
-      The following types of **List group are available**. These are our default configurations for list items and should be used as designed, unless you need more content. If additional content is needed, please refer to Using a List group below.
+      The following types of **List group** are available. These are our default configurations for list items and should be used as designed, unless you need more content. If additional content is needed, please refer to Using a List group below:
 
 
       | **Type**      | **Description**                                                                                                                                                                            |
@@ -76,7 +76,7 @@ tabs:
       ### Pagination
 
 
-      Pagination can be used with a **List group**.  This could be for performance reasons, or to help the user understand the size of the list and navigate around it.   To understand what type of pagination to use, see the [Pagination component page](/component/pagination).
+      Pagination can be used with a **List group**.  This could be for performance reasons, or to help the user understand the size of the list and navigate around it.   To understand what type of pagination to use, please refer to the [Pagination component page](/components/pagination).
     icon: file_invoice
   - title: Code
     hook: code
