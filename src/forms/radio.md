@@ -23,6 +23,9 @@ tabs:
       A **Radio button** can be used in forms where it is only possible to select one item, but the user has multiple choices.
 
 
+      **Radio buttons** should only be used when there are 5 or less options.  More than that and you should consider a [select](/forms/select).
+
+
       - - -
 
 
