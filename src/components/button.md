@@ -29,7 +29,7 @@ tabs:
       ## Button types
 
 
-      The following **Button** types are available for use:
+      The following **Button** types are available:
 
 
       | Type          | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
@@ -48,11 +48,11 @@ tabs:
 
       | Small         | Small buttons are the opposite – necessary Buttons that are small and unobtrusive. These can be used in situations where you have limited space, or for situations like a table with repeated actions all across it (such as editing and deleting).                                                                                                                                                                                                                                                                                                     |
 
-      | Icon          | Buttons can (and should) be given an icon to provide further context. Read below in the [Button icons](https://mosaic-design-system.herokuapp.com/components/button/#button-icons) section.                                                                                                                                                                                                                                                                                                                                                             |
+      | Icon          | Buttons can (and should) be given an icon to provide further context. Read more below in the Button icons section.                                                                                                                                                                                                                                                                                                                                                             |
 
       | Trailing icon | You can also use Trailing icons in a Button, which appear after the text rather than before.                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 
-      | Icon-only     | Icon-only Buttons are Buttons without a label but containing an icon. These should use universally known icons and actions for common functionality, such as a save, delete or home icon. These are rare and should only be used in specific cases. There is a separate document for Icon-only buttons which you can be found on the Icon only buttons documentation page, and you should read the [entry for **Button labels**](https://mosaic-design-system.herokuapp.com/components/button/#button-labels) for the limitations on using this Button. |
+      | Icon-only     | Icon-only Buttons are Buttons without a label but containing an icon. These should use universally known icons and actions for common functionality, such as a save, delete or home icon. These are rare and should only be used in specific cases. There is a separate document for Icon-only buttons which you can be found on the Icon only buttons documentation page, and you should Button labels below for the limitations when using this Button. |
 
       | Disabled      | This can be added to limit when a Button can be used. A Disabled Button is always visible to the user, but it will not be interactable until the user has completed a specific task. Once the task in question has been performed, the Disabled Button will be set to active.*                                                                                                                                                                                                                                                                          |
 
@@ -74,7 +74,7 @@ tabs:
       In Mosaic, there are six contexts for **Buttons**. Each has a different function, and the look of the **Button** will signal a different usage to the user. For example, a **Primary button** tends to be the most positive outcome for an action, things like submitting a form or saving a sheet. Conversely, a **Danger button** tends to be something negative, like deleting something. 
 
 
-      | **Button Type** | **Description**                                                                                                                                                                                                                                                                                                                      |
+      | **Context** | **Description**                                                                                                                                                                                                                                                                                                                      |
 
       | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 
@@ -127,7 +127,7 @@ tabs:
       Deciding when you should use Cancel or Close as your button label is very important.  Historically many applications used Cancel as a means to leave a screen or page.  However, we would strongly recommend Close is used in this instance.  Cancel should be reserved for instances such as forms where cancelling out of the form discards any changes the user has made.
 
 
-      If you are unsure about **Labels**, please review the [product tone-of-voice document](link) or contact the UX Copywriter.
+      If you are unsure about **Labels**, you can take a look at our [Tone of voice](/guidelines/tone-of-voice) guidance or contact the UX Copywriter.
 
 
       ### Button icons
