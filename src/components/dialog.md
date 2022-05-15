@@ -32,16 +32,19 @@ tabs:
       - A form **Dialog** is used when you want to capture additional data using a collection of form inputs
 
 
+      For more information, please read the [System messaging guidelines](/guidelines/system-messaging) to learn how and when **Dialogs** should be used.
+
+
       - - -
 
 
       ## Dialog types
 
 
-      The following types of **Dialog** are available:
+      The following **Dialog** types are available:
 
 
-      | **Name**   | **Description**                                                                                          | **Behaviour**                          | **Example**              |
+      | **Type**   | **Description**                                                                                          | **Behaviour**                          | **Example**              |
 
       | ---------- | -------------------------------------------------------------------------------------------------------- | -------------------------------------- | ------------------------ |
 
@@ -66,7 +69,7 @@ tabs:
       **Note**: Contexts only apply to message **Dialogs**. Form **Dialogs** do not have a context and are styled differently.
 
 
-      | **Name** | **Description**                                                                                                              | **Behaviour**                                                            | **Examples** |
+      | **Context** | **Description**                                                                                                              | **Behaviour**                                                            | **Examples** |
 
       | -------- | ---------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------ | ------------ |
 
@@ -94,7 +97,7 @@ tabs:
       ## Dialog messaging
 
 
-      As always when writing copy, please refer to the [Tone of Voice](/guidelines/tone-of-voice) and [Style Guide](/guidelines/style-guide) sections when writing copy within a product.
+      As always when writing copy, please refer to the [Tone of coice](/guidelines/tone-of-voice) and [Content](/guidelines/content) guidelines when writing copy within a product.
 
 
       However, specifically for **Dialogs**, it is important to get the messaging absolutely correct. You are interrupting a user's workflow, and they need to quickly switch contexts. 
@@ -103,7 +106,7 @@ tabs:
       A descriptive title for the **Dialog** is a good start. Make sure it's not too long, and gives a good overview of what the message is about. In the body text of the **Dialog**, be respectful of the user's time. Without sacrificing quality of copy and losing the gravity of the message, try and be as succinct as possible.
 
 
-      Similarly, the labels for [Buttons](/guidelines/buttons) in your **Dialog** should be short and concise, ideally one or two words. Their function should be obvious and clear, and follow similar conventions to other **Buttons** in your product. **Buttons** should be clear in their use - for example, a **Button** should say "Save" instead of "OK" in a form **Dialog** that is creating a new record.
+      Similarly, the labels for [Buttons](/guidelines/button) in your **Dialog** should be short and concise, ideally one or two words. Their function should be obvious and clear, and follow similar conventions to other **Buttons** in your product. **Buttons** should be clear in their use - for example, a **Button** should say "Save" instead of "OK" in a form **Dialog** that is creating a new record.
 
 
       ## Dialog sizes
