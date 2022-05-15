@@ -30,10 +30,10 @@ tabs:
       ## Toggle types
 
 
-      The following types of **Toggle** are available:
+      The following **Toggle** types are available:
 
 
-      | Variant         | Description                                                                                                      |
+      | Type        | Description                                                                                                      |
 
       | --------------- | ---------------------------------------------------------------------------------------------------------------- |
 
@@ -42,9 +42,6 @@ tabs:
       | **With on/off** | The same as the default Toggle but with labels for when it is toggled 'on' and 'off'                            |
 
       | **With label**  | A Toggle with a label to the right hand side                                                                                  |
-
-
-      \[[Code up some examples here]]
 
 
       - - -
@@ -60,7 +57,7 @@ tabs:
 
       ### Toggle placement
 
-      **Toggles** should not be used for yes or no responses - they should only be used for turning things on or off. If you want a yes or no response, you should consider something like a [**Select**](/forms/selector) or [**Radio button**](/components/radio)
+      **Toggles** should not be used for yes or no responses - they should only be used for turning things on or off. If you want a yes or no response, you should consider something like a [**Select**](/forms/select) or [**Radio button**](/form/radio)
     icon: file_invoice
   - title: Code
     hook: ""
