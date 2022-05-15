@@ -29,6 +29,9 @@ tabs:
       ## Rating types
 
 
+      The following **Rating** types are available:
+
+
       | **Variant** | **Description**                                                               |
 
       | ----------- | ----------------------------------------------------------------------------- |
