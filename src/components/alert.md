@@ -36,7 +36,7 @@ tabs:
       ## Alert types
 
 
-      The following types of **Alert** are available:
+      The following **Alert** types are available:
 
 
       | **Type**    | **Description**                                                                            | **Behaviour**                             | 
