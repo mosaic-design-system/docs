@@ -32,10 +32,10 @@ tabs:
       ## Snackbar types
 
 
-      In addition to the contextual type, each **Snackbar** also has an option between 2 variants: 
+      In addition to the context, each **Snackbar** also has an option between two types: 
 
 
-      | Variant      | Description                                                                                                                           | Example                                                                                                                                                          |
+      | Type      | Description                                                                                                                           | Example                                                                                                                                                          |
 
       | ------------ | ------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
@@ -50,13 +50,10 @@ tabs:
       ## Snackbar contexts
 
 
-      ## Alert contexts
+      Context helps convey the information being communicated. **Snackbar** contexts correspond to a colour and an icon to provide a consistent experience for users. For more information, please refer to [Colours](/guidelines/colour/).
 
 
-      Context helps convey the information being communicated. **Snackbar** contexts correspond to a colour and an icon to provide a consistent experience for users. For more information, please refer to [Colours](guidelines/colour/).
-
-
-      | **Name** | **Description**                                                                                                              | **Behaviour**                                                                     | **Examples**                                          |
+      | **Context** | **Description**                                                                                                              | **Behaviour**                                                                     | **Examples**                                          |
 
       | -------- | ---------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- | ----------------------------------------------------- |
 
