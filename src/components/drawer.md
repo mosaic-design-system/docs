@@ -8,7 +8,7 @@ chips:
 storybook: https://tessera.oneadvanced.io/dev/components-core/?path=/docs/custom-elements-drawer--as-dismissible-start
 tabs:
   - title: Usage
-    body: "## What is a Drawer\r
+    body: "## What is a Drawer?\r
 
       \r
 
@@ -18,7 +18,7 @@ tabs:
 
       \r
 
-      ### When and why\r
+      ### When, and why?\r
 
       \r
 
@@ -42,7 +42,7 @@ tabs:
 
       \r
 
-      The following types of **Drawer** are available:\r
+      The following **Drawer** types are available:\r
 
       \r
 
@@ -146,7 +146,7 @@ tabs:
       \r
 
       A **Drawer** with navigation will often be used with a [Navigation
-      Rail](/components/navigation-rail), so when an item is selected in the
+      rail](/components/navigation-rail), so when an item is selected in the
       **Rail**, the **Drawer** will slide out to provide more navigation
       options.  It can be used without a **Rail** if the top level navigation is
       not needed."
