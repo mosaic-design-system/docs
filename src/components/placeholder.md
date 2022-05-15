@@ -32,7 +32,7 @@ tabs:
       ## Placeholder types
 
 
-      The following types of **Placeholder** are available:
+      The following **Placeholder** types are available:
 
 
       | **Types**           | **Description**                                   |
@@ -65,7 +65,7 @@ tabs:
 
       ### Loading bars
 
-      A **Placeholder** shouldn’t be used for long-running processes or background processes (e.g. importing data or exporting reports). Use a [**Progress indicator**](/components/progress-indicator) for that instead.
+      A **Placeholder** shouldn’t be used for long-running processes or background processes (e.g. importing data or exporting reports). Use a [**Progress indicator**](/components/progress-bar) for that instead.
     icon: file_invoice
   - title: Code
     hook: code
