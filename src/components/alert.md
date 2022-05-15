@@ -36,10 +36,10 @@ tabs:
       ## Alert types
 
 
-      The following types of **Alerts** are available:
+      The following types of **Alert** are available:
 
 
-      | **Name**    | **Description**                                                                            | **Behaviour**                             | 
+      | **Type**    | **Description**                                                                            | **Behaviour**                             | 
 
       | ------------- | ---------------------------------------------------------------------------------------- | ----------------------------------------- | 
 
@@ -62,10 +62,10 @@ tabs:
       ## Alert contexts
 
 
-      Context helps convey the information being communicated. **Alert** contexts correspond to a colour and an icon to provide a consistent experience for users. For more information, please refer to [Colours](guidelines/colour/).
+      Context helps convey the information being communicated. **Alert** contexts correspond to a colour and an icon to provide a consistent experience for users. For more information, please refer to [Colour](/guidelines/colour/).
 
 
-      | **Name** | **Description**                                                                                                              | **Behaviour**                                                                     | **Examples**                                          |
+      | **Context** | **Description**                                                                                                              | **Behaviour**                                                                     | **Example**                                          |
 
       | -------- | ---------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- | ----------------------------------------------------- |
 
@@ -116,7 +116,7 @@ tabs:
       ### Alert placement
 
 
-      **Alerts** should never stack vertically, nor should more than one **Alert** be visible at once. Each **Alert** type has its own distinct region in which it should be displayed. For consistency, these locations should not be ignored. The locations can be found in the [System Messaging](guidelines/system-messaging) guidelines.
+      **Alerts** should never stack vertically, nor should more than one **Alert** be visible at once. Each **Alert** type has its own distinct region in which it should be displayed. For consistency, these locations should not be ignored. The locations can be found in the [System messaging guidelines](/guidelines/system-messaging).
 
 
       **Alerts** should never cover another piece of content on the page - covering up a piece of content with an **Alert** may prove disruptive to users and inhibit their usage of the product.
