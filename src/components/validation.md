@@ -36,7 +36,7 @@ tabs:
       ## Validation types
 
 
-      The following **Validation types are available, all of which allow you to include a subheading:
+      The following **Validation** types are available, all of which allow you to include a subheading:
 
 
       | **Variant**                              | **Description**                                                           |
