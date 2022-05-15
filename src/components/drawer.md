@@ -135,7 +135,7 @@ tabs:
 
       **Header** - Title, subtitle and close button (cross top right)\r
 
-      **Body** - Content to display eg filter fields for a table\r
+      **Body** - Content to display e.g. filter fields for a table\r
 
       **Footer** - Buttons for actions the user may need to take\r
 
