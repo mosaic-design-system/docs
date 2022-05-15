@@ -24,7 +24,7 @@ tabs:
       ### When, and why?
 
 
-      A **Table** is useful when you have tabular data to display, such as data charts. **Tables** can help users easily digest large amounts of data, and can be especially useful when a user might need to edit this data or find a specific piece easily.
+      A **Table** is useful when you have tabular data to display, such as data for charts. **Tables** can help users easily digest large amounts of data, and can be especially useful when a user might need to edit this data or find a specific piece easily.
 
 
       For example, in Advanced HR, **Tables** are used to show a list of how many holidays you have booked and when they are. You can then perform a series of actions on each of these specific rows.
@@ -105,6 +105,14 @@ tabs:
 
 
       You can use the **Table** component alone, but never use the **Table header** or **Table footer** components without the **Table** component.
+
+
+      ### Text alignment
+
+      All column header text should be left aligned regardless of the content below it.  This improves its usability as the text is easier to scan.  The data text should always be left aligned also with one exception.  
+
+
+      Where numerical values are displayed, such as in a Finance application where you may have wholes numbers or decimals, these should always be right aligned.  This improves the user's ability to review numerical data quickly.  The header for these rows remains left aligned.
     icon: file_invoice
   - title: Code
     hook: code
