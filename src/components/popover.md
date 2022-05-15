@@ -29,24 +29,24 @@ tabs:
       Or maybe to show how much stock they have left of a particular item?
 
 
-      [[don't need to go with above example, but a second example would be nice]]
-
-
       - - -
 
 
-      ## Popover variants
+      ## Popover types
 
 
-      | Variant         | Description                                                                                                                                                                     | Example                             |
+      The following **Popover** types are available:
 
-      | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------- |
 
-      | **Default**     | A typical **Popover** that includes only text. Select the button to make the **Popover** appear.                                                                                | \[[awaiting dev]]                   |
+      | Type        | Description                                                                                                                                                                     | Example                             |
 
-      | **With title**  | A **Popover** can include a title to provide further supporting information to the main body content of the **Popover** - note that a **Popover** can only have a single title. | \[[awaiting dev]]                   |
+      | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
-      | **Directional** | A **Popover** can be configured to anchor to different parts of the trigger - for example, you could make it appear in the top-left or bottom-right of a button.                | \[[awaiting dev]] \[[awaiting dev]] |
+      | **Default**     | A typical **Popover** that includes only text. Select the button to make the **Popover** appear. |
+
+      | **With title**  | A **Popover** can include a title to provide further supporting information to the main body content of the **Popover** - note that a **Popover** can only have a single title. |
+
+      | **Directional** | A **Popover** can be configured to anchor to different parts of the trigger - for example, you could make it appear in the top-left or bottom-right of a button. |
 
 
       - - -
@@ -55,21 +55,24 @@ tabs:
       ## Usage
 
 
+      ### Popover triggers
+
       Although similar to a **Tooltip**, the major difference is that a **Popover** must be triggered and dismissed by a click. The trigger could be a something like a button or an image, but the **Popover** would never appear by simply hovering over the item.
-
-
-      Secondly, a **Popover** can hold more content than a **Tooltip**, although it should never be over-populated or over-used. The content in a **Popover** should be seen as ‘additional information’ and not crucial to the user's decision-making. A **Popover** should only ever *add* to the user's experience, and never be a requirement. They are the cherry that you add on top of the cake, not the batter.
 
 
       A **Popover** should always be triggered when an element is selected (such as when it is tapped on mobile or clicked with a mouse).
 
 
+
+      ### Popover content
+
+      A **Popover** can hold more content than a **Tooltip**, although it should never be over-populated or over-used. The content in a **Popover** should be seen as ‘additional information’ and not crucial to the user's decision-making. A **Popover** should only ever *add* to the user's experience, and never be a requirement. They are the cherry that you add on top of the cake, not the batter.
+
+
       There are many uses of a **Popover**, ranging from a larger **Tooltip**, to a **Popover** that contains additional HTML content. 
 
 
-      [[would be great to include an example of this!]]
-
-
+      ### Popover positioning
 
       **Popovers** can be configured to appear either at the top or bottom and left or right of the trigger using the `placement` attribute. Consider the layout of the page and what content (if any) would be hidden by the **Popover** when designing with one.
     icon: file_invoice
