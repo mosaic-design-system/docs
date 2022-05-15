@@ -59,10 +59,10 @@ tabs:
       ## Card contexts
 
 
-      Context helps convey the information being communicated. **Card** contexts correspond to a colour to provide a consistent experience for users. For more information, refer to the [Colours](/guidelines/colours) guidelines.
+      Context helps convey the information being communicated. **Card** contexts correspond to a colour to provide a consistent experience for users. For more information, refer to the [Colours](/guidelines/colour) guidelines.
 
 
-      | **Name** | **Description**                                                                                              | **Examples**                                                                                                                  |
+      | **Context** | **Description**                                                                                              | **Examples**                                                                                                                  |
 
       | -------- | ------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------- |
 
