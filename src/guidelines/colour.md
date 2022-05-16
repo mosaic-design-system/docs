@@ -15,8 +15,6 @@ Below you will find examples and explanations of the colours we have chosen to u
 
 The greyscale palette is our base palette and used for the default font colours and most UI elements, such as borders, dividers, surface backgrounds, etc. It comprises of 14 colours, including black and white. This provides an extremely flexible palette to work with:
 
-
-
 ![Greyscale palette](/assets/img/greyscale-light.png "Greyscale palette")
 
 ## Font colours
@@ -33,7 +31,7 @@ In addition to the main font colours described above, we have colours for links 
 
 The primary colour is used for the main call-to-actions (CTAs) on a page, like adding or importing. Wherever possible, there should only be one primary coloured action on a page. However, some components and UI elements also use this as an accent colour to promote a cohesive visual experience.
 
-\[swatches]
+![Primary palette](/assets/img/primary-light.png "Primary palette")
 
 ## Outline colour
 
@@ -53,34 +51,40 @@ Our contextual colours are named:
 * **Warning**
 * **Info**
 
-\[swatches]
-
 ### Primary
 
 As mentioned above, this colour is reserved for the main CTA on a page, like adding or importing. Wherever possible, there should only be one Primary coloured action on a page, dialog, or sheet.
 
-\[swatches]
+![Primary palette](/assets/img/primary-light.png "Primary palette")
 
 ### Success
 
 This colour is used to indicate positive items, like Save or Accept buttons or Completed indicators. It reinforces that the action or status is of a positive nature. For example, a message confirming that an import was performed successfully would use the Success colour.
 
-\[swatches]
+
+
+![Success palette](/assets/img/success-light.png "Success palette")
 
 ### Danger
 
 This colour is used to indicate information about destructive activities or to validate form completion, where failure to take or avoid a specific action could result in the loss of data or the inability to submit a form. It should be clear to users that disregarding such a message may not be reversible, or that without correct form validation users must make the necessary changes to continue.
 
-\[swatches]
+
+
+![Danger palette](/assets/img/danger-light.png "Danger palette")
 
 ### Warning
 
 This colour is used to indicate information recommended for the completion of a task, which may require confirmation or a particular course of action. Users should be allowed to ignore warnings and still complete a task, but it must be made clear that doing so may have a negative impact. For example, a message warning that a file is bigger than the recommended size and may affect performance.
 
-\[swatches]
+
+
+![Warning palette](/assets/img/warning-light.png "Warning palette")
 
 ### Info
 
 This colour is used to indicate neutral or advisory information, which provide details that either apply to regular day-to-day usage or relates to special conditions. Users can ignore this context with no impact. For example, a message recommending the size for images before importing.
 
-\[swatches]
+
+
+![Info palette](/assets/img/info-light.png "Info palette")
