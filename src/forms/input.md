@@ -11,7 +11,7 @@ tabs:
       ## What is an Input?
 
 
-      An **Input** enables users to input data as part of collecting information in a form.
+      An **Input** enables users to type data as part of collecting information in a form.
 
 
       - - -
