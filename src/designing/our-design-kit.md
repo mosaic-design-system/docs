@@ -1,7 +1,7 @@
 ---
 title: Our design kit
 order: 2
-toc: true
+toc: false
 ---
 ### Uh-oh! Looks like we haven't finished building this page yet.
 
