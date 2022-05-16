@@ -4,6 +4,6 @@ job_title: Senior UX Designer
 profile_picture:
   img: /assets/img/Jonathan.png
   background_colour: blue
-bio: Pixel-perfectionist, visual design nut from Yorkshire, who enjoys cycling
-  and is fuelled by coffee (and Marmite!).
+bio: Visual design nut from Yorkshire, who is fuelled by coffee, Marmite, and
+  pixel-perfection!
 ---
