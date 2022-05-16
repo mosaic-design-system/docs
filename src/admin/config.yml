@@ -593,6 +593,17 @@ collections:
                 - label: "URL"
                   name: "url"
                   widget: "string"
+      - label: "Colour"
+        name: "colour"
+        file: "src/_data/colour.json"
+        fields:
+          - {label: Greyscale colours, name: greyscale_colours, widget: markdown}
+          - {label: Contextual colours, name: contextual_colours, widget: markdown}
+          - {label: Primary, name: primary, widget: markdown}
+          - {label: Success, name: success, widget: markdown}
+          - {label: Danger, name: danger, widget: markdown}
+          - {label: Warning, name: warning, widget: markdown}
+          - {label: Info, name: info, widget: markdown}
 
 
 
