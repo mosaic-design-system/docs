@@ -1,5 +1,5 @@
 ---
-title: Rich Text Editor
+title: Rich text editor
 toc: true
 chips:
   - "HTML/CSS: Available"
@@ -8,10 +8,10 @@ storybook: https://tessera.oneadvanced.io/dev/components-forms/?path=/docs/html-
 tabs:
   - title: Usage
     body: >-
-      ## What is a Rich Text Editor?
+      ## What is a Rich text editor?
 
 
-      A **Rich Text Editor** (RTE) is a form input that allows users to add or edit content in a "what-you-see-is-what-you-get" (WYSIWYG) editing area. Examples of other RTE's are things that you would find on blogging sites and various forums.
+      A **Rich text editor** (RTE) is a form input that allows users to add or edit content in a "what-you-see-is-what-you-get" (WYSIWYG) editing area. Examples of other RTE's are things that you would find on blogging sites and various forums.
 
 
       - - -
@@ -29,7 +29,7 @@ tabs:
       - - -
 
 
-      ## Using a Rich Text Editor
+      ## Using a Rich text editor
 
 
       ### Sizing
