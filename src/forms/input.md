@@ -41,7 +41,7 @@ tabs:
 
       | Default  | A Text input which comprises; a label, and optionally, a mandatory indicator, help text, and an icon |
 
-      | As small | A more compact version of above                                                                      |
+      | As small | A more compact version of the above                                                                  |
 
 
       - - -
