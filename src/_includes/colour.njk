@@ -1,0 +1,133 @@
+---
+  layout: default.njk
+  collection: Guidelines
+---
+
+<article>
+
+  {% include "./partials/article-header.njk" %}
+
+  <section class="[ mds-container ] [ mu-p-05 mu-p-md-06 mu-p-lg-07 mu-py-xl-08 mu-px-xl-08 ]">
+    <div class="mds-content-chunk">
+      {% if toc == true %}
+        {% from "./table-of-contents/table-of-contents.njk" import generateToc %}
+        {{ generateToc(content) }}
+      {% endif %}
+      
+      {{ content | safe }}
+
+      {{ colour.greyscale_colours | markdownify | safe }}
+
+      <div class="mds-colour-palette">
+        <div style="background-color: var(--gray-10)"></div>
+        <div style="background-color: var(--gray-20)"></div>
+        <div style="background-color: var(--gray-30)"></div>
+        <div style="background-color: var(--gray-40)"></div>
+        <div style="background-color: var(--gray-50)"></div>
+        <div style="background-color: var(--gray-60)"></div>
+        <div style="background-color: var(--gray-70)"></div>
+        <div style="background-color: var(--gray-80)"></div>
+        <div style="background-color: var(--gray-90)"></div>
+        <div style="background-color: var(--gray-100)"></div>
+        <div style="background-color: var(--gray-110)"></div>
+        <div style="background-color: var(--gray-120)"></div>
+      </div>
+
+      {{ colour.contextual_colours | markdownify | safe }}
+
+      {{ colour.primary | markdownify | safe }}
+
+      <p>Primary colours</p>
+      <div class="mds-colour-palette">
+        <div style="background-color: var(--primary)"></div>
+        <div style="background-color: var(--primary-hover)"></div>
+        <div style="background-color: var(--primary-active)"></div>
+        <div style="background-color: var(--primary-border)"></div>
+      </div>
+
+      <p>Soft primary colours</p>
+      <div class="mds-colour-palette">
+        <div style="background-color: var(--primary-soft)"></div>
+        <div style="background-color: var(--primary-soft-hover)"></div>
+        <div style="background-color: var(--primary-soft-active)"></div>
+        <div style="background-color: var(--primary-soft-border)"></div>
+      </div>
+
+      {{ colour.success | markdownify | safe }}
+
+      <p>Success colours</p>
+      <div class="mds-colour-palette">
+        <div style="background-color: var(--success)"></div>
+        <div style="background-color: var(--success-hover)"></div>
+        <div style="background-color: var(--success-active)"></div>
+        <div style="background-color: var(--success-border)"></div>
+      </div>
+
+      <p>Soft success colours</p>
+      <div class="mds-colour-palette">
+        <div style="background-color: var(--success-soft)"></div>
+        <div style="background-color: var(--success-soft-hover)"></div>
+        <div style="background-color: var(--success-soft-active)"></div>
+        <div style="background-color: var(--success-soft-border)"></div>
+      </div>
+
+      {{ colour.danger | markdownify | safe }}
+
+      <p>Danger colours</p>
+      <div class="mds-colour-palette">
+        <div style="background-color: var(--danger)"></div>
+        <div style="background-color: var(--danger-hover)"></div>
+        <div style="background-color: var(--danger-active)"></div>
+        <div style="background-color: var(--danger-border)"></div>
+      </div>
+
+      <p>Soft danger colours</p>
+      <div class="mds-colour-palette">
+        <div style="background-color: var(--danger-soft)"></div>
+        <div style="background-color: var(--danger-soft-hover)"></div>
+        <div style="background-color: var(--danger-soft-active)"></div>
+        <div style="background-color: var(--danger-soft-border)"></div>
+      </div>
+
+      {{ colour.warning | markdownify | safe }}
+
+      <p>Warning colours</p>
+      <div class="mds-colour-palette">
+        <div style="background-color: var(--warning)"></div>
+        <div style="background-color: var(--warning-hover)"></div>
+        <div style="background-color: var(--warning-active)"></div>
+        <div style="background-color: var(--warning-border)"></div>
+      </div>
+
+      <p>Soft warning colours</p>
+      <div class="mds-colour-palette">
+        <div style="background-color: var(--warning-soft)"></div>
+        <div style="background-color: var(--warning-soft-hover)"></div>
+        <div style="background-color: var(--warning-soft-active)"></div>
+        <div style="background-color: var(--warning-soft-border)"></div>
+      </div>
+
+      {{ colour.info | markdownify | safe }}
+
+      <p>Info colours</p>
+      <div class="mds-colour-palette">
+        <div style="background-color: var(--info)"></div>
+        <div style="background-color: var(--info-hover)"></div>
+        <div style="background-color: var(--info-active)"></div>
+        <div style="background-color: var(--info-border)"></div>
+      </div>
+
+      <p>Soft info colours</p>
+      <div class="mds-colour-palette">
+        <div style="background-color: var(--info-soft)"></div>
+        <div style="background-color: var(--info-soft-hover)"></div>
+        <div style="background-color: var(--info-soft-active)"></div>
+        <div style="background-color: var(--info-soft-border)"></div>
+      </div>
+
+    </div>
+  </section> 
+
+  {% include "./partials/article-footer.njk" %}
+
+</article>

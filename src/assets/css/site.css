@@ -109,3 +109,25 @@ html {
   width: 100%;
   margin: 0 auto;
 }
+
+/* colour palette */
+
+.mds-colour-palette {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 1fr;
+}
+
+@media (min-width: 992px) {
+  .mds-colour-palette {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 1fr;
+  }
+}
+
+.mds-colour-palette > div::before {
+  content: '';
+  padding-bottom: 100%;
+  display: block;
+}
