@@ -75,7 +75,7 @@ tabs:
       ### Placeholder text
 
 
-      Sometimes it is useful to include placeholder text in inputs. These can help the user see the format of what to enter. Placeholder text should disappear as as the user begins to type into the input. However, placeholder text should never contain information crucial to the completion of an Input.
+      Sometimes it is useful to include placeholder text in inputs. These can help the user see the format of what to enter. Placeholder text should disappear as the user begins to type into the input. However, placeholder text should never contain information crucial to the completion of an Input.
 
 
       ### Validation
