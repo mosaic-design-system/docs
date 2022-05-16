@@ -1,5 +1,5 @@
 ---
-title: Text input
+title: Input
 toc: true
 chips:
   - "HTML/CSS: Available"
@@ -8,10 +8,10 @@ storybook: https://tessera.oneadvanced.io/dev/components-forms/?path=/docs/html-
 tabs:
   - title: Usage
     body: >-
-      ## What is a Text input?
+      ## What is an Input?
 
 
-      A **Text input** enables users to input data as part of collecting information in a form.
+      An **Input** enables users to input data as part of collecting information in a form.
 
 
       - - -
@@ -20,7 +20,7 @@ tabs:
       ## When, and why?
 
 
-      **Text inputs** are used when you need to capture single lines of text. For example, they are typically used for collecting things like name, phone number, email address or other similar details consisting of a few words or numbers.
+      **Inputs** are used when you need to capture the manual entry of single items of data. They are typically used for collecting things like name, phone number, email address or other similar details consisting of a few words or numbers.
 
 
       Text inputs are not suitable when you want to collect long responses. When this is the case, use a **[Textarea](/forms/textarea/)** or a **[Rich text editor](/forms/rich-text-editor/)**.
@@ -32,22 +32,32 @@ tabs:
       ## Types
 
 
-      The following **Form input** types are available, with each being able to be marked as mandatory (see [Validation](/components/validation)), disabled or read-only:
+      The following **Input** types are available, with each being able to be marked as mandatory (see [Validation](/components/validation)), disabled or read-only:
 
 
-      | **Type** | **Description**                                                                                      |
+      | **Type**     | **Description**                                        |
 
-      | -------- | ---------------------------------------------------------------------------------------------------- |
+      | ------------ | ------------------------------------------------------ |
 
-      | Default  | A Text input which comprises; a label, and optionally, a mandatory indicator, help text, and an icon |
+      | Default      | An Input that accepts a plain text entry               |
 
-      | Small | A more compact version of thedefault Text input                                                                  |
+      | As email     | An Input that accepts an email address                 |
+
+      | As number    | An Input that accepts a numeric value                  |
+
+      | As password  | An Input that accepts a password and hides its content |
+
+      | As search    | An Input that can be used to facilitate a search       |
+
+      | As telephone | An Input that accepts a telephone number               |
+
+      | As URL       | An Input that accepts a Uniform Resource Locator (URL) |
 
 
       - - -
 
 
-      ## Using a Text input
+      ## Using an Input
 
 
       ### Labelling
@@ -59,19 +69,19 @@ tabs:
       ### Layout
 
 
-      Form inputs should be presented in a single column layout, and not use two columns. Each field must be sized appropriately. This means that a user should be able to understand the what is expected by simply looking at the width of an input. For example, if you are capturing a postcode, make the width of the input the size of a postcode, not the full width of the form. For more information, please see [Field affordance](/guidelines/field-affordance).
+      Inputs should be presented in a single column layout, and not use two columns. Each field must be sized appropriately. This means that a user should be able to understand the what is expected by simply looking at the width of an input. For example, if you are capturing a postcode, make the width of the input the size of a postcode, not the full width of the form. For more information, please see [Field affordance](/guidelines/field-affordance).
 
 
       ### Placeholder text
 
 
-      Sometimes it is useful to include placeholder text in inputs. These provide a hint or the format of what to enter. Placeholder text should disappear as as the user begins to type into the input. However, placeholder text should never contain information crucial to the completion of a Text input.
+      Sometimes it is useful to include placeholder text in inputs. These provide a hint or the format of what to enter. Placeholder text should disappear as as the user begins to type into the input. However, placeholder text should never contain information crucial to the completion of an Input.
 
 
       ### Validation
 
 
-      Many of your **Text inputs** will be mandatory, such as names and contact information. Familiarise yourself with the [Validation](/components/validation) guidelines to make sure you implement it properly, both before and after entering information and submitting forms.
+      Many of your **Inputs** will be mandatory, such as names and contact information. Familiarise yourself with the [Validation](/components/validation) guidelines to make sure you implement it properly, both before and after entering information and submitting forms.
 
 
       ### Disabled & Read-only
