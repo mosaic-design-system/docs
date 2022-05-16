@@ -112,8 +112,16 @@ tabs:
       Where numerical values are displayed, such as in a Finance application where you may have wholes numbers or decimals, these should always be right aligned.  This improves the user's ability to review numerical data quickly.  The header for these rows remains left aligned.
     icon: file_invoice
   - title: Code
-    hook: code
+    hook: ""
     icon: source_code
+    body: >-
+      ### Uh-oh! Looks like we haven't finished building this page yet.
+
+
+      Come back soon, and we'll have more exciting content to share.
+
+
+      ![Drawing of a person building a progress bar with blocks.](/assets/img/downloading.svg "Just a few more pieces to go before it is ready...")
   - title: Accessibility
     body: ""
     icon: web_accessibility_1
