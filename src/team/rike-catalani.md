@@ -1,6 +1,6 @@
 ---
 name: Rike Catalani
-job_title: Principle UX Designer
+job_title: Senior UX Designer
 profile_picture:
   img: /assets/img/Rike.png
   background_colour: blue
