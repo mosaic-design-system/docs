@@ -4,5 +4,5 @@ job_title: Senior UX Designer
 profile_picture:
   img: /assets/img/Zoe.png
   background_colour: blue
-bio: Something about me and what I like, maybe something funny
+bio: Designer, crisp eater and tiny toy collector.
 ---
