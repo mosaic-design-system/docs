@@ -76,7 +76,7 @@ tabs:
 
     icon: file_invoice
   - title: Code
-    hook: code
+    hook: ""
     icon: source_code
   - title: Accessibility
     body: >-
