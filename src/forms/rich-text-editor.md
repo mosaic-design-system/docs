@@ -53,8 +53,16 @@ tabs:
       As with all form inputs, a RTEs can be checked when a form is submitted to make sure its content is valid or, if it is flagged as a mandatory field, that it is completed before continuing. For more information, please refer to [**Form Validation**](/forms/form-validation).
     icon: file_invoice
   - title: Code
-    hook: code
+    hook: ""
     icon: source_code
+    body: >-
+      ### Uh-oh! Looks like we haven't finished building this page yet.
+
+
+      Come back soon, and we'll have more exciting content to share.
+
+
+      ![Drawing of a person building a progress bar with blocks.](/assets/img/downloading.svg "Just a few more pieces to go before it is ready...")
   - title: Accessibility
     body: ""
     icon: web_accessibility_1
