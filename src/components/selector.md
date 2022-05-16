@@ -68,8 +68,16 @@ tabs:
       **Selectors** are easy to scan to see if they are selected and are more visually prominent than unselected items. They also make it easier to compare available items. You should use them when you want it to be clear what has been selected by the user.
     icon: file_invoice
   - title: Code
-    hook: code
+    hook: ""
     icon: source_code
+    body: >-
+      ### Uh-oh! Looks like we haven't finished building this page yet.
+
+
+      Come back soon, and we'll have more exciting content to share.
+
+
+      ![Drawing of a person building a progress bar with blocks.](/assets/img/downloading.svg "Just a few more pieces to go before it is ready...")
   - title: Accessibility
     body: ""
     icon: web_accessibility_1
