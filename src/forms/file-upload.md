@@ -20,10 +20,7 @@ tabs:
       ### When, and why?
 
 
-      There may be occasions where a you want to enrich the import experience by allowing users to upload files by dragging and dropping. This is a more interactive way to attach files than using an input with a Browse button, where users are prompted to manually browse their file system. With the File upload component, files can simply be dragged and dropped into a dedicated "drop zone" and the upload starts automatically.
-
-
-      Usually, a File upload component is incorporated into a form, however it may be used stand alone. When one or more files are dropped inside the "drop zone", marked with a dotted line, a thumbnail of each one is displayed.
+      There may be occasions where a you want to enrich the import experience by allowing users to upload one of more files by dragging and dropping. This is a more interactive way to attach files than using an input with a Browse button, where users are prompted to manually browse their file system. With the File upload component, files can simply be dragged and dropped into a dedicated "drop zone" and the upload starts automatically.
 
 
       - - -
@@ -52,28 +49,24 @@ tabs:
       ## Using a File upload
 
 
-      Showing the process of uploading.
+      Usually, a File upload component is incorporated into a form, however it may be used stand alone. When one or more files are dropped inside the "drop zone", marked with a dotted line, a thumbnail of each one is displayed once they are uploaded. It is important to show the process of uploading, so that users can see the what's happening.
 
 
-      It is also possible to use the File upload component as a native file input - just click the dropzone and the Open dialog box appears. This allows users to still upload files by browsing for them.
+      It is also possible to use the File upload component as a native file input. By clicking the "drop zone", a dialog box opens, which allows users to upload files by browsing their device.
 
 
-      Only use if it's absolutely necessary, to prevent issues with network security.
+      Although File inputs offer a better user experience for uploading files, there are a number of considerations that should be taken into account:
 
 
-      Be very clear on what type of file you are expecting to avoid confusion. By default, any file type is accepted, but you could add parameters yourself to validate a specific file type.
+      * Always consider where files that are uploaded are stored, as they need to be stored somewhere where they can be easily accessed and potentially resurfaced elsewhere in your application.
 
+      * Be very clear on what type of file you are expecting to avoid confusion. By default, any file type is accepted, but you could add parameters yourself to validate a specific file type. You can also use the help text to explain which file types are accepted.
 
-      Users can select one or more files to upload at a time.
+      * Only use if it's absolutely necessary, to prevent issues with network security.
 
+      * Make sure that clear instructions are given to users so they know what is expected. The easiest way to do this is to include a line of text inside the "drop zone" that briefly explains what to do, e.g. "Drop files here to upload or click to choose files".
 
-      Default text must always be present, e.g. Drop stuff here!
-
-
-      Consider where files that are uploaded are going to be stored, as they need to be stored somewhere where they can be easily accessed and potentially resurfaced elsewhere in your application. 
-
-
-      Do not use upload in a modal when multiple files are uploaded, as uploaded files stack vertically.
+      * If using a File upload in a dialog, consider that when multiple files are uploaded, you could end up with multiple rows of thumbnails. Therefore, the dialog will need to increase in height to accommodate these. If you are expecting a large number of files to be uploaded, consider using a side Drawer, as this offers more vertical space and a scrollbar can be introduced if necessary.
     icon: file_invoice
   - title: Code
     hook: code
