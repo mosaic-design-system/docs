@@ -49,10 +49,7 @@ tabs:
       ## Using a File upload
 
 
-      Usually, a File upload component is incorporated into a form, however it may be used stand alone. When one or more files are dropped inside the "drop zone", marked with a dotted line, a thumbnail of each one is displayed once they are uploaded. It is important to show the process of uploading, so that users can see the what's happening.
-
-
-      Any file in the "drop zone" can be deleted by clicking the appropriate remove icon.
+      Usually, a File upload component is incorporated into a form, however it may be used stand alone. When one or more files are dropped inside the "drop zone", marked with a dotted line, a thumbnail of each one is displayed once they are uploaded. It is important to show the process of uploading, so that users can see the what's happening. Any file in the "drop zone" can be deleted by clicking the appropriate remove icon.
 
 
       It is also possible to use the File upload component as a native file input. By clicking the "drop zone", a dialog box opens, which allows users to upload files by browsing their device.
