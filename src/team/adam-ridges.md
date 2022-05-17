@@ -1,5 +1,8 @@
 ---
 name: Adam Ridges
 job_title: UX Designer
-bio: Something about me and what I like, maybe something funny
+profile_picture:
+  img: /assets/img/adam.png
+  background_colour: blue
+bio: Used to code, enjoyed design a bit more. Scouser through and through
 ---
