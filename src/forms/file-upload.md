@@ -7,7 +7,7 @@ chips:
 storybook: https://tessera.oneadvanced.io/dev/components-forms/?path=/docs/html-select-examples--default-story
 tabs:
   - title: Usage
-    body: >-
+    body: >
       ## What is a File upload?
 
 
@@ -24,6 +24,9 @@ tabs:
 
 
       The user places their files into a dedicated "drop zone" in the application, which then automatically starts uploading the files.
+
+
+      Only use a **File upload** if it's absolutely necessary, to prevent issues with network security.
 
 
       - - -
@@ -52,24 +55,37 @@ tabs:
       ## Using a File upload
 
 
-      Usually, a **File upload** component is incorporated into a form, however it may be used stand alone. When one or more files are dropped inside the "drop zone", marked with a dotted line, a thumbnail of each one is displayed once they are uploaded. It is important to show the process of uploading, so that users can see the what's happening. Any file in the "drop zone" can be deleted by clicking the appropriate remove icon.
+      ### Uploading a file
+
+
+      When one or more files are dropped inside the "drop zone", marked with a dotted line, a thumbnail of each one is displayed once they are uploaded. It is important to show the process of uploading, so that users can see the what's happening. Any file in the "drop zone" can be deleted by clicking the appropriate remove icon.
 
 
       It is also possible to use the File upload component as a native file input. By clicking the "drop zone", a dialog box opens, which allows users to upload files by browsing their device.
 
 
-      Although File inputs offer a better user experience for uploading files, there are a number of considerations that should be taken into account:
+      Be very clear on what type of file you are expecting to avoid confusion. By default, any file type is accepted, but you could add parameters yourself to validate a specific file type. You can also use the help text to explain which file types are accepted.
 
 
-      * Always consider where files that are uploaded are stored, as they need to be stored somewhere where they can be easily accessed and potentially resurfaced elsewhere in your application.
+      ### Positioning
 
-      * Be very clear on what type of file you are expecting to avoid confusion. By default, any file type is accepted, but you could add parameters yourself to validate a specific file type. You can also use the help text to explain which file types are accepted.
 
-      * Only use if it's absolutely necessary, to prevent issues with network security.
+      Usually, a **File upload** component is part of a form, however it may be used on its own.
 
-      * Make sure that clear instructions are given to users so they know what is expected. The easiest way to do this is to include a line of text inside the "drop zone" that briefly explains what to do, e.g. "Drop files here to upload or click to choose files".
 
-      * If using a File upload in a dialog, consider that when multiple files are uploaded, you could end up with multiple rows of thumbnails. Therefore, the dialog will need to increase in height to accommodate these. If you are expecting a large number of files to be uploaded, consider using a side Drawer, as this offers more vertical space and a scrollbar can be introduced if necessary.
+      If you are using a **File upload** in a **Dialog**, consider what the page will look like when multiple files are uploaded - you could end up with multiple rows of thumbnails. Therefore, you need to allow the **Dialog** to increase in height to accommodate these. If you are expecting that a large number of files will be uploaded, consider using a side **Drawer**, as this offers more vertical space and a scrollbar can be introduced if necessary.
+
+
+      ### File storage
+
+
+      Always consider where files that are uploaded are stored, as they need to be stored somewhere where they can be easily accessed and potentially resurfaced elsewhere in your application.
+
+
+      ### User instruction
+
+
+      Some users may not be familiar with a component like this. Make sure that clear instructions are given to users so they know what to do. The easiest way to do this is to include a line of text inside the "drop zone" that briefly explains what to do, e.g. "Drop files here to upload, or click to choose files".
     icon: file_invoice
   - title: Code
     hook: code
