@@ -4,5 +4,5 @@ job_title: UX Designer
 profile_picture:
   img: /assets/img/adam.png
   background_colour: blue
-bio: Used to code, enjoyed design a bit more. Scouser through and through
+bio: Used to code, enjoyed design a bit more. Scouser through and through.
 ---
