@@ -7,35 +7,47 @@ chips:
 storybook: https://tessera.oneadvanced.io/dev/components-forms/?path=/docs/html-select-examples--default-story
 tabs:
   - title: Usage
-    body: |-
+    body: >-
       ## What is a File upload?
+
 
       A **File upload** is...
 
+
       - - -
+
 
       ### When, and why?
 
+
       Text
 
+
       - - -
+
 
       ## File upload types
 
+
       The following types of File upload are available:
 
-      | **Name** | **Description** |
-      | -------- | --------------- |
-      | Default  |                 |
-      |          |                 |
-      |          |                 |
-      |          |                 |
-      |          |                 |
-      |          |                 |
+
+      | **Name**          | **Description**                                                                                                          |
+
+      | ----------------- | ------------------------------------------------------------------------------------------------------------------------ |
+
+      | Default           | A File upload component ready for files to be uploaded, either by dragging and dropping into the drop zone or browsed in |
+
+      | With progress bar | A File upload that contains a progress bar to show that an upload is in progress                                         |
+
+      | With thumbnails   | A File upload that contains thumbnails of each file that has been uploaded                                               |
+
 
       - - -
 
+
       ## Using a File upload
+
 
       Text
     icon: file_invoice
