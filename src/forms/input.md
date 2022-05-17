@@ -7,7 +7,90 @@ chips:
 storybook: https://tessera.oneadvanced.io/dev/components-forms/?path=/docs/html-input-text--as-default
 tabs:
   - title: Usage
-    body: ""
+    body: >-
+      ## What is an Input?
+
+
+      An **Input** enables users to type data as part of collecting information in a form.
+
+
+      - - -
+
+
+      ## When, and why?
+
+
+      **Inputs** are used when you need to capture the manual entry of single items of data. They are typically used for collecting things like name, phone number, email address or other similar details consisting of a few words or numbers.
+
+
+      It should be noted that **Inputs** are not suitable when you want to collect long responses. For example, when you want to capture multiple lines of text or allow users to format their content. When this is the case, use a **[Textarea](/forms/textarea/)** or a **[Rich text editor](/forms/rich-text-editor/)** respectively.
+
+
+      - - -
+
+
+      ## Types
+
+
+      The following **Input** types are available, with each being able to be marked as mandatory (see [Validation](/components/validation)), disabled or read-only:
+
+
+      | **Type**     | **Description**                                        |
+
+      | ------------ | ------------------------------------------------------ |
+
+      | Default      | An Input that accepts a plain text entry               |
+
+      | As email     | An Input that accepts an email address                 |
+
+      | As number    | An Input that accepts a numeric value                  |
+
+      | As password  | An Input that accepts a password and hides its content |
+
+      | As search    | An Input that can be used to facilitate a search       |
+
+      | As telephone | An Input that accepts a telephone number               |
+
+      | As URL       | An Input that accepts a Uniform Resource Locator (URL) |
+
+
+      - - -
+
+
+      ## Using an Input
+
+
+      ### Labelling
+
+
+      Like all copy within your product, you should read the [Tone of voice](/guidelines/tone-of-voice) and the [Content](/guides/style-guide) guidelines to create effective labels. Remember that your labels must be crystal clear on a form, so the user does not input the wrong information.
+
+
+      ### Layout
+
+
+      Inputs should be presented in a single column layout, and not use two columns. Each field must be sized appropriately. This means that a user should be able to understand the what is expected by simply looking at the width of an input. For example, if you are capturing a postcode, make the width of the input the size of a postcode, not the full width of the form. For more information, please see [Field affordance](/guidelines/field-affordance).
+
+
+      ### Placeholder text
+
+
+      Sometimes it is useful to include placeholder text in **Inputs**. These can help the user see the format of what to enter. Placeholder text should disappear as the user begins to type. However, placeholder text should never contain information crucial to the completion of an **Input**.
+
+
+      ### Validation
+
+
+      Many of your **Inputs** will be mandatory, such as names and contact information. Familiarise yourself with the [Validation](/components/validation) guidelines to make sure you implement it properly, both before and after entering information and submitting forms.
+
+
+      ### Disabled & Read-only
+
+
+      Disabled fields should have a light grey background with light grey text to show they are protected and cannot be edited, unless a user enables them by interacting with the screen elsewhere.
+
+
+      Similarly, read-only fields have a dark background with no input border to show that they are for display purposes only - this differentiate them from regular fields.
     icon: file_invoice
   - title: Code
     hook: code
