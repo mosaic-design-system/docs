@@ -80,7 +80,7 @@ tabs:
 
       The required or optional **Validation** should be considered part of your **Validation**.  If the majority of fields on the form are required (mandatory) then it is better to just show the optional ones. Similarly, if the majority of fields are optional, just show the required ones.
   - title: Code
-    hook: code
+    hook: ""
     body: >-
       ### Uh-oh! Looks like we haven't finished building this page yet.
 
