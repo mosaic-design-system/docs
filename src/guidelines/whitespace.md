@@ -10,7 +10,7 @@ Whitespace often pushes important content beneath "the fold", where your users c
 
 Okay, let's start with whitespace...
 
-### What is whitespace?
+## What is whitespace?
 
 Using the above analogy let’s consider whitespace a mute button. More whitespace equals less noise, making it easier for you to focus on one particular person. It’s not a new concept, in 1930 Swiss typographer,  Jan Tschichold noted:
 
