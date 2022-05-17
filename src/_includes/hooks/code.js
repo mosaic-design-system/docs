@@ -17,7 +17,7 @@ const showVariant = variantName => {
   const nameElem = document.getElementById('variant-name')
   nameElem.innerText = variantName
 
-  // close variant selector dropdown
+  // close type selector dropdown
   const variantSelector = document.getElementById('variant-selector')
   variantSelector.open = false
 }
