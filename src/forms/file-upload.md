@@ -11,7 +11,7 @@ tabs:
       ## What is a File upload?
 
 
-      A **File upload** is...
+      A **File upload** enables users to upload files from their device into your application.
 
 
       - - -
@@ -20,7 +20,10 @@ tabs:
       ### When, and why?
 
 
-      Text
+      There may be occasions where a you want to enrich the import experience by allowing users to upload files by dragging and dropping. This is a more interactive way to attach files than using an input with a Browse button, where users are prompted to manually browse their file system. With the File upload component, files can simply be dragged and dropped into a dedicated "drop zone" and the upload starts automatically.
+
+
+      Usually, a File upload component is incorporated into a form, however it may be used stand alone. When one or more files are dropped inside the "drop zone", marked with a dotted line, a thumbnail of each one is displayed.
 
 
       - - -
@@ -32,15 +35,15 @@ tabs:
       The following types of File upload are available:
 
 
-      | **Name**          | **Description**                                                                                                          |
+      | **Name**          | **Description**                                                                                                            |
 
-      | ----------------- | ------------------------------------------------------------------------------------------------------------------------ |
+      | ----------------- | -------------------------------------------------------------------------------------------------------------------------- |
 
-      | Default           | A File upload component ready for files to be uploaded, either by dragging and dropping into the drop zone or browsed in |
+      | Default           | A File upload component ready for files to be uploaded, either by dragging and dropping into the "drop zone" or browsed in |
 
-      | With progress bar | A File upload that contains a progress bar to show that an upload is in progress                                         |
+      | With progress bar | A File upload that contains a progress bar to show that an upload is in progress                                           |
 
-      | With thumbnails   | A File upload that contains thumbnails of each file that has been uploaded                                               |
+      | With thumbnails   | A File upload that contains thumbnails of each file that has been uploaded                                                 |
 
 
       - - -
@@ -49,7 +52,28 @@ tabs:
       ## Using a File upload
 
 
-      Text
+      Showing the process of uploading.
+
+
+      It is also possible to use the File upload component as a native file input - just click the dropzone and the Open dialog box appears. This allows users to still upload files by browsing for them.
+
+
+      Only use if it's absolutely necessary, to prevent issues with network security.
+
+
+      Be very clear on what type of file you are expecting to avoid confusion. By default, any file type is accepted, but you could add parameters yourself to validate a specific file type.
+
+
+      Users can select one or more files to upload at a time.
+
+
+      Default text must always be present, e.g. Drop stuff here!
+
+
+      Consider where files that are uploaded are going to be stored, as they need to be stored somewhere where they can be easily accessed and potentially resurfaced elsewhere in your application. 
+
+
+      Do not use upload in a modal when multiple files are uploaded, as uploaded files stack vertically.
     icon: file_invoice
   - title: Code
     hook: code
