@@ -11,7 +11,7 @@ tabs:
       ## What is a File upload?
 
 
-      A **File upload** enables users to upload files from their device into your application.
+      A **File upload** is used to let users to upload files from their device onto your application.
 
 
       - - -
@@ -20,7 +20,10 @@ tabs:
       ### When, and why?
 
 
-      There may be occasions where a you want to enrich the import experience by allowing users to upload one of more files by dragging and dropping. This is a more interactive way to attach files than using an input with a Browse button, where users are prompted to manually browse their file system. With the File upload component, files can simply be dragged and dropped into a dedicated "drop zone" and the upload starts automatically.
+      **File upload** components are useful when you want to allow the user to upload multiple files at once by dragging and dropping the desired files. Letting the users drag and drop is a more interactive way of uploading files, when compared to a simple input with a "browse" button. Sometimes, the user may need to upload files from multiple locations, and a drag and drop from their own file system may be easier than selecting a browse button multiple times.
+
+
+      The user places their files into a dedicated "drop zone" in the application, which then automatically starts uploading the files.
 
 
       - - -
@@ -29,10 +32,10 @@ tabs:
       ## File upload types
 
 
-      The following types of File upload are available:
+      The following **File upload** types are available:
 
 
-      | **Name**          | **Description**                                                                                                            |
+      | **Type**          | **Description**                                                                                                            |
 
       | ----------------- | -------------------------------------------------------------------------------------------------------------------------- |
 
@@ -49,7 +52,7 @@ tabs:
       ## Using a File upload
 
 
-      Usually, a File upload component is incorporated into a form, however it may be used stand alone. When one or more files are dropped inside the "drop zone", marked with a dotted line, a thumbnail of each one is displayed once they are uploaded. It is important to show the process of uploading, so that users can see the what's happening. Any file in the "drop zone" can be deleted by clicking the appropriate remove icon.
+      Usually, a **File upload** component is incorporated into a form, however it may be used stand alone. When one or more files are dropped inside the "drop zone", marked with a dotted line, a thumbnail of each one is displayed once they are uploaded. It is important to show the process of uploading, so that users can see the what's happening. Any file in the "drop zone" can be deleted by clicking the appropriate remove icon.
 
 
       It is also possible to use the File upload component as a native file input. By clicking the "drop zone", a dialog box opens, which allows users to upload files by browsing their device.
