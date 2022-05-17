@@ -56,6 +56,7 @@ tabs:
 
       ### Checkbox behaviour
 
+
       **Checkboxes** are used for multiple choices, and work independently from other **Checkboxes** in the same list - therefore, checking an additional box does not affect any other selections.
 
 
@@ -79,7 +80,7 @@ tabs:
       ### Using a checkbox in a table
 
 
-      A selection column on a table is the only instance that a **Checkbox** without a label is valid, as the column header becomes the overarching label. Applying a selection column to a table allows the user to easily scan read and see which rows are selected and are more visually prominent than unselected items. They also make it easier to compare available items.
+      A selection column on a table is the only instance that a **Checkbox** without a label is valid, as the column header becomes the overarching label. Applying a selection column to a table allows the user to easily scan read and see which rows are selected and are more visually prominent than unselected items. They also make it easier to compare available items.  The selector column must always be on the left.
     icon: file_invoice
   - title: Code
     hook: code
