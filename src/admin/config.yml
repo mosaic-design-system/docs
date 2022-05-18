@@ -144,6 +144,10 @@ collections:
           - label: "Title"
             name: "title"
             widget: "string"
+          - label: "Table of contents"
+            name: "toc"
+            widget: "boolean"
+            default: true
           - label: "Hook"
             name: "hook"
             widget: "string"
@@ -604,6 +608,3 @@ collections:
           - {label: Danger, name: danger, widget: markdown}
           - {label: Warning, name: warning, widget: markdown}
           - {label: Info, name: info, widget: markdown}
-
-
-
