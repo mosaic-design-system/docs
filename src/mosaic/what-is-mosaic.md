@@ -13,11 +13,15 @@ Anyone designing and developing a web application! However, primarily for Advanc
 
 ## What versions of Mosaic exist?
 
-There are two main "versions" of Mosaic in existence: the Design System (this site) and its UI Components, and the previous incarnation known as "Mosaic UI".
+There are two main "versions" of Mosaic in existence: the Design System (this site) and its UI Components, and the previous incarnation known as "Mosaic UI" or "v3".
 
 All products using Mosaic for the first time should look to use this site along with the components and patterns created with the latest styling, highest accessibility rating and greater flexibility with JS frameworks. 
 
-Products using "Mosaic UI" should look to upgrade over time, but a version of those components with the latest styling has been made available for use when this is not a pragmatic strategy. Please email mosaic@oneadvanced.com to learn more. 
+Products using "Mosaic UI" should look to upgrade over time, but a version of those components with the latest styling has been made available for use when this is not a pragmatic strategy. Please reach out to the UX/UI team for more information.
+
+### What is Tessera?
+
+Tessera was a working project name for the new suite of components and has been superseded by the Design System. From this point, these should simply be called the "Mosaic Design System Components". The naming convention Tessera will no longer be used. 
 
 ## Where can I ask questions?
 
