@@ -29,7 +29,9 @@ Whenever a user visits your app or web page they engage in a behaviour pattern k
 
 So, our decision to stay or go will be based on the amount of information we are likely to find, relative to the cost of finding that information.
 
-\[image]
+![Information Foraging: A Theory of How People Navigate on the Web](/assets/img/info-foraging.png "Information Foraging: A Theory of How People Navigate on the Web")
+
+*Information Foraging: A Theory of How People Navigate on the Web, retrieved from <https://www.nngroup.com/articles/information-foraging/>*
 
 A cluttered interface, lacking a clear hierarchy, closely clustered elements and unnecessary content is going to increase the user’s difficulty in accessing that information.
 
@@ -68,11 +70,19 @@ It would be a mistake to write about the benefits of whitespace without consider
 * From this peak at 550 pixels, there is a slow decay in viewership. About 50% of readers see 1500 pixels down the page on content pages
 * On home pages and section fronts 50% of readers make it to pixel 1000
 
-\[image]
+
+
+![There Is No Fold by Luke Wroblewski](/assets/img/there-is-no-fold-1.png "There Is No Fold by Luke Wroblewski")
+
+*There Is No Fold by Luke Wroblewski, retrieved from <https://www.lukew.com/ff/entry.asp?1946>*
 
 However most of the arguments began in the 1990’s, when 800×600 was the most prevalent screen resolution, having had a [market share of 76% in 2000](https://www.w3schools.com/browsers/browsers_display.asp). Let’s fast-forward to December 2014 and the fold is looking decidedly different, with 3,997 devices, over 6 months to one website showing:
 
-\[image]
+
+
+![There Is No Fold by Luke Wroblewski](/assets/img/there-is-no-fold-2.png "There Is No Fold by Luke Wroblewski")
+
+*There Is No Fold by Luke Wroblewski, retrieved from <https://www.lukew.com/ff/entry.asp?1946>*
 
 Even since 2014 devices have evolved, and new form factors developed, however user behaviour and navigation methods have also evolved.
 
