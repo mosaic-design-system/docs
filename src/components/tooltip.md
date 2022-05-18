@@ -79,14 +79,18 @@ tabs:
 
       All icon buttons should include a label, but if this isn’t possible **Tooltips** can help distinguish actions between unlabelled icons.
     icon: file_invoice
+    toc: true
   - title: Code
     hook: code
     icon: source_code
+    toc: false
   - title: Accessibility
     body: ""
     icon: web_accessibility_1
+    toc: false
   - title: Status
     hook: status
+    toc: false
 code:
   example: <button class="mcc-button">Button text</button>
   body: >-

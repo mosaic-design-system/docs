@@ -66,14 +66,18 @@ tabs:
 
       Take a look at our [contextual colours guidance](guidelines/colour/) for more information on how to use the contextual colours, and similarly you can read our [Icons guidelines](/guidelines/icons) to represent statuses.
     icon: file_invoice
+    toc: true
   - title: Code
     hook: code
     icon: source_code
+    toc: false
   - title: Accessibility
     body: ""
     icon: web_accessibility_1
+    toc: false
   - title: Status
     hook: status
+    toc: false
 code:
   example: <button class="mcc-button">Button text</button>
   body: >-

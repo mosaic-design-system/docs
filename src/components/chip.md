@@ -97,14 +97,18 @@ tabs:
 
       Use the various contextual colours described above to denote further meaning, but be careful when combining colours with backgrounds of other elements. For example, red **Chips** on green backgrounds are not accessible. Consider high contrast pairings so the **Chip** value is easy to read.
     icon: file_invoice
+    toc: true
   - title: Code
     hook: code
     icon: source_code
+    toc: false
   - title: Accessibility
     body: ""
     icon: web_accessibility_1
+    toc: false
   - title: Status
     hook: status
+    toc: false
 code:
   example: <button class="mcc-button">Button text</button>
   body: >-

@@ -75,6 +75,7 @@ tabs:
 
 
       <a href="/assets/img/A & AA WCAG 2.1 Accessibility Guidelines for Visual elements.docx.zip" target="_blank" class="mcc=button--primary"><span class="mcc-button__label">Download accessibility guidelines for code elements</span></a>
+    toc: true
   - title: Keyboards
     body: >-
       For many users, keyboard navigation is essential to their daily use of
@@ -130,6 +131,7 @@ tabs:
 
 
       You must ensure that if focus can be moved to a component using the keyboard, then it must **also** allow focus to be moved away using the keyboard.  If the method of moving away requires anything more than simple arrow or tab navigation, then the user must be informed of this method. However, you should try your hardest to avoid any such situations. They should be a last resort.
+    toc: true
   - title: Colour
     body: >-
       Colour is a key factor in making our products accessible and can have a
@@ -183,6 +185,7 @@ tabs:
 
 
       In order to check the colour contrast of your product, you can use [this contrast checker](https://webaim.org/resources/contrastchecker/).
+    toc: true
   - title: Statements
     body: >-
       Our standard of WCAG 2.1 AA is now the very minimum standard of
@@ -220,6 +223,7 @@ tabs:
       * Use our recommended tooling [WAVE](https://wave.webaim.org/) to assess how compliant your product is.
 
       * Download and fill out our <a href="/assets/img/Accessibility statement - Template.docx.zip" target="_blank" class="mcc=button--primary"><span class="mcc-button__label">Accessibility Statement Template</span></a> ready to be displayed on your site.
+    toc: true
   - title: Pendo
     body: >-
       Where we do use Pendo within our products, we are limited by the levels of
@@ -243,4 +247,5 @@ tabs:
       * The link to access the product hub uses the correct icon and is displayed in a way that follows good colour contrast.
 
       * All these guidelines need to be met by the next time you review your accessibility statement or within one year of implementing Mosaic. Please ensure that your position regarding these guidelines are explained within your accessibly statement.
+    toc: false
 ---

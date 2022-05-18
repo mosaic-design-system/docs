@@ -67,6 +67,7 @@ tabs:
 
       **Selectors** are easy to scan to see if they are selected and are more visually prominent than unselected items. They also make it easier to compare available items. You should use them when you want it to be clear what has been selected by the user.
     icon: file_invoice
+    toc: true
   - title: Code
     hook: ""
     icon: source_code
@@ -78,11 +79,14 @@ tabs:
 
 
       ![Drawing of a person building a progress bar with blocks.](/assets/img/downloading.svg "Just a few more pieces to go before it is ready...")
+    toc: false
   - title: Accessibility
     body: ""
     icon: web_accessibility_1
+    toc: false
   - title: Status
     hook: status
+    toc: false
 code:
   example: <button class="mcc-button">Button text</button>
   body: >-

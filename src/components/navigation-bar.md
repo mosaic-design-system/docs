@@ -68,14 +68,18 @@ tabs:
 
       When moving from a small screen to a larger display, **Bars** transform into a **Navigation rail** component. The **Rail** provides the same access as a **Bar**, but in a way that's suitable for larger screens. **Rails** and **Bars** should never appear on the same page together.
     icon: file_invoice
+    toc: true
   - title: Code
     hook: code
     icon: source_code
+    toc: false
   - title: Accessibility
     body: ""
     icon: web_accessibility_1
+    toc: false
   - title: Status
     hook: status
+    toc: false
 code:
   example: <button class="mcc-button">Button text</button>
   body: >-

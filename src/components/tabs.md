@@ -128,9 +128,11 @@ tabs:
 
       \r\n"
     icon: file_invoice
+    toc: true
   - title: Code
     hook: code
     icon: source_code
+    toc: false
   - title: Accessibility
     body: "Accessibility Tip: The active tab should have the attribute aria-selected
       set to true, and the others to false. The active panel associated with the
@@ -140,8 +142,10 @@ tabs:
       an aria-labelledby attribute set to the id of the tab associated with the
       panel.\r\n"
     icon: web_accessibility_1
+    toc: false
   - title: Status
     hook: status
+    toc: false
 code:
   example: <button class="mcc-button">Button text</button>
   body: >-

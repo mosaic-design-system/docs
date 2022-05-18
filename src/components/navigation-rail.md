@@ -100,14 +100,18 @@ tabs:
 
       When moving from a large screen to a smaller display, a **Navigation rail** transforms into a **Navigation Bar** component, which still provides the same access as a **rail**, but in a way that's suitable for smaller screens. A **rail** and a **Bar** should never be used at the same time - a user should only ever have one type of 'top-level' navigation available to them.
     icon: file_invoice
+    toc: true
   - title: Code
     hook: code
     icon: source_code
+    toc: false
   - title: Accessibility
     body: ""
     icon: web_accessibility_1
+    toc: false
   - title: Status
     hook: status
+    toc: false
 code:
   example: <button class="mcc-button">Button text</button>
   body: >-

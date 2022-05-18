@@ -97,14 +97,18 @@ tabs:
       surrounding content. They should never be an instruction, either: \"click
       HERE to learn more about Mosaic\" should instead read \"Learn more\"."
     icon: file_invoice
+    toc: true
   - title: Code
     hook: code
     icon: source_code
+    toc: false
   - title: Accessibility
     body: ""
     icon: web_accessibility_1
+    toc: false
   - title: Status
     hook: status
+    toc: false
 code:
   example: <button class="mcc-button">Button text</button>
   body: >-

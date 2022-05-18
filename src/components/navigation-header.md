@@ -66,14 +66,18 @@ tabs:
 
       The labels for each link should be short and concise, and be no more than a few words. Users should be able to read these labels and learn something about where it will take them without too much outside context.
     icon: file_invoice
+    toc: true
   - title: Code
     hook: code
     icon: source_code
+    toc: false
   - title: Accessibility
     body: ""
     icon: web_accessibility_1
+    toc: false
   - title: Status
     hook: status
+    toc: false
 code:
   example: <button class="mcc-button">Button text</button>
   body: >-

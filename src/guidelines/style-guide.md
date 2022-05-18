@@ -78,6 +78,7 @@ tabs:
       [Structure](/guidelines/style-guide/#structure) deals with how to
       lay out copy on a page. Go here for guidance on things like when to use a
       subtitle, and dealing with white space.\r\n"
+    toc: false
   - title: Conventions
     body: "## Abbreviations
 
@@ -481,6 +482,7 @@ tabs:
 
       - Percentages always use digits, and are followed immediately by the
       percentage symbol with no space (i.e. 3%).\r\n"
+    toc: true
   - title: Formatting
     body: "## Bold text\r
 
@@ -608,6 +610,7 @@ tabs:
       that don’t seem to end.\r
 
       \r\n"
+    toc: true
   - title: Punctuation
     body: "## Apostrophes\r
 
@@ -955,6 +958,7 @@ tabs:
       ambiguous, and often can be worded more clearly. However, if you do need
       to use one to save space, ensure that there is a space either side of the
       slash.\r\n"
+    toc: true
   - title: Quality
     body: "## Consistency\r
 
@@ -1017,6 +1021,7 @@ tabs:
       capitalised word and have 'learned' that this means it's something
       specific to the product, it will encourage them to find out what that is.
       \r\n"
+    toc: true
   - title: Structure
     body: "\r
 
@@ -1146,4 +1151,5 @@ tabs:
       Conversely, too much white space makes pages feel empty and
       incomplete. Use the space available to you, but ensure you tread a fine
       line between efficiency and visual attractiveness.\r\n"
+    toc: true
 ---

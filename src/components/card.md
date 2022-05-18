@@ -101,14 +101,18 @@ tabs:
 
       The footer section of a **Card** is there for actions on the **Card** in the form of **Buttons**.  This is where the call to action **Button** would be placed, for example.  On forms this can also be used to show additional information to the user, e.g. "All fields are required".
     icon: file_invoice
+    toc: true
   - title: Code
     hook: code
     icon: source_code
+    toc: false
   - title: Accessibility
     body: ""
     icon: web_accessibility_1
+    toc: false
   - title: Status
     hook: status
+    toc: false
 code:
   example: <button class="mcc-button">Button text</button>
   body: >-

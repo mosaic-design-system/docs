@@ -121,14 +121,18 @@ tabs:
 
       **Alerts** should never cover another piece of content on the page - covering up a piece of content with an **Alert** may prove disruptive to users and inhibit their usage of the product.
     icon: file_invoice
+    toc: true
   - title: Code
     hook: code
     icon: source_code
+    toc: false
   - title: Accessibility
     body: ""
     icon: web_accessibility_1
+    toc: false
   - title: Status
     hook: status
+    toc: false
 code:
   example: <button class="mcc-button">Button text</button>
   body: >-

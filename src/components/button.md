@@ -165,9 +165,11 @@ tabs:
 
       A few ways you can achieve consistency is making sure your **Labels** are identical in all areas – do not switch between using 'close' and 'cancel' on your **Buttons**. Pick one, and stick with it. The same goes for **Icons**. Make sure you review your **Buttons** in comparison to others in the system when making them.
     icon: file_invoice
+    toc: true
   - title: Code
     hook: code
     icon: source_code
+    toc: false
   - title: Accessibility
     body: >-
       ## Component accessibility 
@@ -211,8 +213,10 @@ tabs:
 
       Buttons without text should only be used as a last resort to save space on a table etc. 
     icon: web_accessibility_1
+    toc: true
   - title: Status
     hook: status
+    toc: false
 code:
   example: <button class="mcc-button">Button text</button>
   body: >-

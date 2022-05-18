@@ -16,7 +16,7 @@
         {% if tab.hook %}
           {% include "../hooks" + "/" + tab.hook + ".njk" %}
         {% elif tab.body %}
-          {% if toc == true %}
+          {% if tab.toc === undefined or tab.toc === true %}
             {{ generateToc(tab.body) }}
           {% endif %}
           <div class="mds-content-chunk">

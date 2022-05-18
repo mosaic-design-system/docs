@@ -57,6 +57,7 @@ tabs:
       ### Guideline 3
 
       Lorem ipsum
+    toc: false
 status:
   design: Yes
   documentation: Yes

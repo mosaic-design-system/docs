@@ -151,6 +151,7 @@ tabs:
       a co-worker.
 
       \r"
+    toc: true
   - title: Finding Our Voice
     body: "
 
@@ -573,4 +574,5 @@ tabs:
       alienating them. The worst outcome would be our user being presented with
       an incomprehensible mess of technical detail, and having no idea what they
       are looking at - this would discourage them from using the product. \r\n"
+    toc: true
 ---

@@ -83,15 +83,19 @@ tabs:
 
       Always allow the user to expand multiple **Accordions** at a time, and avoid hiding task critical content. If a user can only open one **Accordion** at a time, then it is better to consider a different approach.
     icon: file_invoice
+    toc: true
   - title: Code
     hook: code
     icon: source_code
+    toc: false
   - title: Accessibility
     body: ""
     icon: web_accessibility_1
+    toc: false
   - title: Status
     hook: status
     icon: source_code
+    toc: false
 code:
   example: <button class="mcc-button">Button text</button>
   body: >-
