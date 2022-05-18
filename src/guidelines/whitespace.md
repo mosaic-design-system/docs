@@ -49,7 +49,7 @@ While cluttering your interface overloads your user with too much information, r
 
 ### Communicating relationships and distinctions
 
-The fields of UI and UX Design are underpinned by the [Gestalt Principles](https://en.wikipedia.org/wiki/Gestalt_psychology). This set of principles implies that we see patterns and configurations, as well as their separate components. Seven of the eight principles are used throughout interface design, on the web, and in every application we use. Of that seven, four rely heavily on the use of whitespace. They are:
+The fields of UI and UX Design are underpinned by the [](https://en.wikipedia.org/wiki/Gestalt_psychology)<a href="https://en.wikipedia.org/wiki/Gestalt_psychology" target="_blank">Gestalt Principles</a>. This set of principles implies that we see patterns and configurations, as well as their separate components. Seven of the eight principles are used throughout interface design, on the web, and in every application we use. Of that seven, four rely heavily on the use of whitespace. They are:
 
 * Law of Proximity - Objects close together will be perceived as a group
 * Law of Symmetry - Symmetrical objects will be perceived a group
