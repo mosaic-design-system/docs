@@ -72,13 +72,13 @@ It would be a mistake to write about the benefits of whitespace without consider
 
 ![There Is No Fold by Luke Wroblewski](/assets/img/there-is-no-fold-1.png "There Is No Fold by Luke Wroblewski")
 
-*There Is No Fold by Luke Wroblewski, retrieved from <https://www.lukew.com/ff/entry.asp?1946>*
+*There Is No Fold by Luke Wroblewski, retrieved from [](https://www.lukew.com/ff/entry.asp?1946)*<a href="https://www.lukew.com/ff/entry.asp?1946" target="_blank">https://www.lukew.com/ff/entry.asp?1946</a>
 
-However most of the arguments began in the 1990’s, when 800×600 was the most prevalent screen resolution, having had a [market share of 76% in 2000](https://www.w3schools.com/browsers/browsers_display.asp). Let’s fast-forward to December 2014 and the fold is looking decidedly different, with 3,997 devices, over 6 months to one website showing:
+However most of the arguments began in the 1990’s, when 800×600 was the most prevalent screen resolution, having had a [](https://www.w3schools.com/browsers/browsers_display.asp)<a href="https://www.w3schools.com/browsers/browsers_display.asp" target="_blank">market share of 76% in 2000</a>. Let’s fast-forward to December 2014 and the fold is looking decidedly different, with 3,997 devices, over 6 months to one website showing:
 
 ![There Is No Fold by Luke Wroblewski](/assets/img/there-is-no-fold-2.png "There Is No Fold by Luke Wroblewski")
 
-*There Is No Fold by Luke Wroblewski, retrieved from <https://www.lukew.com/ff/entry.asp?1946>*
+*There Is No Fold by Luke Wroblewski, retrieved from [](https://www.lukew.com/ff/entry.asp?1946)*<a href="https://www.lukew.com/ff/entry.asp?1946" target="_blank">https://www.lukew.com/ff/entry.asp?1946</a>
 
 Even since 2014 devices have evolved, and new form factors developed, however user behaviour and navigation methods have also evolved.
 
