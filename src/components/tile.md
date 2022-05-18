@@ -92,14 +92,18 @@ tabs:
       application that uses an effective navigation system, such as a
       [**Navigation bar**](/components/navigation-bar) component."
     icon: file_invoice
+    toc: true
   - title: Code
     hook: code
     icon: source_code
+    toc: false
   - title: Accessibility
     body: ""
     icon: web_accessibility_1
+    toc: false
   - title: Status
     hook: status
+    toc: false
 code:
   example: <button class="mcc-button">Button text</button>
   body: >-

@@ -75,9 +75,11 @@ tabs:
       **Ratings** can be used in multiple ways to either collect or present different types of data. There are no hard set rules on using the **Ratings** components, except that you should keep it consistent throughout your product and do not bombard the user with too many on the screen at one given time.
 
     icon: file_invoice
+    toc: true
   - title: Code
     hook: ""
     icon: source_code
+    toc: false
   - title: Accessibility
     body: >-
       ## Component accessibility 
@@ -121,8 +123,10 @@ tabs:
 
       Buttons without text should only be used as a last resort to save space on a table etc. 
     icon: web_accessibility_1
+    toc: true
   - title: Status
     hook: status
+    toc: false
 code:
   example: <button class="mcc-button">Button text</button>
   body: >-

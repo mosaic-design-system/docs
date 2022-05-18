@@ -201,6 +201,11 @@ collections:
             name: "icon"
             widget: "string"
             required: false
+          - label: "Table of contents"
+            name: "toc"
+            widget: "boolean"
+            default: true
+            required: false
           - label: "Hook"
             name: "hook"
             widget: "string"

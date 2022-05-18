@@ -67,14 +67,18 @@ tabs:
 
       A **Placeholder** shouldn’t be used for long-running processes or background processes (e.g. importing data or exporting reports). Use a [**Progress indicator**](/components/progress-bar) for that instead.
     icon: file_invoice
+    toc: true
   - title: Code
     hook: code
     icon: source_code
+    toc: false
   - title: Accessibility
     body: ""
     icon: web_accessibility_1
+    toc: false
   - title: Status
     hook: status
+    toc: false
 code:
   example: <button class="mcc-button">Button text</button>
   body: >-

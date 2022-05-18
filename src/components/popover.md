@@ -76,14 +76,18 @@ tabs:
 
       **Popovers** can be configured to appear either at the top or bottom and left or right of the trigger using the `placement` attribute. Consider the layout of the page and what content (if any) would be hidden by the **Popover** when designing with one.
     icon: file_invoice
+    toc: true
   - title: Code
     hook: code
     icon: source_code
+    toc: false
   - title: Accessibility
     body: ""
     icon: web_accessibility_1
+    toc: false
   - title: Status
     hook: status
+    toc: false
 code:
   example: <button class="mcc-button">Button text</button>
   body: >-

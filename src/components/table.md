@@ -111,6 +111,7 @@ tabs:
 
       Where numerical values are displayed, such as in a Finance application where you may have wholes numbers or decimals, these should always be right aligned.  This improves the user's ability to review numerical data quickly.  The header for these rows remains left aligned.
     icon: file_invoice
+    toc: true
   - title: Code
     hook: ""
     icon: source_code
@@ -122,12 +123,15 @@ tabs:
 
 
       ![Drawing of a person building a progress bar with blocks.](/assets/img/downloading.svg "Just a few more pieces to go before it is ready...")
+    toc: false
   - title: Accessibility
     body: ""
     icon: web_accessibility_1
+    toc: false
   - title: Status
     hook: status
     icon: source_code
+    toc: false
 code:
   example: <button class="mcc-button">Button text</button>
   body: >-

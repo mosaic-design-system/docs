@@ -16,14 +16,18 @@ tabs:
 
       ![Drawing of a person building a progress bar with blocks.](/assets/img/downloading.svg "Just a few more pieces to go before it is ready...")
     icon: file_invoice
+    toc: false
   - title: Code
     hook: code
     icon: source_code
+    toc: false
   - title: Accessibility
     body: ""
     icon: web_accessibility_1
+    toc: false
   - title: Status
     hook: status
+    toc: false
 code:
   example: <button class="mcc-button">Button text</button>
   body: >-

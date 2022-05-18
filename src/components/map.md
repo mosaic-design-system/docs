@@ -44,6 +44,7 @@ tabs:
       ### Map cursor
 
       While the user's cursor is over the map, it should change to a 'hand' symbol rather than a pointer to demonstrate that the map is interactable.
+    toc: true
   - title: Code
     body: >-
       ### Uh-oh! Looks like we haven't finished building this page yet.
@@ -53,8 +54,11 @@ tabs:
 
 
       ![Drawing of a person building a progress bar with blocks.](/assets/img/downloading.svg "Just a few more pieces to go before it is ready...")
+    toc: false
   - title: Accessibility
+    toc: false
   - title: Status
+    toc: false
 status:
   design: Yes
   documentation: No
