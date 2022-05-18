@@ -14,7 +14,7 @@ Okay, let's start with whitespace...
 
 Using the above analogy let’s consider whitespace a mute button. More whitespace equals less noise, making it easier for you to focus on one particular person. It’s not a new concept, in 1930 Swiss typographer,  Jan Tschichold noted:
 
-> “[White space is to be regarded as an active element, not a passive background](http://bobulate.com/post/428787471/an-active-silence)” – Jan Tschichold, 1930
+> "<a href="http://bobulate.com/post/428787471/an-active-silence" target="_blank">White space is to be regarded as an active element, not a passive background</a>" – Jan Tschichold, 1930 
 
 Also known as negative space, whitespace is the empty space around your page elements; buttons, images, links and lines of text, etc. Considered by some to be a waste of valuable screen real-estate, however, when used correctly it’s an invaluable design tool.
 
@@ -70,15 +70,11 @@ It would be a mistake to write about the benefits of whitespace without consider
 * From this peak at 550 pixels, there is a slow decay in viewership. About 50% of readers see 1500 pixels down the page on content pages
 * On home pages and section fronts 50% of readers make it to pixel 1000
 
-
-
 ![There Is No Fold by Luke Wroblewski](/assets/img/there-is-no-fold-1.png "There Is No Fold by Luke Wroblewski")
 
 *There Is No Fold by Luke Wroblewski, retrieved from <https://www.lukew.com/ff/entry.asp?1946>*
 
 However most of the arguments began in the 1990’s, when 800×600 was the most prevalent screen resolution, having had a [market share of 76% in 2000](https://www.w3schools.com/browsers/browsers_display.asp). Let’s fast-forward to December 2014 and the fold is looking decidedly different, with 3,997 devices, over 6 months to one website showing:
-
-
 
 ![There Is No Fold by Luke Wroblewski](/assets/img/there-is-no-fold-2.png "There Is No Fold by Luke Wroblewski")
 
