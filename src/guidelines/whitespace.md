@@ -31,7 +31,7 @@ So, our decision to stay or go will be based on the amount of information we are
 
 ![Information Foraging: A Theory of How People Navigate on the Web](/assets/img/info-foraging.png "Information Foraging: A Theory of How People Navigate on the Web")
 
-*Information Foraging: A Theory of How People Navigate on the Web, retrieved from [](https://www.nngroup.com/articles/information-foraging/)*<a href="*<https://www.nngroup.com/articles/information-foraging/>*" target="_blank">https://www.nngroup.com/articles/information-foraging/</a>
+*Information Foraging: A Theory of How People Navigate on the Web, retrieved from [](https://www.nngroup.com/articles/information-foraging/)*<a href="https://www.nngroup.com/articles/information-foraging/" target="_blank">https://www.nngroup.com/articles/information-foraging/</a>
 
 A cluttered interface, lacking a clear hierarchy, closely clustered elements and unnecessary content is going to increase the user’s difficulty in accessing that information.
 
@@ -45,7 +45,7 @@ Whitespace can help us in this regard. Two examples - by increasing line heights
 
 ### Increasing comprehension
 
-While cluttering your interface overloads your user with too much information, reducing the clutter improves comprehension. By removing distractions, your users can focus only on what’s immediately visible. This reduces the user’s [cognitive load](https://en.wikipedia.org/wiki/Cognitive_load) and results in a more pleasant user experience.
+While cluttering your interface overloads your user with too much information, reducing the clutter improves comprehension. By removing distractions, your users can focus only on what’s immediately visible. This reduces the user’s [](https://en.wikipedia.org/wiki/Cognitive_load)<a href="https://en.wikipedia.org/wiki/Cognitive_load" target="_blank">cognitive load</a> and results in a more pleasant user experience.
 
 ### Communicating relationships and distinctions
 
