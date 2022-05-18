@@ -86,7 +86,7 @@ For example, the prevalence of mobile devices have meant that when we now scroll
 
 ### Minimising the impact of "the fold"
 
-There are ways. Content prioritization is the most important step we can take, our Call to Action (CTA) should be above "the fold", our key business and user goals should be above "the fold".
+There are ways. Content prioritisation is the most important step we can take, our Call to Action (CTA) should be above "the fold", our key business and user goals should be above "the fold".
 
 We can use strong visual signals to entice our users to scroll and discover content below "the fold".
 
