@@ -9,7 +9,7 @@ Our colour palette is an important part of how we present ourselves. Our pages a
 
 Our palette is also aligned with the WCAG 2.1 accessibility requirements for colour contrast, so that users with visual impairments are able to perceive content on our pages. For more information, please refer to [Accessibility](/guidelines/accessibility).
 
-Below you will find examples and explanations of the colours we have chosen to use in the Mosaic Design System. 
+Below you will find examples and explanations of the colours we have chosen to use in the Mosaic Design System.
 
 ## Greyscale colours
 
