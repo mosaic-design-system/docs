@@ -31,7 +31,7 @@ So, our decision to stay or go will be based on the amount of information we are
 
 ![Information Foraging: A Theory of How People Navigate on the Web](/assets/img/info-foraging.png "Information Foraging: A Theory of How People Navigate on the Web")
 
-*Information Foraging: A Theory of How People Navigate on the Web, retrieved from <https://www.nngroup.com/articles/information-foraging/>*
+*Information Foraging: A Theory of How People Navigate on the Web, retrieved from [](https://www.nngroup.com/articles/information-foraging/)*<a href="*<https://www.nngroup.com/articles/information-foraging/>*" target="_blank">https://www.nngroup.com/articles/information-foraging/</a>
 
 A cluttered interface, lacking a clear hierarchy, closely clustered elements and unnecessary content is going to increase the user’s difficulty in accessing that information.
 
