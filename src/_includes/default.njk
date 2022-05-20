@@ -7,7 +7,7 @@
     <meta name="theme-color" content="#1078cf">
 
     {% include "./partials/favicons.njk" %}
-  
+
     {% set css %}
       {% include "../assets/css/mosaic-styles.css" %}
       {% include "../assets/css/mosaic-utilities.css" %}
@@ -30,7 +30,7 @@
   </head>
   <body class="{{ 'is-home' if '/' === page.url }}">
 
-    
+
 
     {% include "./skip-to/skip-to.njk" %}
 
@@ -40,12 +40,12 @@
 
       <mcc-drawer id="site-nav-drawer" class="mcc-drawer mcc-drawer--start {{ 'mcc-drawer--closed' if '/' === page.url else 'mcc-drawer--open' }} mcc-drawer--navigation-header-offset-lg" type="dismissible">
         <div class="mu-d-flex mu-flex-column">
-          
+
           <div class="[ mds-site-name ] [ mu-d-flex mu-d-lg-none mu-align-items-center mu-px-06 mu-border-bottom  ]">
             <span class="[ mds-site-name-logo ] [ mu-d-flex mu-align-items-center mu-mr-04 ]">{% include "./partials/logo.njk" %}</span>
             <span class="mu-fw-semi-bold mu-text-default">MDS</span>
           </div>
-          
+
           {% include "./navigation/navigation.njk" %}
         </div>
       </mcc-drawer>
@@ -59,7 +59,7 @@
         </main>
 
         {% include "./partials/footer.njk" %}
-  
+
       </div>
 
     </div>
@@ -77,6 +77,17 @@
       <!-- Needed only if you are using Netlify Identity feature -->
       <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     {% endif %}
+
+    <!-- pendo script -->
+    <script>
+      (function(apiKey){
+          (function(p,e,n,d,o){var v,w,x,y,z;o=p[d]=p[d]||{};o._q=o._q||[];
+          v=['initialize','identify','updateOptions','pageLoad','track'];for(w=0,x=v.length;w<x;++w)(function(m){
+              o[m]=o[m]||function(){o._q[m===v[0]?'unshift':'push']([m].concat([].slice.call(arguments,0)));};})(v[w]);
+              y=e.createElement(n);y.async=!0;y.src='https://cdn.eu.pendo.io/agent/static/'+apiKey+'/pendo.js';
+              z=e.getElementsByTagName(n)[0];z.parentNode.insertBefore(y,z);})(window,document,'script','pendo');
+      })('82fe95a2-03c0-4e43-56b5-25cb3a7e7071');
+    </script>
 
   </body>
 </html>
