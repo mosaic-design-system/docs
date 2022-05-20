@@ -1,0 +1,10 @@
+<div class="mds-hero"></div>
+
+{% set css %}
+  {% include "./hero.css" %}
+{% endset %}
+
+<style>
+  {{ css | cssmin | safe }}
+</style>
+

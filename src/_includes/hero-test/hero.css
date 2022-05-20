@@ -1,0 +1,11 @@
+.mds-hero {
+  max-width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-image: url('/assets/img/hero-test.jpg');
+  width: 100%;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+}
