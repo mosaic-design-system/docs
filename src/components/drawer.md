@@ -5,7 +5,7 @@ toc: true
 chips:
   - "HTML/CSS: Available"
   - "Web Component: Available"
-storybook: https://tessera.oneadvanced.io/dev/components-core/?path=/docs/custom-elements-drawer--as-dismissible-start
+storybook: https://refactored-telegram-b90726d9.pages.github.io/dev/components/?path=/docs/components-drawer-introduction
 tabs:
   - title: Usage
     body: "## What is a Drawer?\r

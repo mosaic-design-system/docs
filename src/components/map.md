@@ -3,7 +3,6 @@ title: Map
 toc: true
 chips:
   - In design
-storybook: https://dev-svc.storybook.mosaic.oneadvanced.io/?path=/story/3-data-components-map--default
 tabs:
   - title: Usage
     body: >-

@@ -4,7 +4,7 @@ title: Timeline
 toc: true
 chips:
   - "HTML/CSS: Available"
-storybook: https://tessera.oneadvanced.io/dev/components-core/?path=/docs/html-timeline--as-default
+storybook: https://refactored-telegram-b90726d9.pages.github.io/dev/components/?path=/docs/components-timeline-introduction
 tabs:
   - title: Usage
     body: >-

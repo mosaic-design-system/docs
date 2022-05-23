@@ -4,7 +4,7 @@ toc: true
 chips:
   - "HTML/CSS: Available"
   - "Web Component: Available"
-storybook: https://tessera.oneadvanced.io/dev/components-forms/?path=/docs/html-textarea-examples--default-story
+storybook: https://refactored-telegram-b90726d9.pages.github.io/dev/components/?path=/docs/forms-textarea-introduction
 tabs:
   - title: Usage
     body: >-

@@ -3,7 +3,6 @@ title: Ratings
 toc: true
 chips:
   - "HTML/CSS: Available"
-storybook-url: https://tessera.oneadvanced.io/dev/components-core/?path=/docs/html-button--as-default
 storybook: ""
 tabs:
   - title: Usage

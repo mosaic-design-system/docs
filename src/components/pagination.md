@@ -5,7 +5,7 @@ toc: true
 chips:
   - "HTML/CSS: Available"
   - "Web Component: Available"
-storybook: https://tessera.oneadvanced.io/dev/components-core/?path=/docs/html-pagination--with-active-button
+storybook: https://refactored-telegram-b90726d9.pages.github.io/dev/components/?path=/docs/components-pagination-introduction
 tabs:
   - title: Usage
     body: >-

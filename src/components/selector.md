@@ -1,5 +1,4 @@
 ---
-storybook-url: https://tessera.oneadvanced.io/dev/components-core/?path=/docs/html-button--as-default
 title: Selector
 toc: true
 chips:

@@ -4,7 +4,6 @@ toc: true
 chips:
   - "HTML/CSS: Available"
   - "Web Component: Available"
-storybook: https://tessera.oneadvanced.io/dev/components-forms/?path=/docs/html-input-group--as-default
 tabs:
   - title: Usage
     body: >-

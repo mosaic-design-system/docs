@@ -4,7 +4,6 @@ title: Popover
 toc: true
 chips:
   - "HTML/CSS: Available"
-storybook: https://tessera.oneadvanced.io/dev/components-core/?path=/docs/html-tooltip--with-direction
 tabs:
   - title: Usage
     body: >-

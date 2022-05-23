@@ -4,7 +4,7 @@ title: Page Header
 toc: true
 chips:
   - "HTML/CSS: Available"
-storybook: https://tessera.oneadvanced.io/dev/components-core/?path=/story/html-page-header--as-default
+storybook: https://refactored-telegram-b90726d9.pages.github.io/dev/components/?path=/docs/components-page-header-introduction
 tabs:
   - title: Usage
     body: "## What is a Page Header?

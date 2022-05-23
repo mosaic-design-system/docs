@@ -4,7 +4,7 @@ title: Collapse
 toc: true
 chips:
   - "HTML/CSS: Available"
-storybook: https://tessera.oneadvanced.io/dev/components-core/?path=/story/html-collapse--as-opened
+storybook: https://refactored-telegram-b90726d9.pages.github.io/dev/components/?path=/docs/components-collapse-introduction
 tabs:
   - title: Usage
     body: >
