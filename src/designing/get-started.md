@@ -8,10 +8,13 @@ toc: true
 But you can see what we've got so far. Come back soon, and we'll have more exciting content to share.  
 
 ![Drawing of a progress bar being filled with coloured blocks.](/assets/img/downloading-small.svg "Just a few more pieces to go before it is ready...")
+- - -
 
 ## Introduction
 
 Welcome to the Mosaic Design System (MDS)! On this site you can find plenty of content to help you design with confidence. On this page, you'll find a few things to help you get started with using MDS, as well as some key technical information.
+
+- - -
 
 ## Design philosophy
 
@@ -49,6 +52,9 @@ Make products inclusive and accessible by everyone, regardless of disabilities. 
 
 The quality of your products directly affects the delight of your users, so aim higher than "good enough". You would not accept a poor product or service, so never settle for anything less than superior software.
 
+- - -
+
+
 ## Components and Patterns
 
 In MDS, you will find two key building blocks for your product. We have **[Components](/components/overview)**, and we also have **[Patterns](/patterns/overview)**. 
@@ -57,6 +63,9 @@ In MDS, you will find two key building blocks for your product. We have **[Compo
 * **Patterns** are the next step - they're what you get when you combine Components into a delicious meal. Or, more specifically, Patterns are groups of Components that have been combined together to make a ready-to-use user action. They consist of things like Login pages, Tables and a Drawer that includes tabs.
 
 When designing, make sure you review the pages for each of our Components and Patterns. They should be your first step when designing something, as each page gives you a clue as to how and when they should be used, and special considerations you need to take while using them (some of which you might not have thought about!).
+
+
+- - -
 
 ## Guidelines
 
