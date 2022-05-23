@@ -16,7 +16,7 @@ if (currentTheme) {
     setDarkTheme()
   }
 } else {
-  if (window.matchMedia('(prefers-color-scheme: dark)').media !== 'not all') {
+  if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
     setDarkTheme()
   }
 }
