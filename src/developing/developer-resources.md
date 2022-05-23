@@ -9,13 +9,13 @@ Cant find what you need? Reach out to the team at mosaic@oneadvanced.com.
 
 ## Github
 
-Mosaic Design System repo: <https://github.com/mosaic-design>
+Mosaic Design System repo: <https://github.com/mosaic-design-system>
 
 ## Storybooks
 
-Main Storybook site: <https://mds-components.oneadvanced.io>
+Development Storybook site: <https://refactored-telegram-b90726d9.pages.github.io/dev/components/?path=/docs/getting-started-introduction--page>
 
-CSS Utilities: <https://mds-css-utilities.oneadvanced.io>
+Release Storybook site: <https://refactored-telegram-b90726d9.pages.github.io/release/components/?path=/docs/getting-started-introduction--page>
 
 ## Tools
 
