@@ -5,7 +5,7 @@ toc: true
 chips:
   - "Web Component: In development"
   - "Web Component: Available"
-storybook: https://tessera.oneadvanced.io/dev/components-core/?path=/docs/custom-elements-dialog--as-default
+storybook: https://refactored-telegram-b90726d9.pages.github.io/dev/components/?path=/docs/components-dialog-introduction
 tabs:
   - title: Usage
     body: >

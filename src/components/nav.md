@@ -4,7 +4,7 @@ title: Nav
 toc: true
 chips:
   - "HTML/CSS: Available"
-storybook: https://tessera.oneadvanced.io/dev/components-core/?path=/docs/html-nav--as-default
+storybook: https://refactored-telegram-b90726d9.pages.github.io/dev/components/?path=/docs/components-nav-introduction
 tabs:
   - title: Usage
     body: "## What is a Nav?
