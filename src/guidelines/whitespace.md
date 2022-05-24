@@ -5,21 +5,43 @@ toc: true
 tabs:
   - toc: true
     title: Whitespace
-    body: >+
-      
+    body: "### We haven't finished building this page yet.\r
+
+      \r
+
+      But you can see what we've got so far. Come back soon, and we'll
+      have more exciting content to share.  \r
+
+      \r
+
+      ![Drawing of a progress bar being filled with coloured
+      blocks.](/assets/img/downloading-small.svg \"Just a few more pieces to go
+      before it is ready...\")
+
       ## What is whitespace?
 
 
-      Imagine a webpage as being a bit like sitting in the pub with a group of friends. They've each got something great to talk about, and you really want to catch up with them. Sounds great so far, right? But, if everyone starts talking at once - you’re not going to take in a lot of the conversation, are you?
+      Imagine a webpage as being a bit like sitting in the pub with a
+      group of friends. They've each got something great to talk about, and you
+      really want to catch up with them. Sounds great so far, right? But, if
+      everyone starts talking at once - you’re not going to take in a lot of the
+      conversation, are you?
 
 
-      Whitespace is like a mute button. More whitespace equals less noise, making it easier for you to focus on one particular person. It’s not a new concept, in 1930 Swiss typographer,  Jan Tschichold noted:
+      Whitespace is like a mute button. More whitespace equals less noise,
+      making it easier for you to focus on one particular person. It’s not a new
+      concept, in 1930 Swiss typographer,  Jan Tschichold noted:
 
 
-      > "<a href="http://bobulate.com/post/428787471/an-active-silence" target="_blank">White space is to be regarded as an active element, not a passive background</a>" – Jan Tschichold, 1930 
+      > \"<a href=\"http://bobulate.com/post/428787471/an-active-silence\"
+      target=\"_blank\">White space is to be regarded as an active element, not
+      a passive background</a>\" – Jan Tschichold, 1930\ 
 
 
-      Also known as negative space, whitespace is the empty space around your page elements; buttons, images, links and lines of text, etc. Considered by some to be a waste of valuable screen real-estate, however, when used correctly it’s an invaluable design tool.
+      Also known as negative space, whitespace is the empty space around
+      your page elements; buttons, images, links and lines of text, etc.
+      Considered by some to be a waste of valuable screen real-estate, however,
+      when used correctly it’s an invaluable design tool.
 
 
       ## Why we use whitespace
@@ -28,7 +50,10 @@ tabs:
       ### Page structure
 
 
-      Whenever a user visits your app or web page they engage in a behaviour pattern known as Information Foraging, with this behaviour, named after animal foraging, the user makes a decision on whether to remain on your page based on two points:
+      Whenever a user visits your app or web page they engage in a
+      behaviour pattern known as Information Foraging, with this behaviour,
+      named after animal foraging, the user makes a decision on whether to
+      remain on your page based on two points:
 
 
       * How promising the information on the page is
@@ -36,50 +61,85 @@ tabs:
       * How difficult it is going to be to access that information
 
 
-      So, our decision to stay or go will be based on the amount of information we are likely to find, relative to the cost of finding that information.
+      So, our decision to stay or go will be based on the amount of
+      information we are likely to find, relative to the cost of finding that
+      information.
 
 
-      ![Information Foraging: A Theory of How People Navigate on the Web](/assets/img/info-foraging.png "Information Foraging: A Theory of How People Navigate on the Web")
+      ![Information Foraging: A Theory of How People Navigate on the
+      Web](/assets/img/info-foraging.png \"Information Foraging: A Theory of How
+      People Navigate on the Web\")
 
 
-      *Information Foraging: A Theory of How People Navigate on the Web, retrieved from [](https://www.nngroup.com/articles/information-foraging/)<a href="https://www.nngroup.com/articles/information-foraging/" target="_blank">https://www.nngroup.com/articles/information-foraging/</a>*
+      *Information Foraging: A Theory of How People Navigate on the Web,
+      retrieved from
+      [](https://www.nngroup.com/articles/information-foraging/)<a
+      href=\"https://www.nngroup.com/articles/information-foraging/\"
+      target=\"_blank\">https://www.nngroup.com/articles/information-foraging/<\
+      /a>*
 
 
-      A cluttered interface, lacking a clear hierarchy, closely clustered elements and unnecessary content is going to increase the user’s difficulty in accessing that information.
+      A cluttered interface, lacking a clear hierarchy, closely clustered
+      elements and unnecessary content is going to increase the user’s
+      difficulty in accessing that information.
 
 
-      A lean interface, on the other hand, will highlight important elements (which have been prioritised using whitespace)  and our users' eyes will effortlessly catch that element.
+      A lean interface, on the other hand, will highlight important
+      elements (which have been prioritised using whitespace)  and our users'
+      eyes will effortlessly catch that element.
 
 
       ### Accessibility
 
 
-      We all have different needs and requirements, and they change throughout our lives. Understanding and accommodating these changes are vital, it is our responsibility to our users. We need to understand and accommodate both cognitive and physical differences.
+      We all have different needs and requirements, and they change
+      throughout our lives. Understanding and accommodating these changes are
+      vital, it is our responsibility to our users. We need to understand and
+      accommodate both cognitive and physical differences.
 
 
-      Whitespace can help us in this regard. Two examples - by increasing line heights (to improve legibility) or by making touch targets larger (with more whitespace around them) to prevent accidental clicks.
+      Whitespace can help us in this regard. Two examples - by increasing
+      line heights (to improve legibility) or by making touch targets larger
+      (with more whitespace around them) to prevent accidental clicks.
 
 
       ### Increasing comprehension
 
 
-      While cluttering your interface overloads your user with too much information, reducing the clutter improves comprehension. By removing distractions, your users can focus only on what’s immediately visible. This reduces the user’s [](https://en.wikipedia.org/wiki/Cognitive_load)<a href="https://en.wikipedia.org/wiki/Cognitive_load" target="_blank">cognitive load</a> and results in a more pleasant user experience.
+      While cluttering your interface overloads your user with too much
+      information, reducing the clutter improves comprehension. By removing
+      distractions, your users can focus only on what’s immediately visible.
+      This reduces the user’s [](https://en.wikipedia.org/wiki/Cognitive_load)<a
+      href=\"https://en.wikipedia.org/wiki/Cognitive_load\"
+      target=\"_blank\">cognitive load</a> and results in a more pleasant user
+      experience.
 
 
       ### Communicating relationships and distinctions
 
 
-      The fields of UI and UX Design are underpinned by the [](https://en.wikipedia.org/wiki/Gestalt_psychology)<a href="https://en.wikipedia.org/wiki/Gestalt_psychology" target="_blank">Gestalt Principles</a>. This set of principles implies that we see patterns and configurations, as well as their separate components. Seven of the eight principles are used throughout interface design, on the web, and in every application we use. Of that seven, four rely heavily on the use of whitespace. They are:
+      The fields of UI and UX Design are underpinned by the
+      [](https://en.wikipedia.org/wiki/Gestalt_psychology)<a
+      href=\"https://en.wikipedia.org/wiki/Gestalt_psychology\"
+      target=\"_blank\">Gestalt Principles</a>. This set of principles implies
+      that we see patterns and configurations, as well as their separate
+      components. Seven of the eight principles are used throughout interface
+      design, on the web, and in every application we use. Of that seven, four
+      rely heavily on the use of whitespace. They are:
 
 
-      * Law of Proximity - Objects close together will be perceived as a group
+      * Law of Proximity - Objects close together will be perceived as a
+      group
 
       * Law of Symmetry - Symmetrical objects will be perceived a group
 
-      * Law of Common Fate - Objects that have the same path will be perceived a group
+      * Law of Common Fate - Objects that have the same path will be
+      perceived a group
 
-      * Law of Continuity - the individual elements of a whole object will be considered a group
+      * Law of Continuity - the individual elements of a whole object will
+      be considered a group
 
+      \n"
   - toc: true
     title: The Fold
     body: >-
