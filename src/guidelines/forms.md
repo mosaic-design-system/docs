@@ -108,11 +108,22 @@ tabs:
       Form action buttons must always be shown in a consistent position across all forms. They must also be ordered with the primary action positioned on the right, then the secondary or negative actions with the most negative on the left, and finally the Cancel or Close actions positioned in the leftmost position. The following rules also apply depending on how a form is being presented:
 
 
-      * **Dialog forms** – buttons must always appear in the bottom right-hand corner of the dialog footer and must be sized according to their label and icon.
+      * **Dialog forms** – Buttons must always appear in the bottom right-hand corner of the dialog footer and must be sized according to their label and icon.
 
-      * **Drawer forms** – buttons must always appear in the drawer footer and must be sized to fit the available space.
+      * **Drawer forms** – Buttons must always appear in the drawer footer and must be sized to fit the available space.
 
-      * **Page forms** – buttons must always appear in the right-hand side of the page header and must be sized according to their label and icon.
+      * **Page forms** – Buttons must always appear in the right-hand side of the page header and must be sized according to their label and icon.
+
+
+      ### Disabled fields vs. read-only fields
+
+
+      There has always been confusion when it comes to disabled fields and read-only fields. What's the difference? When do we use them?
+
+
+      * **Disabled** – Fields that are not editable initially, but are enabled when users interact with the screen. They have a grey background to differentiate them from editable fields. This changes to white once they are enabled.
+
+      * **Read-only** –  Fields that are not editable, but their data is visible and can be copied. In terms of style, they look the same as editable fields.
 
 
       ### Field sizes
