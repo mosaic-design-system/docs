@@ -7,7 +7,7 @@ storybook: https://refactored-telegram-b90726d9.pages.github.io/dev/components/?
 tabs:
   - title: Usage
     body: >-
-      ## What is an Breadcrumb?
+      ## What is a Breadcrumb?
 
 
       A **Breadcrumb** is a secondary navigation aid that help users understand the relationship between their location and higher level pages. If the user is on a subpage, they can sometimes get confused as to what the 'parent' page is - a **Breadcrumb** helps solve that issue by showing them the path they took to get there!
