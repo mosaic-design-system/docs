@@ -98,23 +98,6 @@
       </div>
     </details>
 
-    <!-- forms -->
-    <details class="mcc-menu__collapse">
-      <summary>
-        <div class="mcc-menu__subtitle">
-          <span>Forms</span>
-          <mcc-icon name="angle_down" aria-hidden="true"></mcc-icon>
-        </div>
-      </summary>
-      <div>
-        {% for page in collections.sortedForms %}
-          <a class="mcc-menu__button" href={{ page.url }}>
-            <span>{{ page.data.title }}</span>
-          </a>
-        {% endfor %}
-      </div>
-    </details>
-  
     <!-- patterns -->
     <details class="mcc-menu__collapse">
       <summary>
