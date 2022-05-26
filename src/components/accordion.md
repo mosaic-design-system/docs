@@ -98,7 +98,7 @@ tabs:
       ### Aria tags
 
 
-      Every component in Mosaic requires an appropriate Aria tag to ensure that screen readers can effectively parse the page. For Accordion
+      Every component in Mosaic requires an appropriate Aria tag to ensure that screen readers can effectively parse the page. Aria tags are provided as part of Mosaic. Please do not override these without good reason.
 
 
       Ensure that Aria tags are used as appropriate signposts throughout the product.
