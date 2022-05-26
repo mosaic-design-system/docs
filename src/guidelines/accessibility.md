@@ -74,7 +74,7 @@ tabs:
       <a href="/assets/img/A & AA WCAG 2.1 Accessibility Guidelines for Visual elements.docx.zip" target="_blank" class="mcc=button--primary"><span class="mcc-button__label">Download accessibility guidelines for visual elements</span></a>
 
 
-      <a href="/assets/img/A & AA WCAG 2.1 Accessibility Guidelines for Visual elements.docx.zip" target="_blank" class="mcc=button--primary"><span class="mcc-button__label">Download accessibility guidelines for code elements</span></a>
+      <a href="/assets/img/A & AA WCAG 2.1 Accessibility Guidelines for Code elements.docx.zip" target="_blank" class="mcc=button--primary"><span class="mcc-button__label">Download accessibility guidelines for code elements</span></a>
     toc: true
   - title: Keyboards
     body: >-
@@ -219,7 +219,7 @@ tabs:
 
         <a href="/assets/img/A & AA WCAG 2.1 Accessibility Guidelines for Visual elements.docx.zip" target="_blank" class="mcc=button--primary"><span class="mcc-button__label">Download accessibility guidelines for visual elements</span></a>
 
-        <a href="/assets/img/A & AA WCAG 2.1 Accessibility Guidelines for Visual elements.docx.zip" target="_blank" class="mcc=button--primary"><span class="mcc-button__label">Download accessibility guidelines for code elements</span></a>
+        <a href="/assets/img/A & AA WCAG 2.1 Accessibility Guidelines for Code elements.docx.zip" target="_blank" class="mcc=button--primary"><span class="mcc-button__label">Download accessibility guidelines for code elements</span></a>
       * Use our recommended tooling [WAVE](https://wave.webaim.org/) to assess how compliant your product is.
 
       * Download and fill out our <a href="/assets/img/Accessibility statement - Template.docx.zip" target="_blank" class="mcc=button--primary"><span class="mcc-button__label">Accessibility Statement Template</span></a> ready to be displayed on your site.
