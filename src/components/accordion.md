@@ -113,7 +113,7 @@ tabs:
       ### Focus state
 
 
-      An Accordion needs to have focus state - a focus state is when you tab into an element to interact with it. Ensure that users can use their keyboard to focus on Accordions.
+      An Accordion needs to have a focus state - a focus state is when you tab into an element to interact with it. Ensure that users can use their keyboard to focus on Accordions.
 
 
       ### Icons
@@ -125,7 +125,7 @@ tabs:
       ### Key Binding
 
 
-      An Accordion needs to be able to be interacted with by a keyboard. The key-bind should be 'Enter' to open the Accordion and 'Enter' to close it while focused on the header of the Accordion, not the Accordion's content. Pay special attention to the components used within the Accordion to ensure that they have their own specific key-binding if necessary.
+      An Accordion needs to be able to be interacted with via a keyboard. Where possible we will provide key-binds within our Mosaic component or there will be default HTML ones. If this isn't the case then please implement logical key-binds for all intractable components.
 
 
       ### Movement/Animation
