@@ -131,7 +131,7 @@ tabs:
       ### Movement/Animation
 
 
-      Please refer to the WCAG guidelines for the time-based considerations for animations.
+      Please refer to the [WCAG guidelines](https://www.w3.org/WAI/WCAG21/quickref/?showtechniques=129%2C131%2C133%2C136%2C141%2C145%2C147%2C1412%2C211%2C212%2C231%2C241%2C245%2C251%2C254%2C312%2C322%2C332%2C411%2C412%2C413#three-flashes-or-below-threshold) for the time-based considerations for animations.
 
 
       ### Wording
