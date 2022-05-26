@@ -89,69 +89,55 @@ tabs:
     toc: false
   - title: Accessibility
     body: >-
-      \# # # Component accessibility\
+      ### Component accessibility
 
-      \
 
       This component has been built to meet the current WCAG AA 2.1 guidelines. We also test these components against the guidelines before release.
 
 
-      \# # # Aria tags\
+      ### Aria tags
 
-      \
 
       Every component in Mosaic requires an appropriate Aria tag to ensure that screen readers can effectively parse the page. For Accordion
 
 
-      Ensure that Aria tags are used as appropriate signposts throughout the product.\
+      Ensure that Aria tags are used as appropriate signposts throughout the product.
 
-      \
 
-      # # # Colour Combinations\
+      ### Colour Combinations
 
-      \
 
-      Design designing with an Accordion, you should be mindful of the colour combinations you are using. The components have been designed with this in mind, but if you are using colours that are not part of the default Mosaic theme, please ensure that there is a clear colour contrast between the Accordion and the background it is on. To check the contrast, please use [WebAIM's contrast checker](https://webaim.org/resources/contrastchecker/).\
+      Design designing with an Accordion, you should be mindful of the colour combinations you are using. The components have been designed with this in mind, but if you are using colours that are not part of the default Mosaic theme, please ensure that there is a clear colour contrast between the Accordion and the background it is on. To check the contrast, please use [WebAIM's contrast checker](https://webaim.org/resources/contrastchecker/).
 
-      \
 
-      # # # Focus state\
+      ### Focus state
 
-      \
 
-      An Accordion needs to have focus state - a focus state is when you tab into an element to interact with it. Ensure that users can use their keyboard to focus on Accordions.\
+      An Accordion needs to have focus state - a focus state is when you tab into an element to interact with it. Ensure that users can use their keyboard to focus on Accordions.
 
-      \
 
-      # # # Icons\
+      ### Icons
 
-      \
 
-      An icon needs to have underlying code that describes what action the icon takes. the labels should be specific - for example, 'bin' icon for delete should be labelled 'delete'. not 'bin'.\
+      An icon needs to have underlying code that describes what action the icon takes. the labels should be specific - for example, 'bin' icon for delete should be labelled 'delete'. not 'bin'.
 
-      \
 
-      # # # Key Binding\
+      ### Key Binding
 
-      \
 
-      An Accordion needs to be able to be interacted with by a keyboard. The key-bind should be 'Enter' to open the Accordion and 'Enter' to close it while focused on the header of the Accordion, not the Accordion's content. Pay special attention to the components used within the Accordion to ensure that they have their own specific key-binding if necessary. \
+      An Accordion needs to be able to be interacted with by a keyboard. The key-bind should be 'Enter' to open the Accordion and 'Enter' to close it while focused on the header of the Accordion, not the Accordion's content. Pay special attention to the components used within the Accordion to ensure that they have their own specific key-binding if necessary.
 
-      \
 
-      # # # Movement/Animation\
+      ### Movement/Animation
 
-      \
 
-      Please refer to the WCAG guidelines for the time-based considerations for animations.\
+      Please refer to the WCAG guidelines for the time-based considerations for animations.
 
-      \
 
-      # # # Wording\
+      ### Wording
 
-      \
 
-      Please refer to the standardised text provided to ensure AA compatibility. If this is not possible, please contact accessibility@oneadvanced.com
+      Please refer to the standardised text provided to ensure AA compatibility. If this is not possible, please contact accessibility@oneadvanced.com.
     icon: web_accessibility_1
     toc: false
   - title: Status
