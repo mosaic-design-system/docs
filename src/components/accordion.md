@@ -107,13 +107,13 @@ tabs:
       ### Colour Combinations
 
 
-      Design designing with an Accordion, you should be mindful of the colour combinations you are using. The components have been designed with this in mind, but if you are using colours that are not part of the default Mosaic theme, please ensure that there is a clear colour contrast between the Accordion and the background it is on. To check the contrast, please use [WebAIM's contrast checker](https://webaim.org/resources/contrastchecker/).
+      When designing with an **Accordion**, you should be mindful of the colour combinations you are using. The components have been designed with this in mind, but if you are using colours that are not part of the default component, please ensure that there is a clear colour contrast within the parts of the component and between the **Accordion** and the background it is on. To check the contrast, please use [WebAIM's contrast checker](https://webaim.org/resources/contrastchecker/).
 
 
       ### Focus state
 
 
-      An Accordion needs to have a focus state - a focus state is when you tab into an element to interact with it. Ensure that users can use their keyboard to focus on Accordions.
+      An **Accordion** needs to have a focus state - a focus state is when you tab into an element to interact with it. Ensure that users can use their keyboard to focus on **Accordions**.
 
 
       ### Icons
@@ -125,7 +125,7 @@ tabs:
       ### Key Binding
 
 
-      An Accordion needs to be able to be interacted with via a keyboard. Where possible we will provide key-binds within our Mosaic component or there will be default HTML ones. If this isn't the case then please implement logical key-binds for all intractable components.
+      An **Accordion** needs to be able to be interacted with via a keyboard. Where possible we will provide key-binds within our Mosaic component or there will be default HTML ones. If this isn't the case then please implement logical key-binds for all intractable components.
 
 
       ### Movement/Animation
