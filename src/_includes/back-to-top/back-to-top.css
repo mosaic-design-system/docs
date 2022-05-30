@@ -6,21 +6,21 @@
 
 .mds-back-to-top {
   position: fixed;
-  bottom: var(--spacing-05);
-  right: var(--spacing-05);
+  bottom: var(--mds-spacing-05);
+  right: var(--mds-spacing-05);
   z-index: 100;
 }
 
 @media (min-width: 768px) {
   .mds-back-to-top {
-    bottom: var(--spacing-06);
-    right: var(--spacing-06);
+    bottom: var(--mds-spacing-06);
+    right: var(--mds-spacing-06);
   }
 }
 
 @media (min-width: 993px) {
   .mds-back-to-top {
-    bottom: var(--spacing-07);
-    right: var(--spacing-07);
+    bottom: var(--mds-spacing-07);
+    right: var(--mds-spacing-07);
   }
 }
