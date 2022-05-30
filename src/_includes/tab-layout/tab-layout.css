@@ -4,7 +4,7 @@
   position: sticky;
   top: var(--navigation-header-height);
   padding-top: 1rem;
-  background-color: var(--ui-02, #eeeef1);
+  background-color: var(--mds-ui-color-02, #eeeef1);
   /* z-index: 3012; */
 }
 
@@ -14,7 +14,7 @@
   top: 0;
   height: 100%;
   width: 0.5rem;
-  background-color: var(--ui-02, #eeeef1);
+  background-color: var(--mds-ui-color-02, #eeeef1);
   content: "";
 }
 
