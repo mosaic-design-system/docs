@@ -4,7 +4,7 @@ title: Progress indicator
 toc: true
 chips:
   - "HTML/CSS: Available"
-storybook: https://refactored-telegram-b90726d9.pages.github.io/dev/components/?path=/docs/components-progress-introduction
+storybook: https://refactored-telegram-b90726d9.pages.github.io/release/?path=/docs/components-progress-introduction
 tabs:
   - title: Usage
     body: "## What is a Progress indicator?     \r

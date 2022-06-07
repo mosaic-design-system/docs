@@ -3,7 +3,7 @@ title: Breadcrumb
 toc: true
 chips:
   - "HTML/CSS: Available"
-storybook: https://refactored-telegram-b90726d9.pages.github.io/dev/components/?path=/docs/components-breadcrumb-introduction
+storybook: https://refactored-telegram-b90726d9.pages.github.io/release/?path=/docs/components-breadcrumb-introduction
 tabs:
   - title: Usage
     body: >-

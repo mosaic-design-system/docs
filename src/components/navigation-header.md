@@ -4,7 +4,7 @@ title: Navigation header
 toc: true
 chips:
   - "HTML/CSS: Available"
-storybook: hhttps://refactored-telegram-b90726d9.pages.github.io/dev/components/?path=/docs/components-navigation-header-introduction
+storybook: hhttps://refactored-telegram-b90726d9.pages.github.io/release/?path=/docs/components-navigation-header-introduction
 tabs:
   - title: Usage
     body: >-

@@ -4,7 +4,7 @@ title: Button group
 toc: true
 chips:
   - "HTML/CSS: Available"
-storybook: https://refactored-telegram-b90726d9.pages.github.io/dev/components/?path=/docs/components-button-group-introduction
+storybook: https://refactored-telegram-b90726d9.pages.github.io/release/?path=/docs/components-button-group-introduction
 tabs:
   - title: Usage
     body: >-
