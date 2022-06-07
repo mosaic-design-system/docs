@@ -3,7 +3,7 @@ title: Avatar
 toc: true
 chips:
   - "HTML/CSS: Available"
-storybook: https://refactored-telegram-b90726d9.pages.github.io/dev/components/?path=/docs/components-avatar-introduction
+storybook: https://refactored-telegram-b90726d9.pages.github.io/release/?path=/docs/components-avatar-introduction
 tabs:
   - title: Usage
     body: >-

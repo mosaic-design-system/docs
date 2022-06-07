@@ -4,7 +4,7 @@ toc: true
 chips:
   - "HTML/CSS: Available"
   - "Web Component: Available"
-storybook: https://refactored-telegram-b90726d9.pages.github.io/dev/components/?path=/docs/components-table-introduction
+storybook: https://refactored-telegram-b90726d9.pages.github.io/release/?path=/docs/components-table-introduction
 tabs:
   - title: Usage
     body: >-

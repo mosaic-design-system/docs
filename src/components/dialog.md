@@ -5,7 +5,7 @@ toc: true
 chips:
   - "Web Component: In development"
   - "Web Component: Available"
-storybook: https://refactored-telegram-b90726d9.pages.github.io/dev/components/?path=/docs/components-dialog-introduction
+storybook: https://refactored-telegram-b90726d9.pages.github.io/release/?path=/docs/components-dialog-introduction
 tabs:
   - title: Usage
     body: >

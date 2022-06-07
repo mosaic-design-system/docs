@@ -4,7 +4,7 @@ title: Spinner
 toc: true
 chips:
   - "HTML/CSS: Available"
-storybook: https://refactored-telegram-b90726d9.pages.github.io/dev/components/?path=/docs/components-spinner-introduction
+storybook: https://refactored-telegram-b90726d9.pages.github.io/release/?path=/docs/components-spinner-introduction
 tabs:
   - title: Usage
     body: >
