@@ -13,9 +13,9 @@ Mosaic Design System repo: <https://github.com/mosaic-design-system>
 
 ## Storybooks
 
-Development Storybook site: <https://refactored-telegram-b90726d9.pages.github.io/release/?path=/docs/getting-started-introduction--page>
+Development Storybook site: <https://refactored-telegram-b90726d9.pages.github.io/dev/?path=/docs/getting-started-introduction--page>
 
-Release Storybook site: <https://refactored-telegram-b90726d9.pages.github.io/release/components/?path=/docs/getting-started-introduction--page>
+Release Storybook site: <https://refactored-telegram-b90726d9.pages.github.io/release/?path=/docs/getting-started-introduction--page>
 
 ## Tools
 
