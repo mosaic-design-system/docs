@@ -40,7 +40,7 @@ tabs:
       * We want our products to be able to adapt to any type of user in any environment, and in any context
 
 
-      Accessibility does just encompass people who struggle with vision, or can't use a mouse. Often, people fall into the trap of only thinking about permanent physical disabilities when making decisions about designs. It's important to remember there are other forms of disability which are not only about someone's physical capabilities, but also their environment or situation. Accessibility can also apply to short-term, temporary and/or invisible factors.
+      Accessibility doesn't just encompass people who struggle with vision, or can't use a mouse. Often, people fall into the trap of only thinking about permanent physical disabilities when making decisions about designs. It's important to remember there are other forms of disability which are not only about someone's physical capabilities, but also their environment or situation. Accessibility can also apply to short-term, temporary and/or invisible factors.
 
 
       The four types of disability that need to be considered are as follows:
