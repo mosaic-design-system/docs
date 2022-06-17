@@ -19,6 +19,8 @@ The Advanced logo is displayed in the top left-hand corner of the sidebar. We on
 
 \[examples]
 
+Product logos should also become the favicon on the site. This favicon will appear in the label for browser tabs, to the left of the browser tab label. Please refer to [Browser tab titles](/guidelines/browser-tab-title) for more information on the \<title> tag for browser tab labels.
+
 ## Colours
 
 The Mosaic colour palette has been specifically chosen to compliment the Advanced brand colours, whilst also ensuring our products are aligned with colour use in web applications and support for accessibility. For more information, please refer to the [Accessibility](/guidelines/accessibility) page.
