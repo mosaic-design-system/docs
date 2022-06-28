@@ -113,14 +113,14 @@ tabs:
 
       **Positioning chips as filters**
 
-      As mentioned above, when chips are used as filters they can be positioned above or below their related content. Where they are place depends on the following:﻿
+      As mentioned above, when chips are used as filters they can be positioned above or below their related content. Where they are placed depends on the following:﻿
 
 
-      * If the filters are related to a table, then they should be place above the table in a single row, as they directly affect the records it contains.
+      * If the filters are related to a table, then they should be placed above the table in a single row, as they directly affect the records it contains.
 
       * If the filters are related to a search field, then they can be shown underneath in a single row, as they can be selected as part of the search process to narrow down results.
 
-      * If the filters are part of other components, such as side drawers, then they be shown on multiple rows.﻿﻿
+      * If the filters are part of other components, such as side drawers containing filters, then they can be shown on multiple rows.﻿
 
       *
     icon: file_invoice
