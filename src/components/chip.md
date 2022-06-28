@@ -110,7 +110,9 @@ tabs:
 
       These chips are used to indicate filters that have been applied via a separate filters area, such as a drawer. They are only visible when applied and are typically positioned above or below their related content area. It is not possible to toggle these chips on/off interactively, however, they do contain a trailing cross icon to directly remove the chip (i.e. filter). As filters are removed, the associated content changes dynamically.
 
-       **Positioning chips as filters**
+
+      **Positioning chips as filters**
+
       As mentioned above, when chips are used as filters they can be positioned above or below their related content. Where they are place depends on the following:﻿
 
 
@@ -118,7 +120,7 @@ tabs:
 
       * If the filters are related to a search field, then they can be shown underneath in a single row, as they can be selected as part of the search process to narrow down results.
 
-      * If the filters are part of other components, such as side drawers, then they be shown on multiple rows.﻿
+      * If the filters are part of other components, such as side drawers, then they be shown on multiple rows.﻿﻿
 
       *
     icon: file_invoice
