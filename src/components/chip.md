@@ -6,7 +6,7 @@ chips:
 storybook: https://refactored-telegram-b90726d9.pages.github.io/release/?path=/docs/components-chip-introduction
 tabs:
   - title: Usage
-    body: >-
+    body: >
       ## What is a Chip?
 
 
@@ -101,28 +101,33 @@ tabs:
       ### Chips as filters
 
 
-      **Chips that act as toggleable filters**
-
-      These chips are used as tags or descriptive words to filter content interactively. They are always visible and are typically positioned above or below their related content area. When clicked or tapped, a leading tick icon is added in front of the chip label to show it has been selected and when unselected the icon is removed. Multiple chips can be selected or unselected. As selections are made, the associated content is filtered dynamically. 
+      **Chips** can also be used to act as filters, sitting at the top of a table or something similar. They can be used as either the mechanism for filtering content, or as visual indicators for what is being filtered.
 
 
-      **Chips that act as visual indicators of selected filters**
-
-      These chips are used to indicate filters that have been applied via a separate filters area, such as a drawer. They are only visible when applied and are typically positioned above or below their related content area. It is not possible to toggle these chips on/off interactively, however, they do contain a trailing cross icon to directly remove the chip (i.e. filter). As filters are removed, the associated content changes dynamically.
+      #### Chips that act as toggleable filters
 
 
-      **Positioning chips as filters**
-
-      As mentioned above, when chips are used as filters they can be positioned above or below their related content. Where they are placed depends on the following:﻿
+      These **Chips** are used as tags or descriptive words to filter content interactively. They are always visible and are typically positioned above or below their related content area. When selected, a leading tick icon is added in front of the **Chip's** label to show that it has been selected, and then when it is unselected the icon is removed. Multiple **Chips** can be selected or unselected, and as selections are made the associated content is filtered dynamically. 
 
 
-      * If the filters are related to a table, then they should be placed above the table in a single row, as they directly affect the records it contains.
+      #### Chips that act as visual indicators of selected filters
 
-      * If the filters are related to a search field, then they can be shown underneath in a single row, as they can be selected as part of the search process to narrow down results.
 
-      * If the filters are part of other components, such as side drawers containing filters, then they can be shown on multiple rows.﻿﻿
+      These **Chips** are used to indicate filters that have been applied via a separate filters area, such as a **Drawer**. They are only visible when applied and are typically positioned above or below their related content area. It is not possible to toggle these chips on/off interactively, but they do contain a trailing cross icon to directly remove the **Chip** (i.e. remove the filter). As filters are removed, the associated content changes dynamically.
 
-      *
+
+      #### Positioning filter Chips
+
+      As mentioned above, when **Chips** are used as filters (or visual indicators for filters), they can be positioned above or below their related content. Where they are placed depends on the following:﻿
+
+
+      * If the filters are related to a table, then they should be placed above the table in a single row, as they directly affect the records it contains
+
+
+      * If the filters are related to a search field, then they can be shown underneath in a single row, as they can be selected as part of the search process to narrow down results
+
+
+      * If the filters are part of other components, such as side drawers, then they can be shown on multiple rows.﻿﻿
     icon: file_invoice
     toc: true
   - title: Code
