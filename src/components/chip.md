@@ -127,7 +127,7 @@ tabs:
       * If the filters are related to a search field, then they can be shown underneath in a single row, as they can be selected as part of the search process to narrow down results
 
 
-      * If the filters are part of other components, such as side drawers, then they can be shown on multiple rows.﻿﻿
+      * If the filters are part of other components, such as side drawers, then they can be shown on multiple rows.﻿
     icon: file_invoice
     toc: true
   - title: Code
