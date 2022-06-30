@@ -121,7 +121,7 @@ tabs:
       ### Focus state
 
 
-      An **Input** needs to have a focus state - a focus state is when you tab into an element to interact with it. Ensure that users can use their keyboard to focus on **Input** and its elements.
+      An **Input** needs to have a focus state - a focus state is when you tab into an element to interact with it. Ensure that users can use their keyboard to focus on the **Input** and its elements.
 
 
       ### Icons
