@@ -79,7 +79,32 @@ tabs:
     icon: source_code
     toc: false
   - title: Accessibility
-    body: ""
+    body: >-
+      ### Component accessibility
+
+
+      This component has been built to meet the current WCAG AA 2.1 guidelines. We also test these components against the guidelines before release.
+
+
+      ### Aria tags
+
+
+      Every component in Mosaic requires an appropriate Aria tag to ensure that screen readers can effectively parse the page. Aria tags are provided as part of Mosaic. Please do not override these without good reason.
+
+
+      Ensure that Aria tags are used as appropriate signposts throughout the product.
+
+
+      ### Focus state
+
+
+      An **Avatar** needs to have a focus state - a focus state is when you tab into an element to interact with it. Ensure that users can use their keyboard to focus on **Avatar**.
+
+
+      ### Key Binding
+
+
+      An **Avatar** needs to be able to be interacted with via a keyboard. Where possible we will provide key-binds within our Mosaic component or there will be default HTML ones. If this isn't the case then please implement logical key-binds for all intractable components.
     icon: web_accessibility_1
     toc: false
   - title: Status
