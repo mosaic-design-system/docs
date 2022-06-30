@@ -70,7 +70,38 @@ tabs:
     icon: source_code
     toc: false
   - title: Accessibility
-    body: ""
+    body: >-
+      ### Component accessibility
+
+
+      This component has been built to meet the current WCAG AA 2.1 guidelines. We also test these components against the guidelines before release.
+
+
+      ### Aria tags
+
+
+      Every component in Mosaic requires an appropriate Aria tag to ensure that screen readers can effectively parse the page. Aria tags are provided as part of Mosaic. Please do not override these without good reason.
+
+
+      Ensure that Aria tags are used as appropriate signposts throughout the product.
+
+
+      ### Colour Combinations
+
+
+      When designing with a **Breadcrumb**, you should be mindful of the colour combinations you are using. The components have been designed with this in mind, but if you are using colours that are not part of the default component, please ensure that there is a clear colour contrast within the parts of the component and between the **Breadcrumb** and the background it is on. To check the contrast, please use [WebAIM's contrast checker](https://webaim.org/resources/contrastchecker/).
+
+
+      ### Focus state
+
+
+      Each levels of a **Breadcrumb** need to have a focus state - a focus state is when you tab into an element to interact with it. Ensure that users can use their keyboard to focus on each specific level of the **Breadcrumb**.
+
+
+      ### Key Binding
+
+
+      A **Breadcrumb** needs to be able to be interacted with via a keyboard. Where possible we will provide key-binds within our Mosaic component or there will be default HTML ones. If this isn't the case then please implement logical key-binds for all intractable components.
     icon: web_accessibility_1
     toc: false
   - title: Status
