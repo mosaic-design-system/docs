@@ -96,7 +96,44 @@ tabs:
     hook: code
     icon: source_code
   - title: Accessibility
-    body: ""
+    body: >-
+      ### Component accessibility
+
+
+      This component has been built to meet the current WCAG AA 2.1 guidelines. We also test these components against the guidelines before release.
+
+
+      ### Aria tags
+
+
+      Every component in Mosaic requires an appropriate Aria tag to ensure that screen readers can effectively parse the page. Aria tags are provided as part of Mosaic. Please do not override these without good reason.
+
+
+      Ensure that Aria tags are used as appropriate signposts throughout the product.
+
+
+      ### Colour Combinations
+
+
+      When designing with an **Input**, you should be mindful of the colour combinations you are using. The components have been designed with this in mind, but if you are using colours that are not part of the default component, please ensure that there is a clear colour contrast within the parts of the component and between the **Input** and the background it is on. To check the contrast, please use [WebAIM's contrast checker](https://webaim.org/resources/contrastchecker/).
+
+
+      ### Focus state
+
+
+      An **Input** needs to have a focus state - a focus state is when you tab into an element to interact with it. Ensure that users can use their keyboard to focus on **Input** and its elements.
+
+
+      ### Icons
+
+
+      An icon needs to have underlying code that describes what action the icon takes. the labels should be specific - for example, 'bin' icon for delete should be labelled 'delete'. not 'bin'.
+
+
+      ### Key Binding
+
+
+      An **Input** needs to be able to be interacted with via a keyboard. Where possible we will provide key-binds within our Mosaic component or there will be default HTML ones. If this isn't the case then please implement logical key-binds for all intractable components.
     icon: web_accessibility_1
   - title: Status
     hook: status
