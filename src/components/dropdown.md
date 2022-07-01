@@ -142,7 +142,7 @@ tabs:
       ### Focus state
 
 
-      A **Dropdown** needs to have a focus state - a focus state is when you tab into an element to interact with it. Ensure that users can use their keyboard to focus on **Dropdown** and the elements within it.
+      A **Dropdown** needs to have a focus state - a focus state is when you tab into an element to interact with it. Ensure that users can use their keyboard to focus on the **Dropdown** and the elements within it.
 
 
       ### Icons
