@@ -84,7 +84,7 @@ tabs:
       ### Focus state
 
 
-      **Back to top** needs to have a focus state - a focus state is when you tab into an element to interact with it. Ensure that users can use their keyboard to focus on **Back to top**.
+      **Back to top** needs to have a focus state - a focus state is when you tab into an element to interact with it. Ensure that users can use their keyboard to focus on the **Back to top**.
 
 
       ### Icons
