@@ -151,7 +151,7 @@ tabs:
       ### Focus state
 
 
-      An **Alert** needs to have a focus state - a focus state is when you tab into an element to interact with it. Ensure that users can use their keyboard to focus on **Alert**.
+      An **Alert** needs to have a focus state - a focus state is when you tab into an element to interact with it. Ensure that users can use their keyboard to focus on the **Alert**.
 
 
       ### Icons
