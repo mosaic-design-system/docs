@@ -24,29 +24,29 @@ tabs:
       - - -
 
 
-      ## List group yypes
+      ## List group types
 
 
       The following types of **List group** are available. These are our default configurations for list items and should be used as designed, unless you need more content. If additional content is needed, please refer to Using a List group below:
 
 
-      | **Type**      | **Description**                                                                                                                                                                            |
+      | **Type**      | **Description**                                                                                                                                                                          |
 
-      | ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+      | ------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
-      | Default       | A simple list of text items                                                                                                                                                                |
+      | Default       | A simple list of text items                                                                                                                                                              |
 
-      | With selector | Selectors can be applied to allow the user to select one or more items and perform actions against them.                                                                                   |
+      | With selector | Selectors can be applied to allow the user to select one or more items and perform actions against them.                                                                                 |
 
       | With icon     | Icons can be added to support the content of the list item, but should not be used in conjunction with buttons or chips on the right - this will add too much cognitive load to the page |
 
-      | With chip     | Chips can be used to signify status, content type, dates, etc.                                                                                                                             |
+      | With chip     | Chips can be used to signify status, content type, dates, etc.                                                                                                                           |
 
-      | With button   | Buttons can be used to perform actions in relation to the list item                                                                                   |
+      | With button   | Buttons can be used to perform actions in relation to the list item                                                                                                                      |
 
-      | With filter   | This adds a filter to the list                                                                                                                                                                  |
+      | With filter   | This adds a filter to the list                                                                                                                                                           |
 
-      | As flush      | This removes the boarder and padding around the list                                                                                                                                            |
+      | As flush      | This removes the boarder and padding around the list                                                                                                                                     |
 
 
       - - -
