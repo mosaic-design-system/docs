@@ -132,7 +132,7 @@ tabs:
       ### Focus state
 
 
-      A **Card** needs to have a focus state on all of its elements - a focus state is when you tab into an element to interact with it. Ensure that users can use their keyboard to focus on all parts of a **Card**.
+      A **Card** needs to have a focus state on all of its elements - a focus state is when you tab into an element to interact with it. Ensure that users can use their keyboard to focus on all parts of the **Card**.
 
 
       ### Icons
