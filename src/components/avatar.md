@@ -98,7 +98,7 @@ tabs:
       ### Focus state
 
 
-      An **Avatar** needs to have a focus state - a focus state is when you tab into an element to interact with it. Ensure that users can use their keyboard to focus on **Avatar**.
+      An **Avatar** needs to have a focus state - a focus state is when you tab into an element to interact with it. Ensure that users can use their keyboard to focus on the **Avatar**.
 
 
       ### Key Binding
