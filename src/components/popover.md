@@ -37,15 +37,15 @@ tabs:
       The following **Popover** types are available:
 
 
-      | Type        | Description | Example|
+      | Type        | Description |
 
-      | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------ |
+      | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
-      | **Default**     | A typical **Popover** that includes only text. Select the button to make the **Popover** appear. | |
+      | **Default**     | A typical **Popover** that includes only text. Select the button to make the **Popover** appear. |
 
-      | **With title**  | A **Popover** can include a title to provide further supporting information to the main body content of the **Popover** - note that a **Popover** can only have a single title. | |
+      | **With title**  | A **Popover** can include a title to provide further supporting information to the main body content of the **Popover** - note that a **Popover** can only have a single title. |
 
-      | **Directional** | A **Popover** can be configured to anchor to different parts of the trigger - for example, you could make it appear in the top-left or bottom-right of a button. | |
+      | **Directional** | A **Popover** can be configured to anchor to different parts of the trigger - for example, you could make it appear in the top-left or bottom-right of a button. |
 
 
       - - -
