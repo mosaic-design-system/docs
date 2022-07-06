@@ -31,28 +31,27 @@ tabs:
       The following **Chip** types are available:
 
 
-      | **Type**           | **Description**                                                                        | **Example** |
+      | **Type**           | **Description**                                                                        |
 
-      | ------------------ | -------------------------------------------------------------------------------------- | ----------- |
+      | ------------------ | -------------------------------------------------------------------------------------- |
 
-      | Default            | A Chip that contains a simple text label                                               |             |
+      | Default            | A Chip that contains a simple text label                                               |
 
-      | With icon          | A Chip that contains a text label and an icon on the left-hand side                    |             |
+      | With icon          | A Chip that contains a text label and an icon on the left-hand side                    |
 
-      | With trailing icon | A Chip that contains a text label and an icon on the right-hand side                   |             |
+      | With trailing icon | A Chip that contains a text label and an icon on the right-hand side                   |
 
-      | As soft            | A Chip that is styled using subtle background colours and a border                     |             |
+      | As soft            | A Chip that is styled using subtle background colours and a border                     |
 
-      | As outline         | A Chip that is styled using a white background and a solid dark border                 |             |
+      | As outline         | A Chip that is styled using a white background and a solid dark border                 |
 
-      | As sized           | Allows a Chip to use one of the following sizes; Extra Small, Small, Medium, and Large |             |
+      | As sized           | Allows a Chip to use one of the following sizes; Extra Small, Small, Medium, and Large |
 
-      | As anchor          | Allows a Chip to be used as a link                                                     |             |
+      | As anchor          | Allows a Chip to be used as a link                                                     |
 
-      | As button          | Allows a Chip to be used as a button                                                   |             |
+      | As button          | Allows a Chip to be used as a button                                                   |
 
-      | As disabled        | Allows a Chip to be disabled                                                           |             |
-
+      | As disabled        | Allows a Chip to be disabled                                                           |
 
       - - -
 
@@ -166,7 +165,7 @@ tabs:
       ### Icons
 
 
-      An icon needs to have underlying code that describes what action the icon takes. the labels should be specific - for example, 'bin' icon for delete should be labelled 'delete'. not 'bin'.
+      An icon needs to have underlying code that describes what action the icon takes. the labels should be specific - for example, a 'bin' icon for delete should be labelled 'delete' not 'bin'.
 
 
       ### Key Binding
