@@ -23,6 +23,9 @@ tabs:
       **Inputs** are used when you need to capture the manual entry of single items of data. They are typically used for collecting things like name, phone number, email address or other similar details consisting of a few words or numbers.
 
 
+      Inputs should only be used on a solid white background or the soft 'default' coloured backgrounds in order to pass AA levels of accessibility.
+
+
       It should be noted that **Inputs** are not suitable when you want to collect long responses. For example, when you want to capture multiple lines of text or allow users to format their content. When this is the case, use a **[Textarea](/forms/textarea/)** or a **[Rich text editor](/forms/rich-text-editor/)** respectively.
 
 
