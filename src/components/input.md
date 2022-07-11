@@ -118,7 +118,7 @@ tabs:
       ### Colour Combinations
 
 
-      When designing with an **Input**, you should be mindful of the colour combinations you are using. The components have been designed with this in mind, but if you are using colours that are not part of the default component, please ensure that there is a clear colour contrast within the parts of the component and between the **Input** and the background it is on. To check the contrast, please use [WebAIM's contrast checker](https://webaim.org/resources/contrastchecker/). Please note that inputs can only be used on a white background or 'soft' default background in order to be AA compliant.
+      When designing with an **Input**, you should be mindful of the colour combinations you are using. The components have been designed with this in mind, but if you are using colours that are not part of the default component, please ensure that there is a clear colour contrast within the parts of the component and between the **Input** and the background it is on. To check the contrast, please use [WebAIM's contrast checker](https://webaim.org/resources/contrastchecker/). Please note that inputs can only be used on a solid white background or on a 'soft' default background in order to be AA compliant.
 
 
       ### Focus state
