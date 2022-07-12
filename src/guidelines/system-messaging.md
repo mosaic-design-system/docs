@@ -17,31 +17,40 @@ Continue reading to learn about each component, and when you should use them. Yo
 
 ## Alerts
 
-An **Alert** provides feedback to users which allows them to understand a state that affects the entire system, the page, or an input. They are static messages, which are dismissible and can also contain a single action. For more information on the component, please refer to [**Alerts**](/components/alerts).
+An **Alert** provides feedback to users which allows them to understand a state that affects the entire system, the page, or an input. They are static messages, which can be dismissed and can also contain a single action. For more information on the component, please refer to **[Alerts](/components/alerts)**.
 
 **Alerts** can come in one of the following forms:
 
 ### Banner
 
-A system or product-level message that is not specific to an action. This type persists until dismissed by the user and may be actionable. Place across the top of the content area to which it relates or for system-level banners, full width, across the top of the screen above the main navigation bar.
+A system or product-level message that is not specific to an action. This type persists until and may be actionable. Place across the top of the content area to which it relates or for system-level banners, full width, across the top of the screen above the main navigation bar.
 
 \[example screenshot]
 
 There are a number of places you might use a banner:
 
-- Notifying the user of downtime
-- Announcing the latest version release
+* Notifying the user of downtime
+* Announcing the latest version release
 
-### Inline
-
-**Alerts** can also be displayed at form or input-level, specific to an action or task. This type persists until the message is resolved or dismissed by the user and may be actionable. Ensure that these are placed near their related items. **Alerts** at this level must not be confused with form validation, as form validation is tied to individual form fields and use an input’s help text.
+A banner **Alert** can also be displayed at form or input-level, specific to an action or task. This type persists until the message is resolved and may be actionable. Ensure that these are placed near their related items. **Alerts** at this level must not be confused with form validation, as form validation is tied to individual form fields and use an input’s help text.
 
 \[example screenshot]
 
-An inline **Alert** could be used to:
+This type of **Alert** could be used to:
 
-- Tell a user their new password does not meet the password criteria
-- Tell a user that one of their selections in a form conflicts with another, i.e. a chosen date and time is already in use
+* Tell a user their new password does not meet the password criteria
+* Tell a user that one of their selections in a form conflicts with another, i.e. a chosen date and time is already in use
+
+### Notification
+
+A system or product-level message that informs users that a background activity has been performed. This type persists until dismissed by the user and may be actionable. Notifications must be placed in the top right-hand corner of the screen, but must not obscure navigation or any other important information or actions. 
+
+\[example screenshot]
+
+A notification might be used for:
+
+* Tell a user that a new task has arrived
+* Tell a user that an import has finished
 
 ## Snackbars
 
@@ -55,9 +64,9 @@ For more information on the component, please refer to [Snackbars](/components/s
 
 **Snackbars** can be used for a multitude of reasons, for example:
 
-- Your changes have been successfully saved
-- The report has finished running
-- X has been deleted (and include an undo button in the **Snackbar**)
+* Your changes have been successfully saved
+* The report has finished running
+* X has been deleted (and include an undo button in the **Snackbar**)
 
 ## Dialogs
 
@@ -73,9 +82,9 @@ This type of **Dialog** must always be positioned front and centre of a page. Th
 
 For example, you could use a message **Dialog** to:
 
-- Warn the user what their action will do
-- Ask the user to confirm their choice
-- Explain something in detail
+* Warn the user what their action will do
+* Ask the user to confirm their choice
+* Explain something in detail
 
 ### Form
 
@@ -85,5 +94,5 @@ As above, this type of **Dialog** must always be positioned front and centre of 
 
 A form can be used for things like:
 
-- Enter some information for a record being created
-- Ask for some supplementary information
+* Enter some information for a record being created
+* Ask for some supplementary information
