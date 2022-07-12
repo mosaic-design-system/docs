@@ -38,24 +38,13 @@ tabs:
       The following **Alert** types are available:
 
 
-      | **Type**    | **Description**                                                                            | **Behaviour**                             | 
+      | **Type**            | **Description**                                                                                                                                                                                                                             | **Behaviour**                  |
 
-      | ------------- | ---------------------------------------------------------------------------------------- | ----------------------------------------- | 
+      | ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |
 
-      | **Default**     | An Alert that contains an icon, a title, and a line of text                                | Persists. Cannot be dismissed or actioned |
+      | **As banner**       | An Alert that contains an icon, a title, and optionally a line of text and an action button. This type of Alert is used inline, across the top of a page or a form. It cannot be dismissed.                                                 | Persists. Cannot be dismissed  |
 
-      | **Compact**     | An Alert that contains an icon and a title                                                 | Persists. Cannot be dismissed or actioned |
-
-      | **Coloured**    | An Alert that contains an icon, a title, and a line of text, with a coloured background    | Persists. Cannot be dismissed or actioned |
-
-      | **Solid**       | An Alert that contains an icon, a title, and a line of text, with a solid white background | Persists. Cannot be dismissed or actioned |
-
-      | **Dismissible** | An Alert that can be dismissed                                                             | Persists, but can be dismissed            |
-
-      | **Actionable**  | An Alert that contains an action                                                           | Persists, but can be actioned             |
-
-
-      - - -
+      | **As notification** | An Alert that contains an icon, a title, and optionally a line of text and an action button. This type of Alert is used to inform users about a background activity that has occurred, e.g. the arrival of a new task. It can be dismissed. | Persists, but can be dismissed |
 
 
       ## Alert contexts
@@ -64,17 +53,17 @@ tabs:
       Context helps convey the information being communicated. **Alert** contexts correspond to a colour and an icon to provide a consistent experience for users. For more information, please refer to [Colour](/guidelines/colour/).
 
 
-      | **Context** | **Description**                                                                                                              | **Behaviour**                                                                     | **Example**                                          |
+      | **Context** | **Description**                                                                                                               | **Behaviour**                                                                     | **Example**                                           |
 
-      | -------- | ---------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- | ----------------------------------------------------- |
+      | ----------- | ----------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- | ----------------------------------------------------- |
 
-      | **Success**  | Indicates actions were completed successfully. The Success colour is green.                                                   | Does not require user interaction, as disappears automatically after a short time | A new record saved or preferences have been updated   |
+      | **Success** | Indicates actions were completed successfully. The Success colour is green.                                                   | Does not require user interaction, as disappears automatically after a short time | A new record saved or preferences have been updated   |
 
-      | **Danger**   | Indicates errors and, optionally, prevents users from proceeding until the issue has been resolved. The Danger colour is red. | Always persists until the user dismisses or resolves the issue                    | Credentials cannot be found or access is denied       |
+      | **Danger**  | Indicates errors and, optionally, prevents users from proceeding until the issue has been resolved. The Danger colour is red. | Always persists until the user dismisses or resolves the issue                    | Credentials cannot be found or access is denied       |
 
-      | **Warning**  | Indicates that actions are not desirable or might have unexpected results. The Warning colour is yellow.                      | Persists until the user dismisses or continues regardless                         | A file is too big or a file already exists            |
+      | **Warning** | Indicates that actions are not desirable or might have unexpected results. The Warning colour is yellow.                      | Persists until the user dismisses or continues regardless                         | A file is too big or a file already exists            |
 
-      | **Info**     | Indicates neutral or advisory information that may not be related to the current action. The info colour is teal.             | Does not require user interaction, but persists until user dismisses              | Scheduled system maintenance or a new report is ready |
+      | **Info**    | Indicates neutral or advisory information that may not be related to the current action. The info colour is teal.             | Does not require user interaction, but persists until user dismisses              | Scheduled system maintenance or a new report is ready |
 
 
       - - -
@@ -95,10 +84,11 @@ tabs:
       ### Alert dismissal
 
 
-      **Alerts** should only ever use a dismissible type when they are **non-critical** messages. A user is not guaranteed to be looking at the screen when the **Alert** is generated, and a user's disability may prevent them from reading or interacting with the **Alert** quick enough to action the warning.
+      **Alerts** should only ever use a dismissible notification type when they are **non-critical** messages. A user is not guaranteed to be looking at the screen when the **Alert** is generated, and a user's disability may prevent them from reading or interacting with the **Alert** quick enough to action the warning.
 
 
       ### Alert frequency
+
 
       Although **Alerts** are great for communicating, we recommend that they are used sparingly. If users are continually being interrupted by **Alerts**, then this can become frustrating and impact their productivity. 
 
@@ -106,8 +96,8 @@ tabs:
       Overusing **Alerts** may quickly see their importance fade and users may decide to ignore them, which would defeat the point! **Alerts** should be an exception to the user's normal workflow, to ensure their attention is captured.
 
 
-
       ### Alert length
+
 
       **Alerts** should always communicate a single, succinct message, which provide clear instructions and optionally offer actions a user can take. Ideally, they should take up no more than two lines.
 
