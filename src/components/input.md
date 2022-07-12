@@ -42,7 +42,9 @@ tabs:
 
       | ------------ | ------------------------------------------------------ |
 
-      | Default      | An Input that accepts a plain text entry               |
+      | As text      | An Input that accepts a plain text entry               |
+
+      | As currency  | An Input that accepts a currency                 |
 
       | As email     | An Input that accepts an email address                 |
 
