@@ -17,7 +17,7 @@
 }
 
 .mds-team-member > .mcc-icon svg {
-  fill: var(--white);
+  fill: var(--mds-color-white);
 }
 
 .mds-team-member-blue {

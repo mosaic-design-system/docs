@@ -9,11 +9,11 @@
   overflow: hidden;
   height: 40px;
   width: 100%;
-  border: 4px solid var(--primary);
+  border: 4px solid var(--mds-color-primary);
   padding: 0;
   margin: 0;
-  background: var(--container-bg-inverse);
-  color: var(--text-inverse);
+  background: var(--mds-container-bg-color-inverse);
+  color: var(--mds-text-color-inverse);
   transform: translateY(-100%);
   z-index: 3010;
 }
