@@ -44,22 +44,38 @@ tabs:
       ## Accordion types
 
 
-      The following **Accordion** types are available, and each one allows you to include a subheading:
+      The following **Accordion** types are available:
 
 
-      | Type          | Description                                                                                                                                                                              |
+      | Type           | Description                                                              |
 
-      | ----------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+      | -------------- | ------------------------------------------------------------------------ |
 
-      | **Default**       | The default **Accordion** has no actions on it, and simply expands and collapses content.|
+      | **As default** | A default **Accordion** which expands and collapses to show/hide content |
 
-      | **With chip**     | Chips in the header of an **Accordion** can be used to signify status, content type, dates, etc.                                                                                         |
 
-      | **With edit**     | An edit button on an **Accordion** allows the user to enter an edit state.                                                                                                               |
+      - - -
 
-      | **With overflow** | Used when there a specific actions linked to each accordion                                                                                                                              |
 
-      | **With icon**     | Icons can be applied to support the content of the heading but should not be used in conjunction with buttons or chips on the right - this will add too much cognitive load to the page. |
+      ## Accordion properties
+
+
+      The following **Accordion** properties are available:
+
+
+      | Type          | Description                                   |
+
+      | ------------- | --------------------------------------------- |
+
+      | **Collapsed** | Toggles between collapsed and expanded states |
+
+      | **Subtitle**  | Toggles a subtitle on/off                     |
+
+      | **Icon**      | Toggles a left-hand icon on/off               |
+
+      | **Button**    | Toggles an action button on/off               |
+
+      | **Chip**      | Toggles a chip on/off                         |
 
 
       - - -
@@ -70,15 +86,18 @@ tabs:
 
       ### Grouping content
 
+
       **Accordions** are a great way to section off content-rich pages, collapsing the sections will also give users an overview of the content available whilst minimising scrolling and make the page appear less daunting. If your page contains multiple different content types, an **Accordion** should be used to separate them out into easy-to-digest sections.
 
 
       ### Accordion labels
 
+
       Make sure the section headings are clear and concise, but still give the user enough information about what each one contains. Headings should be sentence case and not have the first letter of every word capitalised - you can read more about styling copy like this by reading our [content guidelines](/guidelines/style-guide).
 
 
       ### Multiple Accordions
+
 
       Always allow the user to expand multiple **Accordions** at a time, and avoid hiding task critical content. If a user can only open one **Accordion** at a time, then it is better to consider a different approach.
     icon: file_invoice
