@@ -28,7 +28,7 @@ tabs:
       ## Breadcrumb types
 
 
-      The following **Breadcrumb** types are available, and each allows you to include a subheading
+      The following **Breadcrumb** types are available:
 
 
       | Type           | Description                                                                                                                                       |
