@@ -35,44 +35,38 @@ tabs:
       The following **Card** types are available:
 
 
-      | **Type**           | **Description**                                                                                                                                                                                |
+      | **Type** | **Description**                                                                  |
 
-      | --------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+      | -------- | -------------------------------------------------------------------------------- |
 
-      | Non-interactable      | General white Card to display or capture content, used for a lot of things!                                                                                                                    |
-
-      | Interactable          | A Card that a user can click to interact with, for example to select or act as a button to perform an action/navigation                                                                       |
-
-      | Interactable active   | The active state of an interactable Card (while clicking)                                                                                                                                      |
-
-      | Grouping              | A grey Card to group components together to indicate their relationship to each other                                                                                                          |
-
-      | Selected              | To show a Card is selected, a user might click the whole card or a checkbox on the card to select it as part of a workflow                                                                       |
-
-      | Selected active       | Active state of a selected Card - when the Card is clicked to be selected or the Card is being dragged                                                                                       |
-
-      | Selected with context | A contextual colour border and tick to indicate the meaning of a selection - this could be to indicate that items are going to be removed or added                                                 |
-
-      | Contextual            | Styled to indicate the context of the Card, which is used to represent the contents of the Card - for example, a danger context Card could be used to show information about issues in the system |
+      | As empty | An empty card container to display or capture content, used for a lot of things! |
 
 
-      ## Card contexts
+      ## Card properties
 
 
-      Context helps convey the information being communicated. **Card** contexts correspond to a colour to provide a consistent experience for users. For more information, refer to the [Colours](/guidelines/colour) guidelines.
+      The following **Card** types are available:
 
 
-      | **Context** | **Description**                                                                                              | **Examples**                                                                                                                  |
+      | **Property**          | **Description**                                                                                                                                                                                        |
 
-      | -------- | ------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------- |
+      | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 
-      | Success  | Indicates a Card with positive information or selected for a positive action. The Success colour is green.   | On a dashboard to highlight targets have been met. The user selects a Card(s) to be added as part of an action.               |
+      | State                 | Sets the state of the card; Non-interactable, Interactable,  Interactable Active, Selected, Selected Active and Grouping. <br />  General white Card to display or capture content, used for a lot of things! |
 
-      | Danger   | Indicates a Card with negative information or selected for a danger action. The Danger colour is red.        | On a dashboard to highlight targets have failed to be met. The user selects a Card(s) to be added as part of a delete action. |
+      | Interactable          | A Card that a user can click to interact with, for example to select or act as a button to perform an action/navigation                                                                                |
 
-      | Warning  | Indicates a Card with warning information or selected highlighted for issues.  The Warning colour is yellow. | On a dashboard to highlight targets that might fail to be met.  Card(s) are selected that have potential issues.              |
+      | Interactable active   | The active state of an interactable Card (while clicking)                                                                                                                                              |
 
-      | Info     | Indicates a Card with advisory information. The info colour is teal.                                         | Advisory information for the user to read as part of completing a task.                                                       |
+      | Grouping              | A grey Card to group components together to indicate their relationship to each other                                                                                                                  |
+
+      | Selected              | To show a Card is selected, a user might click the whole card or a checkbox on the card to select it as part of a workflow                                                                             |
+
+      | Selected active       | Active state of a selected Card - when the Card is clicked to be selected or the Card is being dragged                                                                                                 |
+
+      | Selected with context | A contextual colour border and tick to indicate the meaning of a selection - this could be to indicate that items are going to be removed or added                                                     |
+
+      |                       |                                                                                                                                                                                                        |
 
 
       - - -
