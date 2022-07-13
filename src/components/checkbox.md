@@ -35,17 +35,44 @@ tabs:
       In addition, the following **Checkbox** types are available:
 
 
-      | **Type**                      | **Description**                                                                                                           |
+      | **Type**         | **Description**                                                                                                                                                            |
 
-      | ----------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
+      | ---------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
-      | With label                    | This is the default Checkbox and should be used in multiple choice lists and parent-child multiple choice lists                    |
+      | As default       | A default Checkbox used in multiple choice lists and parent-child multiple choice lists\
 
-      | Without label                 | This should only be used within a Selector column of a table where the column header becomes the label for the checkboxes |
+      \
 
-      | Checkbox choice button        | This Checkbox is within the container, and is used where a label isn’t enough information and more text is required - instead, it has both a title and subtitle accompanying the checkbox                    |
+      sgeiwuyge\
 
-      | Visual checkbox choice button | This is similar to the checkbox choice button, however there is an icon positioned to the left-hand side and the checkbox itself is aligned to the right hand side - this should only be used where the icon helps the user to make a selection |
+      \
+
+      \
+
+      ehgergy                                                          |
+
+      | As choice button | A Checkbox within a container, used where a label isn’t enough information and more text is required - instead, it has both a title and subtitle accompanying the checkbox |
+
+
+      ## Checkbox properties
+
+
+      In addition, the following **Checkbox** properties are available:
+
+
+      | **Property** | **Description**        |
+
+      | ------------ | ---------------------- |
+
+      | State        |                        |
+
+      | Selected     |                        |
+
+      | Label        |                        |
+
+      | Mandatory    | (Choice buttons only)  |
+
+      | Help         | (Choice buttons only)  |
 
 
       - - -
@@ -60,15 +87,16 @@ tabs:
       **Checkboxes** are used for multiple choices, and work independently from other **Checkboxes** in the same list - therefore, checking an additional box does not affect any other selections.
 
 
-
       ### Parent Checkboxes
+
 
       **Checkboxes** allow users to select one or multiple items in a list. Applying a 'parent' **Checkbox** allows the user to easily select all or unselect all items. The undetermined state will appear if the user selects all via the parent and then deselect 1 or more of the children. 
 
 
       ### Standalone Checkboxes
 
-      We only suggest using a single checkbox to collect data and as part of another question/item, rather than as a standalone question/item. For example a checkbox used on a log in page with 'Keep me logged in' only works relation to the input fields above and the perference is saved upon succesfully logging in.
+
+      We only suggest using a single checkbox to collect data and as part of another question/item, rather than as a standalone question/item. For example a checkbox used on a log in page with 'Keep me logged in' only works in relation to the input fields above and the preference is saved upon successfully logging in.
 
 
       ### Single-selects
