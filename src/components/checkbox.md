@@ -39,7 +39,7 @@ tabs:
 
       | ---------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
-      | As default       | A default Checkbox used in multiple choice lists and parent-child multiple choice lists<br /><br />Some more text
+      | As default       | A default Checkbox used in multiple choice lists and parent-child multiple choice lists<br><br>Some more text
 
       \
 
