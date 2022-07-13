@@ -54,9 +54,6 @@ tabs:
       | **As default** | A default **Accordion** which expands and collapses to show/hide content |
 
 
-      - - -
-
-
       ## Accordion properties
 
 
