@@ -38,13 +38,13 @@ tabs:
       The following **Alert** types are available:
 
 
-      | **Type**            | **Description**                                                                                                                                                                                                                             | **Behaviour**                  |
+      | **Type**        | **Description**                                                                                                                                                                                                                             | **Behaviour**                  |
 
-      | ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |
+      | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |
 
-      | **As banner**       | An Alert that contains an icon, a title, and an optional line of text and action button. This type of Alert is used inline, across the top of a page or a form. It cannot be dismissed.                                                     | Persists. Cannot be dismissed  |
+      | As banner       | An Alert that contains an icon, a title, and an optional line of text and action button. This type of Alert is used inline, across the top of a page or a form. It cannot be dismissed.                                                     | Persists. Cannot be dismissed  |
 
-      | **As notification** | An Alert that contains an icon, a title, and optionally a line of text and an action button. This type of Alert is used to inform users about a background activity that has occurred, e.g. the arrival of a new task. It can be dismissed. | Persists, but can be dismissed |
+      | As notification | An Alert that contains an icon, a title, and optionally a line of text and an action button. This type of Alert is used to inform users about a background activity that has occurred, e.g. the arrival of a new task. It can be dismissed. | Persists, but can be dismissed |
 
 
       ## Alert properties
@@ -53,15 +53,15 @@ tabs:
       The following **Alert** properties are available:
 
 
-      | Type         | Description                                  |
+      | **Property** | **Description**                              |
 
       | ------------ | -------------------------------------------- |
 
-      | **Context**  | Toggles between the contextual colours below |
+      | Context      | Toggles between the contextual colours below |
 
-      | **Subtitle** | Toggles a subtitle on/off                    |
+      | Subtitle     | Toggles a subtitle on/off                    |
 
-      | **Button**   | Toggles an action button on/off              |
+      | Button       | Toggles an action button on/off              |
 
 
       ## Alert contexts
