@@ -31,11 +31,24 @@ tabs:
       The following **Breadcrumb** types are available, and each allows you to include a subheading
 
 
-      | Variant     | Description                                                                                                                                       |
+      | Type           | Description                                                                                                                                       |
 
-      | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
+      | -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
 
-      | **Default** | Boldfacing the last item (current page) gives it prominence and tells the user ‘this is where you are currently’. All other items are hyperlinks. |
+      | **As default** | Boldfacing the last item (current page) gives it prominence and tells the user ‘this is where you are currently’. All other items are hyperlinks. |
+
+
+      ## Breadcrumb properties
+
+
+      The following **Breadcrumb** properties are available:
+
+
+      | Type       | Description                                            |
+
+      | ---------- | ------------------------------------------------------ |
+
+      | **Levels** | Allows you to show the number of levels between 1 to 8 |
 
 
       - - -
