@@ -39,10 +39,7 @@ tabs:
 
       | ---------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
-      | As default       | A default Checkbox used in multiple choice lists and parent-child multiple choice lists
-
-
-      Some more more text                                                       |
+      | As default       | A default Checkbox used in multiple choice lists and parent-child multiple choice lists                                                   |
 
       | As choice button | A Checkbox within a container, used where a label isn’t enough information and more text is required - instead, it has both a title and subtitle accompanying the checkbox |
 
