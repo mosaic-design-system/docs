@@ -48,25 +48,11 @@ tabs:
       The following **Card** types are available:
 
 
-      | **Property**          | **Description**                                                                                                                                                                                        |
+      | **Property** | **Description**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 
-      | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+      | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
-      | State                 | Sets the state of the card; Non-interactable, Interactable,  Interactable Active, Selected, Selected Active and Grouping. <br />  General white Card to display or capture content, used for a lot of things! |
-
-      | Interactable          | A Card that a user can click to interact with, for example to select or act as a button to perform an action/navigation                                                                                |
-
-      | Interactable active   | The active state of an interactable Card (while clicking)                                                                                                                                              |
-
-      | Grouping              | A grey Card to group components together to indicate their relationship to each other                                                                                                                  |
-
-      | Selected              | To show a Card is selected, a user might click the whole card or a checkbox on the card to select it as part of a workflow                                                                             |
-
-      | Selected active       | Active state of a selected Card - when the Card is clicked to be selected or the Card is being dragged                                                                                                 |
-
-      | Selected with context | A contextual colour border and tick to indicate the meaning of a selection - this could be to indicate that items are going to be removed or added                                                     |
-
-      |                       |                                                                                                                                                                                                        |
+      | State        | Sets the state of the card; Non-interactable, Interactable,  Interactable Active, Selected, Selected Active and Grouping. <br /><br />  Non-interactable - General white Card to display or capture content, used for a lot of things!<br /><br />Interactable - A Card that a user can click to interact with, for example to select or act as a button to perform an action/navigation<br /><br />Interactable active -  The active state of an interactable Card (while clicking)<br /><br />Selected - To show a Card is selected, a user might click the whole card or a checkbox on the card to select it as part of a workflow<br /><br />Selected active - Active state of a selected Card - when the Card is clicked to be selected or the Card is being dragged<br /><br />Grouping - A grey Card to group components together to indicate their relationship to each other |
 
 
       - - -
