@@ -34,15 +34,15 @@ tabs:
       The following **Avatar** types are available:
 
 
-      | Type            | Description                                 |
+      | **Type**    | **Description**                             |
 
-      | --------------- | ------------------------------------------- |
+      | ----------- | ------------------------------------------- |
 
-      | **As image**    | An Avatar that contains a photo             |
+      | As image    | An Avatar that contains a photo             |
 
-      | **As initials** | An Avatar that contains the user's initials |
+      | As initials | An Avatar that contains the user's initials |
 
-      | **As icon**     | An Avatar that contains an icon             |
+      | As icon     | An Avatar that contains an icon             |
 
 
       ## Avatar properties
@@ -51,11 +51,11 @@ tabs:
       The following **Avatar** properties are available:
 
 
-      | Type     | Description                                                           |
+      | **Property** | **Description**                                                       |
 
-      | -------- | --------------------------------------------------------------------- |
+      | ------------ | --------------------------------------------------------------------- |
 
-      | **Size** | Allows an Avatar to use one of the following sizes; S, M, L, XL, XXL. |
+      | Size         | Allows an Avatar to use one of the following sizes; S, M, L, XL, XXL. |
 
 
       - - -
