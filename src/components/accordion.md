@@ -47,11 +47,11 @@ tabs:
       The following **Accordion** types are available:
 
 
-      | Type           | Description                                                              |
+      | **Type**   | **Description**                                                          |
 
-      | -------------- | ------------------------------------------------------------------------ |
+      | ---------- | ------------------------------------------------------------------------ |
 
-      | **As default** | A default **Accordion** which expands and collapses to show/hide content |
+      | As default | A default **Accordion** which expands and collapses to show/hide content |
 
 
       ## Accordion properties
@@ -60,19 +60,19 @@ tabs:
       The following **Accordion** properties are available:
 
 
-      | Type          | Description                                   |
+      | **Property** | **Description**                               |
 
-      | ------------- | --------------------------------------------- |
+      | ------------ | --------------------------------------------- |
 
-      | **Collapsed** | Toggles between collapsed and expanded states |
+      | Collapsed    | Toggles between collapsed and expanded states |
 
-      | **Subtitle**  | Toggles a subtitle on/off                     |
+      | Subtitle     | Toggles a subtitle on/off                     |
 
-      | **Icon**      | Toggles a left-hand icon on/off               |
+      | Icon         | Toggles a left-hand icon on/off               |
 
-      | **Button**    | Toggles an action button on/off               |
+      | Button       | Toggles an action button on/off               |
 
-      | **Chip**      | Toggles a chip on/off                         |
+      | Chip         | Toggles a chip on/off                         |
 
 
       - - -
