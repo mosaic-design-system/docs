@@ -20,6 +20,9 @@ tabs:
       The expanded state pushes the other page content down rather than being overlaying it on top of other content, which helps to maintain the vertical hierarchy of the page.
 
 
+      ![A collapsed accordion next to an expanded accordion with four lines as placeholder content](/assets/img/accordioncollapsedaccordionopensvg.svg)
+
+
       - - -
 
 
@@ -97,6 +100,9 @@ tabs:
 
 
       Always allow the user to expand multiple **Accordions** at a time, and avoid hiding task critical content. If a user can only open one **Accordion** at a time, then it is better to consider a different approach.
+
+
+      ![Accordion dos, three accordions expanded with two lines as placeholder text and the text When using multiple accordions together the user should be able to expand each accordion individually. Accordion don'ts two accordions collapsed and one expanded with two lines for placeholder text and the text When using multiple accordions together ensure all accordions can be expanded at the same time otherwise ensure alternative methods.](/assets/img/accordiondosdontssvg.svg)
     icon: file_invoice
     toc: true
   - title: Code
