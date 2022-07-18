@@ -20,7 +20,20 @@ tabs:
       ### When, and why?
 
 
-      **Navigation bars** provide a compact, but consistent approach to navigation. They should be used to provide access to top-level destinations on mobile devices, which need to be accessed from anywhere. On larger screens, the bar should transition to a [**Navigation rail**](/components/navigation-rail). Although a **Bar** can be used in its own, when there is a secondary navigation structure, it should be used in conjunction with a [**Drawer**](/components/drawer) to display secondary destinations or actions.
+      **Navigation bars** provide a compact, but consistent approach to navigation. They should be used to provide access to top-level destinations on mobile devices, which need to be accessed from anywhere. On larger screens, the bar should transition to a **[Navigation rail](/components/navigation-rail)**. Although a **Bar** can be used in its own, when there is a secondary navigation structure, it should be used in conjunction with a **[Drawer](/components/drawer)** to display secondary destinations or actions.
+
+
+      ## Navigation Bar types
+
+
+      The following types of **Navigation Bar** are available:
+
+
+      | **Type**   | **Description**                                                           |
+
+      | ---------- | ------------------------------------------------------------------------- |
+
+      | As default | A Navigation Bar which is displayed horizontally and contains rail items. |
 
 
       - - -
@@ -50,7 +63,7 @@ tabs:
       Icons alone should never be used, as icons may not be universally known and will automatically exclude users that do not known what they mean.
 
 
-      Bar icons can include [**Chips**](/components/chips) to convey information about the associated destination, such as a count. When **Chips** are used in this way, they must be placed centrally, underneath a bar item.
+      Bar icons can include **[Chips](/components/chips)** to convey information about the associated destination, such as a count. When **Chips** are used in this way, they must be placed centrally, underneath a bar item.
 
 
       ### Labels
@@ -61,10 +74,12 @@ tabs:
 
       ### Drawer
 
+
       As mentioned above, **Bars** can also be used with a **Drawer** component. This supports your navigation structure if you have secondary destinations or additional actions. However, a **Drawer** is unnecessary if there are no secondary destinations or actions in your application.
 
 
       ### Bars on other devices
+
 
       When moving from a small screen to a larger display, **Bars** transform into a **Navigation rail** component. The **Rail** provides the same access as a **Bar**, but in a way that's suitable for larger screens. **Rails** and **Bars** should never appear on the same page together.
     icon: file_invoice
