@@ -7,11 +7,11 @@ chips:
 storybook: https://refactored-telegram-b90726d9.pages.github.io/release/?path=/docs/components-nav-introduction
 tabs:
   - title: Usage
-    body: "## What is a Nav?
+    body: >-
+      ## What is a Nav?
 
 
-      A **Nav** is an easy way to position one or more links together
-      inside other components.
+      A **Nav** is an easy way to position one or more links together inside other components.
 
 
       - - -
@@ -20,20 +20,10 @@ tabs:
       ### When, and why?
 
 
-      There may occasions when you want to display a series of links
-      inside another component. For example, inside a tabbed UI, where sub-tabs
-      or links are required.
+      There may occasions when you want to display a series of links inside another component. For example, inside a tabbed UI, where sub-tabs or links are required.
 
 
-      \r
-
-      \r
-
-      Another example of where a **Nav** component could be used is in a
-      footer, where a number of links need to be grouped together into a block.
-      Where this is the case, a **Nav** component positions links horizontally
-      or vertically in a consistent manner, so you don't have to worry about
-      padding or spacing.
+      Another example of where a **Nav** component could be used is in a footer, where a number of links need to be grouped together into a block. Where this is the case, a **Nav** component positions links horizontally or vertically in a consistent manner, so you don't have to worry about padding or spacing.
 
 
       - - -
@@ -45,30 +35,45 @@ tabs:
       The following types of **Nav** are available:
 
 
-      | **Type**               | **Description**
-      |                                                                                                                                  \
-      \ 
+      | **Type**   | **Description**                                                                               |
 
-      | ---------------------- |
-      -------------------------------------------------------------------------\
-      -------------------------------------------------------------------------\
-      ------------------ |
+      | ---------- | --------------------------------------------------------------------------------------------- |
 
-      | Default                | A Nav with its links positioned
-      horizontally                                                                                                                         \
-      |
+      | As default | A Nav with its links positioned either horizontally or vertically and with or without padding |
 
-      | As vertical            | A Nav with its links positioned
-      vertically                                                                                                                           \
-      |
+      | As button  | A Nav item with a button for use in a Navigation header                                       |
 
-      | As simple              | A Nav with its links positioned
-      horizontally, but without any padding - this is useful if the Nav is being
-      placed inside a container that already has its own padding |
+      | As profile | A Nav item with an avatar and username for use in a Navigation header                         |
 
-      | As vertical and simple | A Nav with its links positioned
-      vertically, but without any padding - this is useful if the Nav is being
-      placed inside a container that already has its own padding   |
+
+      ## Nav properties
+
+
+      The following **Nav** properties are available:
+
+
+      | **Property** | **Description**                                            |
+
+      | ------------ | ---------------------------------------------------------- |
+
+      | State        | Sets the state of a nav button; Default, Hover, or Active* |
+
+      | Icon         | Shows/hides a nav button icon\*\*                          |
+
+      | Dropdown     | Shows/hides a nav button dropdown icon\*\*                 |
+
+      | Orientation  | Sets the orientation of the nav links\*\**                 |
+
+      | Padding      | Toggles the padding on/off\*\**                            |
+
+
+      \
+
+      *As button and profile only\
+
+      \*\*As button only\
+
+      \*\**As default only
 
 
       - - -
@@ -77,25 +82,16 @@ tabs:
       ## Using a Nav
 
 
-
       ### Consistent, but simple
 
-      There is no styling customisation available for the **Nav**
-      component, but the main benefit of implementing it is that it
-      automatically groups links on to a single line or column. It is an
-      alternate and easier method to creating multiple links and manually
-      positioning them next to each other. It makes your coding quicker and more
-      maintainable - if something changes on the page, you don't need to worry
-      about reformatting the content in the **Nav** component.
+
+      There is no styling customisation available for the **Nav** component, but the main benefit of implementing it is that it automatically groups links on to a single line or column. It is an alternate and easier method to creating multiple links and manually positioning them next to each other. It makes your coding quicker and more maintainable - if something changes on the page, you don't need to worry about reformatting the content in the **Nav** component.
 
 
       ### Link text
 
-      Always remember to keep link text short and concise, with ideally
-      fewer than one or two words. Users should be able to scan links and learn
-      something about their destination without much reference to the
-      surrounding content. They should never be an instruction, either: \"click
-      HERE to learn more about Mosaic\" should instead read \"Learn more\"."
+
+      Always remember to keep link text short and concise, with ideally fewer than one or two words. Users should be able to scan links and learn something about their destination without much reference to the surrounding content. They should never be an instruction, either: "click HERE to learn more about Mosaic" should instead read "Learn more".
     icon: file_invoice
     toc: true
   - title: Code
