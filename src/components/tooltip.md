@@ -29,7 +29,7 @@ tabs:
       ## Tooltip types
 
 
-      The **Tooltip** can point in 8 different directions, depending on the space available. Choose a direction carefully to make sure the content is always clearly connected to its trigger and is not covered up by the **Tooltip**.
+      The **Tooltip** can point in 4 different directions, depending on the space available. Choose a direction carefully to make sure the content is always clearly connected to its trigger and is not covered up by the **Tooltip**.
 
 
       | **Type**   | **Description**                                                                               |
