@@ -41,10 +41,6 @@ tabs:
 
       | As default | A Nav with its links positioned either horizontally or vertically and with or without padding |
 
-      | As button  | A Nav item with a button for use in a Navigation header                                       |
-
-      | As profile | A Nav item with an avatar and username for use in a Navigation header                         |
-
 
       ## Nav properties
 
@@ -52,28 +48,13 @@ tabs:
       The following **Nav** properties are available:
 
 
-      | **Property** | **Description**                                            |
+      | **Property** | **Description**                       |
 
-      | ------------ | ---------------------------------------------------------- |
+      | ------------ | ------------------------------------- |
 
-      | State        | Sets the state of a nav button; Default, Hover, or Active* |
+      | Orientation  | Sets the orientation of the nav links |
 
-      | Icon         | Shows/hides a nav button icon\*\*                          |
-
-      | Dropdown     | Shows/hides a nav button dropdown icon\*\*                 |
-
-      | Orientation  | Sets the orientation of the nav links\*\**                 |
-
-      | Padding      | Toggles the padding on/off\*\**                            |
-
-
-      \
-
-      *As button and profile only\
-
-      \*\*As button only\
-
-      \*\**As default only
+      | Padding      | Toggles the padding on/off            |
 
 
       - - -
