@@ -35,13 +35,28 @@ tabs:
       In addition to the context, each **Snackbar** also has an option between two types: 
 
 
-      | Type      | Description                                                                                                                           | Example                                                                                                                                                          |
+      | **Type**   | **Description**                                                                                 |
 
-      | ------------ | ------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+      | ---------- | ----------------------------------------------------------------------------------------------- |
 
-      | **Default**  | This will cover use cases where the a simple message covers the update and no further action is required. | |
+      | As default | A Snackbar allows which displays a simple message, usually to indicate the outcome of an action |
 
-      | **With CTA** | Cases where you may want to give the user an opportunity to take another single action, you would use the **Snackbar with a CTA**. | |
+
+      ## Snackbar properties
+
+
+      The following **Snackbar** properties are available:
+
+
+      | **Property** | **Description**                                                          |
+
+      | ------------ | ------------------------------------------------------------------------ |
+
+      | Context      | Sets the context of the Snackbar to one of the contextual colours below. |
+
+      | Icon         | Shows/hides the left-hand icon                                           |
+
+      | Button       | Shows/hides a call to action button displayed on the right               |
 
 
       - - -
@@ -53,17 +68,17 @@ tabs:
       Context helps convey the information being communicated. **Snackbar** contexts correspond to a colour and an icon to provide a consistent experience for users. For more information, please refer to [Colours](/guidelines/colour/).
 
 
-      | **Context** | **Description**                                                                                                              | **Behaviour**                                                                     | **Examples**                                          |
+      | **Context** | **Description**                                                                                                               | **Behaviour**                                                                     | **Examples**                                          |
 
-      | -------- | ---------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- | ----------------------------------------------------- |
+      | ----------- | ----------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- | ----------------------------------------------------- |
 
-      | **Success**  | Indicates actions were completed successfully. The Success colour is green.                                                   | Does not require user interaction, as disappears automatically after a short time | A new record saved or preferences have been updated   |
+      | Success     | Indicates actions were completed successfully. The Success colour is green.                                                   | Does not require user interaction, as disappears automatically after a short time | A new record saved or preferences have been updated   |
 
-      | **Danger**   | Indicates errors and, optionally, prevents users from proceeding until the issue has been resolved. The Danger colour is red. | Always persists until the user dismisses or resolves the issue                    | Credentials cannot be found or access is denied       |
+      | Danger      | Indicates errors and, optionally, prevents users from proceeding until the issue has been resolved. The Danger colour is red. | Always persists until the user dismisses or resolves the issue                    | Credentials cannot be found or access is denied       |
 
-      | **Warning**  | Indicates that actions are not desirable or might have unexpected results. The Warning colour is yellow.                      | Persists until the user dismisses or continues regardless                         | A file is too big or a file already exists            |
+      | Warning     | Indicates that actions are not desirable or might have unexpected results. The Warning colour is yellow.                      | Persists until the user dismisses or continues regardless                         | A file is too big or a file already exists            |
 
-      | **Info**     | Indicates neutral or advisory information that may not be related to the current action. The info colour is teal.             | Does not require user interaction, but persists until user dismisses              | Scheduled system maintenance or a new report is ready |
+      | Info        | Indicates neutral or advisory information that may not be related to the current action. The info colour is teal.             | Does not require user interaction, but persists until user dismisses              | Scheduled system maintenance or a new report is ready |
 
 
       - - -
@@ -74,10 +89,12 @@ tabs:
 
       ### Auto-dismiss
 
+
       **Snackbars** don’t interrupt the user experience, and should disappear automatically after maximum of ten seconds without user interaction. Interrupting the user's workflow by forcing them to interact with a **Snackbar** will add unnecessary complications - a **Snackbar** should be a quick "we thought you should know this!" message, and do not need to be acknowledged by the user.
 
 
       ### Snackbars with CTA's
+
 
       A **Snackbar** can contain an optional single action, such as "Undo", "Retry" or "Reload". Selecting the action performs the action and closes the **Snackbar**. 
 
@@ -87,10 +104,12 @@ tabs:
 
       ### Snackbar placement
 
+
       **Snackbars** must be displayed one at a time. Multiple **Snackbars** at once will overwhelm a user. They must be placed at the bottom centre of a screen, in front of any page content, but they should avoid covering up any navigational components. Similarly, **Snackbars** shouldn't stack on top of one another. 
 
 
       ### Snackbar length
+
 
       **Snackbars** should only contain one or two lines of text. We must consider the amount of attention and time it takes for a user to absorb the message.
 
@@ -99,6 +118,7 @@ tabs:
 
 
       ### Snackbars are not progress indicators
+
 
       A **Snackbar** is never used as a loading or progress indicator. They are messages about finite results (i.e. completion or incompletion), and shouldn't be used as reminders that something is ongoing.
     icon: file_invoice
