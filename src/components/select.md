@@ -38,19 +38,35 @@ tabs:
       ### Types
 
 
-      | **Type**          | **Description**                                              |
+      | **Type**   | **Description**                                                       |
 
-      | ----------------- | ------------------------------------------------------------ |
+      | ---------- | --------------------------------------------------------------------- |
 
-      | **Default**       | The user can select a single option                          |
+      | As default | A Select which allows a user to choose an item from a list of options |
 
-      | **Required**      | The user is required to select at least one option           |
 
-      | **Multiple**      | The user is able to select more than one answer              |
+      ## Select properties
 
-      | **Option groups** | The options available to the user are grouped under headings |
 
-      | **Size**          | There are three sizes available: small, default and large    |
+      The following **Select** properties are available:
+
+
+      | **Property** | **Description**                                            |
+
+      | ------------ | ---------------------------------------------------------- |
+
+      | State        | Sets the state of a nav button; Default, Hover, or Active* |
+
+      | Size         | Sets the size of the Select; S and M (default)             |
+
+      | Label        | Shows/hides the input label                                |
+
+      | Mandatory    | Shows/hides the mandatory input markers                    |
+
+      | Help         | Shows/hides the help text                                  |
+
+
+      - - -
 
 
       ## Using a select
