@@ -38,6 +38,9 @@ tabs:
       | As default | Boldfacing the last item (current page) gives it prominence and tells the user ‘this is where you are currently’. All other items are hyperlinks. |
 
 
+      ![](/assets/img/breadcrumbsvglight2.svg)
+
+
       ## Breadcrumb properties
 
 
@@ -73,6 +76,9 @@ tabs:
 
 
       Place a **Breadcrumb** at the top of the page, above the main content. Use forward slashes (/) to separate the links, and use shorter heading for each individual page in the **Breadcrumb** instead of the long original link name. 
+
+
+      ![](/assets/img/breadcrumbsvglight.svg)
 
 
       **Breadcrumbs** should not be used on the homepage - the homepage is where the user journey starts, it doesn’t make sense to show them how they got here - hopefully that should be obvious!
