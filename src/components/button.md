@@ -191,6 +191,10 @@ tabs:
       or make any change to data, i.e. print or view guidelines. |
 
 
+      ![An image showing each of the different button
+      contexts](/assets/img/buttonslight.png)
+
+
       - - -
 
 
