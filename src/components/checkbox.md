@@ -35,13 +35,15 @@ tabs:
       In addition, the following **Checkbox** types are available:
 
 
-      | **Type**         | **Description**                                                                                                                                                            |
+      | **Type**            | **Description**                                                                                                                                                            |
 
-      | ---------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+      | ------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
-      | As default       | A default Checkbox used in multiple choice lists and parent-child multiple choice lists                                                   |
+      | As default          | A default Checkbox used in multiple choice lists and parent-child multiple choice lists                                                                                    |
 
-      | As choice button | A Checkbox within a container, used where a label isn’t enough information and more text is required - instead, it has both a title and subtitle accompanying the checkbox |
+      | As choice button    | A Checkbox within a container, used where a label isn’t enough information and more text is required - instead, it has both a title and subtitle accompanying the checkbox |
+
+      | As segmented button | A Checkbox within a container, used where a label isn’t enough information and more text is required - instead, it has both a title and subtitle accompanying the checkbox |
 
 
       ## Checkbox properties
@@ -50,19 +52,32 @@ tabs:
       In addition, the following **Checkbox** properties are available:
 
 
-      | **Property** | **Description**        |
+      | **Property** | **Description**                                                                                    |
 
-      | ------------ | ---------------------- |
+      | ------------ | -------------------------------------------------------------------------------------------------- |
 
-      | State        |                        |
+      | State        | Sets the state of the Checkbox; Default, Disabled, Read only, Focussed, Active, Valid\*, Invalid\* |
 
-      | Selected     |                        |
+      | Selected     | Sets whether Checkbox is selected or not                                                           |
 
-      | Label        |                        |
+      | Size         | Sets the size of the button; S and M\*\*                                                           |
 
-      | Mandatory    | (Choice buttons only)  |
+      | Label        | Shows/hides the Checkbox label                                                                     |
 
-      | Help         | (Choice buttons only)  |
+      | Mandatory    | Shows/hides the mandatory field indicators                                                         |
+
+      | Help         | Shows/hides the help text                                                                          |
+
+      | Item label   | Shows/hides the Checkbox item label\*\**                                                           |
+
+
+      \
+
+      *Choice and Segmented buttons only\
+
+      \*\*Segmented buttons only\
+
+      \*\**As default buttons only
 
 
       - - -
