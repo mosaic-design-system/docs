@@ -42,6 +42,9 @@ tabs:
       | As empty | An empty card container to display or capture content, used for a lot of things! |
 
 
+      ![Card example with title, and kebab menu in the header, placeholder body content of three lines, and in the footer two outline buttons.](/assets/img/cardsvglight.svg)
+
+
       ## Card properties
 
 
@@ -62,6 +65,9 @@ tabs:
 
 
       **Cards** are used to display all content within the application.  On a page you could have just one **Card**, or maybe even hundreds of **Cards**, depending on what you are needing to do.  **Cards** can be laid out in grids, but the grids should be responsive so that **Cards** tend to stay a similar size - on smaller screens, they will resize themselves to use fewer columns and use more vertical space.
+
+
+      ![My workplace wireframe with 8 cards, two rows of four being highlighted by a blue dash outline, showing how cards can be used in groups.](/assets/img/useofcardssvglight.svg)
 
 
       ### Nested Cards
