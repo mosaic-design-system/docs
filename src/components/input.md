@@ -32,7 +32,7 @@ tabs:
       - - -
 
 
-      ## Types
+      ## Input types
 
 
       The following **Input** types are available, with each being able to be marked as mandatory (see [Validation](/components/validation)), disabled or read-only:
@@ -44,7 +44,7 @@ tabs:
 
       | As text      | An Input that accepts a plain text entry               |
 
-      | As currency  | An Input that accepts a currency                 |
+      | As currency  | An Input that accepts a currency                       |
 
       | As email     | An Input that accepts an email address                 |
 
@@ -57,6 +57,27 @@ tabs:
       | As telephone | An Input that accepts a telephone number               |
 
       | As URL       | An Input that accepts a Uniform Resource Locator (URL) |
+
+
+      ## Input properties
+
+
+      The following **Input** properties are available:
+
+
+      | **Property** | **Description**                                                                               |
+
+      | ------------ | --------------------------------------------------------------------------------------------- |
+
+      | State        | Sets the state of an Input; Default, Active, Focussed, Disabled, Read-only, Valid, or Invalid |
+
+      | Size         | Sets the size of an Input; S or M (default)                                                   |
+
+      | Label        | Shows/hides the input label                                                                   |
+
+      | Mandatory    | Shows/hides the mandatory input markers                                                       |
+
+      | Help         | Shows/hides the help text                                                                     |
 
 
       - - -
