@@ -32,25 +32,24 @@ tabs:
       The **Tooltip** can point in 8 different directions, depending on the space available. Choose a direction carefully to make sure the content is always clearly connected to its trigger and is not covered up by the **Tooltip**.
 
 
-      | Type | Description                                                                               | 
+      | **Type**   | **Description**                                                                               |
 
-      | ----------------- | ----------------------------------------------------------------------------------------- |
+      | ---------- | --------------------------------------------------------------------------------------------- |
 
-      | **Left**          | Use when there enough space right of trigger for the content is fully visible on the page 
+      | As default | A Tooltip can be used when there isn't enough space to show content fully visible on the page |
 
-      | **Top left**      | Use when there enough space below of trigger for the content is fully visible on the page | 
 
-      | **Top middle**    | Use when there enough space below of trigger for the content is fully visible on the page | 
+      ## Tooltip properties
 
-      | **Top right**     | Use when there enough space below of trigger for the content is fully visible on the page | 
 
-      | **Right**         | Use when there enough space left of trigger for the content is fully visible on the page  | 
+      The following **Tooltip** properties are available:
 
-      | **Bottom right**  | Use when there enough space above of trigger for the content is fully visible on the page | 
 
-      | **Bottom Middle** | Use when there enough space above of trigger for the content is fully visible on the page | 
+      | **Property** | **Description**                                                            |
 
-      | **Bottom left**   | Use when there enough space above of trigger for the content is fully visible on the page | 
+      | ------------ | -------------------------------------------------------------------------- |
+
+      | Pointer      | Sets the location of the Tooltip pointer/arrow; Top, Bottom, Left or Right |
 
 
       - - -
@@ -71,7 +70,7 @@ tabs:
       ### Tooltip triggers
 
 
-      Although similar to the [**Popover**](/components/popover), the **Tooltip** is triggered by the user hovering over an element, not by selecting it. For example, they can be triggered by the user hovering over elements such as images, icons, buttons or hyperlinks.  It is important to note that this behaviour can be considered less accessible so be cautious in it's usage.
+      Although similar to the **[Popover](/components/popover)**, the **Tooltip** is triggered by the user hovering over an element, not by selecting it. For example, they can be triggered by the user hovering over elements such as images, icons, buttons or hyperlinks.  It is important to note that this behaviour can be considered less accessible so be cautious in it's usage.
 
 
       ### Tooltips on buttons
