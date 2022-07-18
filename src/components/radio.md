@@ -11,7 +11,7 @@ tabs:
       ## What is a Radio button?
 
 
-      A **Radio button** is a visual component that indicates if something is selected or not. A **Radio button** differs from a [**Checkbox**](/forms/checkbox) in that only one **Radio button** item can be selected from a list at any time.
+      A **Radio button** is a visual component that indicates if something is selected or not. A **Radio button** differs from a **[Checkbox](/forms/checkbox)** in that only one **Radio button** item can be selected from a list at any time.
 
 
       - - -
@@ -23,7 +23,7 @@ tabs:
       A **Radio button** can be used in forms where it is only possible to select one item, but the user has multiple choices.
 
 
-      **Radio buttons** should only be used when there are 5 or less options.  More than that and you should consider a [**Select**](/forms/select).
+      **Radio buttons** should only be used when there are 5 or less options.  More than that and you should consider a **[Select](/forms/select)**.
 
 
       - - -
@@ -35,19 +35,16 @@ tabs:
       **Radio buttons** can be unselected or selected. Active, Disabled, Read-only and Focussed states also apply to both of the above.
 
 
-      | **Type**                   | **Description** |                                                                                                                                                                                                                       
+      | **Type**            | **Description**                                                                                                                                                                                                                                                                |
 
-      | -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+      | ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 
-      | With label                 | This is the default and should be used for multiple choice lists and parent-child multiple choice lists                                                                                                                                        |
+      | As default          | This is the default and should be used for multiple choice lists and parent-child multiple choice lists                                                                                                                                                                        |
 
-      | Without label              | This should only be used within a selector column of a table where the column header becomes the label for the radio button                                                                                                                   |
+      | As choice button    | This is a container and the Radio button is within the container. This is used where a label isn’t enough information and more text is required. This instead has both a title and subtitle accompanying the Radio button.                                                     |
 
-      | Radio choice button        | This is a container and the Radio button is within the container. This is used where a label isn’t enough information and more text is required. This instead has both a title and subtitle accompanying the Radio button.           |
+      | As segmented button | A segmented control is a group of buttons wrapped in a single container. The buttons are separated by dividers with only one option from the segmented control being able to be selected at a time. These could be used for example to toggle between multiple different views |
 
-      | Radio choice button visual | This similar to the radio choice button, however there is an icon positioned to the left-hand side and the Radio button itself is aligned to the right hand side.  This should only be used where the icon helps the user to make a selection |
-
-      | Segmented control| A segmented control is a group of buttons wrapped in a single container. The buttons are separated by dividers with only one option from the segmented control being able to be selected at a time. These could be used for example to toggle between multiple different views|
 
       - - -
 
@@ -61,13 +58,13 @@ tabs:
       **Radio buttons** are used when multiple options are available, no matter how they are linked. Only one **Radio button** can be selected from a list at any one time, so if the user selects an option in the list, other options will remain unselected or automatically become unselected.
 
 
-      Additionally, **Radio buttons** should only be used within forms to collect data. Other areas of your product where you would be tempted to use them (i.e. choosing from a list of settings in a configuration page) should use components such as [**Buttons**](/components/button) instead. Segmented controls are an exception to this rule, as they share a lot of traits with [**Buttons**](/components/button) - they can be used to do things like toggle between different views.
+      Additionally, **Radio buttons** should only be used within forms to collect data. Other areas of your product where you would be tempted to use them (i.e. choosing from a list of settings in a configuration page) should use components such as **[Buttons](/components/button)** instead. Segmented controls are an exception to this rule, as they share a lot of traits with **[Buttons](/components/button)** - they can be used to do things like toggle between different views.
 
 
       ### Multiple-selects
 
 
-      Do not use a **Radio button** if a user can select multiple options from a list. In this case, [**Checkboxes**](/forms/checkbox/) should be used instead. **Radio buttons** only allow the user to select a single item from a set, whereas **Checkboxes** allow the user to select multiple options.
+      Do not use a **Radio button** if a user can select multiple options from a list. In this case, **[Checkboxes](/forms/checkbox/)** should be used instead. **Radio buttons** only allow the user to select a single item from a set, whereas **Checkboxes** allow the user to select multiple options.
     icon: file_invoice
   - title: Code
     hook: code
