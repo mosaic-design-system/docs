@@ -45,32 +45,35 @@ tabs:
       **Dropsdowns** can either be manually positioned, or use their default positioning:
 
 
-      | **Type**       | **Description**                                                                      |
+      | **Type**   | **Description**                                                                   |
 
-      | -------------- | ------------------------------------------------------------------------------------ |
+      | ---------- | --------------------------------------------------------------------------------- |
 
-      | Default        | Dropdown card displayed as an overlay, with a list of selectable line items          |
-
-      | With alignment | Used to set the position of the Dropdown in relation to the component that opened it |
+      | As default | A Dropdown that is displayed as an overlay, with a list of selectable line items. |
 
 
-      ### Dropdown line item types
+      ### Dropdown properties
 
 
-      A line item is one item in the list that is displayed in the **Dropdown**.  Each line item is interactable and when clicked will perform some kind of action, much like a **Button** would. The exception to this is when they are a heading or divider, which are non-interactable visual elements to provide structure to the **Dropdown** overlay:
+      **Dropdowns** contain multiple line items. Each line item is interactable and when clicked will perform some kind of action, much like a **Button** would. The exception to this is when they are a heading or divider, which are non-interactable visual elements to provide structure to the **Dropdown** overlay.
 
 
-      | **Type**  | **Description**                                                                                     |
+      The following **Dropdown** properties are available:
 
-      | --------- | --------------------------------------------------------------------------------------------------- |
 
-      | Default   | Text-only line item                                                                                 |
+      | **Type**  | **Description**                                                                                                                 |
 
-      | Header    | Used to split the line items in to groups with heading text                                         |
+      | --------- | ------------------------------------------------------------------------------------------------------------------------------- |
 
-      | Divider   | Used to split the line items in to groups but where a header description is not needed              |
+      | Scrollbar | Shows/hides a scrollbar                                                                                                         |
 
-      | With icon | Adds an icon inline with the text to help identify it, these can be on left or right but never both |
+      | State     | Sets the state of each line item; None, Default, Hover, Active, Disabled                                                        |
+
+      | Size      | Sets the size of a line item; M (default)                                                                                       |
+
+      | Icon      | Adds an icon adjacent to the line item text to help identify it. They can be positioned either to the Left or Right of the text |
+
+      | Heading   | Adds an subheading so that line items can be grouped                                                                            |
 
 
       - - -
