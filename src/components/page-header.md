@@ -7,12 +7,11 @@ chips:
 storybook: https://refactored-telegram-b90726d9.pages.github.io/release/?path=/docs/components-page-header-introduction
 tabs:
   - title: Usage
-    body: "## What is a Page Header?
+    body: >-
+      ## What is a Page Header?
 
 
-      A **Page Header** is the bar that sits underneath the main
-      navigation header to indicate the name of the currently viewed page. It
-      defines the top of the page.
+      A **Page Header** is the bar that sits underneath the main navigation header to indicate the name of the currently viewed page. It defines the top of the page.
 
 
       - - -
@@ -21,17 +20,10 @@ tabs:
       ### When, and why?
 
 
-      Every page in your application must have a **Page Header**, as it is
-      a vital part of the overall layout. As well as being a signpost, it also
-      provides access to the primary and secondary actions for the page. It can
-      also be used for inter-page navigation, where navigating back to the
-      previous page is required.
+      Every page in your application must have a **Page Header**, as it is a vital part of the overall layout. As well as being a signpost, it also provides access to the primary and secondary actions for the page. It can also be used for inter-page navigation, where navigating back to the previous page is required.
 
 
-      **Page Headers** contain a page title, which is styled as the main
-      heading (H1). This assists with maintaining semantic code and helps to
-      define the hierarchy of the page. It is also used by screen readers, which
-      is important from an accessibility perspective.
+      **Page Headers** contain a page title, which is styled as the main heading (H1). This assists with maintaining semantic code and helps to define the hierarchy of the page. It is also used by screen readers, which is important from an accessibility perspective.
 
 
       - - -
@@ -43,19 +35,35 @@ tabs:
       The following **Page Header** types are available:
 
 
-      | **Type** | **Description** | **Behaviour** |\r
+      | **Type**   | **Description**                                                                                                                                               | **Behaviour**                 |
 
-      | -------- | --------------- | ------------- |\r
+      | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------- |
 
-      | Default  |   A Page Header that contains a title and up to 4 call
-      to action buttons              | Fixed to the top of the
-      page              |\r
+      | As desktop | A Page Header that is designed for desktop applications. It contains a title, an optional subtitle, and up to 4 call to action buttons.                       | Fixed to the top of the page  |
 
-      |  With subtitle        |  A Page Header that includes a subtitle
-      |  As above, but adds a subtitle             |\r
+      | As mobile  | A Page Header that is designed for mobile applications. It contains a title, an optional subtitle, and the call to actions are presented in an overflow menu. | As above, but adds a subtitle |
 
-      | With back         | A Page Header that includes a Back button  |
-      As above, but adds a Back button              |\r
+
+      ## Page Header properties
+
+
+      The following **Page Header** properties are available:
+
+
+      | **Property** | **Description**                                                |
+
+      | ------------ | -------------------------------------------------------------- |
+
+      | Buttons      | Specifies the number of buttons to show, up to a maximum of 4* |
+
+      | Subtitle     | Shows/hides a subtitle                                         |
+
+      | Back         | Shows/hides a Back button                                      |
+
+
+      \
+
+      *Desktop only
 
 
       - - -
@@ -66,48 +74,35 @@ tabs:
 
       ### Headings
 
-      **Page Headers** must always include a page title, which should be
-      short, concise, and kept to one line - more guidance for headings can be
-      found in the [Content](/guidelines/style-guide/#structure).\ 
+
+      **Page Headers** must always include a page title, which should be short, concise, and kept to one line - more guidance for headings can be found in the [Content](/guidelines/style-guide/#structure). 
 
 
-      Optionally, a **Page Header** can also include a page subtitle which
-      can be useful for adding extra context to the current page. For example, a
-      subtitle could be used for a date, reference number, customer name, etc.
+      Optionally, a **Page Header** can also include a page subtitle which can be useful for adding extra context to the current page. For example, a subtitle could be used for a date, reference number, customer name, etc.
 
 
       ### Buttons
 
 
-      **Page Headers** can include up to a maximum of four **Buttons**. If
-      more actions are required, then the fourth can be a \"More\" **Button**,
-      with a dropdown menu to display the additional items.
+      **Page Headers** can include up to a maximum of four **Buttons**. If more actions are required, then the fourth can be a "More" **Button**, with a dropdown menu to display the additional items.
 
 
       ### Fixed position
 
-      When scrolling, the **Page Header** should be fixed - a fixed header
-      remains visible at the top of the page regardless of the user's position
-      on that page. This reminds users of the page they are viewing and also
-      allows them to perform any of the actions without having to scroll back
-      the page.
 
+      When scrolling, the **Page Header** should be fixed - a fixed header remains visible at the top of the page regardless of the user's position on that page. This reminds users of the page they are viewing and also allows them to perform any of the actions without having to scroll back the page.
 
 
       ### Back button
 
-      If a user navigates to a lower level page, then you should provide a
-      Back **Button** so that they can quickly and easily return to the previous
-      page, using the **With back** type of **Page Header**.
+
+      If a user navigates to a lower level page, then you should provide a Back **Button** so that they can quickly and easily return to the previous page, using the **With back** type of **Page Header**.
 
 
       ### Mobile
 
-      On mobile, the Page Header will collapse the **Buttons** down into
-      an overflow menu, i.e. a single **Button** with a dropdown menu attached.
-      The page title itself will be truncated if it is too long to display in
-      full and an ellipsis is present to indicate this. For more information,
-      please refer to the [Mobile guidelines](/guidelines/mobile)."
+
+      On mobile, the Page Header will collapse the **Buttons** down into an overflow menu, i.e. a single **Button** with a dropdown menu attached. The page title itself will be truncated if it is too long to display in full and an ellipsis is present to indicate this. For more information, please refer to the [Mobile guidelines](/guidelines/mobile).
     icon: file_invoice
     toc: true
   - title: Code
