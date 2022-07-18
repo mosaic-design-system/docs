@@ -50,7 +50,7 @@ tabs:
 
       | ---------- | --------------------------------------------- |\r
 
-      | As default | Toggles between collapsed and expanded states |\r
+      | As default | Toggles between collapsed and expanded states. |\r
 
       \    \ 
 
@@ -67,7 +67,7 @@ tabs:
       | ------------ | --------------------------------------------- |\r
 
       | Collapsed    | A default Collapse which expands and collapses to
-      show/hide content |\r
+      show/hide content. |\r
 
       \r
 
