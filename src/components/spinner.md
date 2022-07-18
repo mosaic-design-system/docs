@@ -7,13 +7,15 @@ chips:
 storybook: https://refactored-telegram-b90726d9.pages.github.io/release/?path=/docs/components-spinner-introduction
 tabs:
   - title: Usage
-    body: >
+    body: >-
       ## What is a Spinner
 
-      A **Spinner** is used to show the user that something is currently happening on the application. It is an animated component that **doesn't** show progress (that would be a [**Progress Indicator**](/components/progress-bar), but provides visual feedback to the user that the application has responded to their input and hasn't frozen.
+
+      A **Spinner** is used to show the user that something is currently happening on the application. It is an animated component that **doesn't** show progress (that would be a **[Progress Indicator](/components/progress-bar)**, but provides visual feedback to the user that the application has responded to their input and hasn't frozen.
 
 
       ### When and why
+
 
       **Spinners** are used when retrieving data or performing slow calculations, and help to notify users that something is underway. The waiting experience is a crucial aspect of a design. Although it may not be obvious what is occurring in the background, it is important to communicate clearly that progress is being made.
 
@@ -23,34 +25,60 @@ tabs:
 
       - - -
 
+
       ## Spinner types
 
 
       The following **Spinner** types are available:
 
 
-      | **Type** | **Description** | **Example** |
+      | **Type**    | **Description**                                                                                                                                                             |
 
-      | -------- | -------- | -------- |
+      | ----------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
-      | **Default** | Default size and colour | <svg class="mcc-spinner" viewBox="0 0 50 50"><circle class="mcc-spinner__track" cx="25" cy="25" r="20" fill="none" stroke-width="5"></circle><circle cx="25" cy="25" r="20" fill="none" stroke-width="5"></circle></svg> |
+      | As default  | A static **Spinner** used to show that an activity is being processed. It is not a progress bar, but just simple visual feedback to indicate the application is responding. |
 
-      | **Coloured content** | Used when inside another component (e.g. Buttons and Snackbars). It automatically applies the appropriate colour to the Spinner dependent on the content colour of the component | <button  class="mcc-button mcc-button--primary">  <svg  class="mcc-spinner mcc-spinner--current-color mu-mr-03"  viewBox="0 0 50 50"  style="width: 24px;  height: 24px;"><circle  class="mcc-spinner__track"  cx="25"  cy="25"  r="20"  fill="none"  stroke-width="5"></circle><circle  cx="25"  cy="25"  r="20"  fill="none"  stroke-width="5"></circle></svg><span  class="mcc-button__label">Button</span></button> |
+      | As animated | A **Spinner** that has animation built in.                                                                                                                                  |
 
-      | **Size** | The size of the Spinner can be set to any size in pixels, e.g. 24px | <svg  class="mcc-spinner"  viewBox="0 0 50 50"  style="width: 24px;  height: 24px;"><circle  class="mcc-spinner__track"  cx="25"  cy="25"  r="20"  fill="none"  stroke-width="5"></circle><circle  cx="25"  cy="25"  r="20"  fill="none"  stroke-width="5"></circle></svg> |
+
+      ## Spinner properties
+
+
+      The following **Spinner** properties are available:
+
+
+      | **Property** | **Description**                                         |
+
+      | ------------ | ------------------------------------------------------- |
+
+      | Colour       | Sets the colour of the Spinner; Default, Light and Dark |
+
+      | Size         | Sets the size of the Spinner; S, M, L, and XL           |
+
+      | Percent      | Sets the percent complete to show on the Spinner        |
+
+      | Position     | Sets the start position of the Spinner*                 |
+
+
+      \
+
+      *As animated only
 
 
       - - -
+
 
       ## Using a Spinner
 
 
       ### Loading times
 
-      You should only use a loading **Spinner** whenever the wait time is likely to be longer than three seconds. However, if the wait is potentially going to be longer than 10 seconds then a [**Progress Bar**](/components/progress-bar) should be used instead.
+
+      You should only use a loading **Spinner** whenever the wait time is likely to be longer than three seconds. However, if the wait is potentially going to be longer than 10 seconds then a **[Progress Bar](/components/progress-bar)** should be used instead.
 
 
       ### Spinner sizes
+
 
       To keep **Spinners** consistent throughout the application, our default sizes to be used are 24px, 32px, 48px, 64px.  These fit in with our standard sizing across all components.
 
@@ -58,21 +86,24 @@ tabs:
       There are recommended sizes when using a **Spinner** in specific scenarios, which should be followed to ensure consistency across products. 
 
 
-      - **Buttons** 24px
+      * **Buttons** 24px
 
-      - **Snackbars** 32px 
+      * **Snackbars** 32px 
 
-      - full page loading 64px (this is the default size for a **Spinner**)
+      * full page loading 64px (this is the default size for a **Spinner**)
 
 
       ### Spinner Colours
 
+
       Spinners should always be in the default colour unless they are being used within another component (e.g. **Buttons** and **Snackbars**). When using a **Spinner** in a component, use the coloured content type to ensure the **Spinner** is in an accessible colour
 
 
-      - - - 
+      - - -
+
 
       ## References
+
 
       https://www.nngroup.com/articles/progress-indicators/
     icon: file_invoice
