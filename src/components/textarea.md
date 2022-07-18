@@ -11,7 +11,7 @@ tabs:
       ## What is a Textarea?
 
 
-      A **Textarea** is a form input that allows multiple lines of text to be entered. They differ from a [**Rich Text Editor**](/forms/rich-text-editor) in that they do not allow the user to format the text in any way.
+      A **Textarea** is a form input that allows multiple lines of text to be entered. They differ from a **[Rich Text Editor](/forms/rich-text-editor)** in that they do not allow the user to format the text in any way.
 
 
       - - -
@@ -35,13 +35,30 @@ tabs:
       The following **Textarea** types are available:
 
 
-      | **Type**             | **Description**                                                                                          | **Behaviour** |
+      | **Type**   | **Description**                                           |
 
-      | -------------------- | -------------------------------------------------------------------------------------------------------- | ------------- |
+      | ---------- | --------------------------------------------------------- |
 
-      | Default              | An input that allows more than one sentence to be entered                                                |               |
+      | As default | An input that allows more than one sentence to be entered |
 
-      | With character count | A Textarea that also displays the total number of characters permitted and how many there are remaining |               |
+
+      ## Textarea properties
+
+
+      The following **Textarea** properties are available:
+
+
+      | **Property** | **Description**                                                                                    |
+
+      | ------------ | -------------------------------------------------------------------------------------------------- |
+
+      | State        | Sets the state of a nav button; Default, Active, Focussed, Disabled, Read-only, Valid, and Invalid |
+
+      | Label        | Shows/hides the input label                                                                        |
+
+      | Mandatory    | Shows/hides the mandatory input markers                                                            |
+
+      | Help         | Shows/hides the help text                                                                          |
 
 
       - - -
@@ -52,6 +69,7 @@ tabs:
 
       ### Sizing
 
+
       **Textareas** are taller than regular text inputs and wrap text onto new lines automatically as a user types. They have a fixed height and scroll vertically when the text exceeds the bottom of the given area. However, they can also be manually resized to create a bigger space for content, if a user needs it.
 
 
@@ -60,12 +78,14 @@ tabs:
 
       ### Character limits
 
+
       **Textareas** can also include a character limit and counter. This lets users know how long their entry can be before they start typing. Once the character limit has been reached, the user will no longer be able to input any more text.
 
 
       ### Validation
 
-      As with all form inputs, a **Textarea** can be checked when a form is submitted to make sure its contents are valid or, if it is flagged as a mandatory field, that it's completed before continuing. For more information, please refer to [**Form Validation**](/components/validation).
+
+      As with all form inputs, a **Textarea** can be checked when a form is submitted to make sure its contents are valid or, if it is flagged as a mandatory field, that it's completed before continuing. For more information, please refer to **[Form Validation](/components/validation)**.
     icon: file_invoice
   - title: Code
     hook: code
