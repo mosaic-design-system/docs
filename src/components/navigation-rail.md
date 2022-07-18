@@ -23,10 +23,10 @@ tabs:
       **Navigation rails** provide a compact, but consistent, approach to navigation. They should be used to provide access to top-level destinations on desktops and tablets, which need to be accessed from anywhere. 
 
 
-      On smaller screens the **Navigation rail** should transition to a [**Navigation bar**](/components/navigation-bar). 
+      On smaller screens the **Navigation rail** should transition to a **[Navigation bar](/components/navigation-bar)**. 
 
 
-      Although a **rail** can be used in its own, when there is a secondary navigation structure it should be used in conjunction with a [**Drawer**](/components/drawer) to display secondary destinations or actions. 
+      Although a **rail** can be used in its own, when there is a secondary navigation structure it should be used in conjunction with a **[Drawer](/components/drawer)** to display secondary destinations or actions. 
 
 
       - - -
@@ -38,13 +38,11 @@ tabs:
       The following **Navigation rail** types are available:
 
 
-      | **Type**      | **Description**                                                                         | **Behaviour** |
+      | **Type**      | **Description**                                                                         
 
-      | ------------- | --------------------------------------------------------------------------------------- | ------------- |
+      | ------------- | --------------------------------------------------------------------------------------- |
 
-      | Default       | A Navigation rail containing up to 8 destinations, represented by icons and text labels |               |
-
-      | With tooltips | Adds tooltips to each item of a Navigation rail                                                    |               |
+      | As default    | A Navigation rail containing up to 8 destinations, represented by icons and text labels |
 
 
       - - -
@@ -54,6 +52,7 @@ tabs:
 
 
       ### Navigating with a rail
+
 
       When a user selects a **rail** item, they are taken to the top-level destination associated with it and that item appears selected. These locations should be very high level, and denote different 'areas' of your product, separated logically.
 
@@ -78,7 +77,8 @@ tabs:
 
       ### Additional iconography
 
-      **Navigation rail** icons can include [**Chips**](/components/chips) to convey information about the associated destination, such as a count of the number of things that require the user's attention. When **Chips** are used in this way, they must be placed centrally, underneath a **rail** item.
+
+      **Navigation rail** icons can include **[Chips](/components/chips)** to convey information about the associated destination, such as a count of the number of things that require the user's attention. When **Chips** are used in this way, they must be placed centrally, underneath a **rail** item.
 
 
       **Location**
@@ -92,11 +92,12 @@ tabs:
 
       ### Drawers
 
+
       As mentioned above, **Navigation rails** can also be used with a **Drawer**. This supports your navigation structure if you have secondary destinations or additional actions, providing further navigation options for your user. They can continue to navigate between sub-destinations in each section, or move to another section in the **Navigation rail**. Keep in mind that a **Drawer** is unnecessary if there are no secondary destinations or actions in your application.
 
 
-
       ### Smaller screens
+
 
       When moving from a large screen to a smaller display, a **Navigation rail** transforms into a **Navigation Bar** component, which still provides the same access as a **rail**, but in a way that's suitable for smaller screens. A **rail** and a **Bar** should never be used at the same time - a user should only ever have one type of 'top-level' navigation available to them.
     icon: file_invoice
