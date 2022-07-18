@@ -83,6 +83,9 @@ tabs:
       | **Info**    | Indicates neutral or advisory information that may not be related to the current action. The info colour is teal.             | Does not require user interaction, but persists until user dismisses              | Scheduled system maintenance or a new report is ready |
 
 
+      ![](/assets/img/alerts.png)
+
+
       - - -
 
 
