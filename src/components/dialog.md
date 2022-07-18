@@ -48,13 +48,11 @@ tabs:
 
       | ---------- | -------------------------------------------------------------------------------------------------------- | -------------------------------------- | ------------------------ |
 
-      | Default    | A neutral Dialog with no styling or context, used as a simple container for content, e.g. images & videos | Persists. Can be dismissed or actioned | Showing a video tutorial |
+      | As default    | A neutral Dialog with no styling or context, used as a simple container for content, e.g. images & videos | Persists. Can be dismissed or actioned | Showing a video tutorial |
 
       | As message | A Dialog used for presenting users with messages                                                         | Persists. Can be dismissed or actioned | Warning a user about an action they are about to take  |
 
       | As form    | A Dialog used when user input is required                                                                | Persists. Can be dismissed or actioned | Creating a new record |
-
-      | Sizing   | Allows a Dialog to use one of the following sizes; Extra small, Small, Medium, Large, and Full-screen    |                                        |                          |
 
 
       - - -
