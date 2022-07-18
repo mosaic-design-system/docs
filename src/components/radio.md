@@ -46,6 +46,36 @@ tabs:
       | As segmented button | A segmented control is a group of buttons wrapped in a single container. The buttons are separated by dividers with only one option from the segmented control being able to be selected at a time. These could be used for example to toggle between multiple different views |
 
 
+      ## Radio button properties
+
+
+      In addition, the following **Radio button** properties are available:
+
+
+      | **Property** | **Description**                                                                                        |
+
+      | ------------ | ------------------------------------------------------------------------------------------------------ |
+
+      | State        | Sets the state of the Radio button; Default, Disabled, Read only, Focussed, Active, Valid\*, Invalid\* |
+
+      | Selected     | Sets whether the Radio button is selected or not                                                       |
+
+      | Label        | Shows/hides the Radio button label                                                                     |
+
+      | Mandatory    | Shows/hides the mandatory field indicators                                                             |
+
+      | Help         | Shows/hides the help text                                                                              |
+
+      | Item label   | Shows/hides the Radio button item label\*\*                                                            |
+
+
+      \
+
+      *As choice and segmented buttons only\
+
+      \*\*As default buttons only
+
+
       - - -
 
 
