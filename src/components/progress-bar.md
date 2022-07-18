@@ -1,104 +1,88 @@
 ---
 storybook-url: https://tessera.oneadvanced.io/dev/components-core/?path=/docs/html-button--as-default
-title: Progress indicator
+title: Progress bar
 toc: true
 chips:
   - "HTML/CSS: Available"
 storybook: https://refactored-telegram-b90726d9.pages.github.io/release/?path=/docs/components-progress-introduction
 tabs:
   - title: Usage
-    body: "## What is a Progress indicator?     \r
+    body: >-
+      ## What is a Progress bar?
 
-      \r
+       A **Progress bar** shows the user how far through a process they are with a visual cue, providing a quick estimation of a task's remaining length.
 
-      \ A **Progress indicator** shows the user how far through a process
-      they are with a visual cue, providing a quick estimation of a task's
-      remaining length.\r
-
-      - - -\r
-
-      ### When, and why?\r
-
-      A **Progress indicator** should be used when the process will
-      typically take more than 10 seconds, and some types can tell the user the
-      estimated time until completion of an operation. Use of a **Progress
-      indicator** gives a visual expectation of wait time, which will encourage
-      the user to stay until the process has finished, or simply reassure the
-      user that something is happening and the system hasn't frozen.\r
-
-      \r
+      - - -
 
 
-      Good examples of where they would be helpful are when the user is
-      submitting a large form, uploading a file or saving updates to the system
-      settings.\r
+      ### When, and why?
 
-      - - -\r
 
-      \r
+      A **Progress bar** should be used when the process will typically take more than 10 seconds, and some types can tell the user the estimated time until completion of an operation. Use of a **Progress bar** gives a visual expectation of wait time, which will encourage the user to stay until the process has finished, or simply reassure the user that something is happening and the system hasn't frozen.
 
-      ## Progress indicator types\r
 
-      \r
+      Good examples of where they would be helpful are when the user is submitting a large form, uploading a file or saving updates to the system settings.
 
-      There are two different use cases for a **Progress indicator**:\r
 
-      1. **Determinate Progress indicators** are used when the system can
-      estimate how long an operation will take. They use a 0-100% scale to
-      display the operation progress.\r
+      - - -
 
-      2. **Indeterminate Progress indicators** are used when the system
-      cannot give an estimated time or track progression with a percentage
-      scale. A looped animation reassures the user that the system is working,
-      but with no indication of the remaining progress. \r
 
-      \r
+      ## Progress bar types
 
-      All **Progress indicators** are available in large, regular and
-      small sizes. The following types of **Progress indicators** are available,
-      separated between determinate and indeterminate **Progress indicators**:\r
 
-      \r
+      There are two different use cases for a **Progress bar**:
 
-      | Types                                                |
-      Description                                                                                              \
-      |\r
 
-      | ---------------------------------------------------- |
-      -------------------------------------------------------------------------\
-      --------------------------------- |\r
+      1. **Determinate Progress bars** are used when the system can estimate how long an operation will take. They use a 0-100% scale to display the operation progress.
 
-      | **With percentage** (Determinate)                    | Use this
-      when the system can track operation progress but cannot indicate how long
-      the operation will take |\r
+      2. **Indeterminate Progress bars** are used when the system cannot give an estimated time or track progression with a percentage scale. A looped animation reassures the user that the system is working, but with no indication of the remaining progress. 
 
-      | **With percentage and estimated time** (Determinate) | Use this
-      when the system can estimate how long it will take until completion and
-      track operation progress      |\r
 
-      | **With label** (Indeterminate)                       | Use this
-      when the system cannot track
-      progression                                                          |\r
+      All **Progress bars** are available in large, regular and small sizes. The following types of **Progress bars** are available, separated between determinate and indeterminate **Progress bars**:
 
-      | **Bar only** (Indeterminate & determinate)           | Only use
-      when there are other elements on the screen to inform the user what
-      operation/task is underway     |\r
 
-      - - -\r
+      | **Types**  | **Description**                                                                   |
 
-      ## Using a Progress indicator\r
+      | ---------- | --------------------------------------------------------------------------------- |
 
-      \r
+      | As default | A Progress bar that can be used to show/track progress of a particular operation. |
 
-      ### Progress indicator frequency\r
 
-      **Progress** indicators are a great way to visually inform your
-      users the system is processing an operation and if possible how long it
-      will take to complete. However, you should use **Progress indicators**
-      sparingly, and only when an operation is likely to take over 10 seconds.
-      Overuse will make it seem like the application is slow and constantly
-      requires the user to wait. For actions that take less than 10 seconds,
-      consider using the [**Spinner**](/components/spinner) component."
+      ## Progress bar properties
+
+
+      The following **Progress bar** properties are available:
+
+
+      | **Property** | **Description**                                                                        |
+
+      | ------------ | -------------------------------------------------------------------------------------- |
+
+      | Position     | Sets the percentage complete; 10%, 25%, 50%, 75%, or 100%                              |
+
+      | Size         | Sets the size of the Progress bar; S, M (default), or L                                |
+
+      | Top labels   | Shows/hides the top labels so that just the Progress bar and bottom labels are visible |
+
+      | Title        | Shows/hides the title                                                                  |
+
+      | Subtitle     | Shows/hides the subtitle                                                               |
+
+      | Percentage   | Shows/hides the percentage value                                                       |
+
+      | Bottom label | Shows/hides the bottom labels so that just the Progress bar and top labels are visible |
+
+
+      - - -
+
+
+      ## Using a Progress bar
+
+
+      ### Progress bar frequency
+
+
+      **Progress** indicators are a great way to visually inform your users the system is processing an operation and if possible how long it will take to complete. However, you should use **Progress bar** sparingly, and only when an operation is likely to take over 10 seconds. Overuse will make it seem like the application is slow and constantly requires the user to wait. For actions that take less than 10 seconds, consider using the **[Spinner](/components/spinner)** component.
     icon: file_invoice
     toc: true
   - title: Code
