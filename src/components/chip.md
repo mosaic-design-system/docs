@@ -6,7 +6,7 @@ chips:
 storybook: https://refactored-telegram-b90726d9.pages.github.io/release/?path=/docs/components-chip-introduction
 tabs:
   - title: Usage
-    body: >
+    body: >-
       ## What is a Chip?
 
 
@@ -31,29 +31,36 @@ tabs:
       The following **Chip** types are available:
 
 
-      | **Type**           | **Description**                                                                        |
+      | **Type**   | **Description**                                                          |
 
-      | ------------------ | -------------------------------------------------------------------------------------- |
+      | ---------- | ------------------------------------------------------------------------ |
 
-      | Default            | A Chip that contains a simple text label                                               |
+      | As solid   | A Chip that is styled using a solid background colour                    |
 
-      | With icon          | A Chip that contains a text label and an icon on the left-hand side                    |
+      | As soft    | A Chip that is styled using subtle background colours and a border       |
 
-      | With trailing icon | A Chip that contains a text label and an icon on the right-hand side                   |
+      | As outline | A Chip that is styled using a white background and a solid dark border   |
 
-      | As soft            | A Chip that is styled using subtle background colours and a border                     |
+      | As filters | A Chip that is styled with a tick to show that a filter has been applied |
 
-      | As outline         | A Chip that is styled using a white background and a solid dark border                 |
 
-      | As sized           | Allows a Chip to use one of the following sizes; Extra Small, Small, Medium, and Large |
+      ## Chip properties
 
-      | As anchor          | Allows a Chip to be used as a link                                                     |
 
-      | As button          | Allows a Chip to be used as a button                                                   |
+      The following **Chip** properties are available:
 
-      | As disabled        | Allows a Chip to be disabled                                                           |
 
-      - - -
+      | **Property** | **Description**                                                            |
+
+      | ------------ | -------------------------------------------------------------------------- |
+
+      | Context      | Sets the context of a Chip, using one of the contextual colours below      |
+
+      | State        | Sets the state of a Chip; Default, Hover, Active, or Disabled              |
+
+      | Size         | Sets the size of a Chip; XS, S, M (default) or L                           |
+
+      | Icon         | Sets whether a Chip contains an icon and its position; None, Left or Right |
 
 
       ## Chip contexts
@@ -66,13 +73,17 @@ tabs:
 
       | ----------- | ------------------------------------------------------------------------------------------------------------------------ |
 
-      | **Success** | Used where a Chip is required to show an element with a successful or positive nature. The Success colour is green.      |
+      | N/A         | Used where a Chip does not have a context, i.e. when it's disabled                                                       |
 
-      | **Danger**  | Used where a Chip is required to show an element with an unsuccessful or negative nature. The Danger colour is red.      |
+      | Primary     | Used where a Chip is required to show an element with a primary nature. The Primary colour is blue.                      |
 
-      | **Warning** | Used where a Chip is required to show an element with an undesirable or unexpected nature. The Warning colour is yellow. |
+      | Success     | Used where a Chip is required to show an element with a successful or positive nature. The Success colour is green.      |
 
-      | **Info**    | Used where a Chip is required to show an element with a neutral or advisory nature. The Info colour is teal.             |
+      | Danger      | Used where a Chip is required to show an element with an unsuccessful or negative nature. The Danger colour is red.      |
+
+      | Warning     | Used where a Chip is required to show an element with an undesirable or unexpected nature. The Warning colour is yellow. |
+
+      | Info        | Used where a Chip is required to show an element with a neutral or advisory nature. The Info colour is teal.             |
 
 
       - - -
@@ -117,16 +128,15 @@ tabs:
 
       #### Positioning filter Chips
 
+
       As mentioned above, when **Chips** are used as filters (or visual indicators for filters), they can be positioned above or below their related content. Where they are placed depends on the following:﻿
 
 
       * If the filters are related to a table, then they should be placed above the table in a single row, as they directly affect the records it contains
 
-
       * If the filters are related to a search field, then they can be shown underneath in a single row, as they can be selected as part of the search process to narrow down results
 
-
-      * If the filters are part of other components, such as side drawers, then they can be shown on multiple rows.﻿
+      * If the filters are part of other components, such as side drawers, then they can be shown on multiple rows.
     icon: file_invoice
     toc: true
   - title: Code
