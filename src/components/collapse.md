@@ -53,11 +53,11 @@ tabs:
       The following **Collapse** types are available:
 
 
-      | **Type**   | **Description**                               |
+      | **Type**   | **Description**                                                     |
 
-      | ---------- | --------------------------------------------- |
+      | ---------- | ------------------------------------------------------------------- |
 
-      | As default | Toggles between collapsed and expanded states |
+      | As default | A default Collapse which expands and collapses to show/hide content |
 
 
       ## Collapse properties
