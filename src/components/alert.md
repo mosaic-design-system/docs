@@ -38,30 +38,24 @@ tabs:
       The following **Alert** types are available:
 
 
-      | **Type**        | **Description**                                                                                                                                                                                                                             | **Behaviour**                  |
+      | **Type**        | **Description**                                                                            | **Behaviour**                             |
 
-      | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |
+      | --------------- | ------------------------------------------------------------------------------------------ | ----------------------------------------- |
 
-      | As banner       | An Alert that contains an icon, a title, and an optional line of text and action button. This type of Alert is used inline, across the top of a page or a form. It cannot be dismissed.                                                     | Persists. Cannot be dismissed  |
+      | **Default**     | An Alert that contains an icon, a title, and a line of text                                | Persists. Cannot be dismissed or actioned |
 
-      | As notification | An Alert that contains an icon, a title, and optionally a line of text and an action button. This type of Alert is used to inform users about a background activity that has occurred, e.g. the arrival of a new task. It can be dismissed. | Persists, but can be dismissed |
+      | **Compact**     | An Alert that contains an icon and a title                                                 | Persists. Cannot be dismissed or actioned |
+
+      | **Coloured**    | An Alert that contains an icon, a title, and a line of text, with a coloured background    | Persists. Cannot be dismissed or actioned |
+
+      | **Solid**       | An Alert that contains an icon, a title, and a line of text, with a solid white background | Persists. Cannot be dismissed or actioned |
+
+      | **Dismissible** | An Alert that can be dismissed                                                             | Persists, but can be dismissed            |
+
+      | **Actionable**  | An Alert that contains an action                                                           | Persists, but can be actioned             |
 
 
-      ## Alert properties
-
-
-      The following **Alert** properties are available:
-
-
-      | **Property** | **Description**                              |
-
-      | ------------ | -------------------------------------------- |
-
-      | Context      | Toggles between the contextual colours below |
-
-      | Subtitle     | Toggles a subtitle on/off                    |
-
-      | Button       | Toggles an action button on/off              |
+      - - -
 
 
       ## Alert contexts
@@ -83,7 +77,7 @@ tabs:
       | **Info**    | Indicates neutral or advisory information that may not be related to the current action. The info colour is teal.             | Does not require user interaction, but persists until user dismisses              | Scheduled system maintenance or a new report is ready |
 
 
-      ![](/assets/img/alerts.png)
+      ![](/assets/img/alertssvglight.svg)
 
 
       - - -
@@ -104,7 +98,7 @@ tabs:
       ### Alert dismissal
 
 
-      **Alerts** should only ever use a dismissible notification type when they are **non-critical** messages. A user is not guaranteed to be looking at the screen when the **Alert** is generated, and a user's disability may prevent them from reading or interacting with the **Alert** quick enough to action the warning.
+      **Alerts** should only ever use a dismissible type when they are **non-critical** messages. A user is not guaranteed to be looking at the screen when the **Alert** is generated, and a user's disability may prevent them from reading or interacting with the **Alert** quick enough to action the warning.
 
 
       ### Alert frequency
@@ -161,13 +155,13 @@ tabs:
       ### Focus state
 
 
-      An **Alert** needs to have a focus state - a focus state is when you tab into an element to interact with it. Ensure that users can use their keyboard to focus on the **Alert**.
+      An **Alert** needs to have a focus state - a focus state is when you tab into an element to interact with it. Ensure that users can use their keyboard to focus on **Alert**.
 
 
       ### Icons
 
 
-      An icon needs to have underlying code that describes what action the icon takes. the labels should be specific - for example, a 'bin' icon for delete should be labelled 'delete' not 'bin'.
+      An icon needs to have underlying code that describes what action the icon takes. the labels should be specific - for example, 'bin' icon for delete should be labelled 'delete'. not 'bin'.
 
 
       ### Key Binding
