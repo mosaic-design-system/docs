@@ -48,17 +48,17 @@ tabs:
       The following **Textarea** properties are available:
 
 
-      | **Property** | **Description**                                                                                    |
+      | **Property** | **Description**                                                                                  |
 
-      | ------------ | -------------------------------------------------------------------------------------------------- |
+      | ------------ | ------------------------------------------------------------------------------------------------ |
 
-      | State        | Sets the state of a nav button; Default, Active, Focussed, Disabled, Read-only, Valid, and Invalid |
+      | State        | Sets the state of a Textarea; Default, Active, Focussed, Disabled, Read-only, Valid, and Invalid |
 
-      | Label        | Shows/hides the input label                                                                        |
+      | Label        | Shows/hides the input label                                                                      |
 
-      | Mandatory    | Shows/hides the mandatory input markers                                                            |
+      | Mandatory    | Shows/hides the mandatory input markers                                                          |
 
-      | Help         | Shows/hides the help text                                                                          |
+      | Help         | Shows/hides the help text                                                                        |
 
 
       - - -
