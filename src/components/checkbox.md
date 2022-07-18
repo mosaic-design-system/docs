@@ -58,7 +58,7 @@ tabs:
 
       | State        | Sets the state of the Checkbox; Default, Disabled, Read only, Focussed, Active, Valid\*, Invalid\* |
 
-      | Selected     | Sets whether Checkbox is selected or not                                                           |
+      | Selected     | Sets whether the Checkbox is selected or not                                                       |
 
       | Size         | Sets the size of the button; S and M\*\*                                                           |
 
