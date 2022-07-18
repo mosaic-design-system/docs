@@ -7,7 +7,7 @@ chips:
 storybook: https://refactored-telegram-b90726d9.pages.github.io/release/?path=/docs/components-collapse-introduction
 tabs:
   - title: Usage
-    body: >
+    body: >-
       ## What is a Collapse?
 
 
@@ -44,9 +44,42 @@ tabs:
       **Note**: Navigation is counted as important information. You should never hide navigation behind a **Collapse**.
 
 
+      - - -
+
+
+      ## Collapse types
+
+
+      The following **Collapse** types are available:
+
+
+      | **Type**   | **Description**                                                     |
+
+      | ---------- | ------------------------------------------------------------------- |
+
+      | As default | A default Collapse which expands and collapses to show/hide content |
+
+
+      ## Collapse properties
+
+
+      The following **Collapse** properties are available:
+
+
+      | **Property** | **Description**                               |
+
+      | ------------ | --------------------------------------------- |
+
+      | Collapsed    | Toggles between collapsed and expanded states |
+
+
+      - - -
+
+
       ### Collapse vs Accordion
 
-      If you intend to show/hide several instances of related information on a page, then an **[Accordion](/components/accordion)** is the preferred method. The **Accordion** works better for users that wish to choose which information they want to view. 
+
+      If you intend to show/hide several instances of related information on a page, then an **[Accordion](/components/accordion)** is the preferred method. The **Accordion** works better for users that wish to choose which information they want to view.
     icon: file_invoice
     toc: true
   - title: Code
