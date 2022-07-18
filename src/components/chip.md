@@ -86,6 +86,9 @@ tabs:
       | Info        | Used where a Chip is required to show an element with a neutral or advisory nature. The Info colour is teal.             |
 
 
+      ![8 different chip contexts in three row grid. Top row consisting of primary, success, warning. Second row being negative, info, white and third row being disabled and outline](/assets/img/chipssvglight.svg)
+
+
       - - -
 
 
@@ -96,6 +99,9 @@ tabs:
 
 
       **Chips** can be used as labels or counters. The important fact is that they are in-line elements, enabling them to be placed pretty much anywhere. They often work well in navbars, sidebars, tabs, or in tables to indicate a status.
+
+
+      ![Chips in five column table. First column checkbox, two text columns then chips and finally overflow button](/assets/img/useofchipssvglight.svg)
 
 
       **Chip frequency**
