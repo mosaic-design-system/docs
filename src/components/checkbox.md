@@ -60,24 +60,20 @@ tabs:
 
       | Selected     | Sets whether the Checkbox is selected or not                                                       |
 
-      | Size         | Sets the size of the button; S and M\*\*                                                           |
-
       | Label        | Shows/hides the Checkbox label                                                                     |
 
       | Mandatory    | Shows/hides the mandatory field indicators                                                         |
 
       | Help         | Shows/hides the help text                                                                          |
 
-      | Item label   | Shows/hides the Checkbox item label\*\**                                                           |
+      | Item label   | Shows/hides the Checkbox item label\*\*                                                            |
 
 
       \
 
-      *Choice and Segmented buttons only\
+      *As choice buttons only\
 
-      \*\*Segmented buttons only\
-
-      \*\**As default buttons only
+      \*\*As default buttons only
 
 
       - - -
