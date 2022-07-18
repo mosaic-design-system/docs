@@ -28,18 +28,55 @@ tabs:
       - - -
 
 
+      ## Rich text editor types
+
+
+      The following types of **Rich text editor** are available:
+
+
+      | **Type**   | **Description**                                                                                  |
+
+      | ---------- | ------------------------------------------------------------------------------------------------ |
+
+      | As default | A Rich text editor that allows content to be formatted and customised using a series of options. |
+
+
+      ## Rich text editor properties
+
+
+      The following **Rich text editor** properties are available:
+
+
+      | **Property** | **Description**                                                                                           |
+
+      | ------------ | --------------------------------------------------------------------------------------------------------- |
+
+      | State        | Sets the state of a Rich text editor; Default, Active, Focussed, Disabled, Read-only, Valid, and Invalid. |
+
+      | Label        | Shows/hides the input label                                                                               |
+
+      | Mandatory    | Shows/hides the mandatory input markers                                                                   |
+
+      | Help         | Shows/hides the help text                                                                                 |
+
+
+      - - -
+
+
       ## Using a Rich text editor
 
 
       ### Sizing
 
-      Similar to [**Textareas**](/forms/textarea), RTEs are taller than regular text inputs and wrap text onto new lines automatically as a user types. They have a fixed height and scroll vertically when text exceeds the bottom of the given area. However, they can also be manually resized to create a bigger space for content, if a user needs it.
+
+      Similar to **[Textareas](/forms/textarea)**, RTEs are taller than regular text inputs and wrap text onto new lines automatically as a user types. They have a fixed height and scroll vertically when text exceeds the bottom of the given area. However, they can also be manually resized to create a bigger space for content, if a user needs it.
 
 
       The starting size of an RTE should indicate the amount of content that is expected.
 
 
       ### Word processing
+
 
       RTEs work in a similar way to a simple word processor, in that they contain many of the formatting options associated with them, they accept carriage returns, and content can be structured using bullets, etc. A big benefit of RTEs is that images or other media files can be uploaded directly into the editing area. It is also possible to create links to other destinations.
 
@@ -49,7 +86,8 @@ tabs:
 
       ### Validation
 
-      As with all form inputs, a RTEs can be checked when a form is submitted to make sure its content is valid or, if it is flagged as a mandatory field, that it is completed before continuing. For more information, please refer to [**Form Validation**](/forms/form-validation).
+
+      As with all form inputs, a RTEs can be checked when a form is submitted to make sure its content is valid or, if it is flagged as a mandatory field, that it is completed before continuing. For more information, please refer to **[Form Validation](/forms/form-validation)**.
     icon: file_invoice
   - title: Code
     hook: ""
