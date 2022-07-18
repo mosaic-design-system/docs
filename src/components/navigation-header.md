@@ -32,25 +32,68 @@ tabs:
       - - -
 
 
-      ## Using a Navigation Header
+      ## Navigation Header types
 
+
+      The following types of **Navigation Header** are available:
+
+
+      | **Type**   | **Description**                                                |
+
+      | ---------- | -------------------------------------------------------------- |
+
+      | As desktop | A Navigation Header that is designed for desktop applications. |
+
+      | As mobile  | A Navigation Header that is designed for mobile applications.  |
+
+
+      ## Navigation Header properties
+
+
+      The following **Navigation Header** properties are available:
+
+
+      | **Property** | **Description**                                                              |
+
+      | ------------ | ---------------------------------------------------------------------------- |
+
+      | Brand        | Shows/hides the brand logo and product name                                  |
+
+      | Chips        | Shows/hides optional Chips for indicating organisations, awareness days, etc |
+
+      | Back         | Shows/hides a Back button*                                                   |
+
+      | Username     | Show/hides a profile button*                                                 |
+
+
+      \
+
+      *Mobile header only
+
+
+      - - -
+
+
+      ## Using a Navigation Header
 
 
       ### Navigation structure
 
+
       The **Navigation header** is a fundamental part of the the application. It is used in conjunction with other navigational components to form the overall shell or layout.
 
 
-      There are 4 navigation components: **Navigation header**, [**Navigation rail**](/components/navigation-rail), [**Drawer**](/components/drawer), and [**Navigation bar**](/components/navigation-bar). 
+      There are 4 navigation components: **Navigation header**, **[Navigation rail](/components/navigation-rail)**, **[Drawer](/components/drawer)**, and **[Navigation bar](/components/navigation-bar)**. 
 
 
-      The **Navigation Header** is the primary navigation that appears across the top of the page, while the **Rail** and **Drawer** are combined to create a [**Sidebar**](/patterns/sidebar) for the secondary navigation, which appears in a left-hand pane. Using a **Navigation header** with a **Sidebar** is a common pattern for multiple levels of navigation. The **Navigation bar** is used to display links across the bottom on small devices.
+      The **Navigation Header** is the primary navigation that appears across the top of the page, while the **Rail** and **Drawer** are combined to create a **[Sidebar](/patterns/sidebar)** for the secondary navigation, which appears in a left-hand pane. Using a **Navigation header** with a **Sidebar** is a common pattern for multiple levels of navigation. The **Navigation bar** is used to display links across the bottom on small devices.
 
 
       As such, a **Navigation header** should be present on **every** page in your application, and only appear once on each page.
 
 
       ### Navigation sizing
+
 
       The **Navigation header** responds to the size of the screen. This means it collapses incrementally as the screen size reduces, while maintaining access to the navigation links. 
 
