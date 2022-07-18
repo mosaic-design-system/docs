@@ -8,7 +8,7 @@ chips:
 storybook: https://refactored-telegram-b90726d9.pages.github.io/release/?path=/docs/components-dialog-introduction
 tabs:
   - title: Usage
-    body: >
+    body: >-
       ## What is a Dialog?
 
 
@@ -27,9 +27,9 @@ tabs:
       There are two types of **Dialogs**:
 
 
-      - A messaging **Dialog** allows you to present the user with advisory information, warnings, or system critical information 
+      * A messaging **Dialog** allows you to present the user with advisory information, warnings, or system critical information 
 
-      - A form **Dialog** is used when you want to capture additional data using a collection of form inputs
+      * A form **Dialog** is used when you want to capture additional data using a collection of form inputs
 
 
       For more information, please read the [System messaging guidelines](/guidelines/system-messaging) to learn how and when **Dialogs** should be used.
@@ -44,17 +44,15 @@ tabs:
       The following **Dialog** types are available:
 
 
-      | **Type**   | **Description**                                                                                          | **Behaviour**                          | **Example**              |
+      | **Type**       | **Description**                                                                                           | **Behaviour**                          | **Example**                                           |
 
-      | ---------- | -------------------------------------------------------------------------------------------------------- | -------------------------------------- | ------------------------ |
+      | -------------- | --------------------------------------------------------------------------------------------------------- | -------------------------------------- | ----------------------------------------------------- |
 
-      | Default    | A neutral Dialog with no styling or context, used as a simple container for content, e.g. images & videos | Persists. Can be dismissed or actioned | Showing a video tutorial |
+      | As Default | A neutral Dialog with no styling or context, used as a simple container for content, e.g. images & videos | Persists. Can be dismissed or actioned | Showing a video tutorial                              |
 
-      | As message | A Dialog used for presenting users with messages                                                         | Persists. Can be dismissed or actioned | Warning a user about an action they are about to take  |
+      | As message     | A Dialog used for presenting users with messages                                                          | Persists. Can be dismissed or actioned | Warning a user about an action they are about to take |
 
-      | As form    | A Dialog used when user input is required                                                                | Persists. Can be dismissed or actioned | Creating a new record |
-
-      | Sizing   | Allows a Dialog to use one of the following sizes; Extra small, Small, Medium, Large, and Full-screen    |                                        |                          |
+      | As form        | A Dialog used when user input is required                                                                 | Persists. Can be dismissed or actioned | Creating a new record                                 |
 
 
       - - -
@@ -69,17 +67,17 @@ tabs:
       **Note**: Contexts only apply to message **Dialogs**. Form **Dialogs** do not have a context and are styled differently.
 
 
-      | **Context** | **Description**                                                                                                              | **Behaviour**                                                            | **Examples** |
+      | **Context** | **Description**                                                                                                               | **Behaviour**                                                            | **Examples**                                                             |
 
-      | -------- | ---------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------ | ------------ |
+      | ----------- | ----------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------ | ------------------------------------------------------------------------ |
 
-      | Success  | Indicates actions were completed successfully. The Success colour is green.                                                   | Does not require user interaction, but persists until the user dismisses |  The user finishes a work flow successfully            |
+      | Success     | Indicates actions were completed successfully. The Success colour is green.                                                   | Does not require user interaction, but persists until the user dismisses | The user finishes a work flow successfully                               |
 
-      | Danger   | Indicates errors and, optionally, prevents users from proceeding until the issue has been resolved. The Danger colour is red. | Always persists until the user dismisses or resolves the issue           |  The user inputs an invalid configuration for a record             |
+      | Danger      | Indicates errors and, optionally, prevents users from proceeding until the issue has been resolved. The Danger colour is red. | Always persists until the user dismisses or resolves the issue           | The user inputs an invalid configuration for a record                    |
 
-      | Warning  | Indicates that actions are not desirable or might have unexpected results. The Warning colour is yellow.                      | Persists until the user dismisses or continues regardless                |  The user enters a record that will overwrite another non-critical record             |
+      | Warning     | Indicates that actions are not desirable or might have unexpected results. The Warning colour is yellow.                      | Persists until the user dismisses or continues regardless                | The user enters a record that will overwrite another non-critical record |
 
-      | Info     | Indicates neutral or advisory information that may not be related to the current action. The info colour is teal.             | Does not require user interaction, but persists until user dismisses     |  A dialog that gives a tip to the user about another related feature         |
+      | Info        | Indicates neutral or advisory information that may not be related to the current action. The info colour is teal.             | Does not require user interaction, but persists until user dismisses     | A dialog that gives a tip to the user about another related feature      |
 
 
       - - -
@@ -88,8 +86,8 @@ tabs:
       ## Using a Dialog
 
 
-
       ## Using the right Dialog
+
 
       **Dialogs** are triggered by user actions. They should interrupt a user’s current task to grab their attention. The key to usage is to ensure that the correct type and context (if a message) of **Dialog** is used. For example, if you want to show an informational message use an **Info Dialog**, but if you want to present the user with a short form then use a **Form Dialog**. This will help users become familiar with the nature of the **Dialog** and understand what is being asked of them.
 
@@ -111,10 +109,12 @@ tabs:
 
       ## Dialog sizes
 
+
       The size of a **Dialog** should be appropriate to its content and, where possible, they should be consistent wherever they are used. If the height or width means that the **Dialog** looks out of proportion, or the amount of inputs force a scroll bar, then consider a different approach. 
 
 
       ## Dialog forms
+
 
       If you are using a **Form Dialog**, then the fields must stack vertically to avoid making the **Dialog** too wide. You should avoid the use of columns entirely, as space will begin to feel cramped within the **Dialog**.
 
@@ -128,11 +128,11 @@ tabs:
       **Dialogs** should always be closable, regardless of the content inside. Each **Dialog** needs to include the following three methods of exit:
 
 
-      - A "cancel" **Button** at the bottom of the **Dialog** that allows them to close the message or exit the process early. This **Button** does not necessarily need to be labelled "cancel", but it should follow the same conventions as similar buttons in the rest of your product.
+      * A "cancel" **Button** at the bottom of the **Dialog** that allows them to close the message or exit the process early. This **Button** does not necessarily need to be labelled "cancel", but it should follow the same conventions as similar buttons in the rest of your product.
 
-      - A close icon in the top right-hand corner that functions similarly to the cancel **Button**.
+      * A close icon in the top right-hand corner that functions similarly to the cancel **Button**.
 
-      - The **Dialog** must be able to be closed with the escape key. This is crucial for users that are keyboard-only.
+      * The **Dialog** must be able to be closed with the escape key. This is crucial for users that are keyboard-only.
     icon: file_invoice
     toc: true
   - title: Code
