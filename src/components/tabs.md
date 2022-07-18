@@ -51,15 +51,15 @@ tabs:
       The following types of **Nav** are available:
 
 
-      | **Type**   | **Description** |
+      | **Type**   | **Description**                                                                                                            |
 
-      | ---------- | --------------- |
+      | ---------- | -------------------------------------------------------------------------------------------------------------------------- |
 
-      | As default |                 |
+      | As default | A Tab that is styled like a traditional tab, that can contain an optional Chip and displayed horizontally or vertically.   |
 
-      | As bar     |                 |
+      | As bar     | A modern Tab that is styled with a bar, that can contain an optional Chip and displayed horizontally or vertically.        |
 
-      | As pill    |                 |
+      | As pill    | A modern Tab that is styled like using a pill, that can contain an optional Chip and displayed horizontally or vertically. |
 
 
       ## Tab properties
