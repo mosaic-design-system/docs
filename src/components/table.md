@@ -41,21 +41,35 @@ tabs:
       The following **Table** types are available - each type of **Table** also allows you to include a subheading:
 
 
-      | Type                      | Description                                                                                                                                                                                                                     |
+      | **Type**  | **Description**                                                                   |
 
-      | ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+      | --------- | --------------------------------------------------------------------------------- |
 
-      | **Default**               | The default Table has an overflow button to enable actions to be performed on a specific selected row                                                                                                                           |
+      | As simple | A simple Table for presenting static data.                                        |
 
-      | **With chips**            | Chips can be included within the cells of a Table to help with quick references, break up repetitive information and/or quickly show different statuses of the date (e.g. positive or negative)                                 |
+      | As data   | A Table for presenting data that can be filtered, sorted, searched, managed, etc. |
 
-      | **With editable cell**    | An editable cell in a Table allows users to edit the data within a specific cell                                                                                                                                                |
 
-      | **With reordered header** | There are icons within the header to allow the user to reorder the content of that specific column either alphabetically or numerically, depending on the content                                                               |
+      ## Table properties
 
-      | **With Checkbox**         | [Checkboxes](/forms/checkbox) in Tables are there to help with selecting rows, in order to interact with specific cells - the Checkbox highlights the desired cells and helps the user visualise the impact of their actions |
 
-      | **Nested tables**         | Each Table row can be expanded to show additional information                                                                                                                                                                   |
+      The following **Table** properties are available:
+
+
+      | **Property** | **Description**                            |
+
+      | ------------ | ------------------------------------------ |
+
+      | Columns      | Specifies the number of columns to display |
+
+      | Actions      | Shows/hides the Actions column*            |
+
+      | Multi-select | Shows/hides the milt-select column*        |
+
+
+      \
+
+      *As data only
 
 
       - - -
@@ -104,6 +118,7 @@ tabs:
 
 
       ### Text alignment
+
 
       All column header text should be left aligned regardless of the content below it.  This improves its usability as the text is easier to scan.  The data text should always be left aligned also with one exception.  
 
