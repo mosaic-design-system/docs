@@ -33,13 +33,37 @@ tabs:
       The following **Pagination** types are available:
 
 
-      | **Type**             | **Description**                                                                                                                 |
+      | **Type**   | **Description**                                                                                                                                                       |
 
-      | ----------------- | --------------------------------------------------------------------------------------------------------------------------- |
+      | ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
-      | **Page list**     | All pages listed horizontally with single step forward/back buttons and start/end buttons either side |
+      | As default | Pagination that shows pages listed horizontally with single step forward/back buttons and start/end buttons either side.                                              |
 
-      | **Page selector** | The active page is selected via a drop-down menu with the total number of pages detailed beside it. There is a single step forward/back button either side of the drop-down menu. |
+      | As select  | Pagination that shows a dropdown menu with the total number of pages detailed beside it. There is a single step forward/back button either side of the dropdown menu. |
+
+
+      ## Pagination properties
+
+
+      The following **Pagination** properties are available:
+
+
+      | **Property** | **Description**                                                 |
+
+      | ------------ | --------------------------------------------------------------- |
+
+      | State        | Sets the state of the Pagination; Default, Active*, or Disabled |
+
+      | Footnote     | Shows/hides the "Showing X of XX" footnote*                     |
+
+      | Showing      | Sets the total number of pages*                                 |
+
+
+      \
+
+      *As default only\
+
+      \*\*As select only
 
 
       - - -
@@ -64,6 +88,7 @@ tabs:
 
 
       ### Table Pagination
+
 
       **Pagination** is commonly used for data tables. It helps to help break down the data into a digestible manner. Table **Pagination** should always sit in the bottom right directly under the table.
     icon: file_invoice
