@@ -35,15 +35,30 @@ tabs:
       The following **Placeholder** types are available:
 
 
-      | **Types**           | **Description**                                   |
+      | **Types**  | **Description**                                               |
 
-      | ------------------- | ------------------------------------------------- |
+      | ---------- | ------------------------------------------------------------- |
 
-      | **Paragraph**       | Use this to indicate text heavy text data loading |
+      | As default | A skeleton Placeholder for showing that text is being loaded. |
 
-      | **Image**           | This should be used when you are loading imagery  |
 
-      | **Image with text** | This can be used to show a mix of text and imagery |
+      ## Placeholder properties
+
+
+      The following **Placeholder** properties are available:
+
+
+      | **Property** | **Description**                          |
+
+      | ------------ | ---------------------------------------- |
+
+      | Header       | Shows/hides the placeholder header       |
+
+      | Header image | Shows/hides the placeholder header image |
+
+      | Header title | Shows/hides the placeholder header title |
+
+      | Body         | Shows/hides the placeholder body         |
 
 
       - - -
@@ -60,12 +75,14 @@ tabs:
 
       ### Placeholder transitions
 
+
       **Placeholders** should be replaced with content as soon as it's available for loading, rather than waiting until all content is available and showing everything at once. If the page gradually loads in, the page looks like it's loading faster. It makes little sense to make the user wait for all pieces of content to be available at once - after all, they may only be looking for the piece of content that loads first.
 
 
       ### Loading bars
 
-      A **Placeholder** shouldn’t be used for long-running processes or background processes (e.g. importing data or exporting reports). Use a [**Progress indicator**](/components/progress-bar) for that instead.
+
+      A **Placeholder** shouldn’t be used for long-running processes or background processes (e.g. importing data or exporting reports). Use a **[Progress indicator](/components/progress-bar)** for that instead.
     icon: file_invoice
     toc: true
   - title: Code
