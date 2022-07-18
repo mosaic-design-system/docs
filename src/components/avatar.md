@@ -34,28 +34,20 @@ tabs:
       The following **Avatar** types are available:
 
 
-      | **Type**    | **Description**                             |
+      | **Type**          | **Description**                                                                                     | **Example** |
 
-      | ----------- | ------------------------------------------- |
+      | ----------------- | --------------------------------------------------------------------------------------------------- | ----------- |
 
-      | As image    | An Avatar that contains a photo             |
+      | **Default**       | An Avatar that contains a photo                                                                     |             |
 
-      | As initials | An Avatar that contains the user's initials |
+      | **With initials** | An Avatar that contains the user's initials                                                         |             |
 
-      | As icon     | An Avatar that contains an icon             |
+      | **With icon**     | An Avatar that contains an icon                                                                     |             |
 
-
-      ## Avatar properties
-
-
-      The following **Avatar** properties are available:
+      | **As sized**      | Allows an Avatar to use one of the following sizes; 32px, 40px (default size), 48px, 64px, and 96px |             |
 
 
-      | **Property** | **Description**                                                       |
-
-      | ------------ | --------------------------------------------------------------------- |
-
-      | Size         | Allows an Avatar to use one of the following sizes; S, M, L, XL, XXL. |
+      ![](/assets/img/avatarsvglight.svg)
 
 
       - - -
@@ -109,7 +101,7 @@ tabs:
       ### Focus state
 
 
-      An **Avatar** needs to have a focus state - a focus state is when you tab into an element to interact with it. Ensure that users can use their keyboard to focus on the **Avatar**.
+      An **Avatar** needs to have a focus state - a focus state is when you tab into an element to interact with it. Ensure that users can use their keyboard to focus on **Avatar**.
 
 
       ### Key Binding
