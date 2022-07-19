@@ -1,6 +1,6 @@
 ---
 storybook-url: https://tessera.oneadvanced.io/dev/components-core/?path=/docs/html-button--as-default
-title: Tab
+title: Tabs
 toc: true
 chips:
   - "HTML/CSS: Available"
