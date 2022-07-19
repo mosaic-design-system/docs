@@ -7,16 +7,11 @@ chips:
 storybook: https://refactored-telegram-b90726d9.pages.github.io/release/?path=/docs/components-collapse-introduction
 tabs:
   - title: Usage
-    body: "## What is a Collapse?
+    body: >-
+      ## What is a Collapse?
 
 
-      A **Collapse** component allows you to show and hide content with a
-      button. The button, when selected, toggles whether the user can see the
-      content or not. This component differs from an
-      **[Accordion](/components/accordion)** as the content is not within a
-      self-contained section in and of itself, and a button is used to toggle
-      the content rather than a drop-down style arrow. When the content of a
-      **Collapse** is revealed, the content is pushed below the down button.
+      A **Collapse** component allows you to show and hide content with a button. The button, when selected, toggles whether the user can see the content or not. This component differs from an **[Accordion](/components/accordion)** as the content is not within a self-contained section in and of itself, and a button is used to toggle the content rather than a drop-down style arrow. When the content of a **Collapse** is revealed, the content is pushed below the down button.
 
 
       - - -
@@ -25,54 +20,45 @@ tabs:
       ## When, and why?
 
 
-      A **Collapse** button should be used when you want to initially
-      limit what the user can see, but make additional content available when a
-      button is selected.
+      A **Collapse** button should be used when you want to initially limit what the user can see, but make additional content available when a button is selected.
 
 
-      For example, this may be useful where there is lots of content
-      already displayed on a page, such as multiple users' contact details, and
-      the **Collapse** button could be used to show more information about one
-      of the users (without taking the user to another page).
+      For example, this may be useful where there is lots of content already displayed on a page, such as multiple users' contact details, and the **Collapse** button could be used to show more information about one of the users (without taking the user to another page).
 
 
       - - -
 
 
-      ## Collapse types\r
-
-      \      The following **Collapse** types are available:
+      ## Collapse types
 
 
-      \r
-
-      | **Type**   | **Description**                               |\r
-
-      | ---------- | --------------------------------------------- |\r
-
-      | As default | Toggles between collapsed and expanded states. |\r
-
-      \    \ 
-
-      \ ## Collapse properties\r
-
-      \     \ 
-
-      The following **Collapse** properties are available:\r
-
-      \     \ 
-
-      | **Property** | **Description**                               |\r
-
-      | ------------ | --------------------------------------------- |\r
-
-      | Collapsed    | A default Collapse which expands and collapses to
-      show/hide content. |\r
-
-      \r
+      ```
+        The following **Collapse** types are available:
+      ```
 
 
-      - - -\ 
+      | **Type**   | **Description**                                |
+
+      | ---------- | ---------------------------------------------- |
+
+      | As default | Toggles between collapsed and expanded states. |
+
+
+      ## Collapse properties
+
+
+      The following **Collapse** properties are available:
+
+
+      | **Property** | **Description**                                                      |
+
+      | ------------ | -------------------------------------------------------------------- |
+
+      | Collapsed    | A default Collapse which expands and collapses to show/hide content. |
+
+
+      - - -
+
 
       ## Using a collapse
 
@@ -80,17 +66,13 @@ tabs:
       ### Collapse content
 
 
-      A **Collapse** must always have both a toggle button and some
-      content contained within, e.g. a paragraph of text.
+      A **Collapse** must always have both a toggle button and some content contained within, e.g. a paragraph of text.
 
 
-      The contents of a collapse should never include critical information
-      such as important instructions, warnings, etc. Users may not open the
-      collapse, and information that is important may be missed.
+      The contents of a collapse should never include critical information such as important instructions, warnings, etc. Users may not open the collapse, and information that is important may be missed.
 
 
-      **Note**: Navigation is counted as important information. You should
-      never hide navigation behind a **Collapse**.
+      **Note**: Navigation is counted as important information. You should never hide navigation behind a **Collapse**.
 
 
       - - -
@@ -102,14 +84,14 @@ tabs:
       The following **Collapse** types are available:
 
 
-      | **Type**   |
-      **Description**                                                     |
+      | **Type**   | **Description**                                                     |
 
-      | ---------- |
-      ------------------------------------------------------------------- |
+      | ---------- | ------------------------------------------------------------------- |
 
-      | As default | A default Collapse which expands and collapses to
-      show/hide content |
+      | As default | A default Collapse which expands and collapses to show/hide content |
+
+
+      ![On the right and expand button with placeholder paragraph content. On the left a collapse button with the placeholder paragraph content expanded.](/assets/img/collapsesvglight.svg)
 
 
       ## Collapse properties
@@ -131,10 +113,10 @@ tabs:
       ### Collapse vs Accordion
 
 
-      If you intend to show/hide several instances of related information
-      on a page, then an **[Accordion](/components/accordion)** is the preferred
-      method. The **Accordion** works better for users that wish to choose which
-      information they want to view."
+      If you intend to show/hide several instances of related information on a page, then an **[Accordion](/components/accordion)** is the preferred method. The **Accordion** works better for users that wish to choose which information they want to view.
+
+
+      ![On the right are multiple accordions with the text Use Accordion if intending to show/hide several instances of related information. On the left multiple expand buttons with the text Use collapse if intending to show/hide several instances of related information. ](/assets/img/collapsedosdontssvglight.svg)
     icon: file_invoice
     toc: true
   - title: Code
