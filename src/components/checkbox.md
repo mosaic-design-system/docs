@@ -35,15 +35,16 @@ tabs:
       In addition, the following **Checkbox** types are available:
 
 
-      | **Type**            | **Description**                                                                                                                                                            |
+      | **Type**         | **Description**                                                                                                                                                            |
 
-      | ------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+      | ---------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
-      | As default          | A default Checkbox used in multiple choice lists and parent-child multiple choice lists                                                                                    |
+      | As default       | A default Checkbox used in multiple choice lists and parent-child multiple choice lists                                                                                    |
 
-      | As choice button    | A Checkbox within a container, used where a label isn’t enough information and more text is required - instead, it has both a title and subtitle accompanying the checkbox |
+      | As choice button | A Checkbox within a container, used where a label isn’t enough information and more text is required - instead, it has both a title and subtitle accompanying the checkbox |
 
-      | As segmented button | A Checkbox within a container, used where a label isn’t enough information and more text is required - instead, it has both a title and subtitle accompanying the checkbox |
+
+      ![Checkbox component next the checkbox as a choice button](/assets/img/checkboxsvglight.svg)
 
 
       ## Checkbox properties
@@ -52,28 +53,19 @@ tabs:
       In addition, the following **Checkbox** properties are available:
 
 
-      | **Property** | **Description**                                                                                    |
+      | **Property** | **Description**       |
 
-      | ------------ | -------------------------------------------------------------------------------------------------- |
+      | ------------ | --------------------- |
 
-      | State        | Sets the state of the Checkbox; Default, Disabled, Read only, Focussed, Active, Valid\*, Invalid\* |
+      | State        |                       |
 
-      | Selected     | Sets whether the Checkbox is selected or not                                                       |
+      | Selected     |                       |
 
-      | Label        | Shows/hides the Checkbox label                                                                     |
+      | Label        |                       |
 
-      | Mandatory    | Shows/hides the mandatory field indicators                                                         |
+      | Mandatory    | (Choice buttons only) |
 
-      | Help         | Shows/hides the help text                                                                          |
-
-      | Item label   | Shows/hides the Checkbox item label\*\*                                                            |
-
-
-      \
-
-      *As choice buttons only\
-
-      \*\*As default buttons only
+      | Help         | (Choice buttons only) |
 
 
       - - -
@@ -104,6 +96,9 @@ tabs:
 
 
       Do not use a **Checkbox** if a user can select **only** one option from a list. In this case, [Radio buttons](/forms/radio-buttons) or a [Toggle switch](/component/toggle) depending on the 'save' should be used instead. **Checkboxes** allow the user to select multiple items in a set, whereas **Radio Buttons** allow the user to select only one option.
+
+
+      ![On the left four radio buttons with the following text do use the radio button' if only one item from a list can be selected. on the right are four checkbox' with the text don't use the checkbox in a list if only one item can be selected at any one time.](/assets/img/checkboxdosdontssvglight.svg)
 
 
       ### Using a checkbox in a table
