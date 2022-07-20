@@ -31,31 +31,49 @@ tabs:
       The following **Button** types are available:
 
 
-      | Type          | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+      | **Type**   | **Description**                                                                                                                                                                                                |
 
-      | ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+      | ---------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
-      | Default       | Default buttons are full-colour buttons and are used for all important actions, such as your primary action (which may or may not use the primary colour)                                                                                                                                                                                                                                                                                                                                                                                               |
+      | As solid   | Solid buttons are full-colour buttons and are used for all important actions, such as your primary action (which may or may not use the primary colour)                                                        |
 
-      | Outline       | Outline buttons are not full-colour buttons – instead, they are just a Button outline. This is useful when the Button is on a page that has a coloured background. This is used for all our secondary actions.                                                                                                                                                                                                                                                                                                                                          |
+      | As soft    | Soft buttons are medium-emphasis Buttons. They contains actions that are important, but aren't the primary action in an app.                                                                                   |
 
-      | Soft          | Soft buttons are medium-emphasis Buttons. They contains actions that are important, but aren't the primary action in an app.                                                                                                                                                                                                                                                                                                                                                                                                                            |
+      | As outline | Outline buttons are not full-colour buttons – instead, they are just a Button outline. This is useful when the Button is on a page that has a coloured background. This is used for all our secondary actions. |
 
-      | Anchor        | Buttons that are styled to look like an anchor (which in turn looks like a link). This is useful for adding emphasis to a link, and you want to encourage the user to interact with it as they would any other action.                                                                                                                                                                                                                                                                                                                                  |
+      | As text    | Text buttons appear as text-only buttons in primary blue like a hyperlink.                                                                                                                                     |
 
-      | Block         | Buttons that are larger than others, and span to fit their container. Normally this is used when you have a single action on a page that you need to draw attention to, like a login page or a button to register for something.                                                                                                                                                                                                                                                                                                                        |
+      | As ghost   | Ghost buttons are transparent buttons, which have no border or background colour.                                                                                                                              |
 
-      | Small         | Small buttons are the opposite – necessary Buttons that are small and unobtrusive. These can be used in situations where you have limited space, or for situations like a table with repeated actions all across it (such as editing and deleting).                                                                                                                                                                                                                                                                                                     |
+      | As split   | Split buttons are a button that contain a dropdown of related actions. For example, a Save button might have Save as its default action, but have Save and Clear, and Save and Exit as its related actions.    |
 
-      | Icon          | Buttons can (and should) be given an icon to provide further context. Read more below in the Button icons section.                                                                                                                                                                                                                                                                                                                                                             |
+      | As XS      | Extra small buttons (XS) are the small, icon-only buttons specifically for use in tables, for things like inline actions.                                                                                      |
 
-      | Trailing icon | You can also use Trailing icons in a Button, which appear after the text rather than before.                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 
-      | Icon-only     | Icon-only Buttons are Buttons without a label but containing an icon. These should use universally known icons and actions for common functionality, such as a save, delete or home icon. These are rare and should only be used in specific cases. There is a separate document for Icon-only buttons which you can be found on the Icon only buttons documentation page, and you should Button labels below for the limitations when using this Button. |
+      - - -
 
-      | Disabled      | This can be added to limit when a Button can be used. A Disabled Button is always visible to the user, but it will not be interactable until the user has completed a specific task. Once the task in question has been performed, the Disabled Button will be set to active.*                                                                                                                                                                                                                                                                          |
 
-      | Spinner       | Buttons that provide tactile feedback to the user that something is happening when they interact with it. This can be useful for situations where a Button's function is not immediately carried out, e.g. when the system needs a few moments to save the changes the user has made. This type of animation on the Button can have a positive impression on the user, letting them know that the system has not just timed out or is unresponsive.                                                                                                     |
+      ## Button properties
+
+
+      The following **Button** properties are available:
+
+
+      | **Property** | **Description**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+
+      | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+
+      | Context      | Sets the contextual colour of a button: N/A, Primary, Success, Danger, Warning or Info.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+
+      | State        | Sets the state of a button: Default, Hover, Active, or Disabled. **Note**: The Disabled state limits when a Button can be used. A Disabled Button is always visible to the user, but it will not be interactable until the user has completed a specific task. Once the task in question has been performed, the Disabled Button will be set to active.*                                                                                                                                                                                                                                                                                                                                                                  |
+
+      | Size         | Sets the size of a button; S, M, L.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+
+      | Icon         | Toggles an icon on/off. Icons can be positioned to the left or right of a button's label, but buttons can also be set with just an icon and no label. Icon-only Buttons are Buttons without a label. These should use universally known icons and actions for common functionality, such as a save, delete or home icon. These are rare and should only be used in specific cases. There is a separate document for Icon-only buttons which you can be found on the Icon only buttons documentation page, and you should Button labels below for the limitations when using this Button. **Note**: Primary buttons should always contain an icon to provide further context. Read more below in the Button icons section. |
+
+      | Style        | (Split and XS buttons only) Sets the style of the button: Solid, Outline, etc.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+
+      | Collapsed    | (Split buttons only) Toggles whether the button is displayed in its collapsed or expanded state.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 
 
       \*if a user will never be able to use the **Button**, for example if they lack the requisite permissions or security, then a **Button** should just not be visible to them. It is frustrating for a user to see a **Button** and never have the ability to use it.  For disabled buttons that are visible, it should also be clear to the user what they need to do to enable this Button.
@@ -75,19 +93,22 @@ tabs:
 
       | **Context** | **Description**                                                                                                                                                                                                                                                                                                                      |
 
-      | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+      | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 
-      | Primary         | Used for the main CTA on the screen. This is reserved for actions such as add, or import. There should only ever be one Primary Button on the page, Form or Card                                                                                                                                                                     |
+      | Primary     | Used for the main CTA on the screen. This is reserved for actions such as add or import. There should only ever be one Primary Button on the page, Form or Card.                                                                                                                                                                     |
 
-      | Secondary       | Buttons that do not fall into one of the other categories. This can be used for things that are largely inconsequential but necessary, like closing a dialogue box.     The secondary default button is now no longer used, we now use the Outline Button for these types of actions.                                                |
+      | Secondary   | Buttons that do not fall into one of the other categories. This can be used for things that are largely inconsequential but necessary, like closing a dialogue box.     The secondary default button is now no longer used, we now use the Outline Button for these types of actions.                                                |
 
-      | Success         | used for positive actions, like saving, confirming accepting or editing. Typically, like the Primary Button, there should only be one Success Button.                                                                                                                                                                                |
+      | Success     | used for positive actions, like saving, confirming accepting or editing. Typically, like the Primary Button, there should only be one Success Button.                                                                                                                                                                                |
 
-      | Warning         | Not used very often, but they can be useful when you want the user to take caution with a particular action. You might want to include a Button to reload some data, for example, but want to warn the user not to do this too often.                                                                                                |
+      | Warning     | Not used very often, but they can be useful when you want the user to take caution with a particular action. You might want to include a Button to reload some data, for example, but want to warn the user not to do this too often.                                                                                                |
 
-      | Danger          | Should be used for dangerous or destructive activity, like deleting or removing something from the system. Typically this should be the only Danger button available to the user at that time.                                                                                                                                       |
+      | Danger      | Should be used for dangerous or destructive activity, like deleting or removing something from the system. Typically this should be the only Danger button available to the user at that time.                                                                                                                                       |
 
-      | Info            | Can be used when the user might require some more context, or for less important actions than the Primary Button. Some examples would be an Info Button that opens a new dialogue box with some additional information, or perform an action that does not leave the page or make any change to data, i.e. print or view guidelines. |
+      | Info        | Can be used when the user might require some more context, or for less important actions than the Primary Button. Some examples would be an Info Button that opens a new dialogue box with some additional information, or perform an action that does not leave the page or make any change to data, i.e. print or view guidelines. |
+
+
+      ![An image showing each of the different button contexts](/assets/img/buttonssvglight.svg)
 
 
       - - -
@@ -103,6 +124,12 @@ tabs:
 
 
       We have a set order for groups of **Buttons** in our products, to encourage user familiarity and build a consistent 'language' around what a user can expect, and where. The ordering is simple: the least positive **Button** is the one furthest to the left (but to the right of any Cancel or Close), and the most positive **Button** is the one to the right. As an example, a form with 'Cancel/Close', 'Delete' and 'Save' would be ordered as such – 'Delete' is the most negative, 'Save' is the most positive, and 'Cancel' is relatively neutral but present in a lot of screens so is always furthest left for consistency. 
+
+
+      ![Page header component highlighting the order of the delete, new and save buttons](/assets/img/buttonorderlight.png "Order of buttons")
+
+
+      ![Page header component highlighting the order of the cancel, delete, new and save buttons](/assets/img/buttonorderlight1.png "Order of buttons with cancel")
 
 
       This ordering of the **Buttons** provides a sense of 'moving forward' to the user when they see a **Button** on the right-hand side, whereas a **Button** on the left-hand side feels like 'moving backward'. 
@@ -201,7 +228,7 @@ tabs:
       ### Icons
 
 
-      An icon needs to have underlying code that describes what action the icon takes. the labels should be specific - for example, a 'bin' icon for delete should be labelled 'delete' not 'bin'.
+      An icon needs to have underlying code that describes what action the icon takes. the labels should be specific - for example, 'bin' icon for delete should be labelled 'delete'. not 'bin'.
 
 
       ### Key Binding
