@@ -1,16 +1,16 @@
 ---
 storybook-url: https://tessera.oneadvanced.io/dev/components-core/?path=/docs/html-button--as-default
-title: Stepper
+title: Step
 toc: true
 chips:
   - "HTML/CSS: Available"
-storybook: https://refactored-telegram-b90726d9.pages.github.io/release/?path=/docs/components-stepper-introduction
+storybook: https://refactored-telegram-b90726d9.pages.github.io/release/?path=/docs/components-step-introduction
 tabs:
   - title: Usage
     body: |-
-      ## What is a Stepper?
+      ## What is a Step?
 
-      A **Stepper** is...
+      A **Stepr** is...
 
       - - -
 
@@ -20,9 +20,9 @@ tabs:
 
       - - -
 
-      ## Stepper types
+      ## Step types
 
-      The following **Stepper** types are available:
+      The following **Step** types are available:
 
       | **Type** | **Description** |
       | -------- | --------------- |
@@ -33,9 +33,9 @@ tabs:
       |          |                 |
       |          |                 |
 
-      ## Stepper properties
+      ## Step properties
 
-      The following **Stepper** properties are available:
+      The following **Step** properties are available:
 
       | **Property** | **Description** |
       | ------------ | --------------- |
@@ -48,7 +48,7 @@ tabs:
 
       - - -
 
-      ## Using a Stepper
+      ## Using a Step
 
       Text
     icon: file_invoice
@@ -107,7 +107,7 @@ code:
     ## Live demo
 
 
-    Below, you can find a live demo for a Stepper component. Use the drop-down menus and radio buttons to view the different Stepper Types and Variants.
+    Below, you can find a live demo for a Step component. Use the drop-down menus and radio buttons to view the different Step Types and Variants.
   preview:
     variants:
       - template:
