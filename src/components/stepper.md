@@ -1,16 +1,16 @@
 ---
 storybook-url: https://tessera.oneadvanced.io/dev/components-core/?path=/docs/html-button--as-default
-title: Step
+title: Steps
 toc: true
 chips:
   - "HTML/CSS: Available"
-storybook: https://refactored-telegram-b90726d9.pages.github.io/release/?path=/docs/components-step-introduction
+storybook: https://refactored-telegram-b90726d9.pages.github.io/release/?path=/docs/components-steps-introduction
 tabs:
   - title: Usage
     body: |-
-      ## What is a Step?
+      ## What are Steps?
 
-      A **Stepr** is...
+      A **Steps** is...
 
       - - -
 
@@ -48,7 +48,7 @@ tabs:
 
       - - -
 
-      ## Using a Step
+      ## Using Steps
 
       Text
     icon: file_invoice
@@ -107,7 +107,7 @@ code:
     ## Live demo
 
 
-    Below, you can find a live demo for a Step component. Use the drop-down menus and radio buttons to view the different Step Types and Variants.
+    Below, you can find a live demo for a Steps component. Use the drop-down menus and radio buttons to view the different Step Types and Variants.
   preview:
     variants:
       - template:
