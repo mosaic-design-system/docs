@@ -43,6 +43,48 @@ tabs:
       - - -
 
 
+      ## Treeview types
+
+
+      | **Type**      | **Description**                           |
+
+      | ------------- | ----------------------------------------- |
+
+      | Default       | A Treeview with interactable items to expand
+      folders or open items |
+
+
+      ### Treeview properties
+
+
+      **Treeview** contain a list of folders and items. Each folder or
+      item is interactable and when clicked will perform an action. Folders
+      expand and collapse to show the items they contain. Items will tend to
+      open, for example this could be a PDF document. \ 
+
+
+      The following **Treeview** properties are available:
+
+
+      | **Type**    |
+      **Description**                                           |
+
+      | ----------- |
+      --------------------------------------------------------- |
+
+      | Folder      | Toggles between a folder and an
+      item                      |
+
+      | Expanded    | For folders, toggles between expanded and
+      collapsed       |
+
+      | Level       | Set the level down the tree the item is;
+      0,1,2,3.         |
+
+
+      - - -
+
+
       ## Using a Treeview
 
 
