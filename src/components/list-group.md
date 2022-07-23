@@ -45,7 +45,7 @@ tabs:
       **List group** contain a list of items. Each list item can be interactable and when clicked will perform some kind of action, much like a **Button** would, but in this scenario shouldn't contain any interactable components eg **Checkbox**. If the list items are not interactable then interactable components can be used. 
 
 
-      The following **Dropdown** properties are available:
+      The following **List group** properties are available:
 
 
       | **Type**    | **Description**                                                                                                                 |
