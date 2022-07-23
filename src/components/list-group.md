@@ -5,7 +5,7 @@ toc: true
 chips:
   - "HTML/CSS: Available"
   - "Web Component: Available"
-storybook: https://tessera.oneadvanced.io/dev/components-core/?path=/docs/html-list-group--with-buttons
+storybook: https://refactored-telegram-b90726d9.pages.github.io/release/?path=/docs/components-list-group-introduction
 tabs:
   - title: Usage
     body: >-
@@ -24,31 +24,50 @@ tabs:
       - - -
 
 
-      ## List group yypes
+      ## List group types
 
 
       The following types of **List group** are available. These are our default configurations for list items and should be used as designed, unless you need more content. If additional content is needed, please refer to Using a List group below:
 
 
-      | **Type**      | **Description**                                                                                                                                                                            |
+      | **Type**      | **Description**                                      |
 
-      | ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+      | ------------- | ---------------------------------------------------- |
 
-      | Default       | A simple list of text items                                                                                                                                                                |
+      | Default       | A simple list of text items                          |
 
-      | With selector | Selectors can be applied to allow the user to select one or more items and perform actions against them.                                                                                   |
-
-      | With icon     | Icons can be added to support the content of the list item, but should not be used in conjunction with buttons or chips on the right - this will add too much cognitive load to the page |
-
-      | With chip     | Chips can be used to signify status, content type, dates, etc.                                                                                                                             |
-
-      | With button   | Buttons can be used to perform actions in relation to the list item                                                                                   |
-
-      | With filter   | This adds a filter to the list                                                                                                                                                                  |
-
-      | As flush      | This removes the boarder and padding around the list                                                                                                                                            |
+      | As flush      | This removes the boarder and padding around the list |
 
 
+      ## List group properties
+
+
+      **List groups** are a list of items. Each list item can be interactable and when it is clicked will perform some kind of action, much like a **Button** would. If it is not interactable then there are options for interactable components like **Checkbox** or **Button**. 
+
+
+      The following **List group** properties are available:
+
+
+      | **Property** | **Description**                               |
+
+      | ------------ | --------------------------------------------- |
+
+      | Filter       | This adds a filter to the top of the list     |
+
+      | Style        | Default or compact. Compact reduces the padding top and bottom and has no option for sub title|
+
+      | Checkbox     | Toggles a left-hand Checkbox on/off           |
+
+      | Icon         | Toggles a left-hand icon on/off               |
+
+      | Avatar       | Toggles a left hand avatar on/off             |
+
+      | Subtitle     | Toggles a subtitle on/off                     |
+
+      | Chip         | Toggles a chip on/off                         |
+
+      | Action menu  | Toggles an action button on/off               |
+       
       - - -
 
 
@@ -84,7 +103,44 @@ tabs:
     icon: source_code
     toc: false
   - title: Accessibility
-    body: ""
+    body: >-
+      ### Component accessibility
+
+
+      This component has been built to meet the current WCAG AA 2.1 guidelines. We also test these components against the guidelines before release.
+
+
+      ### Aria tags
+
+
+      Every component in Mosaic requires an appropriate Aria tag to ensure that screen readers can effectively parse the page. Aria tags are provided as part of Mosaic. Please do not override these without good reason.
+
+
+      Ensure that Aria tags are used as appropriate signposts throughout the product.
+
+
+      ### Colour Combinations
+
+
+      When designing with a **List group**, you should be mindful of the colour combinations you are using. The components have been designed with this in mind, but if you are using colours that are not part of the default component, please ensure that there is a clear colour contrast within the parts of the component and between the **List group** and the background it is on. To check the contrast, please use [WebAIM's contrast checker](https://webaim.org/resources/contrastchecker/).
+
+
+      ### Focus state
+
+
+      A **List group** needs to have a focus state - a focus state is when you tab into an element to interact with it. Ensure that users can use their keyboard to focus on each part of the **List group**.
+
+
+      ### Icons
+
+
+      An icon needs to have underlying code that describes what action the icon takes. the labels should be specific - for example, 'bin' icon for delete should be labelled 'delete'. not 'bin'.
+
+
+      ### Key Binding
+
+
+      A **List group** needs to be able to be interacted with via a keyboard. Where possible we will provide key-binds within our Mosaic component or there will be default HTML ones. If this isn't the case then please implement logical key-binds for all intractable components.
     icon: web_accessibility_1
     toc: false
   - title: Status
