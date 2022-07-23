@@ -30,23 +30,43 @@ tabs:
       The following types of **List group** are available. These are our default configurations for list items and should be used as designed, unless you need more content. If additional content is needed, please refer to Using a List group below:
 
 
-      | **Type**      | **Description**                                                                                                                                                                          |
+      | **Type**      | **Description**                           |
 
-      | ------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+      | ------------- | ----------------------------------------- |
 
-      | Default       | A simple list of text items                                                                                                                                                              |
+      | Default       | A simple list of text items               |
 
-      | With selector | Selectors can be applied to allow the user to select one or more items and perform actions against them.                                                                                 |
+      | As flush      | This removes the boarder around the list  |
 
-      | With icon     | Icons can be added to support the content of the list item, but should not be used in conjunction with buttons or chips on the right - this will add too much cognitive load to the page |
 
-      | With chip     | Chips can be used to signify status, content type, dates, etc.                                                                                                                           |
+      ### List group properties
 
-      | With button   | Buttons can be used to perform actions in relation to the list item                                                                                                                      |
 
-      | With filter   | This adds a filter to the list                                                                                                                                                           |
+      **List group** contain a list of items. Each list item can be interactable and when clicked will perform some kind of action, much like a **Button** would, but in this scenario shouldn't contain any interactable components eg **Checkbox**. If the list items are not interactable then interactable components can be used. 
 
-      | As flush      | This removes the boarder and padding around the list                                                                                                                                     |
+
+      The following **Dropdown** properties are available:
+
+
+      | **Type**    | **Description**                                                                                                                 |
+
+      | ----------- | --------------------------------------------------------- |
+
+      | Filter      | Toggles a filter at the top of the list                   |
+
+      | Style       | Default/Compact - compact reduces top and bottom padding and removes the ability to have a subtitle |
+
+      | Selector    | Toggles a left-hand Checkbox to allow selection           |
+
+      | Icon        | Toggles a left-hand icon (should not be used with Avatar) |
+
+      | Avatar      | Toggles a left-hand Avatar (should not be used with Icon) |
+
+      | Subtitle    | Toggles the subtitle text                                 |
+
+      | Chip        | Toggles a Right-hand Chip to show a status or tag         |
+
+      | Action menu | Toggles a right-hand button to open an actions menu       |
 
 
       - - -
