@@ -32,16 +32,31 @@ tabs:
       ## Timeline types
 
 
-      We have 2 types of **Timelines**, Single content area and Dual content area. Both of these also have "event points" that vary from one another based on user input. Event points run along the vertical path to create the timeline, and each point can be coloured with a contextual colour and icon to indicate their status. 
+      **Timeline** has "event points" that vary from one another based on the data being viewed. Event points run along the vertical path to create the timeline, and each point can be coloured with a contextual colour and icon to indicate their status. 
 
 
-      | Type                    | Description                                                                                                                                                          |
+      | Type          | Description                                        |
 
-      | ----------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+      | ------------- | -------------------------------------------------- |
 
-      | **Single content area** | Use this Timeline when the event point is clearly labelled using the right-hand content area                                                                         |
+      | Size          | Sets the size of the event point and padding; S,M. |
 
-      | **Dual content area**   | This should be used when additional information is needed to explain the event point compared to what is available from a single label. For example Time, date, status etc. could be put into a separate content area. |
+
+      ## Timeline properties
+
+
+      The following **Timeline** properties are available:
+
+
+      | **Property** | **Description**                               |
+
+      | ------------ | --------------------------------------------- |
+
+      | Context      | Sets the contextual colour of the event point: None, Primary, Success, Danger, Warning or Info. |
+
+      | Content      | Toggles the content for an event on/off       |
+
+      | Icon         | Toggles an icon on/off within the event point |
 
 
       \[[Examples to come]]
