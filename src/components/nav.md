@@ -57,6 +57,9 @@ tabs:
       | Padding      | Toggles the padding on/off            |
 
 
+      ![On the left nav as default, on the right nav as vertical](/assets/img/navsvglight.svg)
+
+
       - - -
 
 
