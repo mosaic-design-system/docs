@@ -29,10 +29,13 @@ tabs:
       It should be noted that **Inputs** are not suitable when you want to collect long responses. For example, when you want to capture multiple lines of text or allow users to format their content. When this is the case, use a **[Textarea](/forms/textarea/)** or a **[Rich text editor](/forms/rich-text-editor/)** respectively.
 
 
+      ![Different form field types, first default, second active, third focussed, forth disabled, fifth read only, sixth validation general and lastly validation negative](/assets/img/inputsvglight.svg)
+
+
       - - -
 
 
-      ## Input types
+      ## Types
 
 
       The following **Input** types are available, with each being able to be marked as mandatory (see [Validation](/components/validation)), disabled or read-only:
@@ -57,27 +60,6 @@ tabs:
       | As telephone | An Input that accepts a telephone number               |
 
       | As URL       | An Input that accepts a Uniform Resource Locator (URL) |
-
-
-      ## Input properties
-
-
-      The following **Input** properties are available:
-
-
-      | **Property** | **Description**                                                                               |
-
-      | ------------ | --------------------------------------------------------------------------------------------- |
-
-      | State        | Sets the state of an Input; Default, Active, Focussed, Disabled, Read-only, Valid, or Invalid |
-
-      | Size         | Sets the size of an Input; S or M (default)                                                   |
-
-      | Label        | Shows/hides the input label                                                                   |
-
-      | Mandatory    | Shows/hides the mandatory input markers                                                       |
-
-      | Help         | Shows/hides the help text                                                                     |
 
 
       - - -
@@ -117,6 +99,9 @@ tabs:
 
 
       Similarly, read-only fields have a dark background with no input border to show that they are for display purposes only - this differentiate them from regular fields.
+
+
+      ![On the left input dos, read only input and the text do use the read only input if the field can be read by users but is not able to be edited. On the right don'ts with the disabled form field and the text don't use the read only input if the user cannot read or edit the input. The disabled form field should only be used if it is able to be re-enabled by the user at any point.](/assets/img/inputdosdontssvglight.svg)
     icon: file_invoice
   - title: Code
     hook: code
