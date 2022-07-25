@@ -15,6 +15,9 @@ tabs:
       A **Dropdown** is a component that overlays a list of links or options for the user to choose over the page. They're usually opened from a **Button**. The options might navigate the user to another place or perform an action.
 
 
+      ![Dropdown component](/assets/img/dropdownsvglight.svg)
+
+
       ### When, and why?
 
 
@@ -42,7 +45,7 @@ tabs:
       ### Dropdown positioning
 
 
-      **Dropsdowns** can either be manually positioned, or use their default positioning:
+      **Dropdowns** can either be manually positioned, or use their default positioning:
 
 
       | **Type**   | **Description**                                                                   |
@@ -113,6 +116,9 @@ tabs:
 
 
       Icons should be used to help the user identify the item in the list quicker than reading every item - if it doesn't help the user, then they shouldn't be used. For example, having the same icon on every list item will actually hinder the user in finding what they need.  [Find out more in the Iconography guidelines](/guidelines/icons-1)
+
+
+      ![On the left, dropdown do's showing all options with icons and the text an icon should only be used for every item to help identify items quicker. Do if every item has an icon the icon should be positioned to the left hand side. On the right is a dropdown with only option with an icon and the text don't position the icon to the left when only one or a handful of items have an icon. These should instead be positioned to the right.](/assets/img/dropdowndosdontssvglight.svg)
     icon: file_invoice
     toc: true
   - title: Code
