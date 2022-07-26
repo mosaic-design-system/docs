@@ -14,6 +14,9 @@ tabs:
       A **Navigation header** contains a list of global navigation links to guide users around your application.
 
 
+      ![Navigation header component](/assets/img/navbarheadercomponentsvglight.svg)
+
+
       - - -
 
 
@@ -90,6 +93,9 @@ tabs:
 
 
       As such, a **Navigation header** should be present on **every** page in your application, and only appear once on each page.
+
+
+      ![at the top the navigation bar component with a wireframe showing how it is used below](/assets/img/navbarheadersvglight.svg)
 
 
       ### Navigation sizing
