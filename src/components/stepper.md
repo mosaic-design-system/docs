@@ -7,50 +7,69 @@ chips:
 storybook: https://refactored-telegram-b90726d9.pages.github.io/release/?path=/docs/components-steps-introduction
 tabs:
   - title: Usage
-    body: |-
+    body: >-
       ## What are Steps?
 
-      A **Steps** is...
+
+      A **Steps** component is used to display progress through a series of logical steps.
+
 
       - - -
+
 
       ### When, and why?
 
-      Text
+
+      You would use a Steps component when you need to show a number of steps that must be completed in sequential order. Steps are typically used with form inputs and buttons for navigating between each step - this pattern is known as a Wizard.
+
 
       - - -
+
 
       ## Step types
 
+
       The following **Step** types are available:
 
-      | **Type** | **Description** |
-      | -------- | --------------- |
-      | Default  |                 |
-      |          |                 |
-      |          |                 |
-      |          |                 |
-      |          |                 |
-      |          |                 |
+
+      | **Type**      | **Description**                                                                                                                             |
+
+      | ------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
+
+      | As vertical   | A series of Steps displayed vertically                                                                                                      |
+
+      | As horizontal | A series of Steps displayed horizontally. This type has a start, middle and end design, with an arrow to indicate the direction of travel.  |
+
 
       ## Step properties
 
+
       The following **Step** properties are available:
 
-      | **Property** | **Description** |
-      | ------------ | --------------- |
-      |              |                 |
-      |              |                 |
-      |              |                 |
-      |              |                 |
-      |              |                 |
-      |              |                 |
+
+      | **Property** | **Description**                                                                |
+
+      | ------------ | ------------------------------------------------------------------------------ |
+
+      | State        | Sets the state of each step; Default, Hover, Active, Selected, and Disabled    |
+
+      | Position     | Sets the step as Start, Middle, or End for horizontal steps                    |
+
+      | Size         | Sets the size of the Steps component; S or M (default)                         |
+
+      | Complete     | Shows a completed icon to indicate when a step has been completed successfully |
+
 
       - - -
 
+
       ## Using Steps
 
-      Text
+
+      A Steps component can be used to breakdown a process into manageable steps. Steps are numbered to indicate the order in which they must be completed. Each step becomes available when the current step is completed and steps can also be returned to later for editing.
+
+
+      Navigating between steps is handled by Previous and Next buttons that are positioned beneath each step's content, in the Wizard footer.
     icon: file_invoice
     toc: true
   - title: Code
