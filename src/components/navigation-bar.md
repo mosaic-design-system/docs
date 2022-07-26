@@ -14,6 +14,9 @@ tabs:
       A **Navigation bar** is a bottom navigation component that displays links to primary destinations in an application.
 
 
+      ![Navigation bar mobile component](/assets/img/navbarcomponentsvglight.svg)
+
+
       - - -
 
 
@@ -55,6 +58,9 @@ tabs:
 
 
       **Navigation bars** must be fixed to the bottom of the screen, i.e. when the page content is scrolled, the **Bar** remains visible. They run horizontally across the bottom of the screen, but do not scroll or move horizontally.
+
+
+      ![Navigation bar shown in a mobile wireframe with the navigation bar component shown below](/assets/img/navbarsvglight.svg)
 
 
       ### Icons
