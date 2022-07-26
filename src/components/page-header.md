@@ -14,6 +14,9 @@ tabs:
       A **Page Header** is the bar that sits underneath the main navigation header to indicate the name of the currently viewed page. It defines the top of the page.
 
 
+      ![Desktop page header on top with two examples of mobile headers shown below](/assets/img/pageheadercomponentsvglight.svg)
+
+
       - - -
 
 
@@ -81,6 +84,9 @@ tabs:
       Optionally, a **Page Header** can also include a page subtitle which can be useful for adding extra context to the current page. For example, a subtitle could be used for a date, reference number, customer name, etc.
 
 
+      ![Page header shown in a desktop wireframe](/assets/img/pageheaderdesktopsvglight.svg)
+
+
       ### Buttons
 
 
@@ -103,6 +109,9 @@ tabs:
 
 
       On mobile, the Page Header will collapse the **Buttons** down into an overflow menu, i.e. a single **Button** with a dropdown menu attached. The page title itself will be truncated if it is too long to display in full and an ellipsis is present to indicate this. For more information, please refer to the [Mobile guidelines](/guidelines/mobile).
+
+
+      ![Two different examples of the page header used in a mobile wireframe](/assets/img/pageheadermobilesvglight.svg)
     icon: file_invoice
     toc: true
   - title: Code
