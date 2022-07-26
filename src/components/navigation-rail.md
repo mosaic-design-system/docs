@@ -14,6 +14,9 @@ tabs:
       A **Navigation rail** is a side-navigation component that displays links to primary destinations in an application.
 
 
+      ![Small navigation rail example](/assets/img/navigationrailsmallsvglight.svg)
+
+
       - - -
 
 
@@ -38,11 +41,11 @@ tabs:
       The following **Navigation rail** types are available:
 
 
-      | **Type**      | **Description**                                                                         
+      | **Type**   | **Description**                                                                         |
 
-      | ------------- | --------------------------------------------------------------------------------------- |
+      | ---------- | --------------------------------------------------------------------------------------- |
 
-      | As default    | A Navigation rail containing up to 8 destinations, represented by icons and text labels |
+      | As default | A Navigation rail containing up to 8 destinations, represented by icons and text labels |
 
 
       - - -
@@ -88,6 +91,9 @@ tabs:
 
 
       The top of a **Navigation rail** can also be used for a logo. However, this is dependent on the layout you are using. For example, if you are using a layout where the Navigation Header runs across the entire top of the screen, then the logo would be placed on the left-hand side of the header. For more information, please refer to Layouts as soon as they become available.
+
+
+      ![Navigation rail component example next to a navigation rail being shown in a wireframe](/assets/img/navigationrailsvglight.svg)
 
 
       ### Drawers
