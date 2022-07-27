@@ -15,6 +15,9 @@ tabs:
       **Pagination** is a mechanism for breaking up content into multiple pages, and includes a visual depiction of the number of said pages that are available in a given context. For example, if a user is looking at a list of employees in a department, a **Pagination** component would break that down into 15 pages of employees, and show which page they are currently on and how many pages there are in total, and give them a method of quickly moving between these pages.
 
 
+      ![On the left the page list pagination component on the right the page selector component](/assets/img/paginationsvglight.svg)
+
+
       - - -
 
 
@@ -79,6 +82,9 @@ tabs:
 
 
       The **Page selector** is more useful for larger data sets. The buttons provided allow the user to jump backwards and forwards more easily.
+
+
+      ![on the left the page list component with the text do use the page list component when there is a small number of pages with the recommended maximum being 12 pages. On the right the page selector component with the text don't use the page selector component when there is any less than 12 pages, the page list view component should be used in such instances.](/assets/img/paginationdosdontssvglight.svg)
 
 
       ### Pagination totals
