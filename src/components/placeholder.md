@@ -17,6 +17,9 @@ tabs:
       They only appear while a page is loading, and are **not** permanent stand-ins for pages that aren't ready for the user to use.
 
 
+      ![](/assets/img/placeholdersvglight.svg)
+
+
       - - -
 
 
