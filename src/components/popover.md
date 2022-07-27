@@ -13,6 +13,9 @@ tabs:
       A **Popover** is an overlay that can show additional information to the user - however, it does differ from a **[Tooltip](/components/Tooltip)**. A **Popover** will typically be reserved for information that goes above-and-beyond what would normally be shown in a **Tooltip**. Unlike **Tooltips**, they are dismissed by selecting an icon within the **Popover**, not just when the user moves away from the **Popover**.
 
 
+      ![Top row the left, right, top and bottom popovers. On the second row is the top left, bottom left, top right and bottom right popover. The bottom row is the Left top, right top, left bottom and right bottom component](/assets/img/popoversvglight.svg)
+
+
       - - -
 
 
@@ -20,9 +23,6 @@ tabs:
 
 
       **Popovers** should be used sparingly - they should only be used when you need to display non-critical information that will aid the user's decision making. For example, you could add a **Popover** to an **[Avatar](/components/avatar)** to show a user's full name and job title:
-
-
-      ![An avatar with a Popover displaying some example text](/assets/img/popover_example_1.png)
 
 
       Or maybe to show how much stock they have left of a particular item?
