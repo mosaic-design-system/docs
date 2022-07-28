@@ -13,6 +13,9 @@ tabs:
       A **Rich text editor** (RTE) is a form input that allows users to add or edit content in a "what-you-see-is-what-you-get" (WYSIWYG) editing area. Examples of other RTE's are things that you would find on blogging sites and various forums.
 
 
+      ![Rich text editor component](/assets/img/richtexteditorsvglight.svg)
+
+
       - - -
 
 
@@ -82,6 +85,9 @@ tabs:
 
 
       When using an RTE, it is important to consider how the information entered will be stored. Can it store all the uploads, formatting, etc, for later editing or viewing in a different place within the application? Make sure that your application has a method of storing and presenting any content that a user could produce using the RTE. 
+
+
+      ![Rich text editor in a sheet](/assets/img/richtexteditorsheetsvglight.svg)
 
 
       ### Validation
