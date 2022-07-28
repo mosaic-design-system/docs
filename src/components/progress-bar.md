@@ -12,6 +12,9 @@ tabs:
 
        A **Progress bar** shows the user how far through a process they are with a visual cue, providing a quick estimation of a task's remaining length.
 
+      ![Progress bar component](/assets/img/progressbarsvglight.svg)
+
+
       - - -
 
 
@@ -83,6 +86,9 @@ tabs:
 
 
       **Progress** indicators are a great way to visually inform your users the system is processing an operation and if possible how long it will take to complete. However, you should use **Progress bar** sparingly, and only when an operation is likely to take over 10 seconds. Overuse will make it seem like the application is slow and constantly requires the user to wait. For actions that take less than 10 seconds, consider using the **[Spinner](/components/spinner)** component.
+
+
+      ![Progress bar component shown used in a wireframe](/assets/img/progressbarwireframesvglight.svg)
     icon: file_invoice
     toc: true
   - title: Code
