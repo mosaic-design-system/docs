@@ -15,6 +15,9 @@ tabs:
       **Tabs** allow a significant amount of content to be viewed without having to navigate away from the page - the content is instead broken up into multiple sections with each section having its own tab available that can be opened by selecting its name.
 
 
+      ![Tabs horizontal component](/assets/img/tabssvglight.svg)
+
+
       - - -
 
 
@@ -39,10 +42,16 @@ tabs:
       **Horizontal Tabs** provide more vertical space and enable easy scanning of items, which helps with reading from left to right. They also allow you to occupy the content area of your page with content only.
 
 
+      ![Horizontal tabs shown in wireframe](/assets/img/tabshorizontalsvglight.svg)
+
+
       ### Vertical Tabs
 
 
       **Vertical Tabs** work best for form or installation wizards when a user is working down a list of steps - **Horizontal Tabs** are best for groups of related information.
+
+
+      ![Vertical tabs shown in a wireframe](/assets/img/tabsverticalsvglight.svg)
 
 
       ## Tab types
