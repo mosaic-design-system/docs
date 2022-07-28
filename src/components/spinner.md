@@ -14,6 +14,9 @@ tabs:
       A **Spinner** is used to show the user that something is currently happening on the application. It is an animated component that **doesn't** show progress (that would be a **[Progress Indicator](/components/progress-bar)**, but provides visual feedback to the user that the application has responded to their input and hasn't frozen.
 
 
+      ![First 25% spinner, second 50% spinner, third 75% spinner and last 100% spinner](/assets/img/spinnersvglight.svg)
+
+
       ### When and why
 
 
