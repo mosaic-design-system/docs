@@ -14,6 +14,9 @@ tabs:
       A **Snackbar** is a short message that appears at the bottom centre of the user's screen. They are a great way of showing updates about the progress of an operation without being intrusive.
 
 
+      ![Top left snackbar success, top right snackbar danger, bottom left snackbar warning, bottom right snackbar information](/assets/img/snackbarsvglight.svg)
+
+
       - - -
 
 
@@ -106,6 +109,9 @@ tabs:
 
 
       **Snackbars** must be displayed one at a time. Multiple **Snackbars** at once will overwhelm a user. They must be placed at the bottom centre of a screen, in front of any page content, but they should avoid covering up any navigational components. Similarly, **Snackbars** shouldn't stack on top of one another. 
+
+
+      ![Snackbar shown in a wireframe](/assets/img/snackbarplacementsvglight.svg)
 
 
       ### Snackbar length
