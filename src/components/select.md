@@ -14,6 +14,9 @@ tabs:
       A **Select** opens a list of options under the input field (in an overlay) that a user can select from within a form.  The selected option is shown in the input field when overlay is no longer open and not the focus of the user. 
 
 
+      ![Top left select default, top centre select active, top right select focussed. Middle left select disabled, top centre select read only, bottom left select valid, bottom centre select invalid](/assets/img/selectsvglight.svg)
+
+
       - - -
 
 
@@ -76,6 +79,9 @@ tabs:
 
 
       A **Select** should only be used if there are six or more options to choose from. If the user has fewer options to choose from, then you can use [Radio buttons](/forms/radio-buttons) instead, or [Checkboxes](/forms/checkbox) for answers that require multiple answers.
+
+
+      ![on the left the select default with the text do use the select if there are more than six options available. On the right the radio button component with the text don't use the select if there are six or less options available](/assets/img/selectdosdontssvglight.svg)
 
 
       ### Select sizing
