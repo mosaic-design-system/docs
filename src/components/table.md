@@ -17,6 +17,9 @@ tabs:
       **Tables** consist of logical rows and columns to help users easily find and reference sections of data.
 
 
+      ![Table component](/assets/img/tablesvglight.svg)
+
+
       - - -
 
 
