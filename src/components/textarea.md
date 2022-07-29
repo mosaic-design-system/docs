@@ -14,6 +14,9 @@ tabs:
       A **Textarea** is a form input that allows multiple lines of text to be entered. They differ from a **[Rich Text Editor](/forms/rich-text-editor)** in that they do not allow the user to format the text in any way.
 
 
+      ![Text area component](/assets/img/textareasvglight.svg)
+
+
       - - -
 
 
@@ -86,6 +89,9 @@ tabs:
 
 
       As with all form inputs, a **Textarea** can be checked when a form is submitted to make sure its contents are valid or, if it is flagged as a mandatory field, that it's completed before continuing. For more information, please refer to **[Form Validation](/components/validation)**.
+
+
+      ![On the left the text area valid on the right text area invalid](/assets/img/textareavalidationsvglight.svg)
     icon: file_invoice
   - title: Code
     hook: code
