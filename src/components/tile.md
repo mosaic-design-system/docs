@@ -14,6 +14,9 @@ tabs:
       **Tiles** are customisable buttons, with a larger centralised icon and title text underneath. Tiles are 150px by 150px with an icon size of 64px by 64px.
 
 
+      ![Tile component](/assets/img/tilesvglight.svg)
+
+
       - - -
 
 
@@ -82,6 +85,9 @@ tabs:
 
 
       We do not have rules governing the number of **Tiles** that you include on a page. However, do keep in mind that an overuse of **Tiles** will make it hard for users to locate the content they are looking for. For example, 16 or more **Tiles** would be harder to navigate than an application that uses an effective navigation system, such as a **[Navigation bar](/components/navigation-bar)** component.
+
+
+      ![Tiles used in a wireframe showing a group of 8 tiles](/assets/img/tilewireframesvglight.svg)
     icon: file_invoice
     toc: true
   - title: Code
