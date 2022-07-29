@@ -14,6 +14,9 @@ tabs:
       A **Timeline** is a vertical list of events in chronological order, linked using a single path. It gives a breakdown of "event points" to give an overview of something like a project which can be used to present a chronological breakdown of key information.
 
 
+      ![Timeline component](/assets/img/timelinesvglight.svg)
+
+
       - - -
 
 
@@ -35,11 +38,11 @@ tabs:
       **Timeline** has "event points" that vary from one another based on the data being viewed. Event points run along the vertical path to create the timeline, and each point can be coloured with a contextual colour and icon to indicate their status. 
 
 
-      | Type          | Description                                        |
+      | Type | Description                                        |
 
-      | ------------- | -------------------------------------------------- |
+      | ---- | -------------------------------------------------- |
 
-      | Size          | Sets the size of the event point and padding; S,M. |
+      | Size | Sets the size of the event point and padding; S,M. |
 
 
       ## Timeline properties
@@ -48,15 +51,15 @@ tabs:
       The following **Timeline** properties are available:
 
 
-      | **Property** | **Description**                               |
+      | **Property** | **Description**                                                                                 |
 
-      | ------------ | --------------------------------------------- |
+      | ------------ | ----------------------------------------------------------------------------------------------- |
 
       | Context      | Sets the contextual colour of the event point: None, Primary, Success, Danger, Warning or Info. |
 
-      | Content      | Toggles the content for an event on/off       |
+      | Content      | Toggles the content for an event on/off                                                         |
 
-      | Icon         | Toggles an icon on/off within the event point |
+      | Icon         | Toggles an icon on/off within the event point                                                   |
 
 
       \[[Examples to come]]
@@ -69,6 +72,7 @@ tabs:
 
 
       ### Event points
+
 
       Every event point on a **Timeline** represents something that happened that is relevant to the subject of the **Timeline**. We suggest focusing on user/system actions on the event points itself, with the option of having dates and secondary information either as subheadings or in the right-hand side content area. 
 
