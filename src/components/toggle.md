@@ -23,6 +23,9 @@ tabs:
       A **Toggle** is useful for when you want to switch something on or off in a given context. For example, in Clear Review, we use a **Toggle** to turn on 'Giving Feedback anonymously' when a user is giving Feedback.
 
 
+      ![On the left toggle default, middle toggle disabled, on the right toggle read only](/assets/img/togglesvglight.svg)
+
+
       - - -
 
 
@@ -32,43 +35,13 @@ tabs:
       The following **Toggle** types are available:
 
 
-      | **Type**         | **Description**                                                                                                                                                            |
+      | Type                 | Description                                                                                                                                                                |
 
-      | ---------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+      | -------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
-      | As default       | A default Toggle is a standard looking Toggle that is grey when toggled 'off' and blue when toggled 'on'. It has an optional label to the right hand side                  |
+      | **Default**          | The default Toggle is a standard looking Toggle that is grey when toggled 'off' and blue when toggled 'on'. It has an optional label to the right hand side                |
 
-      | As choice button | The same as the default Toggle but contained within a selectable button to give more emphasis. It also contains a title and subtitle to provide more descriptive labelling |
-
-
-      ## Toggle properties
-
-
-      In addition, the following **Toggle** properties are available:
-
-
-      | **Property** | **Description**                                                                                  |
-
-      | ------------ | ------------------------------------------------------------------------------------------------ |
-
-      | State        | Sets the state of the Toggle; Default, Disabled, Read only, Focussed, Active, Valid\*, Invalid\* |
-
-      | Selected     | Sets whether the Toggle is selected or not                                                       |
-
-      | Label        | Shows/hides the Toggle label                                                                     |
-
-      | Mandatory    | Shows/hides the mandatory field indicators                                                       |
-
-      | Help         | Shows/hides the help text                                                                        |
-
-      | Item label   | Shows/hides the Toggle item label\*\*                                                            |
-
-
-      \
-
-      *As choice buttons only\
-
-      \*\*As default buttons only
+      | **As choice button** | The same as the default Toggle but contained within a selectable button to give more emphasis. It also contains a title and subtitle to provide more descriptive labelling |
 
 
       - - -
