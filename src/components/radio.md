@@ -14,6 +14,9 @@ tabs:
       A **Radio button** is a visual component that indicates if something is selected or not. A **Radio button** differs from a **[Checkbox](/forms/checkbox)** in that only one **Radio button** item can be selected from a list at any time.
 
 
+      ![Top left radio button primary, top centre radio button selected, top right radio button disabled. Bottom left radio button read only bottom centre radio button focussed.](/assets/img/radiobuttonsvglight.svg)
+
+
       - - -
 
 
@@ -95,6 +98,9 @@ tabs:
 
 
       Do not use a **Radio button** if a user can select multiple options from a list. In this case, **[Checkboxes](/forms/checkbox/)** should be used instead. **Radio buttons** only allow the user to select a single item from a set, whereas **Checkboxes** allow the user to select multiple options.
+
+
+      ![on the left radio button component with the text do use the radio button if only one item from a list can be selected. On the right the checkbox component with the text don't use the checkbox in a list if only one item can be selected at any one time.](/assets/img/radiobuttondosdontssvglight.svg)
     icon: file_invoice
   - title: Code
     hook: code
